@@ -1,0 +1,398 @@
+<!--MapServer Template-->
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ 	<StyleMap id="provincial_parks">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#provincial_parks_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#provincial_parks_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="provincial_parks_n">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>0</scale>
+      		</LabelStyle>
+	</Style>
+	<Style id="provincial_parks_h">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>1</scale>
+      		</LabelStyle>
+	</Style>
+	<StyleMap id="eco_reserves">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#eco_reserves_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#eco_reserves_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="eco_reserves_n">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>0</scale>
+      		</LabelStyle>
+	</Style>
+	<Style id="eco_reserves_h">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>1</scale>
+      		</LabelStyle>
+	</Style>
+	<StyleMap id="protected_areas">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#protected_areas_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#protected_areas_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="protected_areas_n">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>0</scale>
+      		</LabelStyle>
+	</Style>
+	<Style id="protected_areas_h">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>1</scale>
+      		</LabelStyle>
+	</Style>
+	<StyleMap id="conservancy_areas">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#conservancy_areas_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#conservancy_areas_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="conservancy_areas_n">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>0</scale>
+      		</LabelStyle>
+	</Style>
+	<Style id="conservancy_areas_h">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>1</scale>
+      		</LabelStyle>
+	</Style>
+	<StyleMap id="recreation_areas">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#recreation_areas_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#recreation_areas_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="recreation_areas_n">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>0</scale>
+      		</LabelStyle>
+	</Style>
+	<Style id="recreation_areas_h">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>1</scale>
+      		</LabelStyle>
+	</Style>
+	<StyleMap id="wildlife_mgmt_areas">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#wildlife_mgmt_areas_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#wildlife_mgmt_areas_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="wildlife_mgmt_areas_n">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>0</scale>
+      		</LabelStyle>
+	</Style>
+	<Style id="wildlife_mgmt_areas_h">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>1</scale>
+      		</LabelStyle>
+	</Style>
+	[resultset layer=TA_PARK_ECORES_PA_C]
+		<Folder>
+			<name>Provincial Parks</name>
+	                [feature trimlast=',']
+			<Placemark>
+			
+				<name>[PROTECTED_LANDS_NAME]</name>
+				
+				<LookAt>
+					[shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+					<range>1000</range>
+				</LookAt>
+				
+				<description>
+					<![CDATA[
+						<p>[PROTECTED_LANDS_NAME]</p>
+					]]>
+				</description>
+				
+				<styleUrl>#eco_reserves</styleUrl>
+				
+				<Point>
+					<coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+				</Point>
+				
+			</Placemark>
+	                [/feature]
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</Folder>
+	[/resultset]
+	[resultset layer=TA_PARK_ECORES_PA_ECO_C]
+		<Folder>
+			<name>Ecological Reserves</name>
+	                [feature trimlast=',']
+			<Placemark>
+			
+				<name>[PROTECTED_LANDS_NAME]</name>
+				
+				<LookAt>
+					[shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+					<range>1000</range>
+				</LookAt>
+				
+				<description>
+					<![CDATA[
+						<p>[PROTECTED_LANDS_NAME]</p>
+					]]>
+				</description>
+				
+				<styleUrl>#provincial_parks</styleUrl>
+				
+				<Point>
+					<coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+				</Point>
+				
+			</Placemark>
+	                [/feature]
+		</Folder>
+	[/resultset]
+	[resultset layer=TA_PARK_ECORES_PA_PROTECTED_C]
+		<Folder>
+			<name>Protected Areas</name>
+	                [feature trimlast=',']
+			<Placemark>
+				<name>[PROTECTED_LANDS_NAME]</name>
+				
+				<LookAt>
+					[shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+					<range>1000</range>
+				</LookAt>
+				
+				<description>
+					<![CDATA[
+						<p>[PROTECTED_LANDS_NAME]</p>
+					]]>
+				</description>
+				
+				<styleUrl>#protected_areas</styleUrl>
+				
+				<Point>
+					<coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+				</Point>
+				
+			</Placemark>
+	                [/feature]
+		</Folder>
+	[/resultset]
+	[resultset layer=TA_CONSERVANCY_AREAS_C]
+		<Folder>
+			<name>Conservancy Areas</name>
+	                [feature trimlast=',']
+			<Placemark>
+			
+				<name>[CONSERVANCY_AREA_NAME]</name>
+				
+				<LookAt>
+					[shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+					<range>1000</range>
+				</LookAt>
+				
+				<description>
+					<![CDATA[
+						<p>[CONSERVANCY_AREA_NAME]</p>
+					]]>
+				</description>
+				
+				<styleUrl>#conservancy_areas</styleUrl>
+				
+				<Point>
+					<coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+				</Point>
+				
+			</Placemark>
+	                [/feature]
+		</Folder>
+	[/resultset]
+	[resultset layer=TA_PARK_ECORES_PA_RECREATION_C]
+		<Folder>
+			<name>Conservancy Areas</name>
+	                [feature trimlast=',']
+			<Placemark>
+			
+				<name>[PROTECTED_LANDS_NAME]</name>
+				
+				<LookAt>
+					[shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+					<range>1000</range>
+				</LookAt>
+				
+				<description>
+					<![CDATA[
+						<p>[PROTECTED_LANDS_NAME]</p>
+					]]>
+				</description>
+				
+				<styleUrl>#recreation_areas</styleUrl>
+				
+				<Point>
+					<coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+				</Point>
+				
+			</Placemark>
+	                [/feature]
+		</Folder>
+	[/resultset]
+	[resultset layer=TA_WILDLIFE_MGMT_AREAS_C]
+		<Folder>
+			<name>Wildlife Management Areas</name>
+	                [feature trimlast=',']
+			<Placemark>
+			
+				<name>[WILDLIFE_MANAGEMENT_AREA_NAME]</name>
+				
+				<LookAt>
+					[shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+					<range>1000</range>
+				</LookAt>
+				
+				<description>
+					<![CDATA[
+						<p>[WILDLIFE_MANAGEMENT_AREA_NAME]</p>
+					]]>
+				</description>
+				
+				<styleUrl>#wildlife_mgmt_areas</styleUrl>
+				
+				<Point>
+					<coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+				</Point>
+				
+			</Placemark>
+	                [/feature]
+		</Folder>
+	[/resultset]
+ </Document>
+</kml>

@@ -1,0 +1,128 @@
+﻿<!--MapServer Template-->
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+       	<StyleMap id="indian_reserves">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#indian_reserves_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#indian_reserves_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="indian_reserves_n">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+        		<color>ffffffff</color>
+         		<scale>0</scale>
+      		</LabelStyle>
+	</Style>
+	<Style id="indian_reserves_h">
+		<IconStyle>
+        		<color>ff0000cc</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>1</scale>
+      		</LabelStyle>
+	</Style>
+ 	<StyleMap id="national_parks">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#national_parks_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#national_parks_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="national_parks_n">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>0</scale>
+      		</LabelStyle>
+	</Style>
+	<Style id="national_parks_h">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle> 
+		<LabelStyle>
+         		<color>ffffffff</color>
+         		<scale>1</scale>
+      		</LabelStyle>
+	</Style>
+
+
+ [resultset layer=CLAB_INDIAN_RESERVES_C]
+	<Folder>
+		<name>[Indian Reserves]</name>
+                [feature trimlast=',']
+		<Placemark>
+			<name>[ENGLISH_NAME]</name>
+			<Snippet/>
+			<description>
+				<![CDATA[
+					<p>[ENGLISH_NAME]</p>
+				]]>
+			</description>
+			<styleUrl>#indian_reserves</styleUrl>
+			 <MultiGeometry>
+			<Point>
+				<coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+			</Point>
+			 </MultiGeometry>
+		</Placemark>
+                [/feature]
+	</Folder>
+ [/resultset]
+
+ [resultset layer=CLAB_NATIONAL_PARKS_C]
+	<Folder>
+		<name>National Parks</name>
+                [feature trimlast=',']
+		<Placemark>
+			<name>[ENGLISH_NAME]</name>
+			<Snippet/>
+			<description>
+				<![CDATA[
+					<p>[ENGLISH_NAME]</p>
+				]]>
+			</description>
+			<styleUrl>#national_parks</styleUrl>
+			 <MultiGeometry>
+			<Point>
+				<coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+			</Point>
+			 </MultiGeometry>
+		</Placemark>
+                [/feature]
+	</Folder>
+ [/resultset]
+
+
+ </Document>
+
+</kml>

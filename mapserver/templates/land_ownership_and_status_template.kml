@@ -1,0 +1,581 @@
+<!--MapServer Template-->
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <Style id="icf_pub">
+        <IconStyle>
+            <color>ff00ffff</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle> 
+        <LabelStyle>
+                <color>ffffffff</color>
+                <scale>0</scale>
+            </LabelStyle>
+    </Style>
+    
+    <Style id="icf_crown_prov">
+        <IconStyle>
+            <color>ffff0055</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle> 
+        <LabelStyle>
+                <color>ffffffff</color>
+                <scale>0</scale>
+            </LabelStyle>
+    </Style>
+
+    <Style id="icf_crown">
+        <IconStyle>
+            <color>ffffaaff</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle> 
+        <LabelStyle>
+                <color>ffffffff</color>
+                <scale>0</scale>
+            </LabelStyle>
+    </Style>
+
+    <Style id="icf_crown_muni">
+        <IconStyle>
+            <color>cc35d33d</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle> 
+        <LabelStyle>
+                <color>ffffffff</color>
+                <scale>0</scale>
+            </LabelStyle>
+    </Style>
+
+    <Style id="icf_crown_fed">
+        <IconStyle>
+            <color>ff00aaff</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle> 
+        <LabelStyle>
+                <color>ffffffff</color>
+                <scale>0</scale>
+            </LabelStyle>
+    </Style>
+
+    <Style id="icf_unknown">
+        <IconStyle>
+            <color>ffffaa00</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle> 
+    </Style>
+  
+  
+    <Style id="tenure">
+        <IconStyle>
+            <color>cc35d33d</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle> 
+        <LabelStyle>
+                <color>ffffffff</color>
+                <scale>0</scale>
+    </LabelStyle> 
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p ALIGN="center"><b>$[INTRID_SID]</b></p>
+                    <p ALIGN="center">
+                    <table border="0">
+                       <tbody>
+                        <tr> <td align="right"><i>Interest ID:</i></td> <td>$[INTRID_SID]</td> </tr>
+                        <tr> <td align="right"><i>Stage:</i></td> <td>$[TENURE_STAGE]</td> </tr>
+                        <tr> <td align="right"><i>Status:</i></td> <td>$[TENURE_STATUS]</td> </tr>
+                        <tr> <td align="right"><i>Type:</i></td> <td>$[TENURE_TYPE]</td> </tr>
+                        <tr> <td align="right"><i>Subtype:</i></td> <td>$[TENURE_SUBTYPE]</td> </tr>
+                        <tr> <td align="right"><i>Purpose:</i></td> <td>$[TENURE_PURPOSE]</td> </tr>
+                        <tr> <td align="right"><i>Subpurpose:</i></td> <td>$[TENURE_SUBPURPOSE]</td> </tr>
+                        <tr> <td align="right"><i>Expiry Date:</i></td> <td>$[TENURE_EXPIRY]</td> </tr>
+                        <tr> <td align="right"><i>Location:</i></td> <td>$[TENURE_LOCATION]</td> </tr>
+                        <tr> <td align="right"><i>Legal Description:</i></td> <td>$[TENURE_LEGAL_DESCRIPTION]</td> </tr>
+                        <tr> <td align="right"><i>Area (in Hectares):</i></td> <td>$[TENURE_AREA_IN_HECTARES]</td> </tr>
+                        <tr> <td align="right"><i>Area Derivation:</i></td> <td>$[TENURE_AREA_DERIVATION]</td> </tr>
+                        <tr> <td align="right"><i>Crown Lands File Id:</i></td> <td>$[CROWN_LANDS_FILE]</td> </tr>
+                       </tbody>
+                    </table>
+                    </p>
+          ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+    <Style id="tenure_application">
+        <IconStyle>
+            <color>ffffaa00</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle> 
+        <LabelStyle>
+                <color>ffffffff</color>
+                <scale>0</scale>
+    </LabelStyle> 
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p ALIGN="center"><b>$[INTRID_SID]</b></p>
+                    <p ALIGN="center">
+                    <table border="0">
+                       <tbody>
+                        <tr> <td align="right"><i>Interest ID:</i></td> <td>$[INTRID_SID]</td> </tr>
+                        <tr> <td align="right"><i>Stage:</i></td> <td>$[TENURE_STAGE]</td> </tr>
+                        <tr> <td align="right"><i>Status:</i></td> <td>$[TENURE_STATUS]</td> </tr>
+                        <tr> <td align="right"><i>Type:</i></td> <td>$[TENURE_TYPE]</td> </tr>
+                        <tr> <td align="right"><i>Subtype:</i></td> <td>$[TENURE_SUBTYPE]</td> </tr>
+                        <tr> <td align="right"><i>Purpose:</i></td> <td>$[TENURE_PURPOSE]</td> </tr>
+                        <tr> <td align="right"><i>Subpurpose:</i></td> <td>$[TENURE_SUBPURPOSE]</td> </tr>
+                        <tr> <td align="right"><i>Expiry Date:</i></td> <td>$[TENURE_EXPIRY]</td> </tr>
+                        <tr> <td align="right"><i>Location:</i></td> <td>$[TENURE_LOCATION]</td> </tr>
+                        <tr> <td align="right"><i>Legal Description:</i></td> <td>$[TENURE_LEGAL_DESCRIPTION]</td> </tr>
+                        <tr> <td align="right"><i>Area (in Hectares):</i></td> <td>$[TENURE_AREA_IN_HECTARES]</td> </tr>
+                        <tr> <td align="right"><i>Area Derivation:</i></td> <td>$[TENURE_AREA_DERIVATION]</td> </tr>
+                        <tr> <td align="right"><i>Crown Lands File Id:</i></td> <td>$[CROWN_LANDS_FILE]</td> </tr>
+                       </tbody>
+                    </table>
+                    </p>
+          ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+    
+    
+    
+    
+    <Style id="lease_app">
+        <IconStyle>
+            <color>ff7f00aa</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle>
+    <LabelStyle>
+        <scale>0</scale>
+    </LabelStyle> 
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p ALIGN="center"><b>$[INTRID_SID]</b></p>
+                    <p ALIGN="center">
+                    <table border="0">
+                       <tbody>
+                        <tr> <td align="right"><i>Interest ID:</i></td> <td>$[INTRID_SID]</td> </tr>
+                        <tr> <td align="right"><i>Stage:</i></td> <td>$[TENURE_STAGE]</td> </tr>
+                        <tr> <td align="right"><i>Status:</i></td> <td>$[TENURE_STATUS]</td> </tr>
+                        <tr> <td align="right"><i>Type:</i></td> <td>$[TENURE_TYPE]</td> </tr>
+                        <tr> <td align="right"><i>Subtype:</i></td> <td>$[TENURE_SUBTYPE]</td> </tr>
+                        <tr> <td align="right"><i>Purpose:</i></td> <td>$[TENURE_PURPOSE]</td> </tr>
+                        <tr> <td align="right"><i>Subpurpose:</i></td> <td>$[TENURE_SUBPURPOSE]</td> </tr>
+                        <tr> <td align="right"><i>Expiry Date:</i></td> <td>$[TENURE_EXPIRY]</td> </tr>
+                        <tr> <td align="right"><i>Location:</i></td> <td>$[TENURE_LOCATION]</td> </tr>
+                        <tr> <td align="right"><i>Legal Description:</i></td> <td>$[TENURE_LEGAL_DESCRIPTION]</td> </tr>
+                        <tr> <td align="right"><i>Area (in Hectares):</i></td> <td>$[TENURE_AREA_IN_HECTARES]</td> </tr>
+                        <tr> <td align="right"><i>Area Derivation:</i></td> <td>$[TENURE_AREA_DERIVATION]</td> </tr>
+                        <tr> <td align="right"><i>Crown Lands File Id:</i></td> <td>$[CROWN_LANDS_FILE]</td> </tr>
+                       </tbody>
+                    </table>
+                    </p>
+          ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+    <Style id="lease_ten">
+        <IconStyle>
+            <color>ff7faa00</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+            </Icon>
+        </IconStyle> 
+        <LabelStyle>
+                <color>ffffffff</color>
+                <scale>0</scale>
+    </LabelStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p ALIGN="center"><b>$[INTRID_SID]</b></p>
+                    <p ALIGN="center">
+                    <table border="0">
+                       <tbody>
+                        <tr> <td align="right"><i>Interest ID:</i></td> <td>$[INTRID_SID]</td> </tr>
+                        <tr> <td align="right"><i>Stage:</i></td> <td>$[TENURE_STAGE]</td> </tr>
+                        <tr> <td align="right"><i>Status:</i></td> <td>$[TENURE_STATUS]</td> </tr>
+                        <tr> <td align="right"><i>Type:</i></td> <td>$[TENURE_TYPE]</td> </tr>
+                        <tr> <td align="right"><i>Subtype:</i></td> <td>$[TENURE_SUBTYPE]</td> </tr>
+                        <tr> <td align="right"><i>Purpose:</i></td> <td>$[TENURE_PURPOSE]</td> </tr>
+                        <tr> <td align="right"><i>Subpurpose:</i></td> <td>$[TENURE_SUBPURPOSE]</td> </tr>
+                        <tr> <td align="right"><i>Expiry Date:</i></td> <td>$[TENURE_EXPIRY]</td> </tr>
+                        <tr> <td align="right"><i>Location:</i></td> <td>$[TENURE_LOCATION]</td> </tr>
+                        <tr> <td align="right"><i>Legal Description:</i></td> <td>$[TENURE_LEGAL_DESCRIPTION]</td> </tr>
+                        <tr> <td align="right"><i>Area (in Hectares):</i></td> <td>$[TENURE_AREA_IN_HECTARES]</td> </tr>
+                        <tr> <td align="right"><i>Area Derivation:</i></td> <td>$[TENURE_AREA_DERIVATION]</td> </tr>
+                        <tr> <td align="right"><i>Crown Lands File Id:</i></td> <td>$[CROWN_LANDS_FILE]</td> </tr>
+                       </tbody>
+                    </table>
+                    </p>
+          ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+    [resultset layer=CBM_CADASTRAL_FABRIC_PUB_PRIVATE_FI]
+        <Folder>
+            <name>ICF - Private Ownership</name>
+                    [feature trimlast=',']
+            <Placemark>
+            
+                <name>[PID]</name>
+                
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+
+                <styleUrl>#icf_pub</styleUrl>
+                
+                <description>
+                    <![CDATA[
+                        <p>PID: [PID]</p>
+                        <p>OWNERSHIP CLASS: [OWNERSHIP_CLASS]</p>
+                    ]]>
+                </description>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+    [resultset layer=CBM_CADASTRAL_FABRIC_PUB_CROWN_FI]
+        <Folder>
+            <name>ICF - Crown Provincial Ownership</name>
+                    [feature trimlast=',']
+            <Placemark>
+            
+                <name>[PID]</name>
+                
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+                
+                <styleUrl>#icf_crown</styleUrl>
+                
+                <description>
+                    <![CDATA[
+                        <p>PID: [PID]</p>
+                        <p>OWNERSHIP CLASS: [OWNERSHIP_CLASS]</p>
+                    ]]>
+                </description>
+
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+    
+    [resultset layer=CBM_CADASTRAL_FABRIC_PUB_CROWN_PROV_FI]
+        <Folder>
+            <name>ICF - Crown Provincial Ownership</name>
+                    [feature trimlast=',']
+            <Placemark>
+            
+                <name>[PID]</name>
+                
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+                
+                <styleUrl>#icf_crown_prov</styleUrl>
+                
+                <description>
+                    <![CDATA[
+                        <p>PID: [PID]</p>
+                        <p>OWNERSHIP CLASS: [OWNERSHIP_CLASS]</p>
+                    ]]>
+                </description>
+
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+        
+    [resultset layer=CBM_CADASTRAL_FABRIC_PUB_UNKNOWN_FI]
+        <Folder>
+            <name>ICF - Unknown Ownership</name>
+                    [feature trimlast=',']
+            <Placemark>
+            
+                <name>[PID]</name>
+                
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+                
+                <styleUrl>#icf_unknown</styleUrl>
+                
+                <description>
+                    <![CDATA[
+                        <p>PID: [PID]</p>
+                        <p>OWNERSHIP CLASS: [OWNERSHIP_CLASS]</p>
+                    ]]>
+                </description>
+
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+    
+    [resultset layer=CBM_CADASTRAL_FABRIC_PUB_CROWN_MUNI_FI]
+        <Folder>
+            <name>ICF - Crown Municipal Ownership</name>
+                    [feature trimlast=',']
+            <Placemark>
+                <name>[PID]</name>
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+                <styleUrl>#icf_crown_muni</styleUrl>
+                <description>
+                    <![CDATA[
+                        <p>PID: [PID]</p>
+                        <p>OWNERSHIP CLASS: [OWNERSHIP_CLASS]</p>
+                    ]]>
+                </description>
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+    
+    [resultset layer=CBM_CADASTRAL_FABRIC_PUB_CROWN_FED_FI]
+        <Folder>
+            <name>ICF - Crown Federal Ownership</name>
+                    [feature trimlast=',']
+            <Placemark>
+            
+                <name>[PID]</name>
+                
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+                
+                <styleUrl>#icf_crown_fed</styleUrl>
+                
+                <description>
+                    <![CDATA[
+                        <p>PID: [PID]</p>
+                        <p>OWNERSHIP CLASS: [OWNERSHIP_CLASS]</p>
+                    ]]>
+                </description>
+
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+
+
+    [resultset layer=LEASE_TEN_TANT_CF]
+        <Folder>
+            <name>TANTALIS Crown Lease Tenures</name>
+                    [feature trimlast=',']
+            <Placemark>
+            
+                <name>[INTRID_SID]</name>
+                
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+
+                <styleUrl>#lease_ten</styleUrl>
+                
+                <ExtendedData>
+                    <Data name="INTRID_SID"><value>[INTRID_SID]</value></Data>
+                    <Data name="TENURE_STAGE"><value>[TENURE_STAGE]</value></Data>
+                    <Data name="TENURE_STATUS"><value>[TENURE_STATUS]</value></Data>
+                    <Data name="TENURE_TYPE"><value>[TENURE_TYPE]</value></Data>
+                    <Data name="TENURE_SUBTYPE"><value>[TENURE_SUBTYPE]</value></Data>
+                    <Data name="TENURE_PURPOSE"><value>[TENURE_PURPOSE]</value></Data>
+                    <Data name="TENURE_SUBPURPOSE"><value>[TENURE_SUBPURPOSE]</value></Data>
+                    <Data name="TENURE_EXPIRY"><value>[TENURE_EXPIRY]</value></Data>
+                    <Data name="TENURE_LOCATION"><value>[TENURE_LOCATION]</value></Data>
+                    <Data name="TENURE_LEGAL_DESCRIPTION"><value>[TENURE_LEGAL_DESCRIPTION]</value></Data>
+                    <Data name="TENURE_AREA_IN_HECTARES"><value>[TENURE_AREA_IN_HECTARES]</value></Data>
+                    <Data name="TENURE_AREA_DERIVATION"><value>[TENURE_AREA_DERIVATION]</value></Data>
+                    <Data name="CROWN_LANDS_FILE"><value>[CROWN_LANDS_FILE]</value></Data>
+                </ExtendedData>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+
+    [resultset layer=LEASE_APP_TANT_CF]
+        <Folder>
+            <name>TANTALIS Crown Lease Applications</name>
+                    [feature trimlast=',']
+            <Placemark>
+            
+                <name>[INTRID_SID]</name>
+                
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+                <styleUrl>#lease_app</styleUrl>
+                <ExtendedData>
+                    <Data name="INTRID_SID"><value>[INTRID_SID]</value></Data>
+                    <Data name="TENURE_STAGE"><value>[TENURE_STAGE]</value></Data>
+                    <Data name="TENURE_STATUS"><value>[TENURE_STATUS]</value></Data>
+                    <Data name="TENURE_TYPE"><value>[TENURE_TYPE]</value></Data>
+                    <Data name="TENURE_SUBTYPE"><value>[TENURE_SUBTYPE]</value></Data>
+                    <Data name="TENURE_PURPOSE"><value>[TENURE_PURPOSE]</value></Data>
+                    <Data name="TENURE_SUBPURPOSE"><value>[TENURE_SUBPURPOSE]</value></Data>
+                    <Data name="TENURE_EXPIRY"><value>[TENURE_EXPIRY]</value></Data>
+                    <Data name="TENURE_LOCATION"><value>[TENURE_LOCATION]</value></Data>
+                    <Data name="TENURE_LEGAL_DESCRIPTION"><value>[TENURE_LEGAL_DESCRIPTION]</value></Data>
+                    <Data name="TENURE_AREA_IN_HECTARES"><value>[TENURE_AREA_IN_HECTARES]</value></Data>
+                    <Data name="TENURE_AREA_DERIVATION"><value>[TENURE_AREA_DERIVATION]</value></Data>
+                    <Data name="CROWN_LANDS_FILE"><value>[CROWN_LANDS_FILE]</value></Data>
+                </ExtendedData>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+  
+    [resultset layer=TEN_TANT_FI]
+        <Folder>
+            <name>TANTALIS Crown Tenures</name>
+                    [feature trimlast=',']
+            <Placemark>
+            
+                <name>[INTRID_SID]</name>
+                
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+                <styleUrl>#tenure</styleUrl>
+                <ExtendedData>
+                    <Data name="INTRID_SID"><value>[INTRID_SID]</value></Data>
+                    <Data name="TENURE_STAGE"><value>[TENURE_STAGE]</value></Data>
+                    <Data name="TENURE_STATUS"><value>[TENURE_STATUS]</value></Data>
+                    <Data name="TENURE_TYPE"><value>[TENURE_TYPE]</value></Data>
+                    <Data name="TENURE_SUBTYPE"><value>[TENURE_SUBTYPE]</value></Data>
+                    <Data name="TENURE_PURPOSE"><value>[TENURE_PURPOSE]</value></Data>
+                    <Data name="TENURE_SUBPURPOSE"><value>[TENURE_SUBPURPOSE]</value></Data>
+                    <Data name="TENURE_EXPIRY"><value>[TENURE_EXPIRY]</value></Data>
+                    <Data name="TENURE_LOCATION"><value>[TENURE_LOCATION]</value></Data>
+                    <Data name="TENURE_LEGAL_DESCRIPTION"><value>[TENURE_LEGAL_DESCRIPTION]</value></Data>
+                    <Data name="TENURE_AREA_IN_HECTARES"><value>[TENURE_AREA_IN_HECTARES]</value></Data>
+                    <Data name="TENURE_AREA_DERIVATION"><value>[TENURE_AREA_DERIVATION]</value></Data>
+                    <Data name="CROWN_LANDS_FILE"><value>[CROWN_LANDS_FILE]</value></Data>
+                </ExtendedData>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+  
+  
+        [resultset layer=TEN_APP_TANT_FI]
+        <Folder>
+            <name>TANTALIS Crown Tenure Applications</name>
+                    [feature trimlast=',']
+            <Placemark>
+            
+                <name>[INTRID_SID]</name>
+                
+                <LookAt>
+                    [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+                    <range>1000</range>
+                </LookAt>
+                <styleUrl>#tenure_application</styleUrl>
+                <ExtendedData>
+                    <Data name="INTRID_SID"><value>[INTRID_SID]</value></Data>
+                    <Data name="TENURE_STAGE"><value>[TENURE_STAGE]</value></Data>
+                    <Data name="TENURE_STATUS"><value>[TENURE_STATUS]</value></Data>
+                    <Data name="TENURE_TYPE"><value>[TENURE_TYPE]</value></Data>
+                    <Data name="TENURE_SUBTYPE"><value>[TENURE_SUBTYPE]</value></Data>
+                    <Data name="TENURE_PURPOSE"><value>[TENURE_PURPOSE]</value></Data>
+                    <Data name="TENURE_SUBPURPOSE"><value>[TENURE_SUBPURPOSE]</value></Data>
+                    <Data name="TENURE_EXPIRY"><value>[TENURE_EXPIRY]</value></Data>
+                    <Data name="TENURE_LOCATION"><value>[TENURE_LOCATION]</value></Data>
+                    <Data name="TENURE_LEGAL_DESCRIPTION"><value>[TENURE_LEGAL_DESCRIPTION]</value></Data>
+                    <Data name="TENURE_AREA_IN_HECTARES"><value>[TENURE_AREA_IN_HECTARES]</value></Data>
+                    <Data name="TENURE_AREA_DERIVATION"><value>[TENURE_AREA_DERIVATION]</value></Data>
+                    <Data name="CROWN_LANDS_FILE"><value>[CROWN_LANDS_FILE]</value></Data>
+                </ExtendedData>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                    [/feature]
+        </Folder>
+    [/resultset]
+ </Document>
+</kml>

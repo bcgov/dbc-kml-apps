@@ -1,0 +1,894 @@
+<!--MapServer Template-->
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<Style id="ls_REVERTED">
+    <IconStyle>
+        <color>ff5182b0</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+</Style>
+<Style id="ls_ESCHEATED">
+    <IconStyle>
+        <color>ff5c7199</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+</Style>
+<Style id="ls_CROWN GRANTED">
+    <IconStyle>
+        <color>ff86bbe3</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+</Style>
+<Style id="ls_CANCELLED">
+    <IconStyle>
+        <color>ff6681d4</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+</Style>
+<Style id="ls_SURRENDERED">
+    <IconStyle>
+        <color>ff67b0e0</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+</Style>
+<Style id="ls_NOT GRANTED">
+    <IconStyle>
+        <color>ff7dd2e3</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+</Style>
+
+
+<Style id="plcr_ten_LEASE">
+    <IconStyle>
+        <color>ff00aaff</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+</Style>
+
+
+<Style id="plcr_ten_CLAIM">
+    <IconStyle>
+        <color>ffff8ce8</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+
+<Style id="mta_claim">
+    <IconStyle>
+        <color>ffff8ce8</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+<Style id="mta_lease">
+    <IconStyle>
+        <color>ff00ffff</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>    
+    
+
+    
+<Style id="coal_ten_LEASE">
+    <IconStyle>
+        <color>ff00aaff</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+</Style>    
+    
+<Style id="coal_ten_APPLICATION">
+    <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+</Style>    
+    
+    <Style id="coal_ten_LICENSE">
+    <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.2</scale>
+        <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>    
+
+    <Style id="MTA_highlight">
+        <IconStyle>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+
+    </Style>
+
+    <Style id="MTA_normal">
+        <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/M.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+    <StyleMap id="MTA_map_Mineral">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#MTA_normal</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#MTA_highlight</styleUrl>
+        </Pair>
+    </StyleMap>
+
+    <Style id="MTA_highlight1">
+        <IconStyle>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+
+    </Style>
+
+    <Style id="MTA_normal1">
+        <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+    <StyleMap id="MTA_map_Placer">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#MTA_normal1</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#MTA_highlight1</styleUrl>
+        </Pair>
+    </StyleMap>
+
+    <Style id="MTA_highlight2">
+        <IconStyle>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+
+    </Style>
+
+    <Style id="MTA_normal2">
+        <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/C.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+    <StyleMap id="MTA_map_Coal">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#MTA_normal2</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#MTA_highlight2</styleUrl>
+        </Pair>
+    </StyleMap>
+    
+    <Style id="M">
+        <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+    <Style id="P">
+        <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+    <Style id="S">
+        <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p>$[description]</p>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+    
+    [resultset layer=MTA_ACQRD_TNR_MNRL_CLM_FI]
+    <Folder>
+        <name>Mineral Claim</name>
+        <Snippet/>
+                [feature trimlast=',']
+        <Placemark>
+        
+        <name>[TENURE_NUMBER_ID]</name>
+        
+        <LookAt>
+            [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+            <range>1000</range>
+        </LookAt>
+        
+        <Snippet/>
+            <description>
+                <![CDATA[
+                    <tbody>
+                        <p><b><font size="4" font color="#365E91">&nbsp;Tenure&nbsp;Number&nbsp;ID:&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/tenureDetail.do?tenureNumberIDParam=[TENURE_NUMBER_ID]">[TENURE_NUMBER_ID]</A><b></p>
+                        <hr>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Claim&nbsp;Name:</b></td>   <td>[CLAIM_NAME] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Type</b></td>   <td>[TENURE_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Sub-Type:</b></td>   <td>[TENURE_SUB_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Title&nbsp;Type:</b></td> <td>[TITLE_TYPE_DESCRIPTION]</td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Issue&nbsp;Date:</b></td>   <td>[ISSUE_DATE] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Good&nbsp;to&nbsp;Date:</b></td>   <td>[GOOD_TO_DATE] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Area&nbsp;in&nbsp;Hectares:</b></td>   <td>[AREA_IN_HECTARES] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Protected&nbsp;indicator:</b></td>   <td>[PROTECTED_IND] </td> </tr>
+                        </table>
+                    </tbody></br>
+                    <tbody>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Owners*:</b></td>   <td></td> </tr>
+                            <tr> <td>&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/clientDetail.do?clientID=[CLIENT_NUMBER_ID]">[CLIENT_NUMBER_ID]</td> <td>[OWNER_NAME]&nbsp;&nbsp;[PERCENT_OWNERSHIP]%</td></tr>
+                        </table>
+                    </tbody>
+                    <tbody>
+                        <p><font size="3" font color="#365E91">*Only one owner is shown here.  If the % ownership is less than 100%,</br> then click on the Tenure Number ID above to view the other owners and other tenure details.
+                    </tbody>
+                    ]]>
+                </description>
+                
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+                
+                <styleUrl>#mta_claim</styleUrl>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                [/feature]
+    </Folder>
+ [/resultset]
+ 
+ 
+ 
+ [resultset layer=MTA_ACQRD_TNR_COAL_FI]
+    <Folder>
+        <name>Coal Tenure</name>
+        <Snippet/>
+                [feature trimlast=',']
+        <Placemark>
+        
+        <name>[TENURE_NUMBER_ID]</name>
+        
+        <LookAt>
+            [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+            <range>1000</range>
+        </LookAt>
+        
+        <Snippet/>
+            <description>
+                <![CDATA[
+                    <tbody>
+                        <p><b><font size="4" font color="#365E91">&nbsp;Tenure&nbsp;Number&nbsp;ID:&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/tenureDetail.do?tenureNumberIDParam=[TENURE_NUMBER_ID]">[TENURE_NUMBER_ID]</A><b></p>
+                        <hr>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Claim&nbsp;Name:</b></td>   <td>[CLAIM_NAME] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Type</b></td>   <td>[TENURE_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Sub-Type:</b></td>   <td>[TENURE_SUB_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Title&nbsp;Type:</b></td> <td>[TITLE_TYPE_DESCRIPTION]</td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Issue&nbsp;Date:</b></td>   <td>[ISSUE_DATE]
+                            </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Good&nbsp;to&nbsp;Date:</b></td>   <td>[GOOD_TO_DATE] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Area&nbsp;in&nbsp;Hectares:</b></td>   <td>[AREA_IN_HECTARES] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Protected&nbsp;indicator:</b></td>   <td>[PROTECTED_IND] </td> </tr>
+                        </table>
+                    </tbody></br>
+                    <tbody>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Owners*:</b></td>   <td></td> </tr>
+                            <tr> <td>&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/clientDetail.do?clientID=[CLIENT_NUMBER_ID]">[CLIENT_NUMBER_ID]</td> <td>[OWNER_NAME]&nbsp;&nbsp;[PERCENT_OWNERSHIP]%</td></tr>
+                        </table>
+                    </tbody>
+                    <tbody>
+                        <p><font size="3" font color="#365E91">*Only one owner is shown here.  If the % ownership is less than 100%,</br> then click on the Tenure Number ID above to view the other owners and other tenure details.
+                    </tbody>
+                    ]]>
+                </description>
+                
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+                
+                <styleUrl>#coal_ten_[TENURE_SUB_TYPE_DESCRIPTION]</styleUrl>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                [/feature]
+    </Folder>
+ [/resultset]
+ 
+ [resultset layer=MTA_ACQRD_TNR_PLCR_LS_FI]
+    <Folder>
+        <name>Placer Tenures - Lease</name>
+        <Snippet/>
+                [feature trimlast=',']
+        <Placemark>
+        
+        <name>[TENURE_NUMBER_ID]</name>
+        
+        <LookAt>
+            [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+            <range>1000</range>
+        </LookAt>
+        
+        <Snippet/>
+            <description>
+                <![CDATA[
+                    <tbody>
+                        <p><b><font size="4" font color="#365E91">&nbsp;Tenure&nbsp;Number&nbsp;ID:&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/tenureDetail.do?tenureNumberIDParam=[TENURE_NUMBER_ID]">[TENURE_NUMBER_ID]</A><b></p>
+                        <hr>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Claim&nbsp;Name:</b></td>   <td>[CLAIM_NAME] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Type</b></td>   <td>[TENURE_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Sub-Type:</b></td>   <td>[TENURE_SUB_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Title&nbsp;Type:</b></td> <td>[TITLE_TYPE_DESCRIPTION]</td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Issue&nbsp;Date:</b></td>   <td>[ISSUE_DATE]
+                            </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Good&nbsp;to&nbsp;Date:</b></td>   <td>[GOOD_TO_DATE] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Area&nbsp;in&nbsp;Hectares:</b></td>   <td>[AREA_IN_HECTARES] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Protected&nbsp;indicator:</b></td>   <td>[PROTECTED_IND] </td> </tr>
+                        </table>
+                    </tbody></br>
+                    <tbody>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Owners*:</b></td>   <td></td> </tr>
+                            <tr> <td>&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/clientDetail.do?clientID=[CLIENT_NUMBER_ID]">[CLIENT_NUMBER_ID]</td> <td>[OWNER_NAME]&nbsp;&nbsp;[PERCENT_OWNERSHIP]%</td></tr>
+                        </table>
+                    </tbody>
+                    <tbody>
+                        <p><font size="3" font color="#365E91">*Only one owner is shown here.  If the % ownership is less than 100%,</br> then click on the Tenure Number ID above to view the other owners and other tenure details.
+                    </tbody>
+                    ]]>
+                </description>
+                
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+                
+                <styleUrl>#plcr_ten_LEASE</styleUrl>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                [/feature]
+    </Folder>
+ [/resultset]
+ 
+ [resultset layer=MTA_ACQRD_TNR_PLCR_CLM_FI]
+    <Folder>
+        <name>Placer Tenures - Claim</name>
+        <Snippet/>
+                [feature trimlast=',']
+        <Placemark>
+        
+        <name>[TENURE_NUMBER_ID]</name>
+        
+        <LookAt>
+            [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+            <range>1000</range>
+        </LookAt>
+        
+        <Snippet/>
+            <description>
+                <![CDATA[
+                    <tbody>
+                        <p><b><font size="4" font color="#365E91">&nbsp;Tenure&nbsp;Number&nbsp;ID:&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/tenureDetail.do?tenureNumberIDParam=[TENURE_NUMBER_ID]">[TENURE_NUMBER_ID]</A><b></p>
+                        <hr>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Claim&nbsp;Name:</b></td>   <td>[CLAIM_NAME] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Type</b></td>   <td>[TENURE_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Sub-Type:</b></td>   <td>[TENURE_SUB_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Title&nbsp;Type:</b></td> <td>[TITLE_TYPE_DESCRIPTION]</td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Issue&nbsp;Date:</b></td>   <td>[ISSUE_DATE]
+                            </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Good&nbsp;to&nbsp;Date:</b></td>   <td>[GOOD_TO_DATE] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Area&nbsp;in&nbsp;Hectares:</b></td>   <td>[AREA_IN_HECTARES] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Protected&nbsp;indicator:</b></td>   <td>[PROTECTED_IND] </td> </tr>
+                        </table>
+                    </tbody></br>
+                    <tbody>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Owners*:</b></td>   <td></td> </tr>
+                            <tr> <td>&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/clientDetail.do?clientID=[CLIENT_NUMBER_ID]">[CLIENT_NUMBER_ID]</td> <td>[OWNER_NAME]&nbsp;&nbsp;[PERCENT_OWNERSHIP]%</td></tr>
+                        </table>
+                    </tbody>
+                    <tbody>
+                        <p><font size="3" font color="#365E91">*Only one owner is shown here.  If the % ownership is less than 100%,</br> then click on the Tenure Number ID above to view the other owners and other tenure details.
+                    </tbody>
+                    ]]>
+                </description>
+                
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+                
+                <styleUrl>#plcr_ten_CLAIM</styleUrl>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                [/feature]
+    </Folder>
+ [/resultset]
+
+ 
+ [resultset layer=MTA_ACQUIRED_TENURE_POLY_MINERAL_LEASE]
+    <Folder>
+        <name>Mineral Lease</name>
+        <Snippet/>
+                [feature trimlast=',']
+        <Placemark>
+        
+        <name>[TENURE_NUMBER_ID]</name>
+        
+        <LookAt>
+            [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+            <range>1000</range>
+        </LookAt>
+        
+        <Snippet/>
+            <description>
+                <![CDATA[
+                    <tbody>
+                        <p><b><font size="4" font color="#365E91">&nbsp;Tenure&nbsp;Number&nbsp;ID:&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/tenureDetail.do?tenureNumberIDParam=[TENURE_NUMBER_ID]">[TENURE_NUMBER_ID]</A><b></p>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Claim&nbsp;Name:</b></td>   <td>[CLAIM_NAME] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Type</b></td>   <td>[TENURE_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Tenure&nbsp;Sub-Type:</b></td>   <td>[TENURE_SUB_TYPE_DESCRIPTION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Title&nbsp;Type:</b></td>   <td>([TITLE_TYPE_DESCRIPTION])</td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Issue&nbsp;Date:</b></td>   <td>[ISSUE_DATE] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Good&nbsp;to&nbsp;Date:</b></td>   <td>[GOOD_TO_DATE] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Area&nbsp;in&nbsp;Hectares:</b></td>   <td>[AREA_IN_HECTARES] </td> </tr>
+                        </table>
+                    </tbody></br>
+                    <tbody>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">&nbsp;Owners:</b></td>   <td></td> </tr>
+                            <tr> <td>&nbsp;<A HREF="https://www.mtonline.gov.bc.ca/mtov/clientDetail.do?clientID=[CLIENT_NUMBER_ID]">[CLIENT_NUMBER_ID]</td> <td>[OWNER_NAME]&nbsp;&nbsp;[PERCENT_OWNERSHIP]%</td></tr>
+                        </table>
+                    </tbody>
+                    <tbody>
+                        <p><font size="2" font color="#365E91">*Only one owner is shown here.  If the % ownership is less than 100%,</br> then click on the Tenure Number ID above to view the other owners and other tenure details.
+                    </tbody>
+                    ]]>
+                </description>
+                
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+                
+                <styleUrl>#mta_lease</styleUrl>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                [/feature]
+    </Folder>
+ [/resultset]
+ 
+ [resultset layer=MTA_PLCR_CLM_AREA]
+    <Folder>
+        <name>Placer Claim Areas</name>
+        <Snippet/>
+                [feature trimlast=',']
+        <Placemark>
+        
+        <name>[SITE_NUMBER_ID]</name>
+        
+        <LookAt>
+            [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+            <range>1000</range>
+        </LookAt>
+        
+        <Snippet/>
+            <description>
+                <![CDATA[
+                    <tbody>
+                        <p><b><font size="4" font color="#365E91">Site&nbsp;Number&nbsp;ID:&nbsp;[SITE_NUMBER_ID]<b></p>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Site&nbsp;Name:</b></td>   <td>[SITE_NAME] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Restriction Code Description:</b></td>   <td>[MTA_SITE_ORDER_RESTR_DESC] </td> </tr>
+                        </table>
+                    </tbody></br>
+                    ]]>
+                </description>
+                
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+                
+                <styleUrl>#mta_lease</styleUrl>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                [/feature]
+    </Folder>
+ [/resultset]
+ 
+  [resultset layer=MTA_PLCR_CLM_LEASE_AREA]
+    <Folder>
+        <name>Placer Claim and Lease Areas</name>
+        <Snippet/>
+                [feature trimlast=',']
+        <Placemark>
+        
+        <name>[SITE_NUMBER_ID]</name>
+        
+        <LookAt>
+            [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+            <range>1000</range>
+        </LookAt>
+        
+        <Snippet/>
+            <description>
+                <![CDATA[
+                    <tbody>
+                        <p><b><font size="4" font color="#365E91">Site&nbsp;Number&nbsp;ID:&nbsp;[SITE_NUMBER_ID]<b></p>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Site&nbsp;Name:</b></td>   <td>[SITE_NAME] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Restriction Code Description:</b></td>   <td>[MTA_SITE_ORDER_RESTR_DESC] </td> </tr>
+                        </table>
+                    </tbody></br>
+                    ]]>
+                </description>
+                
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+                
+                <styleUrl>#plcr_ten_CLAIM</styleUrl>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                [/feature]
+    </Folder>
+ [/resultset]
+ 
+ 
+ [resultset layer=MTA_LOT_STATUS_FI]
+    <Folder>
+        <name>Lot Status</name>
+        <Snippet/>
+                [feature trimlast=',']
+        <Placemark>
+        
+        <name>[CLAIM_NAME]</name>
+        
+        <LookAt>
+            [shplabel format="<longitude>$x</longitude><latitude>$y</latitude>" proj=epsg:4326 precision=10]
+            <range>1000</range>
+        </LookAt>
+        
+        <Snippet/>
+            <description>
+                <![CDATA[
+                    <tbody>
+                        <p><b><font size="4" font color="#365E91">Claim&nbsp;Name:&nbsp;[CLAIM_NAME]<b></p>
+                        <table cellspacing="0" cellpadding="2" border="0" width="350">
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Crown Grant Number:</b></td>   <td>[CROWN_GRANT_NUMBER] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Date Opened:</b></td>   <td>[DATE_OPENED] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">District Lot:</b></td>   <td>[DISTRICT_LOT] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Land District:</b></td>   <td>[LAND_DISTRICT] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Lot ID:</b></td>   <td>[LOT_ID] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Lot Method:</b></td>   <td>[LOT_METHOD] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Lot Status:</b></td>   <td>[LOT_STATUS] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">Mining Division:</b></td>   <td>[MINING_DIVISION] </td> </tr>
+                            <tr> <td align="left"><b><font size="3" font color="#365E91">PIN SID:</b></td>   <td>[PIN_SID] </td> </tr>
+                        </table>
+                    </tbody></br>
+                    ]]>
+                </description>
+                
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+                
+                <styleUrl>#ls_[LOT_STATUS]</styleUrl>
+                
+                <Point>
+                    <coordinates>[shplabel proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+                
+            </Placemark>
+                [/feature]
+    </Folder>
+ [/resultset]
+[resultset layer=MMS_NOTICE_OF_WORK]
+        <Folder>
+        <name>Notice of Work</name>
+            [feature trimlast=',']
+            <Placemark>
+                <name>[NOTICE_ID]</name>
+                <Snippet/><description>
+                <![CDATA[
+                    <tbody>
+                            <h1>[NOTICE_ID]</b></h1></br>
+                            <table width="330" border='1'>
+                                                                <tr> <td align="left" width="100"><i>Mine Number:</i></td>   <td>[MINE_NUMBER] </td> </tr>
+                                                                <tr> <td align="left"><i>Company Code:</i></td>   <td>[COMPANY_CODE] </td> </tr>
+                                                                <tr> <td align="left"><i>Update Number:</i></td>   <td>[UPDATE_NUMBER] </td> </tr>
+                                                                <tr> <td align="left"><i>Application Type:</i></td>   <td>[APPLICATION_TYPE] HA</td> </tr>
+                                                                <tr> <td align="left"><i>Application Date:</i></td>   <td>[APPLICATION_DATE]</td> </tr>
+                                                                <tr> <td align="left"><i>Project Name:</i></td>   <td>[PROJECT_NAME] </td> </tr>
+                                                                <tr> <td align="left"><i>Site Access:</i></td>   <td>[SITE_ACCESS] </td> </tr>
+                                                                <tr> <td align="left"><i>Crown Grants:</i></td>   <td>[CROWN_GRANTS] HA</td> </tr>
+                                                                <tr> <td align="left"><i>UTM Zone:</i></td>   <td>[UTM_ZONE] </td> </tr>
+                                                                <tr> <td align="left"><i>Coordinates:</i></td>   <td>[DECIMAL_LATITUDE],[DECIMAL_LONGITUDE]
+                                                                <tr> <td align="left"><i>Work Period:</i></td>   <td>[WORK_START_DATE]-[WORK_END_DATE]</td> </tr>
+                            </table>
+                            </br>
+                            
+                    </tbody>
+                ]]>
+                </description>
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+                <LookAt>
+                            <longitude>[LONGITUDE]</longitude>
+                            <latitude>[LATITUDE]</latitude>
+                            <altitude>50000</altitude>
+                            <range>[lookatRange]</range>
+                            <tilt>[lookatTilt]</tilt>
+                            <heading>[lookatHeading]</heading>
+                            <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+                <styleUrl>#[APPLICATION_TYPE]</styleUrl>
+                <ExtendedData>
+                    <Data name="Region">
+                        <value>[REGION]</value>
+                    </Data>
+                    <Data name="Location">
+                        <value>[OCCUPANT_NAME]</value>
+                    </Data>
+                    <Data name="Address">
+                        <value>[ADDR_ADDRESS_STRING]</value>
+                    </Data>
+                    <Data name="City">
+                        <value>[ADDR_LOCALITY_NAME]</value>
+                    </Data>
+                    <Data name="hours">
+                        <value>[HOURS_OF_OPERATION]</value>
+                    </Data>
+                    <Data name="Staffed">
+                        <value>[STAFFED_IND]</value>
+                    </Data>
+                    <Data name="Court Level">
+                        <value>[SEARCH_TAG]</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+                </Point>
+            </Placemark>
+            [/feature]
+    </Folder>
+    [/resultset] 
+ </Document>
+</kml>

@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Document xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
+	<name>FrontCounter BC Discovery Tool</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>-123.922313935743</longitude>
+		<latitude>49.13657370508289</latitude>
+		<altitude>0</altitude>
+		<heading>0.9423144673189612</heading>
+		<tilt>0</tilt>
+		<range>450.955547851467</range>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</LookAt>
+	<styleUrl>#default</styleUrl>
+	<Style id="legend_eco_reserves">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_eco_reserves.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station600</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station01010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="legend_crown_ownership">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_crown_ownership.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ranger_station0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="legend_land_own_group">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_land_own_group.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="legend_protected_areas">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_protected_areas.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="legend_prov_parks">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_prov_parks.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="legend_rec_areas">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_rec_areas.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ranger_station0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="fcbcBalloonStyle">
+		<IconStyle>
+			<color>00ffffff</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b><font color="#000033" size="+3">$[name]</font></b>
+			<br/><hr/><br/><br/>
+			<font face="Arial">$[description]</font>
+			<br/><br/><hr/><br/>
+			<center><font color="#cccccc" size="-1"></font><center>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="legend_wild_areas">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_wild_areas.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="legend_cons_areas">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_cons_areas.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="legend_crown_lease_appl">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_crown_lease_appl.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin800">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="legend_indian_reserves">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_indian_reserves.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin710">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="legend_unknown_ownership">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_unknown_ownership.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="instructionsStyle">
+		<IconStyle>
+			<Icon>
+				<href>##application.url##/kml//Icons/legend.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b><font color="#000033" size="+3">Instructions</font></b>
+			<br/><hr/><br/>
+			<font face="Arial">$[description]</font>
+			<br/><hr/><br/>
+			<center><font color="#cccccc" size="-1">Discovery Tool - Last Updated 2011/05/13</font><center>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ranger_station00">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="fcbcHelpBalloonStyle">
+		<IconStyle>
+			<color>00ffffff</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b><font color="#000033" size="+3">Getting Help for the FrontCounter BC Discovery Tool</font></b>
+			<br/><hr/><br/><br/>
+			<font face="Arial">$[description]</font>
+			<br/><br/><hr/><br/>
+			<center><font color="#cccccc" size="-1"></font><center>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="legend_national_parks">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_national_parks.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="legend_crown_lease_tenures">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_crown_lease_tenures.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="legend_priv_ownership">
+		<ListStyle>
+			<ItemIcon>
+				<href>##application.url##/kml//Icons/legend_priv_ownership.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<ScreenOverlay>
+		<name>Instructions</name>
+		<visibility>0</visibility>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<p>The FrontCounter BC Discovery Tool is designed to help clients view an area of land within the Province of British Columbia.  It provides basic information on how the land is currently being used and how it is used relative to your proposed application area.</p>
+
+		<p>For example, lands that are privately held or designated as a Provincial Park, National Park or First Nations Reserve are highly constrained in their potential for Crown authorizations and will require a call to FrontCounter BC staff to determine whether the proposed activity is permissible.  Avoiding these areas when seeking potential candidate areas for your proposed application may improve your likelihood of success.</p>
+
+		<p>You can use this tool in a variety of ways:</p>
+		1. To discover general land use;<br/>
+		2. To create your Area of Interest in the correct location you are interested in;<br/>
+		3. To look at your Area of Interest in relation to other land interests to see if it is available, and;<br/>
+		4. To create an electronic file of your Area of Interest that can be submitted with your electronic application.<br/>
+
+		<p>The basic steps to submit an Area of Interest with an electronic application are:</p>
+		<b>Step 1:</b> Use  Google Earth's navigation controls to zoom to the area you are interested in.<br/>
+		<b>Step 2:</b> Use Google Earth's <i>Add Polygon</i> tool to draw your Area of Interest on the map.<br/>
+		<b>Step 3:</b> Click on the <i>Create Geomark</i> layer.  Follow the instructions to create a Geomark from your Area of Interest.<br/>
+		<b>Step 4:</b> Email the Geomark URL to 
+ 
+
+ <A HREF="mailto:FrontCounterBC@gov.bc.ca">FrontCounterBC@gov.bc.ca</a>.  Include your telephone number and a description of your proposed land usage in the message.<br/>  
+
+		<p>See the 
+ 
+
+ <A HREF="http://www.frontcounterbc.gov.bc.ca/mapping/tutorial/tutorial_01.html">tutorial</a> for more detailed instructions.</p>
+
+		<p>Because this tool does not show all interests, you should contact FrontCounter BC to see if other interests exist that may conflict with your application before submitting it.  Use the 
+ 
+
+ <A HREF="http://apps.gov.bc.ca/pub/geomark/">Geomark Web Service</a> to create an electronic file of your application area to submit.</p>
+
+		<p>The 
+ 
+
+ <A HREF="http://apps.gov.bc.ca/pub/geomark/">Geomark Web Service</a> is a free web service for public and government users to store a 
+ 
+
+ <A HREF="http://www.ilmb.gov.bc.ca/geomark/index.html" title="More than two and a minimum of three lines that connect together and close to create a geometric shape with an area. The shape has geometry information that represents where it is on an area of land on the earth.">shape</a>, called a 'Geomark', representing an area of interest.  The web service is available anytime and lets you share and retrieve this area of interest across applications, GIS systems and the web in a variety of file formats.  Users who are considering submitting a Crown resource authorization application to FrontCounter BC or any other agengy can use the tool to create a Geomark from their area of interest and then include it with their application.  Although the web service is public, no Geomark search functions are provided and no information about a Geomark is stored other than its creation date and expiry dates.</p>]]></description>
+		<styleUrl>#instructionsStyle</styleUrl>
+		<drawOrder>99</drawOrder>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="5" y="5" xunits="pixels" yunits="insetPixels"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+	<Folder>
+		<name>Create geomark</name>
+		<visibility>0</visibility>
+		<Snippet maxLines="3">Use this form to upload the KML of a placemark polygon to the Geomark
+Web Service and create a geomark.</Snippet>
+		<description><![CDATA[<html>
+  <body>
+<div>Create a geomark by copying the shape (KML) drawn in Google Earth and
+pasting it into this form.
+Click 
+ 
+
+ <A HREF="http://ilmb.gov.bc.ca/sites/default/files/resources/public/PDF/Geomark//create_geomark_in_googleearth_tutorial.pdf">here</a> to access tutorial.
+<ul>
+<lI>In Google Earth, under 'Temporary Places', right click the name of the shape
+(KML) recently drawn and select 'Copy'.</li>
+<lI>Click once in the text box located on the form.  When the cursor starts 
+flashing, either right click the mouse and select 'Paste' or press 'Ctrl' + 'V'
+together to paste the area you've created into the text area.</li> 
+<lI>Click the 'Create Geomark' button.</li>
+<lI>Once the geomark is created, a web address will display. Save this address 
+to your personal computer directory as this web address will allow you to access
+the geomark in the future or pass on to other parties for access to your area 
+of interest. If the web address is lost before it is saved, you will need to 
+create another geomark as there is no 'search' capability for retrieval.</li>
+</ul>
+<form action="http://apps.gov.bc.ca/pub/geomark/geomarks/new.kml"  method="POST">
+  <input type="hidden" name="redirectUrl" value="http://apps.gov.bc.ca/pub/geomark/geomarks/created.kml" />
+  <div><input type="checkbox" name="multiple" value="true" /> Create from multiple polygons</div>
+  <textarea name="body" rows="5" cols="40"></textarea>
+  <div><input type="submit" value="Create Geomark"/></div>
+</form>
+  </body>
+</html>]]></description>
+		<LookAt>
+			<longitude>-125.508977</longitude>
+			<latitude>54.389505</latitude>
+			<altitude>2100000</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>0.1</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Style>
+			<BalloonStyle>
+				<text><![CDATA[<h1>$[name]</h1>$[description]]]></text>
+				<textColor>ff000000</textColor>
+				<displayMode>default</displayMode>
+			</BalloonStyle>
+		</Style>
+	</Folder>
+	<Folder>
+		<name>&lt;a href=&quot;http://apps.gov.bc.ca/pub/geomark/geomarks/createFromFile&quot;&gt;Create geomark from file&lt;/a&gt;</name>
+		<visibility>0</visibility>
+		<description>Create a geomark by uploading a file in your web browser.</description>
+	</Folder>
+	<Folder>
+		<name>Tenures and Interests</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Indian Reserves</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/admin-boundaries?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CLAB_INDIAN_RESERVES_C&format=image/png"><br>
+
+<P>For more information click 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/8efe9193-80d2-4fdf-a18c-d531a94196ad">here</A></BR>
+To order, click 
+ 
+
+ <A HREF="https://apps.gov.bc.ca/pub/dwds/addProductsFromExternalApplication.do?productTypeId=0&productId=5050">here</A></P></BR>]]></description>
+			<LookAt>
+				<longitude>-122.3407446429645</longitude>
+				<latitude>51.78026000156275</latitude>
+				<altitude>0</altitude>
+				<heading>-5.028838681109901</heading>
+				<tilt>0</tilt>
+				<range>175203.7784054478</range>
+			</LookAt>
+			<styleUrl>#legend_indian_reserves</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=CLAB_INDIAN_RESERVES_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>2</viewRefreshTime>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>National Parks</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/admin-boundaries?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CLAB_NATIONAL_PARKS_C&format=image/png"><br>
+		For more information click 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/88e61a14-19a0-46ab-bdae-f68401d3d0fb">here</A></P>]]></description>
+			<LookAt>
+				<longitude>-124.9089567690733</longitude>
+				<latitude>54.53501315545629</latitude>
+				<altitude>0</altitude>
+				<heading>-7.011245191654538</heading>
+				<tilt>0</tilt>
+				<range>1190040.072978311</range>
+			</LookAt>
+			<styleUrl>#legend_national_parks</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=CLAB_NATIONAL_PARKS_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>2</viewRefreshTime>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Provincial Parks</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_PARK_ECORES_PA_C&format=image/png"><br>
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+			<LookAt>
+				<longitude>-115.743353164902</longitude>
+				<latitude>49.50998821115897</latitude>
+				<altitude>0</altitude>
+				<heading>0.01927763846471821</heading>
+				<tilt>0</tilt>
+				<range>840.9868857461036</range>
+			</LookAt>
+			<styleUrl>#legend_prov_parks</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=TA_PARK_ECORES_PA_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>3</viewRefreshTime>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Ecological Reserves</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_PARK_ECORES_PA_ECO_C&format=image/png"><br>
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A>]]></description>
+			<LookAt>
+				<longitude>-123.2801551138936</longitude>
+				<latitude>48.45870318920701</latitude>
+				<altitude>0</altitude>
+				<heading>1.111636832364537</heading>
+				<tilt>0</tilt>
+				<range>18302.8857930372</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#legend_eco_reserves</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=TA_PARK_ECORES_PA_ECO_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>3</viewRefreshTime>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Protected Areas</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_PARK_ECORES_PA_PROTECTED_C&format=image/png"><br>
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+			<LookAt>
+				<longitude>-115.743353164902</longitude>
+				<latitude>49.50998821115897</latitude>
+				<altitude>0</altitude>
+				<heading>0.01927763846471821</heading>
+				<tilt>0</tilt>
+				<range>840.9868857461036</range>
+			</LookAt>
+			<styleUrl>#legend_protected_areas</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=TA_PARK_ECORES_PA_PROTECTED_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>3</viewRefreshTime>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Conservancy Areas</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_CONSERVANCY_AREAS_C&format=image/png"><br>
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/550b3133-2004-468f-ba1f-b95d0e281e78">click here</A></P>]]></description>
+			<LookAt>
+				<longitude>-115.743353164902</longitude>
+				<latitude>49.50998821115897</latitude>
+				<altitude>0</altitude>
+				<heading>0.01927763846471821</heading>
+				<tilt>0</tilt>
+				<range>840.9868857461036</range>
+			</LookAt>
+			<styleUrl>#legend_cons_areas</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=TA_CONSERVANCY_AREAS_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>2</viewRefreshTime>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Recreation Areas</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_PARK_ECORES_PA_RECREATION_C&format=image/png"><br>
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+			<LookAt>
+				<longitude>-120.7541207199092</longitude>
+				<latitude>49.36663633212387</latitude>
+				<altitude>0</altitude>
+				<heading>8.884351497901607</heading>
+				<tilt>0.6844812415854688</tilt>
+				<range>53164.3652662764</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#legend_rec_areas</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=TA_PARK_ECORES_PA_RECREATION_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>5</viewRefreshTime>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Wildlife Management Areas</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_WILDLIFE_MGMT_AREAS_C&format=image/png"><br>
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/f3ece977-aa7f-4cb2-b7d0-de64155f6c83">click here</A></P>]]></description>
+			<LookAt>
+				<longitude>-122.7200650286509</longitude>
+				<latitude>49.20060352851539</latitude>
+				<altitude>0</altitude>
+				<heading>0.1216022086330478</heading>
+				<tilt>0</tilt>
+				<range>150765.8519796508</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#legend_wild_areas</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=TA_WILDLIFE_MGMT_AREAS_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>5</viewRefreshTime>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<Folder>
+			<name>Land Ownership</name>
+			<open>1</open>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<P><img src="##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_PRIVATE&format=image/png"></P>
+
+<P><img src="##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_CROWN&format=image/png"></P>
+
+<P>For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]></description>
+			<styleUrl>#legend_land_own_group</styleUrl>
+			<GroundOverlay>
+				<name>Private Ownership</name>
+				<snippet></snippet>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<P><img src="##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_PRIVATE&format=image/png"></P>]]></description>
+				<LookAt>
+					<longitude>-115.743353164902</longitude>
+					<latitude>49.50998821115897</latitude>
+					<altitude>0</altitude>
+					<heading>0.01927763846471821</heading>
+					<tilt>0</tilt>
+					<range>840.9868857461036</range>
+				</LookAt>
+				<styleUrl>#legend_priv_ownership</styleUrl>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>##application.url##/mapserver/land-ownership-and-status?service=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=CBM_CADASTRAL_FABRIC_PUB_PRIVATE&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+				</Icon>
+				<LatLonBox>
+					<north>49.138472564411</north>
+					<south>49.13467470572405</south>
+					<east>-123.9181982808342</east>
+					<west>-123.9264292896912</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Crown Ownership</name>
+				<snippet></snippet>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<P><img src="##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_CROWN&format=image/png"></P>]]></description>
+				<LookAt>
+					<longitude>-115.743353164902</longitude>
+					<latitude>49.50998821115897</latitude>
+					<altitude>0</altitude>
+					<heading>0.01927763846471821</heading>
+					<tilt>0</tilt>
+					<range>840.9868857461036</range>
+				</LookAt>
+				<styleUrl>#legend_crown_ownership</styleUrl>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>##application.url##/mapserver/land-ownership-and-status?service=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=CBM_CADASTRAL_FABRIC_PUB_CROWN&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+				</Icon>
+				<LatLonBox>
+					<north>49.138472564411</north>
+					<south>49.13467470572405</south>
+					<east>-123.9181982808342</east>
+					<west>-123.9264292896912</west>
+				</LatLonBox>
+			</GroundOverlay>
+		</Folder>
+		<GroundOverlay>
+			<name>Crown Lease Tenures</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=LEASE_TEN_TANT_CF&format=image/png"><br>
+For more information click 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/9d4acb8e-535f-4845-8876-ec79bee1844f">here</A></P>]]></description>
+			<LookAt>
+				<longitude>-115.743353164902</longitude>
+				<latitude>49.50998821115897</latitude>
+				<altitude>0</altitude>
+				<heading>0.01927763846471821</heading>
+				<tilt>0</tilt>
+				<range>840.9868857461036</range>
+			</LookAt>
+			<styleUrl>#legend_crown_lease_tenures</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/land-ownership-and-status?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=LEASE_TEN_TANT_CF&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Crown Lease Applications</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=LEASE_APP_TANT_CF&format=image/png"><br>
+For more information click 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/9d4acb8e-535f-4845-8876-ec79bee1844f">here</A></P>]]></description>
+			<LookAt>
+				<longitude>-115.743353164902</longitude>
+				<latitude>49.50998821115897</latitude>
+				<altitude>0</altitude>
+				<heading>0.01927763846471821</heading>
+				<tilt>0</tilt>
+				<range>840.9868857461036</range>
+			</LookAt>
+			<styleUrl>#legend_crown_lease_appl</styleUrl>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/land-ownership-and-status?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=1024&amp;HEIGHT=1024&amp;LAYERS=LEASE_APP_TANT_CF&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+			</Icon>
+			<LatLonBox>
+				<north>49.138472564411</north>
+				<south>49.13467470572405</south>
+				<east>-123.9181982808342</east>
+				<west>-123.9264292896912</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>Tenures and Interests - Details</name>
+		<open>1</open>
+		<NetworkLink>
+			<name>ICF - Private Ownership</name>
+			<Snippet maxLines="2">Details only visible below an eye altitude of 2km within BC</Snippet>
+			<description><![CDATA[<img src='##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_PRIVATE_FI&format=image/png&STYLE=default'>]]></description>
+			<LookAt>
+				<longitude>-122.4752757149426</longitude>
+				<latitude>49.14591650750629</latitude>
+				<altitude>0</altitude>
+				<heading>-5.123249381465726</heading>
+				<tilt>2.884301276088741</tilt>
+				<range>28958.99118572512</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>##application.url##/mapserver/land-ownership-and-status?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=CBM_CADASTRAL_FABRIC_PUB_PRIVATE_FI&amp;STYLES=default&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=CBM_CADASTRAL_FABRIC_PUB_PRIVATE_FI&amp;INFO_FORMAT=kayml&amp;FEATURE_COUNT=500&amp;RADIUS=bbox&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>2</viewRefreshTime>
+				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>ICF - Crown Ownership</name>
+			<Snippet maxLines="2">Details only visible below an eye altitude of 2km within BC</Snippet>
+			<description><![CDATA[<img src='##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_CROWN_FI&format=image/png&STYLE=default'>]]></description>
+			<LookAt>
+				<longitude>-122.4752757149426</longitude>
+				<latitude>49.14591650750629</latitude>
+				<altitude>0</altitude>
+				<heading>-5.123249381465726</heading>
+				<tilt>2.884301276088741</tilt>
+				<range>28958.99118572512</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>##application.url##/mapserver/land-ownership-and-status?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=CBM_CADASTRAL_FABRIC_PUB_CROWN_FI&amp;STYLES=default&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=CBM_CADASTRAL_FABRIC_PUB_CROWN_FI&amp;INFO_FORMAT=kayml&amp;FEATURE_COUNT=500&amp;RADIUS=bbox&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>2</viewRefreshTime>
+				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>Crown Lease Tenures</name>
+			<description><![CDATA[<img src='##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=LEASE_TEN_TANT_CF&format=image/png&STYLE=default'>]]></description>
+			<LookAt>
+				<longitude>-122.4752757149426</longitude>
+				<latitude>49.14591650750629</latitude>
+				<altitude>0</altitude>
+				<heading>-5.123249381465726</heading>
+				<tilt>2.884301276088741</tilt>
+				<range>28958.99118572512</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>##application.url##/mapserver/land-ownership-and-status?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=LEASE_TEN_TANT_CF&amp;STYLES=default&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=LEASE_TEN_TANT_CF&amp;INFO_FORMAT=kayml&amp;FEATURE_COUNT=500&amp;RADIUS=bbox&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>2</viewRefreshTime>
+				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>Crown Lease Applications</name>
+			<description><![CDATA[<img src='##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=LEASE_APP_TANT_CF&format=image/png&STYLE=default'>]]></description>
+			<LookAt>
+				<longitude>-122.4752757149426</longitude>
+				<latitude>49.14591650750629</latitude>
+				<altitude>0</altitude>
+				<heading>-5.123249381465726</heading>
+				<tilt>2.884301276088741</tilt>
+				<range>28958.99118572512</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>##application.url##/mapserver/land-ownership-and-status?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=LEASE_APP_TANT_CF&amp;STYLES=default&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=LEASE_APP_TANT_CF&amp;INFO_FORMAT=kayml&amp;FEATURE_COUNT=500&amp;RADIUS=bbox&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>2</viewRefreshTime>
+				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+			</Link>
+		</NetworkLink>
+	</Folder>
+	<NetworkLink>
+		<name>First Nations Consultation Areas</name>
+		<visibility>0</visibility>
+		<Snippet maxLines="3">Below an eye altitude of 300km and within BC, every time the map stops, a First Nations Consultation Areas Report will be displayed for the area of the map you are looking at.</Snippet>
+		<description><![CDATA[<p>Below an eye altitude of 300km, every time the map stops within British Columbia, a First Nations Consultation Areas Report will be displayed for the current map extent.</p>]]></description>
+		<LookAt>
+			<longitude>-123.4911809050059</longitude>
+			<latitude>51.88020751995997</latitude>
+			<altitude>0</altitude>
+			<heading>-2.196146036000779</heading>
+			<tilt>0</tilt>
+			<range>1291477.678323947</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Link>
+			<href>##application.url##/mapserver/consultative-areas?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=CBD_POLY&amp;STYLES=%2C&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=CBD_POLY&amp;INFO_FORMAT=kayml&amp;RADIUS=bbox&amp;</href>
+			<viewRefreshMode>onStop</viewRefreshMode>
+			<viewRefreshTime>2</viewRefreshTime>
+			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]&amp;lookatLon=[lookatLon]&amp;lookatLat=[lookatLat]&amp;lookatRange=[lookatRange]&amp;lookatTilt=[lookatTilt]&amp;lookatHeading=[lookatHeading]</viewFormat>
+		</Link>
+	</NetworkLink>
+	<Folder>
+		<name>Imagery</name>
+		<visibility>0</visibility>
+		<NetworkLink xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
+			<name>Airphotos</name>
+			<visibility>0</visibility>
+			<description>displayable, printable, low-resolution airphotos, their photo centres, and their associated flight lines</description>
+			<LookAt>
+				<longitude>-125.790485103603</longitude>
+				<latitude>54.53529082074053</latitude>
+				<altitude>0</altitude>
+				<heading>-0.5347266315948855</heading>
+				<tilt>0</tilt>
+				<range>1826047.023906531</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<Link>
+				<href>##application.url##/kml//airphotos_by_year.kml</href>
+			</Link>
+		</NetworkLink>
+		<GroundOverlay>
+			<name>Aerial Imagery</name>
+			<visibility>0</visibility>
+			<description><![CDATA[This layer is best viewed below an eye altitude of 5 KM
+
+<P>Colour and black&white aerial photography covering about  two-thirds of the province. Areas where no photography is available are shown in black. For more information, visit  http://ilmbwww.gov.bc.ca/bmgs/products/imagery/orthomosaic.htm</P>]]></description>
+			<LookAt>
+				<longitude>-115.743353164902</longitude>
+				<latitude>49.50998821115897</latitude>
+				<altitude>0</altitude>
+				<heading>0.01927763846471821</heading>
+				<tilt>0</tilt>
+				<range>840.9868857461036</range>
+			</LookAt>
+			<Icon>
+				<href>##application.url##/imagex/ecw_wms.dll?VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;WIDTH=800&amp;HEIGHT=800&amp;LAYERS=BC_BC_BC_XC1M_BCALB_1995_2004&amp;STYLES=&amp;FORMAT=image/jpeg&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+			</Icon>
+			<LatLonBox>
+				<north>49.69157903882542</north>
+				<south>49.16563707943052</south>
+				<east>-121.3915478697989</east>
+				<west>-122.4007053919715</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>Quick Base</name>
+		<visibility>0</visibility>
+		<description><![CDATA[Features visible below 6 km<br> (eye altitude). Grid visible at all altitudes.<P><br>
+Base geographic features at 1:20 000 scale from the <b>Base Mapping and Trim Web Map Service</b> are combined into a single layer for optimal performance.</P>]]></description>
+		<LookAt>
+			<longitude>-125.9074743412715</longitude>
+			<latitude>49.20865720098801</latitude>
+			<altitude>0</altitude>
+			<heading>0.7437758972756339</heading>
+			<tilt>0</tilt>
+			<range>4990.232305186334</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Style>
+			<ListStyle>
+				<listItemType>radioFolder</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Folder>
+			<name>Current View  - Auto Refresh</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description><![CDATA[Refreshes current view for quicker response.<P>
+Use one of these layers when you are looking for a particular feature or just roaming.]]></description>
+			<LookAt>
+				<longitude>-125.9074743412715</longitude>
+				<latitude>49.20865720098801</latitude>
+				<altitude>0</altitude>
+				<heading>0.7437758972756339</heading>
+				<tilt>0</tilt>
+				<range>4990.232305186334</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<Style>
+				<ListStyle>
+					<listItemType>radioFolder</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<GroundOverlay>
+				<name>Standard</name>
+				<visibility>0</visibility>
+				<snippet></snippet>
+				<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B> Transportation Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B>Water Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B> Grids</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
+				<LookAt>
+					<longitude>-125.9074743412715</longitude>
+					<latitude>49.20865720098801</latitude>
+					<altitude>0</altitude>
+					<heading>0.7437758972756339</heading>
+					<tilt>0</tilt>
+					<range>4990.232305186334</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<drawOrder>7</drawOrder>
+				<Icon>
+					<href>##application.url##/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=NTS_250K_GRID,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO,BCGS_20K_GRID&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>49.38868423328135</north>
+					<south>49.33596272855676</south>
+					<east>-125.2891350319707</east>
+					<west>-125.3974694110289</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>With Contours</name>
+				<visibility>0</visibility>
+				<snippet></snippet>
+				<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_LINES&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B>Transportation Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B> Water Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B> Grids</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
+				<LookAt>
+					<longitude>-125.9074743412715</longitude>
+					<latitude>49.20865720098801</latitude>
+					<altitude>0</altitude>
+					<heading>0.7437758972756339</heading>
+					<tilt>0</tilt>
+					<range>4990.232305186334</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<drawOrder>7</drawOrder>
+				<Icon>
+					<href>##application.url##/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TCTR_LINES,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO,BCGS_20K_GRID&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>49.22992789025414</north>
+					<south>49.18736579416739</south>
+					<east>-125.8576357697014</east>
+					<west>-125.9572717152558</west>
+				</LatLonBox>
+			</GroundOverlay>
+		</Folder>
+		<Folder>
+			<name>Current View - Manual Refresh</name>
+			<visibility>0</visibility>
+			<description><![CDATA[To refresh this layer, right click on the layer name and select Refresh.<P>
+Use this layer after you've found the particular feature or area you want to tilt at.<P>]]></description>
+			<LookAt>
+				<longitude>-125.9074743412715</longitude>
+				<latitude>49.20865720098801</latitude>
+				<altitude>0</altitude>
+				<heading>0.7437758972756339</heading>
+				<tilt>0</tilt>
+				<range>4990.232305186334</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<Style>
+				<ListStyle>
+					<listItemType>radioFolder</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<GroundOverlay>
+				<name>Standard</name>
+				<visibility>0</visibility>
+				<snippet></snippet>
+				<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B>Transportation Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B>Water Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B> Grids</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
+				<LookAt>
+					<longitude>-125.9074743412715</longitude>
+					<latitude>49.20865720098801</latitude>
+					<altitude>0</altitude>
+					<heading>0.7437758972756339</heading>
+					<tilt>0</tilt>
+					<range>4990.232305186334</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<drawOrder>7</drawOrder>
+				<Icon>
+					<href>##application.url##/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=NTS_250K_GRID,BCGS_20K_GRID,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>7204</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>50.85118247703325</north>
+					<south>50.82401258438863</south>
+					<east>-120.0426409574719</east>
+					<west>-120.100747619174</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>With Contours</name>
+				<visibility>0</visibility>
+				<snippet></snippet>
+				<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_LINES&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B> Transportation Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B> Water Features</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
+
+<font size="5"><B> Grids</B></font><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
+<img src='##application.url##/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
+				<LookAt>
+					<longitude>-125.9074743412715</longitude>
+					<latitude>49.20865720098801</latitude>
+					<altitude>0</altitude>
+					<heading>0.7437758972756339</heading>
+					<tilt>0</tilt>
+					<range>4990.232305186334</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<drawOrder>7</drawOrder>
+				<Icon>
+					<href>##application.url##/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=NTS_250K_GRID,TCTR_LINES,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO,BCGS_20K_GRID&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>7204</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>49.38718101150109</north>
+					<south>49.35038956044557</south>
+					<east>-126.2361995726012</east>
+					<west>-126.2987276104751</west>
+				</LatLonBox>
+			</GroundOverlay>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Search Tools</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<LookAt>
+			<longitude>-125.1500003870194</longitude>
+			<latitude>54.59</latitude>
+			<altitude>0</altitude>
+			<heading>-3.170276909843649e-007</heading>
+			<tilt>0</tilt>
+			<range>1795000</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Folder>
+			<name>Find a Geographical Name in BC</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html>
+        
+          <head>
+            <meta http-equiv="Content-Type" content="text/xml">
+          </head>
+            
+          <body>
+           <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+	  
+            <table border="0" cellspacing="0" cellpadding="0" name="Table 2" width ="300">
+               <input type="hidden" name="startIndex" value="0" id="startIndex"></input>
+               <input type="hidden" name="itemsPerPage" value="20" id="itemsPerPage"></input>
+               <input type="hidden" name="maxResults" value="1000" id="maxResults"></input>
+               <input type="hidden" name="minScore" value="0.5" id="minScore"></input>
+               <input type="hidden" name="outputStyle" value="summary" id="outputFormat"></input>
+               <input type="hidden" name="outputSRS" value="4326" id="outputSRS"></input>
+               <input type="hidden" name="asAttachment" value="0" id="asAttachment"></input>
+               <input type="hidden" name="embed" value="0" id="embed"></input>
+               <input type="hidden" name="featureClass" value="*" id="featureClass"></input>
+               <input type="hidden" name="featureCategory" value="*" id="featureCategory"></input>
+               <input type="hidden" name="outputFormat" value="kml" id="outputFormat"></input>
+               
+               <tr>
+                 <td>
+                  <input name="name" type="text" id="name" size="37" wrap="virtual"></textarea> 
+                 </td>
+                 <td>
+                  <input type="submit" value="Search"></input>
+                 </td>
+               </tr>      
+
+            </table>
+
+           </form>   
+          </body>
+          
+     </html>]]></description>
+		</Folder>
+		<Folder>
+			<name>Find An Address in BC</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html>
+		
+		  <head>
+		  </head>
+		
+		  <body>
+	          
+	         <form action="http://apps.gov.bc.ca/pub/app_gc/lookup.do" target="geocode" method="get" id="geocode">
+		  
+		           <table width="63%" border="0" cellpadding="4" cellspacing="0">
+  			          
+  			          <tr>
+  			            <td align="left" colspan="3">
+  			              Address:
+  			            </td>
+  			          </tr>
+                	
+                	<tr>
+                	  <td>
+                	    <input name="address" type="text" id="address" size="45"></input>
+                	  </td>
+                	</tr>
+
+				  	      <input type="hidden" name="outputFormat" id="outputFormat" value="kml" id="asAttachment"></input>
+                  <input type="hidden" name="maxResults" id="maxResults" value="25"></input>
+							    <input type="hidden" name="minScore" id="minScore" value="0.8"></input>
+								  <input type="hidden" name="offset" id="offset" value="10"></input>    
+							    <input type="hidden" name="outputSrs" id="outputSrs" value="4326"></input>
+                  <input type="hidden" name="asAttachment" value="0" id="asAttachment"></input>
+                  
+				          <tr>
+					          <td>
+						          <input type="submit" value="Search"></input>
+						        </td>
+				          </tr>
+				         
+				          <tr>
+			              <td colspan="3">
+			                <br>
+			                <i><b>Examples:</b><br>1175 Douglas St, Victoria<br>1175 Douglas, Victoria<br>1175 Douglas st<br>1175 Douglas</i>
+			              </td>
+			            </tr>
+				
+			        </table>
+
+		      </form>
+
+		 </body>
+		
+		</html>]]></description>
+		</Folder>
+	</Folder>
+	<NetworkLink>
+		<name>Geographical Names</name>
+		<visibility>0</visibility>
+		<description>Official geographical names from the BC Geographical Names Information System</description>
+		<LookAt>
+			<longitude>-124.478119020778</longitude>
+			<latitude>52.82030658064183</latitude>
+			<altitude>0</altitude>
+			<heading>0.925602876244341</heading>
+			<tilt>0</tilt>
+			<range>1485899.677234376</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Link>
+			<href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+			<viewRefreshMode>onStop</viewRefreshMode>
+			<viewRefreshTime>1</viewRefreshTime>
+			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
+			<httpQuery>&amp;outputFormat=kml&amp;outputStyle=summary</httpQuery>
+		</Link>
+	</NetworkLink>
+	<Folder>
+		<name>FrontCounter BC Locations</name>
+		<LookAt>
+			<longitude>-124.1500005298061</longitude>
+			<latitude>53.99088375299629</latitude>
+			<altitude>0</altitude>
+			<heading>1.932138132639256</heading>
+			<tilt>0</tilt>
+			<range>1406040.976839262</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>FrontCounter BC Williams Lake</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[#201 - 172 North 2nd Avenue<BR/>
+Williams Lake, BC V2G 1Z6<BR/>
+Phone: (250) 398-4574<BR/>
+Fax: (250) 398-4836
+
+<P>For more information click
+
+ 
+
+ <A HREF=http://www.frontcounterbc.gov.bc.ca/contact/williams_lake.html>here</A></P>]]></description>
+			<LookAt>
+				<longitude>-122.1443050000479</longitude>
+				<latitude>52.1310109998754</latitude>
+				<altitude>0</altitude>
+				<heading>1.272221872585407e-014</heading>
+				<tilt>0</tilt>
+				<range>999.517616536834</range>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<coordinates>-122.1443050000479,52.13101099987541,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrontCounter BC Smithers</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[1st Floor, 3726 Alfred Avenue<BR/>
+Smithers, BC V0J 2N0<BR/>
+Phone: (250) 847-7356<BR/>
+Fax: (250) 847-7556
+
+<P>For more information click
+
+ 
+
+ <A HREF=http://www.frontcounterbc.gov.bc.ca/contact/smithers.html>here</A></P>]]></description>
+			<LookAt>
+				<longitude>-127.17303100014</longitude>
+				<latitude>54.77745299968915</latitude>
+				<altitude>0</altitude>
+				<heading>-9.541664044390552e-015</heading>
+				<tilt>0</tilt>
+				<range>999.8033898970367</range>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<coordinates>-127.17303100014,54.77745299968915,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrontCounter BC Fort St. John</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[100-10003 110 Avenue<BR/>
+Fort St John, BC V1J 6M7<BR/>
+Phone: (250) 787-3415<BR/>
+Fax: (250) 261-2084
+
+<P>For more information click
+
+ 
+
+ <A HREF=http://www.frontcounterbc.gov.bc.ca/contact/fort_st_john.html>here</A></P>]]></description>
+			<LookAt>
+				<longitude>-120.8475300007941</longitude>
+				<latitude>56.25523500013959</latitude>
+				<altitude>0</altitude>
+				<heading>-1.90833280887811e-014</heading>
+				<tilt>0</tilt>
+				<range>980.2165282733911</range>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<coordinates>-120.8475300007941,56.25523500013958,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrontCounter BC Kamloops</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[441 Columbia St<BR/>
+Kamloops, BC V2C 2T3<BR/>
+Phone: (250) 828-4131<BR/>
+Fax: (250) 828-4442
+
+<P>For more information click
+
+ 
+
+ <A HREF=http://www.frontcounterbc.gov.bc.ca/contact/kamloops.html>here</A></P>]]></description>
+			<LookAt>
+				<longitude>-120.3316917905462</longitude>
+				<latitude>50.66869180599403</latitude>
+				<altitude>0</altitude>
+				<heading>3.555395269697851</heading>
+				<tilt>5.07152174835471e-007</tilt>
+				<range>122.2197833443439</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<coordinates>-120.3314855505274,50.66859221289927,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrontCounter BC Prince George</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[200-1488 4th Avenue<BR/>
+Prince George, BC V2L 4Y2<BR/>
+Phone: (250) 565-6779<BR/>
+Fax: (250) 565-6941
+<P>For more information click
+
+ 
+
+ <A HREF=http://www.frontcounterbc.gov.bc.ca/contact/prince_george.html>here</A></P>]]></description>
+			<LookAt>
+				<longitude>-122.7495399995094</longitude>
+				<latitude>53.91707499943666</latitude>
+				<altitude>0</altitude>
+				<heading>-1.590277340731758e-014</heading>
+				<tilt>0</tilt>
+				<range>999.9999788332888</range>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<coordinates>-122.7495399995095,53.91707499943666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrontCounter BC Nanaimo</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Suite 142, 2080 Labieux Road<BR/>
+Nanaimo, BC V9T 6J9<BR/>
+Phone: (250) 751-7220<BR/>
+Fax: (250) 751-7224
+
+<P>For more information click
+
+ 
+
+ <A HREF=http://www.frontcounterbc.gov.bc.ca/contact/nanaimo.html>here</A></P>]]></description>
+			<LookAt>
+				<longitude>-124.0010009680083</longitude>
+				<latitude>49.20493306926635</latitude>
+				<altitude>0</altitude>
+				<heading>1.149575781527579e-006</heading>
+				<tilt>0</tilt>
+				<range>16214.65403230116</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<coordinates>-123.9949450000514,49.20071600019751,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrontCounter BC Cranbrook</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[1902 Theatre Road<BR/>
+Cranbrook, BC V1C 7G1<BR/>
+Phone: (250) 426-1766<BR/>
+Fax: (250) 426-1767
+
+<P>For more information click
+
+ 
+
+ <A HREF=http://www.frontcounterbc.gov.bc.ca/contact/cranbrook.html>here</A></P>]]></description>
+			<LookAt>
+				<longitude>-115.7535510001347</longitude>
+				<latitude>49.53262900022632</latitude>
+				<altitude>0</altitude>
+				<heading>3.180554681463517e-015</heading>
+				<tilt>0</tilt>
+				<range>999.9999670059804</range>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<coordinates>-115.7535510001347,49.53262900022633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrontCounter BC Surrey</name>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Suite 200, 10428 153rd Street<BR/>
+Surrey, BC V3R 1E1<BR/>
+Phone: (604) 586-4400<BR/>
+Fax: (604) 586-4434
+
+<P>For more information click
+
+ 
+
+ <A HREF=http://www.frontcounterbc.gov.bc.ca/contact/surrey.html>here</A></P>]]></description>
+			<LookAt>
+				<longitude>-122.7982090000073</longitude>
+				<latitude>49.19202200033517</latitude>
+				<altitude>0</altitude>
+				<heading>9.54166404439055e-015</heading>
+				<tilt>0</tilt>
+				<range>999.6387512741303</range>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<coordinates>-122.7982090000073,49.19202200033518,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Logos</name>
+		<LookAt>
+			<longitude>-123.8406450033638</longitude>
+			<latitude>49.87558865658178</latitude>
+			<altitude>0</altitude>
+			<heading>-0.07422587275376333</heading>
+			<tilt>9.525120388181561e-008</tilt>
+			<range>4459.255931116925</range>
+		</LookAt>
+		<Style>
+			<ListStyle>
+				<listItemType>radioFolder</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<ScreenOverlay>
+			<name>FrontCounter BC Logo</name>
+			<drawOrder>98</drawOrder>
+			<Icon>
+				<href>##application.url##/kml//icons/FrontCounterBC.png</href>
+			</Icon>
+			<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+			<screenXY x="5" y="25" xunits="pixels" yunits="pixels"/>
+			<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+		</ScreenOverlay>
+		<ScreenOverlay>
+			<name>GeoBC Logo</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<drawOrder>97</drawOrder>
+			<Icon>
+				<href>##application.url##/kml//icons/GeoBC_logo.png</href>
+			</Icon>
+			<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+			<screenXY x="5" y="25" xunits="pixels" yunits="pixels"/>
+			<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<size x="0" y="73" xunits="pixels" yunits="pixels"/>
+		</ScreenOverlay>
+	</Folder>
+	<Folder>
+		<name>Legend</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-123.8406450033638</longitude>
+			<latitude>49.87558865658178</latitude>
+			<altitude>0</altitude>
+			<heading>-0.07422587275376333</heading>
+			<tilt>9.525120388181561e-008</tilt>
+			<range>4459.255931116925</range>
+		</LookAt>
+		<Style>
+			<ListStyle>
+				<listItemType>radioFolder</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<ScreenOverlay>
+			<name>Right-aligned</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<drawOrder>97</drawOrder>
+			<Icon>
+				<href>//Cabin/mrdouvil$/files/fcbc_legend.png</href>
+			</Icon>
+			<overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+			<screenXY x="100" y="5" xunits="insetPixels" yunits="insetPixels"/>
+			<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+		</ScreenOverlay>
+		<ScreenOverlay>
+			<name>Left-aligned</name>
+			<visibility>0</visibility>
+			<drawOrder>98</drawOrder>
+			<Icon>
+				<href>//Cabin/mrdouvil$/files/fcbc_legend.png</href>
+			</Icon>
+			<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+			<screenXY x="5" y="5" xunits="pixels" yunits="insetPixels"/>
+			<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+		</ScreenOverlay>
+	</Folder>
+	<Placemark>
+		<name>Disclaimer</name>
+		<visibility>0</visibility>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<table cellpadding="0" cellspacing="0" border="0" width="400"><tr><td>
+		<p>This map is provided for general information purposes. The accuracy of the information in 
+		   this map is not guaranteed. Before taking any action or making any decision you should 
+		   consult official sources.</p>
+                <p>Without limitation this map may not disclose all Crown land in a particular area and this 
+		   map does not constitute a representation that Crown land is suitable for any particular 
+		   use or available for disposition.</p>
+		</td></tr></table>]]></description>
+		<styleUrl>#fcbcBalloonStyle</styleUrl>
+		<Point>
+			<coordinates>-115.7,50.3,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Help</name>
+		<visibility>0</visibility>
+		<Snippet maxLines="2">Click for help</Snippet>
+		<description><![CDATA[<table cellpadding="0" cellspacing="0" border="0" width="400"><tr><td>
+		<p>If you have questions about the FrontCounter BC Discovery Tool, you can find the answers or get help using one of the following:</p>
+		
+		<ol>
+		<li>Call Toll Free 1-877-855-3222 to speak to a FrontCounter BC representative.  You can also send your question in an email to frontcounterbc@gov.bc.ca.</li>
+		<li>Review the Frequently Asked Questions.</li>
+		<li>Review the Tutorial for information about how to use the tool.</li>
+		</td></tr></table>]]></description>
+		<styleUrl>#fcbcHelpBalloonStyle</styleUrl>
+		<Point>
+			<coordinates>-115.7,50.3,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

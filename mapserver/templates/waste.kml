@@ -1,0 +1,114 @@
+﻿<!--MapServer Template-->
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+
+	<Style id="EMS_highlight">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>
+				<![CDATA[
+					<p><b>$[name]</b></p>
+					<p>$[description]</p>
+				]]>
+			</text>
+		</BalloonStyle>
+
+	</Style>
+
+	<Style id="EMS_normal">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>
+				<![CDATA[
+					<p><b>$[name]</b></p>
+					<p>$[description]</p>
+				]]>
+			</text>
+		</BalloonStyle>
+	</Style>
+
+	<StyleMap id="EMS_map">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#EMS_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#EMS_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+  	
+	[resultset layer=EMS_MONITORING_LOCN_TYPES_W_MONITORING]
+		<Folder>
+			<name>Environmental Monitoring Stations - Water Sites (Water Monitoring)</name>
+			[feature trimlast=',']
+			<Placemark>
+				<name>[MONITORING_LOCATION_ID]</name>
+				<Snippet/>
+				<description>
+					<![CDATA[
+						<tbody>
+							<table width="400" border="0">
+							<tr> <td align="left"><i>Monitoring&nbsp;Location&nbsp;ID:</i></td>   <td>[MONITORING_LOCATION_ID] </td> </tr>
+							<tr> <td align="left"><i>Client Location&nbsp;ID:</i></td>   <td>[CLIENT_LOCATION_ID] </td> </tr>
+							<tr> <td align="left"><i>Contaminated&nbsp;Site&nbsp;ID:</i></td>   <td>[CONTAMINATED_SITE_ID] </td> </tr>
+							<tr> <td align="left"><i>Discharge&nbsp;Media&nbsp;ID:</i></td>   <td>[DISCHARGE_MEDIA_CD] </td> </tr>
+							<tr> <td align="left"><i>Eco Region&nbsp;Code:</i></td>   <td>[ECO_REGION_CD] </td> </tr>
+							<tr> <td align="left"><i>GeoReference&nbsp;Source&nbsp;Code:</i></td>   <td>[GEOREFERENCE_SOURCE_CD] </td> </tr>
+							<tr> <td align="left"><i>Location&nbsp;Purpose&nbsp;Code:</i></td>   <td>[LOCATION_PURPOSE_CD] </td> </tr>
+							<tr> <td align="left"><i>Location&nbsp;Type Code:</i></td>   <td>[LOCATION_TYPE_CD] </td> </tr>
+							<tr> <td align="left"><i>Office&nbsp;Code:</i></td>   <td>[OFFICE_CD] </td> </tr>
+							<tr> <td align="left"><i>Source&nbsp;Class Code:</i></td>   <td>[SOURCE_CLASS_CD] </td> </tr>
+							<tr> <td align="left"><i>Watershed&nbsp;Code:</i></td>   <td>[WATERSHED_CD] </td> </tr>
+							<tr> <td align="left"><i>Calculated&nbsp;Statistics&nbsp;Indicator:</i></td>   <td>[CALC_STATISTICS_IND] </td> </tr>
+							<tr> <td align="left"><i>Location&nbsp;Area&nbsp;Identifier:</i></td>   <td>[LOCATION_AREA_IND] </td> </tr>
+							<tr> <td align="left"><i>Mobile Location&nbsp;Identifier:</i></td>   <td>[MOBILE_LOCATION_IND] </td> </tr>
+							<tr> <td align="left"><i>Closed Date:</i></td>   <td>[CLOSED_DATE] </td> </tr>
+							<tr> <td align="left"><i>Description:</i></td>   <td>[DESCRIPTION] </td> </tr>
+							<tr> <td align="left"><i>Elevation:</i></td>   <td>[ELEVATION] </td> </tr>
+							<tr> <td align="left"><i>Established Date:</i></td>   <td>[ESTABLISHED_DATE] </td> </tr>
+							<tr> <td align="left"><i>Lat:</i></td>   <td>[LATITUDE] </td> </tr>
+							<tr> <td align="left"><i>Long:</i></td>   <td>[LONGITUDE] </td> </tr>
+							<tr> <td align="left"><i>Legal&nbsp;Description:</i></td>   <td>[LEGAL_DESCRIPTION] </td> </tr>
+							<tr> <td align="left"><i>Monitoring Location&nbsp;Comment:</i></td>   <td>[MONITORING_LOCN_COMMENT] </td> </tr>
+							<tr> <td align="left"><i>Monitoring Location&nbsp;Name:</i></td>   <td>[MONITORING_LOCATION_NAME] </td> </tr>
+							<tr> <td align="left"><i>Class Narrative:</i></td>   <td>[SOURCE_CLASS_NARRATIVE] </td> </tr>
+							<tr> <td align="left"><i>Well&nbsp;Identification&nbsp;Plate&nbsp;Number:</i></td>   <td>[WELL_IDENTIFICATION_PLATE_NO] </td> </tr>
+							<tr> <td align="left"><i>Feature Code:</i></td>   <td>[FEATURE_CODE] </td> </tr>
+							</table>
+						</tbody>
+					]]>
+				</description>
+				<gx:balloonVisibility>0</gx:balloonVisibility>
+				<LookAt>
+        	    			<longitude>[lookatLon]</longitude>
+        	    			<latitude>[lookatLat]</latitude>
+        	    			<altitude>0</altitude>
+        	   			<range>[lookatRange]</range>
+        	    			<tilt>[lookatTilt]</tilt>
+        	    			<heading>[lookatHeading]</heading>
+        	    			<altitudeMode>relativeToGround</altitudeMode>
+        			</LookAt>
+				<styleUrl>#EMS_map</styleUrl>
+				<Point>
+					<coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+				</Point>
+			</Placemark>
+			[/feature]
+		</Folder>
+	[/resultset]
+ </Document>
+</kml>

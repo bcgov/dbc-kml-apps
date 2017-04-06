@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
+<Folder>
+	<name>BCGov - Geodetic Survey WMS</name>
+	<open>1</open>
+	<description>Data relating to the geospatial reference used for positioning within the Province. The term geodetic meaning: concerned with the precise location (latitude, longitude, height) of points and figures on the earth&apos;s surface.</description>
+	<LookAt>
+		<longitude>-124.2007625989649</longitude>
+		<latitude>54.24685761589782</latitude>
+		<altitude>0</altitude>
+		<heading>0.7179967329904153</heading>
+		<tilt>0</tilt>
+		<range>1652717.741104664</range>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</LookAt>
+	<Folder>
+		<name>Survey Control</name>
+		<visibility>0</visibility>
+		<snippet></snippet>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<P><B> Elevation - Points ~ 1:2,000,000 </B></BR>
+<img src="##application.url##/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BC_SPOT_ELEVATION_POINTS_500M&format=image/png"><br></P>
+
+<P><B> Elevation - Points ~ 1:20,000 </B></BR>
+<img src="##application.url##/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_CONTOUR_POINTS&format=image/png"><br></P>
+
+<P><B> Photo Centres, Cadastral Points, etc. ~ 1:20,000</B></BR>
+<img src="##application.url##/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_MISCELLANEOUS_POINTS&format=image/png"><br></P>]]></description>
+		<GroundOverlay>
+			<name>Elevation - Points ~ (1:2,000,000)</name>
+			<visibility>0</visibility>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BC_SPOT_ELEVATION_POINTS_500M&format=image/png"><br>
+
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/45a92fee-05d8-4f8c-a889-6ac8ac8d04fe">click here</A></P>]]></description>
+			<LookAt>
+				<longitude>-115.743353164902</longitude>
+				<latitude>49.50998821115897</latitude>
+				<altitude>0</altitude>
+				<heading>0.01927763846471821</heading>
+				<tilt>0</tilt>
+				<range>840.9868857461036</range>
+			</LookAt>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/geodetic-survey?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=BC_SPOT_ELEVATION_POINTS_500M&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+			</Icon>
+			<LatLonBox>
+				<north>48.48329213038318</north>
+				<south>48.40053518686928</south>
+				<east>-123.2589523184737</east>
+				<west>-123.3899501369522</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Elevation - Points ~ (1:20,000)</name>
+			<visibility>0</visibility>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_CONTOUR_POINTS&format=image/png"><br>
+
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/05808a06-56a0-4135-954d-7ae7bdbf6732">click here</A></P>]]></description>
+			<LookAt>
+				<longitude>-115.743353164902</longitude>
+				<latitude>49.50998821115897</latitude>
+				<altitude>0</altitude>
+				<heading>0.01927763846471821</heading>
+				<tilt>0</tilt>
+				<range>840.9868857461036</range>
+			</LookAt>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/geodetic-survey?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TRIM_CONTOUR_POINTS&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+			</Icon>
+			<LatLonBox>
+				<north>48.48329213038318</north>
+				<south>48.40053518686928</south>
+				<east>-123.2589523184737</east>
+				<west>-123.3899501369522</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Photo Centres, Cadastral Points, etc. ~ (1:20,000)</name>
+			<visibility>0</visibility>
+			<snippet></snippet>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<img src="##application.url##/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_MISCELLANEOUS_POINTS&format=image/png"><br>
+
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/e7ab4d7a-15d7-40bf-8003-7946a7cadf35">click here</A></P>]]></description>
+			<LookAt>
+				<longitude>-115.743353164902</longitude>
+				<latitude>49.50998821115897</latitude>
+				<altitude>0</altitude>
+				<heading>0.01927763846471821</heading>
+				<tilt>0</tilt>
+				<range>840.9868857461036</range>
+			</LookAt>
+			<drawOrder>2</drawOrder>
+			<Icon>
+				<href>##application.url##/mapserver/geodetic-survey?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TRIM_MISCELLANEOUS_POINTS&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+			</Icon>
+			<LatLonBox>
+				<north>48.48329213038318</north>
+				<south>48.40053518686928</south>
+				<east>-123.2589523184737</east>
+				<west>-123.3899501369522</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<NetworkLink>
+		<name>Survey Monument Details</name>
+		<snippet>Visible below 12km (eye altitude)</snippet>
+		<visibility>1</visibility>
+		<description><![CDATA[<img src='##application.url##/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=MASCOT_GEODETIC_CONTROL&format=image/png&STYLE=default'>]]></description>
+		<LookAt>
+			<longitude>-122.5485633189002</longitude>
+			<latitude>49.1296115824026</latitude>
+			<altitude>0</altitude>
+			<heading>-5.123249354740865</heading>
+			<tilt>2.885587407425562</tilt>
+			<range>7344.684023909977</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Link>
+			<href>##application.url##/mapserver/geodetic-survey?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=MASCOT_GEODETIC_CONTROL_DETAILS&amp;STYLES=default&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=MASCOT_GEODETIC_CONTROL_DETAILS&amp;INFO_FORMAT=kayml&amp;FEATURE_COUNT=500&amp;RADIUS=bbox&amp;</href>
+			<viewRefreshMode>onStop</viewRefreshMode>
+			<viewRefreshTime>2</viewRefreshTime>
+			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+		</Link>
+    </NetworkLink>
+
+	<GroundOverlay>
+		<name>Survey Monuments</name>
+		<snippet>Visible below 100km (eye altitude)</snippet>
+		<visibility>1</visibility>
+		<description><![CDATA[<img src="##application.url##/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=MASCOT_GEODETIC_CONTROL&format=image/png"><br>
+For more information 
+ 
+
+ <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=3943&recordSet=ISO19115">click here</A></P>]]></description>
+		<LookAt>
+			<longitude>-115.743353164902</longitude>
+			<latitude>49.50998821115897</latitude>
+			<altitude>0</altitude>
+			<heading>0.01927763846471821</heading>
+			<tilt>0</tilt>
+			<range>840.9868857461036</range>
+		</LookAt>
+		<drawOrder>2</drawOrder>
+		<Icon>
+			<href>##application.url##/mapserver/geodetic-survey?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=MASCOT_GEODETIC_CONTROL&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+			<viewRefreshMode>onStop</viewRefreshMode>
+			<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+		</Icon>
+		<LatLonBox>
+			<north>60.14091494461048</north>
+			<south>43.61507785757633</south>
+			<east>-108.2296351400494</east>
+			<west>-140.5258703785332</west>
+		</LatLonBox>
+	</GroundOverlay>
+
+	<ScreenOverlay>
+		<name>DataBC Logo</name>
+		<description><![CDATA[For more information about DataBC web map services click 
+ 
+
+ <A HREF="http://www.data.gov.bc.ca/dbc/geo/wms/" target='_blank'>here<p>http://www.data.gov.bc.ca/dbc/geo/wms</A>]]></description>
+		<drawOrder>99</drawOrder>
+		<Icon>
+			<href>##application.url##/kml/Icons/DataBC_logo.png</href>
+		</Icon>
+		<overlayXY x="0.0800000" y="0.300000001" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="0.04000000000000001" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+</Folder>
+
+</kml>

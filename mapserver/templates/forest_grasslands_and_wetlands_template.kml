@@ -1,0 +1,213 @@
+<!--MapServer Template-->
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<!--new icons for wildfires updated May 16 2013-->
+	<Style id="Fire of Note">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>http://openmaps.gov.bc.ca/kml/icons/fire/fire_of_note.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>
+				<![CDATA[
+					<p>$[description]</p>
+				]]>
+			</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="Active">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>http://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>
+				<![CDATA[
+					<p>$[description]</p>
+				]]>
+			</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="New">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>http://openmaps.gov.bc.ca/kml/icons/fire/active.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>
+				<![CDATA[
+					<p>$[description]</p>
+				]]>
+			</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="Active-CY">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>http://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>
+				<![CDATA[
+					<p>$[description]</p>
+				]]>
+			</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="New-CY">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>http://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>
+				<![CDATA[
+					<p>$[description]</p>
+				]]>
+			</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="Fire of Note-CY">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>http://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>
+				<![CDATA[
+					<p>$[description]</p>
+				]]>
+			</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="Not Active-CY">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>http://openmaps.gov.bc.ca/kml/icons/fire/not_active.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>
+				<![CDATA[
+					<p>$[description]</p>
+				]]>
+			</text>
+		</BalloonStyle>
+	</Style>
+[resultset layer=ACTIVE_FIRE_LOC]
+		<Folder>
+		<name>Active Fires - by Active Status</name>
+			[feature trimlast=',']
+			<Placemark>
+				<name>[FIRE_NUMBER]</name>
+				<Snippet/>
+				<description>
+				<![CDATA[
+					<tbody>
+							<h1>[FIRE_NUMBER]</b></h1></br>
+							<table width="330">
+																<tr> <td align="left"><i>Date of discovery:</i></td>   <td>[IGNITION_DATE] </td> </tr>
+																<tr> <td align="left"><i>Suspected Cause:</i></td>   <td>[FIRE_CAUSE] </td> </tr>
+																<tr> <td align="left"><i>Approximate Location:</i></td>   <td>[GEOGRAPHIC_DESCRIPTION] </td> </tr>
+																<tr> <td align="left"><i>Estimated Size:</i></td>   <td>[CURRENT_SIZE] HA</td> </tr>
+																<tr> <td align="left"><i>Fire Status:</i></td>   <td>[FIRE_STATUS]</td> </tr>
+																<tr> <td align="left"><i>Fire of Note Page:</i></td>   <td><a href="[FIRE_OF_NOTE_URL]"><strong>[FIRE_OF_NOTE_NAME]</strong></a></td> </tr>
+																
+							</table><br>
+							<a href="http://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
+							<BR>
+							
+							
+					</tbody>
+				]]>
+				</description>
+				<gx:balloonVisibility>0</gx:balloonVisibility>
+				<LookAt>
+        	    			<longitude>[LONGITUDE]</longitude>
+        	    			<latitude>[LATITUDE]</latitude>
+        	    			<altitude>50000</altitude>
+        	   			    <range>[lookatRange]</range>
+        	    			<tilt>[lookatTilt]</tilt>
+        	    			<heading>[lookatHeading]</heading>
+        	    			<altitudeMode>relativeToGround</altitudeMode>
+        		</LookAt>
+				<styleUrl>#[FIRE_STATUS]</styleUrl>
+				<ExtendedData>
+					<Data name="FIRE_NUMBER"><value>[FIRE_NUMBER]</value></Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+				</Point>
+			</Placemark>
+			[/feature]
+	</Folder>
+	[/resultset]
+	[resultset layer=CUR_YR_FIRES]
+		<Folder>
+		<name>All Current Year Fires</name>
+			[feature trimlast=',']
+			<Placemark>
+				<name>[FIRE_NUMBER]</name>
+				<Snippet/>
+				<description>
+				<![CDATA[
+					<tbody>
+							<p><h1>[FIRE_NUMBER]</h1></p></br>
+							<table width="330">
+																<tr> <td align="left"><i>Date of discovery:</i></td>   <td>[IGNITION_DATE] </td> </tr>
+																<tr> <td align="left"><i>Suspected Cause:</i></td>   <td>[FIRE_CAUSE] </td> </tr>
+																<tr> <td align="left"><i>Approximate Location:</i></td>   <td>[GEOGRAPHIC_DESCRIPTION] </td> </tr>
+																<tr> <td align="left"><i>Estimated Size:</i></td>   <td>[CURRENT_SIZE] HA</td> </tr>
+																<tr> <td align="left"><i>Fire Status:</i></td>   <td>[FIRE_STATUS]</td> </tr>
+																<tr> <td align="left"><i>Fire of Note Page:</i></td>   <td><a href="[FIRE_OF_NOTE_URL]"><strong>[FIRE_OF_NOTE_NAME]</strong></a></td> </tr>
+							</table><br>
+							<a href="http://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
+							<BR>
+							
+							</tbody>
+				]]>
+				</description>
+				<gx:balloonVisibility>0</gx:balloonVisibility>
+				<LookAt>
+        	    			<longitude>[LONGITUDE]</longitude>
+        	    			<latitude>[LATITUDE]</latitude>
+        	    			<altitude>50000</altitude>
+        	   			    <range>[lookatRange]</range>
+        	    			<tilt>[lookatTilt]</tilt>
+        	    			<heading>[lookatHeading]</heading>
+        	    			<altitudeMode>relativeToGround</altitudeMode>
+        			</LookAt>
+				<styleUrl>#[FIRE_STATUS]-CY</styleUrl>
+				<ExtendedData>
+					<Data name="FIRE_NUMBER"><value>[FIRE_NUMBER]</value></Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+				</Point>
+			</Placemark>
+			[/feature]
+	</Folder>
+	[/resultset]
+ </Document>
+</kml>

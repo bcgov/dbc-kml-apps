@@ -1,0 +1,102 @@
+<!--MapServer Template-->
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+
+	<Style id="Community_Watershed">
+		<LabelStyle>
+			<color>ffffffff</color>
+         	<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>70feba00</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<style>fieldset{
+						width: 450px;
+						font-family: helvetica, arial, sans-serif;
+					}
+					table {
+						width: 100%;
+						border-spacing:0;
+						border-collapse:collapse;
+					}
+
+					td {
+						width: 25%;
+						border-bottom: 1px solid white;
+						line-height:150%;
+					}
+
+					#data .left {
+						text-align: left;
+						background-color:#eee;
+					}
+
+					#data .right {
+						text-align: left;
+						padding-left:0.3em;
+					}
+					</style>
+					<fieldset id="data">
+						<legend>Feature Info</legend>
+						<table cellspacing="2" cellpadding="2" border="0" width="330">
+							<tr> <td class="left"><b>CWS Code:</b></td> <td class="right">$[COMMUNITY_WS_CODE] </td> </tr>
+							<tr> <td class="left"><b>Legislation:</b></td> <td class="right">$[COMMUNITY_WS_LEGISLATION] </td> </tr>
+							<tr> <td class="left"><b>Plan Type:</b></td> <td class="right">$[COMMUNITY_WS_PLAN_TYPE] </td> </tr>
+							<tr> <td class="left"><b>Created Date:</b></td> <td class="right">$[COMMUNITY_WS_CREATED_DATE] </td> </tr>
+							<tr> <td class="left"><b>CWS Name:</b></td> <td class="right">$[COMMUNITY_WS_NAME] </td> </tr>
+							<tr> <td class="left"><b>Source Type:</b></td> <td class="right">$[COMMUNITY_WS_SOURCE_TYPE] </td> </tr>
+							<tr> <td class="left"><b>Source Name:</b></td> <td class="right">$[COMMUNITY_WS_SOURCE_NAME] </td> </tr>
+							<tr> <td class="left"><b>POD Code:</b></td> <td class="right">$[POD_CODE] </td> </tr>
+							<tr> <td class="left"><b>Status:</b></td> <td class="right">$[COMMUNITY_WS_STATUS] </td> </tr>
+							<tr> <td class="left"><b>Watershed Assessment Complete:</b></td> <td class="right">$[WS_ASSESSMENT_COMPLETE] </td> </tr>
+							<tr> <td class="left"><b>Watershed Assessment URL:</b></td> <td class="right">$[WS_ASSESSMENT_URL]</td> </tr>
+							<tr> <td class="left"><b>Water Quality Objectives Report:</b></td> <td class="right">$[WATER_QLTY_OBJ_STATUS] </td> </tr>
+							<tr> <td class="left"><b>WQO Overview Report URL:</b></td> <td class="right">$[WATER_QLTY_OBJ_OVERVW_RPT_URL]</td> </tr>
+							<tr> <td class="left"><b>WQO Technical Report URL:</b></td> <td class="right">$[WATER_QLTY_OBJ_TECH_RPT_URL]</td> </tr>
+							<tr> <td class="left"><b>License Purpose:</b></td> <td class="right">$[LICENSE_PURPOSE] </td> </tr>
+							<tr> <td class="left"><b>Feature Code:</b></td> <td class="right">$[FEATURE_CODE] </td> </tr>
+							<tr> <td class="left"><b>Object ID:</b></td> <td class="right">$[OBJECTID] </td> </tr>
+						</table>
+					</fieldset>
+			]]></text>
+		</BalloonStyle>
+
+	</Style>
+
+ 
+  [resultset layer=WLS_COMMUNITY_WS_PUB_CF]
+	<Folder>
+		<name>Community Watersheds</name>
+                [feature trimlast=',']
+		<Placemark>
+			<name>[COMMUNITY_WS_NAME]</name>
+			<styleUrl>#Community_Watershed</styleUrl>
+			<ExtendedData>
+				   <Data name="COMMUNITY_WS_CODE"><value>[COMMUNITY_WS_CODE]</value></Data>
+				   <Data name="COMMUNITY_WS_LEGISLATION"><value>[COMMUNITY_WS_LEGISLATION]</value></Data>
+				   <Data name="COMMUNITY_WS_PLAN_TYPE"><value>[COMMUNITY_WS_PLAN_TYPE]</value></Data>
+				   <Data name="COMMUNITY_WS_CREATED_DATE"><value>[COMMUNITY_WS_CREATED_DATE]</value></Data>
+				   <Data name="COMMUNITY_WS_NAME"><value>[COMMUNITY_WS_NAME]</value></Data>
+				   <Data name="COMMUNITY_WS_SOURCE_TYPE"><value>[COMMUNITY_WS_SOURCE_TYPE]</value></Data>
+				   <Data name="COMMUNITY_WS_SOURCE_NAME"><value>[COMMUNITY_WS_SOURCE_NAME]</value></Data>
+				   <Data name="POD_CODE"><value>[POD_CODE]</value></Data>
+				   <Data name="COMMUNITY_WS_STATUS"><value>[COMMUNITY_WS_STATUS]</value></Data>
+				   <Data name="WS_ASSESSMENT_COMPLETE"><value>[WS_ASSESSMENT_COMPLETE]</value></Data>
+				   <Data name="WS_ASSESSMENT_URL"><value>[WS_ASSESSMENT_URL]</value></Data>
+				   <Data name="WATER_QLTY_OBJ_STATUS"><value>[WATER_QLTY_OBJ_STATUS]</value></Data>
+				   <Data name="WATER_QLTY_OBJ_OVERVW_RPT_URL"><value>[WATER_QLTY_OBJ_OVERVW_RPT_URL]</value></Data>
+				   <Data name="WATER_QLTY_OBJ_TECH_RPT_URL"><value>[WATER_QLTY_OBJ_TECH_RPT_URL]</value></Data>
+				   <Data name="LICENSE_PURPOSE"><value>[LICENSE_PURPOSE]</value></Data>
+				   <Data name="FEATURE_CODE"><value>[FEATURE_CODE]</value></Data>
+				   <Data name="OBJECTID"><value>[OBJECTID]</value></Data>
+			</ExtendedData>
+				[shpxy ph="<Polygon><tessellate>1</tessellate>" pf="</Polygon>" xf="," yf=",0 " orh="<outerBoundaryIs><LinearRing><coordinates>" orf="</coordinates></LinearRing></outerBoundaryIs>" irh="<innerBoundaryIs><LinearRing><coordinates>" irf="</coordinates></LinearRing></innerBoundaryIs>" proj=epsg:4326 precision=10]
+		</Placemark>
+                [/feature]
+	</Folder>
+ [/resultset]
+ 
+</Document>
+</kml>

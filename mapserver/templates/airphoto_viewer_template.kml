@@ -1,0 +1,1047 @@
+<!--MapServer Template-->
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+
+        <Style id="airphoto">
+        <IconStyle>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+                    <p ALIGN="center"><b>$[frame]</b></p>
+                    <p ALIGN="center">
+                        <a href="$[image_url]"  target="_blank">
+                        <img src="$[image_url]" height="150" border="4"/>
+                        </a><br><br>
+                <table border="0">
+                    <tbody>
+                        <tr> <td align="right"><i>Roll:</i></td> <td>$[roll]</td> </tr>
+                        <tr> <td align="right"><i>Frame:</i></td> <td>$[frame]</td> </tr>
+                        <tr> <td align="right"><i>Photo date:</i></td> <td>$[photo_date]</td> </tr>
+                        <tr> <td align="right"><i>Photo time:</i></td> <td>$[photo_time]</td> </tr>
+                        <tr> <td align="right"><i>Media:</i></td> <td>$[media]</td> </tr>
+                        <tr> <td align="right"><i>Nominal Scale:</i></td> <td>$[nom_scale]</td> </tr>
+                        <tr> <td align="right"><i>Focal Length:</i></td> <td>$[foc_len]</td> </tr>
+                        <tr> <td align="right"><i>Operation Tag:</i></td> <td>$[op_tag]</td> </tr>
+                        <tr> <td align="right"><i>Mapsheet:</i></td> <td>$[mapsheet]</td> </tr>
+                    </tbody>
+                </table>
+
+                        <P>Click on the thumbnail to view or print a low-resolution version of this air photo.</P> 
+                <P>To purchase a full-resolution version of this air photo, click the 'Add to Cart' button below.</P>
+                
+                    <form method="get" action="https://apps.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
+                        <input name="itemIndex" type="hidden" value="C1_0" />
+                        <input name="productIdC1_0" type="hidden" value="$[roll]/$[frame]" />
+                        <input name="productDefinitionIdC1_0" type="hidden" value="1" />
+                        <input name="productNameC1_0" type="hidden" value="Digital Air Photo" />
+                        <input name="productDescriptionC1_0" type="hidden" value=""/>
+                        <input type="submit" value="Add to Cart"/>
+                        <input type="button" value="View Cart" onclick="window.open('https://apps.gov.bc.ca/ext/mtec/cart/contents.do','_blank');"/>
+                    </form>
+
+                <P>Full-resolution air photos and other imagery products may also be purchased from the <A HREF='##application.url##/imfows13/imf.jsp?site=idt&request=airphoto'>Base Map Online Store</A>.</P>
+          ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+        <Style id="orthophoto">
+        <IconStyle>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+
+                    <p ALIGN="center"><b>$[year]</b></p>
+                    <p ALIGN="center">
+                        <a  href="$[jpg_url]"  target="_blank">
+                        <img src="$[jpg_url]"  height="150"  border="4"/>
+                        </a><br><br>
+                <table border="0">
+                    <tbody>
+                        <tr> <td align="right"><i>Mapsheet:</i></td> <td>$[geoextent]</td> </tr>
+                        <tr> <td align="right"><i>Year:</i></td> <td>$[year]</td> </tr>
+                        <tr> <td align="right"><i>Projection:</i></td> <td>$[projection]</td> </tr>
+                        <tr> <td align="right"><i>Media:</i></td> <td>$[colour]</td> </tr>
+                        <tr> <td align="right"><i>Pixel Resolution:</i></td> <td>$[resolution]</td> </tr>
+                    </tbody>
+                </table>
+                <P>Click on the thumbnail to view or print a low-resolution version of this orthophoto.</P>             
+                
+                <div id="available"><P>To purchase a full-resolution version of this orthophoto, click the 'Add to Cart' button below.</P></div>
+                <div id="notAvailable" style="display: none;">The full-resolution version of this orthophoto is not available for purchase.</div>
+
+                    <form method="get" style="display:"";" name="orthoForm" id="orthoForm" action="https://apps.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
+                        <input name="itemIndex" type="hidden" value="C1_0" />
+                        <input name="productIdC1_0" type="hidden" value="$[idt_id]" />
+                        <input name="productDefinitionIdC1_0" type="hidden" value="8" />
+                        <input name="productNameC1_0" type="hidden" value="TRIM Orthophoto" />
+                        <input name="productDescriptionC1_0" type="hidden" value=""/>
+                        <input name="filePathC1_0" type="hidden" value="\airborne\ortho_tiles\" />
+                        <input id="fileNameC1_0" name="fileNameC1_0" type="hidden" value="bla" />
+                        <input type="submit" value="Add to Cart"/>
+                        <input type="button" value="View Cart" onclick="window.open('https://apps.gov.bc.ca/ext/mtec/cart/contents.do','_blank');"/>
+                    </form>
+
+                <P>Full-resolution orthophotos and other imagery products may also be purchased from the <A HREF='##application.url##/imfows13/imf.jsp?site=idt&request=ortho'>Base Map Online Store</A>.</P>
+
+                    <script type="text/javascript"> 
+                    function init() {
+                      var filename = '$[filename]';
+                      var filename_no_extension = filename.replace(".sid", "");
+                      document.orthoForm.fileNameC1_0.value = filename_no_extension;
+
+                      if ($[idt_id] == 0 || $[idt_id] == null) {
+                        document.orthoForm.style.display="none";
+                        document.getElementById("available").style.display="none";
+                        document.getElementById("notAvailable").style.display="";
+                      }
+                    }
+
+                    init(); 
+                    </script>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+    <Style id="ortho_catalog">
+        <IconStyle>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+
+                    <p ALIGN="center"><b>$[year]</b></p>
+                    <p ALIGN="center">
+                        <a  href="$[jpg_url]"  target="_blank">
+                        <img src="$[jpg_url]"  height="150"  border="4"/>
+                        </a><br><br>
+                <table border="0">
+                    <tbody>
+                        <tr> <td align="right"><i>Mapsheet:</i></td> <td>$[geoextent]</td> </tr>
+                        <tr> <td align="right"><i>Year:</i></td> <td>$[year]</td> </tr>
+                        <tr> <td align="right"><i>Projection:</i></td> <td>$[projection]</td> </tr>
+                        <tr> <td align="right"><i>Media:</i></td> <td>$[colour]</td> </tr>
+                        <tr> <td align="right"><i>Pixel Resolution:</i></td> <td>$[resolution]</td> </tr>
+                    </tbody>
+                </table>
+                <P>Click on the thumbnail to view or print a low-resolution version of this orthophoto.</P>             
+                
+                <div id="available"><P>To purchase a full-resolution version of this orthophoto, click the 'Add to Cart' button below.</P></div>
+                <div id="notAvailable" style="display: none;">The full-resolution version of this orthophoto is not available for purchase.</div>
+
+                    <form method="get" style="display:"";" name="orthoForm" id="orthoForm" action="https://apps.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
+                        <input name="itemIndex" type="hidden" value="C1_0" />
+                        <input name="productIdC1_0" type="hidden" value="$[idt_id]" />
+                        <input name="productDefinitionIdC1_0" type="hidden" value="8" />
+                        <input name="productNameC1_0" type="hidden" value="TRIM Orthophoto" />
+                        <input name="productDescriptionC1_0" type="hidden" value=""/>
+                        <input name="filePathC1_0" type="hidden" value="\airborne\ortho_tiles\" />
+                        <input id="fileNameC1_0" name="fileNameC1_0" type="hidden" value="bla" />
+                        <input type="submit" value="Add to Cart"/>
+                        <input type="button" value="View Cart" onclick="window.open('https://apps.gov.bc.ca/ext/mtec/cart/contents.do','_blank');"/>
+                    </form>
+
+                <P>Full-resolution orthophotos and other imagery products may also be purchased from the <A HREF='##application.url##/imfows13/imf.jsp?site=idt&request=ortho'>Base Map Online Store</A>.</P>
+
+                    <script type="text/javascript"> 
+                    function init() {
+                      var filename = '$[filename]';
+                      var filename_no_extension = filename.replace(".sid", "");
+                      document.orthoForm.fileNameC1_0.value = filename_no_extension;
+
+                      if ($[idt_id] == 0 || $[idt_id] == null) {
+                        document.orthoForm.style.display="none";
+                        document.getElementById("available").style.display="none";
+                        document.getElementById("notAvailable").style.display="";
+                      }
+                    }
+
+                    init(); 
+                    </script>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+    <Style id="ortho_non_catalog">
+        <IconStyle>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+            <text>
+                <![CDATA[
+
+                    <p ALIGN="center"><b>$[year]</b></p>
+                    <p ALIGN="center">
+                        <a  href="$[jpg_url]"  target="_blank">
+                        <img src="$[jpg_url]"  height="150"  border="4"/>
+                        </a><br><br>
+                <table border="0">
+                    <tbody>
+                        <tr> <td align="right"><i>Mapsheet:</i></td> <td>$[geoextent]</td> </tr>
+                        <tr> <td align="right"><i>Year:</i></td> <td>$[year]</td> </tr>
+                        <tr> <td align="right"><i>Projection:</i></td> <td>$[projection]</td> </tr>
+                        <tr> <td align="right"><i>Media:</i></td> <td>$[colour]</td> </tr>
+                        <tr> <td align="right"><i>Pixel Resolution:</i></td> <td>$[resolution]</td> </tr>
+                    </tbody>
+                </table>
+                <P>Click on the thumbnail to view or print a low-resolution version of this orthophoto.</P>             
+                
+                <P>This image is part of the GeoBC orthophoto collection, but does not meet the criteria for inclusion in the standard catalog of imagery available for purchase.</P>
+                ]]>
+            </text>
+        </BalloonStyle>
+    </Style>
+
+
+
+
+[resultset layer=ORTHOS]
+    <Folder>
+        <name>Low Resolution Orthophotos</name>
+                [feature limit=500 trimlast=',']
+        <Placemark>
+            <name>[year]</name>
+            <Snippet/>
+            <styleUrl>#orthophoto</styleUrl>
+            <ExtendedData>
+                <Data name="jpg_url"><value>##application.url##/orthothumbs[jpg_url]</value></Data>
+                <Data name="filename"><value>[filename]</value></Data>
+                <Data name="idt_id"><value>[idt_id]</value></Data>
+                <Data name="projection"><value>[projection]</value></Data>
+                <Data name="year"><value>[year]</value></Data>
+                <Data name="colour"><value>[colour]</value></Data>
+                <Data name="resolution"><value>[resolution]</value></Data>
+                <Data name="geoextent"><value>[geoextent]</value></Data>
+
+            </ExtendedData>
+
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=ORTHOS_CATALOG]
+    <Folder>
+        <name>Low Resolution Orthophotos</name>
+                [feature limit=500 trimlast=',']
+        <Placemark>
+            <name>[year]</name>
+            <Snippet/>
+            <styleUrl>#ortho_catalog</styleUrl>
+            <ExtendedData>
+                <Data name="jpg_url"><value>##application.url##/orthothumbs[jpg_url]</value></Data>
+                <Data name="filename"><value>[filename]</value></Data>
+                <Data name="idt_id"><value>[idt_id]</value></Data>
+                <Data name="projection"><value>[projection]</value></Data>
+                <Data name="year"><value>[year]</value></Data>
+                <Data name="colour"><value>[colour]</value></Data>
+                <Data name="resolution"><value>[resolution]</value></Data>
+                <Data name="geoextent"><value>[geoextent]</value></Data>
+
+            </ExtendedData>
+
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=ORTHOS_NON_CATALOG]
+    <Folder>
+        <name>Low Resolution Orthophotos</name>
+                [feature limit=500 trimlast=',']
+        <Placemark>
+            <name>[year]</name>
+            <Snippet/>
+            <styleUrl>#ortho_non_catalog</styleUrl>
+            <ExtendedData>
+                <Data name="jpg_url"><value>##application.url##/orthothumbs[jpg_url]</value></Data>
+                <Data name="filename"><value>[filename]</value></Data>
+                <Data name="idt_id"><value>[idt_id]</value></Data>
+                <Data name="projection"><value>[projection]</value></Data>
+                <Data name="year"><value>[year]</value></Data>
+                <Data name="colour"><value>[colour]</value></Data>
+                <Data name="resolution"><value>[resolution]</value></Data>
+                <Data name="geoextent"><value>[geoextent]</value></Data>
+
+            </ExtendedData>
+
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=AIRPHOTO_LR_1992]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_1993]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+
+
+[resultset layer=AIRPHOTO_LR_1994]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=AIRPHOTO_LR_1995]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=AIRPHOTO_LR_1996]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+[resultset layer=AIRPHOTO_LR_1997]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=AIRPHOTO_LR_1998]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=AIRPHOTO_LR_1999]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=AIRPHOTO_LR_2000]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+
+
+[resultset layer=AIRPHOTO_LR_2001]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2002]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url">##application.url##/thumbs[image_url]</Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+                  <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2003]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2004]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2005]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+
+
+[resultset layer=AIRPHOTO_LR_2006]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2007]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=AIRPHOTO_LR_2008]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2009]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+                [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2010]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2011]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2012]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2013]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+
+[resultset layer=AIRPHOTO_LR_2014]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+[resultset layer=AIRPHOTO_LR_2015]
+    <Folder>
+        <name>Low Resolution Airphotos</name>
+                [feature limit=500  trimlast=',']
+        <Placemark>
+            <name>[frame]</name>
+            <Snippet/>
+            <styleUrl>#airphoto</styleUrl>
+            <ExtendedData>
+              <Data name="image_url"><value>##application.url##/thumbs[image_url]</value></Data>
+              <Data name="roll"> <value>[roll]</value></Data>
+                      <Data name="frame"><value>[frame]</value></Data>
+              <Data name="photo_year"><value>[photo_year]</value></Data>
+              <Data name="photo_date"><value>[photo_date]</value></Data>
+              <Data name="photo_time"><value>[photo_time]</value></Data>
+                  <Data name="media"><value>[media]</value></Data>
+              <Data name="scan_res"><value>[scan_res]</value></Data>
+                      <Data name="mapsheet"><value>[mapsheet]</value></Data>
+              <Data name="nom_scale"><value>[nom_scale]</value></Data>
+              <Data name="foc_len"><value>[foc_len]</value></Data>
+              <Data name="op_tag"><value>[op_tag]</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+            </Point>
+        </Placemark>
+               [/feature]
+    </Folder>
+[/resultset]
+
+
+
+ </Document>
+
+</kml>

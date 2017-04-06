@@ -1,0 +1,189 @@
+<!--MapServer Template-->
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<Document>
+	<Style id="Snow_Course">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>##application.url##/kml/Icons/water/esridefaultmarker_33_AL_v2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffffff</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<style>fieldset{
+						width: 250px;
+						font-family: helvetica, arial, sans-serif;
+					}
+					table {
+						width: 100%;
+						border-spacing:0;
+						border-collapse:collapse;
+					}
+
+					td {
+						width: 30%;
+						border-bottom: 1px solid white;
+						line-height:150%;
+					}
+
+					#data .left {
+						text-align: left;
+						background-color:#eee;
+					}
+
+					#data .right {
+						text-align: left;
+						padding-left:0.3em;
+					}
+					</style>
+					<fieldset id="data">
+						<legend>Feature Info</legend>
+						<table cellspacing="2" cellpadding="2" border="0" width="330">
+							<tr> <td class="left"><b>Station Name:</b></td> <td class="right">$[STATION_NAME] </td> </tr>
+							<tr> <td class="left"><b>Latitude Degrees:</b></td> <td class="right">$[CAPTURED_LATITUDE_DEGREES] </td> </tr>
+							<tr> <td class="left"><b>Latitude Minutes:</b></td> <td class="right">$[CAPTURED_LATITUDE_MINUTES] </td> </tr>
+							<tr> <td class="left"><b>Latitude Seconds:</b></td> <td class="right">$[CAPTURED_LATITUDE_SECONDS] </td> </tr>
+							<tr> <td class="left"><b>Longitude Degrees:</b></td> <td class="right">$[CAPTURED_LONGITUDE_DEGREES] </td> </tr>
+							<tr> <td class="left"><b>Longitude Minutes:</b></td> <td class="right">$[CAPTURED_LONGITUDE_MINUTES] </td> </tr>
+							<tr> <td class="left"><b>Longitude Seconds:</b></td> <td class="right">$[CAPTURED_LONGITUDE_SECONDS] </td> </tr>
+							<tr> <td class="left"><b>Datum Elevation:</b></td> <td class="right">$[DATUM_ELEVATION] </td> </tr>
+							<tr> <td class="left"><b>HYD ST BC ID:</b></td> <td class="right">$[HYD_ST_BC_ID] </td> </tr>
+							<tr> <td class="left"><b>HDMS_ID:</b></td> <td class="right">$[HDMS_ID] </td> </tr>
+							<tr> <td class="left"><b>Object ID:</b></td> <td class="right">$[OBJECTID] </td> </tr>
+							<tr> <td class="left"><b>Feature Code:</b></td> <td class="right">$[FEATURE_CODE] </td> </tr>
+						</table>
+					</fieldset>
+			]]></text>
+		</BalloonStyle>
+	</Style>
+	
+
+ 	<Style id="Snow_Pillow">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>##application.url##/kml/Icons/water/bcmelpwatersymbols_41_v2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffffff</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+						<text><![CDATA[<style>fieldset{
+						width: 300px;
+						font-family: helvetica, arial, sans-serif;
+					}
+					table {
+						width: 100%;
+						border-spacing:0;
+						border-collapse:collapse;
+					}
+
+					td {
+						width: 25%;
+						border-bottom: 1px solid white;
+						line-height:150%;
+					}
+
+					#data .left {
+						text-align: left;
+						background-color:#eee;
+					}
+
+					#data .right {
+						text-align: right;
+						padding-left:2em;
+					}
+					</style>
+					<fieldset id="data">
+						<legend>Feature Info</legend>
+						<table cellspacing="2" cellpadding="2" border="0" width="330">
+							<tr> <td class="left"><b>Snow Pillow ID:</b></td> <td class="right">$[SNOW_PILLOW_LOCATION_ID] </td> </tr>
+							<tr> <td class="left"><b>HYD ST BC ID:</b></td> <td class="right">$[HYD_ST_BC_ID] </td> </tr>
+							<tr> <td class="left"><b>Station Name:</b></td> <td class="right">$[STATION_NAME] </td> </tr>
+							<tr> <td class="left"><b>Latitude Degrees:</b></td> <td class="right">$[CAPTURED_LATITUDE_DEGREES] </td> </tr>
+							<tr> <td class="left"><b>Latitude Minutes:</b></td> <td class="right">$[CAPTURED_LATITUDE_MINUTES] </td> </tr>
+							<tr> <td class="left"><b>Latitude Seconds:</b></td> <td class="right">$[CAPTURED_LATITUDE_SECONDS] </td> </tr>
+							<tr> <td class="left"><b>Longitude Degrees:</b></td> <td class="right">$[CAPTURED_LONGITUDE_DEGREES] </td> </tr>
+							<tr> <td class="left"><b>Longitude Minutes:</b></td> <td class="right">$[CAPTURED_LONGITUDE_MINUTES] </td> </tr>
+							<tr> <td class="left"><b>Longitude Seconds:</b></td> <td class="right">$[CAPTURED_LONGITUDE_SECONDS] </td> </tr>
+							<tr> <td class="left"><b>Datum Elevation:</b></td> <td class="right">$[DATUM_ELEVATION] </td> </tr>
+							<tr> <td class="left"><b>ObjectID:</b></td> <td class="right">$[OBJECTID] </td> </tr>
+							<tr> <td class="left"><b>Feature Code:</b></td> <td class="right">$[FEATURE_CODE] </td> </tr>
+						</table>
+					</fieldset>
+			]]></text>
+		</BalloonStyle>
+	</Style>
+ 
+ 
+ 
+ 
+   [resultset layer=SSL_SNOW_PILLOW_LOCATION]
+	<Folder>
+		<name>Snow Pillow</name>
+                [feature trimlast=',']
+		<Placemark>
+		<name>[STATION_NAME]</name>
+		<styleUrl>#Snow_Pillow</styleUrl>
+			<ExtendedData>
+				   <Data name="SNOW_PILLOW_LOCATION_ID"><value>[SNOW_PILLOW_LOCATION_ID]</value></Data>
+				   <Data name="HYD_ST_BC_ID"><value>[HYD_ST_BC_ID]</value></Data>
+				   <Data name="STATION_NAME"><value>[STATION_NAME]</value></Data>
+				   <Data name="CAPTURED_LATITUDE_DEGREES"><value>[CAPTURED_LATITUDE_DEGREES]</value></Data>
+				   <Data name="CAPTURED_LATITUDE_MINUTES"><value>[CAPTURED_LATITUDE_MINUTES]</value></Data>
+				   <Data name="CAPTURED_LATITUDE_SECONDS"><value>[CAPTURED_LATITUDE_SECONDS]</value></Data>
+				   <Data name="CAPTURED_LONGITUDE_DEGREES"><value>[CAPTURED_LONGITUDE_DEGREES]</value></Data>
+				   <Data name="CAPTURED_LONGITUDE_MINUTES"><value>[CAPTURED_LONGITUDE_MINUTES]</value></Data>
+				   <Data name="CAPTURED_LONGITUDE_SECONDS"><value>[CAPTURED_LONGITUDE_SECONDS]</value></Data>
+				   <Data name="DATUM_ELEVATION"><value>[DATUM_ELEVATION]</value></Data>
+				   <Data name="OBJECTID"><value>[OBJECTID]</value></Data>
+				   <Data name="FEATURE_CODE"><value>[FEATURE_CODE]</value></Data>
+  		    </ExtendedData>
+			<Point>
+				<coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+			</Point>
+		</Placemark>
+                [/feature]
+	</Folder>
+ [/resultset]
+ 
+ 
+ 
+  [resultset layer=SSL_ACTIVE_SNOW_COURSE_LOC_ACTIVE]
+	<Folder>
+		<name>Snow Course - Active</name>
+                [feature trimlast=',']
+		<Placemark>
+		<name>[STATION_NAME]</name>
+		<styleUrl>#Snow_Course</styleUrl>
+			<ExtendedData>
+				   <Data name="STATION_NAME"><value>[STATION_NAME]</value></Data>
+				   <Data name="CAPTURED_LATITUDE_DEGREES"><value>[CAPTURED_LATITUDE_DEGREES]</value></Data>
+				   <Data name="CAPTURED_LATITUDE_MINUTES"><value>[CAPTURED_LATITUDE_MINUTES]</value></Data>
+				   <Data name="CAPTURED_LATITUDE_SECONDS"><value>[CAPTURED_LATITUDE_SECONDS]</value></Data>
+				   <Data name="CAPTURED_LONGITUDE_DEGREES"><value>[CAPTURED_LONGITUDE_DEGREES]</value></Data>
+				   <Data name="CAPTURED_LONGITUDE_MINUTES"><value>[CAPTURED_LONGITUDE_MINUTES]</value></Data>
+				   <Data name="CAPTURED_LONGITUDE_SECONDS"><value>[CAPTURED_LONGITUDE_SECONDS]</value></Data>
+				   <Data name="DATUM_ELEVATION"><value>[DATUM_ELEVATION]</value></Data>
+				   <Data name="HYD_ST_BC_ID"><value>[HYD_ST_BC_ID]</value></Data>
+				   <Data name="HDMS_ID"><value>[HDMS_ID]</value></Data>
+				   <Data name="OBJECTID"><value>[OBJECTID]</value></Data>
+				   <Data name="FEATURE_CODE"><value>[FEATURE_CODE]</value></Data>
+  		 </ExtendedData>
+			<Point>
+				<coordinates>[shpxy proj=epsg:4326 precision=10],0</coordinates>
+			</Point>
+		</Placemark>
+                [/feature]
+	</Folder>
+ [/resultset]
+
+</Document>
+</kml>
