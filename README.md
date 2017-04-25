@@ -20,7 +20,7 @@ dbc-kml-mapserver/kml holds the original kml apps that need to be converted
 Creating a custom output type for the DataBC GeoServer using XSLT
 ------------------------------------------------------------------
 
-The need for creating cutstom output type is stil unclear. If they are needed, this is how its done.
+The need for creating custom output type is stil unclear. If they are needed, this is how its done.
 To create a custom output type in GeoServer using XSLT, you need to define two files:
 
      a. A custom output type declaration file
