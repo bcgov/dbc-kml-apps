@@ -43,3 +43,13 @@ To create a custom output type in GeoServer using XSLT, you need to define two f
  Given a feature class called WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL, the custom output type declaration file is named [kayml_geodetic_control.xml](https://github.com/bcgov/dbc-kml-apps/blob/master/geoserver/geodetic_control/kayml_geodetic_control.xml)
   
  The custom output type transformation file for this feature class is called [kayml_geodetic_control.xslt](https://github.com/bcgov/dbc-kml-apps/blob/master/geoserver/geodetic_control/kayml_geodetic_control.xslt)
+
+## Development
+
+A sandbox instance of *Geoserver* is located here:
+ > 52.60.184.85
+
+Geoserver is running on port 8080. However, that port is not exposed to the public. So if granted *ssh* access you can forward that port to your local machine like this:
+> ssh -L 8080:localhost:8080 ubuntu@52.60.184.85
+
+Then point your browser to *http//:localhost:8080/geoserver*.
