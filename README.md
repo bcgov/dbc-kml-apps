@@ -46,10 +46,16 @@ To create a custom output type in GeoServer using XSLT, you need to define two f
 
 ## Process
 - Connect to Government network (VPN)
-- Get mapserver layer name from the template file in /mapserver/templates/template-**kml-name**.kml it should be in the tail end of the file within this line [resulteset layer=**layer-name**]
-- Use this layer name in a subversion query to find an associated map file
+- Get mapserver layer name from the template file in /mapserver/templates/template-**kml-name**.kml. It should be in the tail end of the file within this line [resultset layer=**layer-name**]
+- Use this layer name in a subversion query to find an associated map file.
   > http://apps.bcgov/svn/webmaps/sites/trunk/mapfiles/#repossearch=**layer-name**&repossearch-meta-start=0&repossearch-content-start=0 
-- This will hopefully return a **mapfile.map** file. Open this and look for the **DATA** parameter within a **LAYER** entry.
+- This will hopefully return a **mapfile.map** file. Open this and look for the **DATA** parameter within a **LAYER** entry. This is the features class name geoserver uses. There will most likely be multiple layers entries in which we must coincide with individual kml templates.
+- Use the feature class name to look up the layer name and style with a wms *getFeatureInfo* request. Use the style closely resembling the layer entry in the mapserver mapfile.
+  > http://openmaps.gov.bc.ca/geo/pub/**feature-class-name**/wms?request=getcapabilities
+- Use the feature class name to look up exposed attributes and their associated names.
+  > http://openmaps.gov.bc.ca/geo/pub/**feature-class-name**/wfs?request=DescribeFeatureType
+
+
 
 ## Development
 
