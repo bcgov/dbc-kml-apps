@@ -44,6 +44,13 @@ To create a custom output type in GeoServer using XSLT, you need to define two f
   
  The custom output type transformation file for this feature class is called [kayml_geodetic_control.xslt](https://github.com/bcgov/dbc-kml-apps/blob/master/geoserver/geodetic_control/kayml_geodetic_control.xslt)
 
+## Process
+- Connect to Government network (VPN)
+- Get mapserver layer name from the template file in /mapserver/templates/template-**kml-name**.kml it should be in the tail end of the file within this line [resulteset layer=**layer-name**]
+- Use this layer name in a subversion query to find an associated map file
+  > http://apps.bcgov/svn/webmaps/sites/trunk/mapfiles/#repossearch=**layer-name**&repossearch-meta-start=0&repossearch-content-start=0 
+- This will hopefully return a **mapfile.map** file. Open this and look for the **DATA** parameter within a **LAYER** entry.
+
 ## Development
 
 A sandbox instance of *Geoserver* is located here:
