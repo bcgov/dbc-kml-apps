@@ -86,3 +86,4 @@ ubuntu@52.60.184.85:/usr/share/geoserver/geoserver-2.11.0/data_dir/wfs/transform
 [KML Airphoto Viewer](http://delivery.openmaps.gov.bc.ca/kml/BCGov_Airphoto_Viewer_Loader.kml)
 
 [Geodetic control](http://delivery.openmaps.gov.bc.ca/kml/geo//BCGov_Geodetic_Survey_WMS.kml)
+[Jenkins Build](https://cis.apps.gov.bc.ca/int/job/DLVR-OPENMAPS/job/geoserver_ftl_overide/)
