@@ -76,3 +76,13 @@ So to deploy you can run something like this:
 scp kayml_geodetic_control.* \
 ubuntu@52.60.184.85:/usr/share/geoserver/geoserver-2.11.0/data_dir/wfs/transform/
 ```
+
+## Usefull links
+[WMS GetCapabilities](http://delivery.openmaps.gov.bc.ca/geo/ows?service=wms&version=1.3.0&request=GetCapabilities)
+[WFS GetCapabilities](http://delivery.openmaps.gov.bc.ca/geo/ows?service=wfs&version=1.0.0&request=GetCapabilities)
+[WMS GetMap](http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.0&request=GetMap&layers=pub:WHSE_BASEMAPPING.DBM_BC_7H_MIL_BATHYMETRC_POLY&styles=&bbox=273875.663,362346.895,1870571.76,1735670.856&width=512&height=440&srs=EPSG:3005&format=image/png)
+[KML BCGOV Web Map Libary](http://delivery.openmaps.gov.bc.ca/kml/BCGov_Web_Map_Library.kml)
+[KML FrontCounter BC](http://delivery.openmaps.gov.bc.ca/kml/front_counter_bc_loader.kml)
+[KML Airphoto Viewer](http://delivery.openmaps.gov.bc.ca/kml/BCGov_Airphoto_Viewer_Loader.kml)
+
+[Geodetic control](http://delivery.openmaps.gov.bc.ca/kml/survey_monuments_all.kml)
