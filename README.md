@@ -87,3 +87,6 @@ ubuntu@52.60.184.85:/usr/share/geoserver/geoserver-2.11.0/data_dir/wfs/transform
 
 [Geodetic control](http://delivery.openmaps.gov.bc.ca/kml/geo//BCGov_Geodetic_Survey_WMS.kml)
 [Jenkins Build](https://cis.apps.gov.bc.ca/int/job/DLVR-OPENMAPS/job/geoserver_ftl_overide/)
+
+You can also specify it by data store:layer format like this
+[Geodetic Control](http://delivery.openmaps.gov.bc.ca/geo/pub/wms/kml?layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL)
