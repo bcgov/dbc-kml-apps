@@ -9,6 +9,12 @@
           <td>${attribute.value}</td>
         </tr>
       <#break>
+      <#case "TABLET_MARKING">
+        <tr>
+          <td>Tablet Marking</td>
+          <td>${attribute.value}</td>
+        </tr>
+      <#break>
       <#case "LATITUDE_DEGREES">
         <tr>
           <td>Latitude</td>
