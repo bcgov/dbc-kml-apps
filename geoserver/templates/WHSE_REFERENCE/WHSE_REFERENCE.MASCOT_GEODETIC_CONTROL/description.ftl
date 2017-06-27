@@ -4,9 +4,21 @@
   <#list attributes as attribute>
     <#switch attribute.name>
       <#case "GCM_NUMBER">
-        <tr>
+        <tr bgcolor="#f1f1f1">
           <td>GCM Number</td>
           <td>${attribute.value}</td>
+        </tr>
+      <#break>
+      <#case "LATITUDE_DEGREES">
+        <tr>
+          <td>Latitude</td>
+          <td>${latitude}</td>
+        </tr>
+      <#break>
+      <#case "LONGITUDE_DEGREES">
+        <tr bgcolor="#f1f1f1">
+          <td>Longitude</td>
+          <td>${longitude}</td>
         </tr>
       <#break>
       <#case "TABLET_MARKING">
@@ -16,7 +28,7 @@
         </tr>
       <#break>
       <#case "MUNICIPALITY_NAME">
-        <tr>
+        <tr bgcolor="#f1f1f1">
           <td>Municipality</td>
           <td>${attribute.value}</td>
         </tr>
@@ -27,20 +39,8 @@
           <td><a href="${attribute.value}">Link</a></td>
         </tr>
       <#break>
-      <#case "LATITUDE_DEGREES">
-        <tr>
-          <td>Latitude</td>
-          <td>${latitude}</td>
-        </tr>
-      <#break>
-      <#case "LONGITUDE_DEGREES">
-        <tr>
-          <td>Longitude</td>
-          <td>${longitude}</td>
-        </tr>
-      <#break>
       <#case "SE_ANNO_CAD_DATA">
-        <tr>
+        <tr bgcolor="#f1f1f1">
           <td>Annotation Data</td>
           <td>${attribute.value}</td>
         </tr>
