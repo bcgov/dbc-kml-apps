@@ -1,6 +1,6 @@
 <table class="featureInfo">
   <#assign latitude>
-    attributes.LATITUDE_DEGREE.value attributes.LATITUDE_MINUTES.value attributes.LATITUDE_SECONDS.value
+  ${attributes.LATITUDE_DEGREE.value} ${attributes.LATITUDE_MINUTES.value} ${attributes.LATITUDE_SECONDS.value}
   </#assign>
   <#list attributes as attribute>
     <#switch attribute.name>
