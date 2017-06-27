@@ -1,6 +1,6 @@
 <table class="featureInfo">
-  <#assign latitude = "${attributes.LATITUDE_DEGREES.value} ${attributes.LATITUDE_MINUTES.value} ${attributes.LATITUDE_SECONDS.value}">
-  <#assign longitude = "${attributes.LONGITUDE_DEGREES.value} ${attributes.LONGITUDE_MINUTES.value} ${attributes.LONGITUDE_SECONDS.value}">
+  <#assign latitude = "${attributes.LATITUDE_DEGREES.value}&deg; ${attributes.LATITUDE_MINUTES.value}&#39; ${attributes.LATITUDE_SECONDS.value}&#34;">
+  <#assign longitude = "-${attributes.LONGITUDE_DEGREES.value}&deg; ${attributes.LONGITUDE_MINUTES.value}&#39; ${attributes.LONGITUDE_SECONDS.value}&#34;">
   <#list attributes as attribute>
     <#switch attribute.name>
       <#case "GCM_NUMBER">
