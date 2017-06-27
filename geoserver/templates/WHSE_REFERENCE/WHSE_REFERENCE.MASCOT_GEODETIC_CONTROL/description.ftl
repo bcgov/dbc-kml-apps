@@ -1,5 +1,5 @@
 <table class="featureInfo">
-  <#assign latitude = "${attributes.LATITUDE_DEGREE.value} ${attributes.LATITUDE_MINUTES.value} ${attributes.LATITUDE_SECONDS.value}">
+  <#assign latitude = "${attributes.LATITUDE_DEGREES.value} ${attributes.LATITUDE_MINUTES.value} ${attributes.LATITUDE_SECONDS.value}">
   <#list attributes as attribute>
     <#switch attribute.name>
       <#case "GCM_NUMBER">
