@@ -39,6 +39,12 @@
           <td>${longitude}</td>
         </tr>
       <#break>
+      <#case "SE_ANNO_CAD_DATA">
+        <tr>
+          <td>Annotation Data</td>
+          <td>${attribute.value}</td>
+        </tr>
+      <#break>
       <#default>
     </#switch>
   </#list>
