@@ -56,27 +56,6 @@ To create a custom output type in GeoServer using XSLT, you need to define two f
   > http://openmaps.gov.bc.ca/geo/pub/**feature-class-name**/wfs?request=DescribeFeatureType
 
 
-
-## Development
-
-A sandbox instance of *Geoserver* is located here:
-> 52.60.184.85
-
-Geoserver is running on port 8080. However, that port is not exposed to the public. So if granted *ssh* access you can forward that port to your local machine like this:
-> ssh -L 8080:localhost:8080 ubuntu@52.60.184.85
-
-Then point your browser to *http//:localhost:8080/geoserver*.
-
-### Deploying XSLT template to sandbox
-They are located at the following location on the sandbox server:
-> /usr/share/geoserver/geoserver-2.11.0/data_dir/wfs/transform/
-
-So to deploy you can run something like this:
-```bash
-scp kayml_geodetic_control.* \
-ubuntu@52.60.184.85:/usr/share/geoserver/geoserver-2.11.0/data_dir/wfs/transform/
-```
-
 ## Usefull links
 [WMS GetCapabilities](http://delivery.openmaps.gov.bc.ca/geo/ows?service=wms&version=1.3.0&request=GetCapabilities)
 [WFS GetCapabilities](http://delivery.openmaps.gov.bc.ca/geo/ows?service=wfs&version=1.0.0&request=GetCapabilities)
