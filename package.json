@@ -1,0 +1,26 @@
+{
+  "name": "dbc-kml-apps",
+  "version": "0.2.0",
+  "description": "KML Migration Project",
+  "main": "lib/ls/start.ls",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popkinj/dbc-kml-apps.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/popkinj/dbc-kml-apps/issues"
+  },
+  "homepage": "https://github.com/popkinj/dbc-kml-apps#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livescript": "^3.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-watch": "^4.3.11",
+    "html2jade": "^0.8.6"
+  }
+}
