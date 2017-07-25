@@ -69,3 +69,11 @@ To create a custom output type in GeoServer using XSLT, you need to define two f
 
 You can also specify it by data store:layer format like this
 [Geodetic Control](http://delivery.openmaps.gov.bc.ca/geo/pub/wms/kml?layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL)
+
+## KML Templating
+
+```
+npm i -g pug-cli
+npm i -g html2pug
+npm i -g jstransformer-cdata
+```
