@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
+	<Document>
+		<name>FrontCounter BC Discovery Tool</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-125.790485103603</longitude>
+			<latitude>54.53529082074053</latitude>
+			<altitude>0</altitude>
+			<heading>-0.5347266315948855</heading>
+			<tilt>0</tilt>
+			<range>1826047.023906531</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#default</styleUrl>
+		<Style id="legend_wild_areas">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_wild_areas.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_cons_areas">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_cons_areas.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_ranger_station">
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+		</Style>
+		<Style id="fcbcHelpBalloonStyle">
+			<IconStyle>
+				<color>00ffffff</color>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>00ffffff</color>
+				<scale>0.8</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<b><font color="#000033" size="+3">Getting Help for the<br>FrontCounter BC Discovery Tool</font></b>
+			<br/><hr/><br/><br/>
+			<font face="Arial">$[description]</font>
+			<br/><br/><hr/><br/>
+			<center><font color="#cccccc" size="-1"></font><center>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="legend_land_own_group">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_land_own_group.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin710">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7d0000ff</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="msn_ranger_station111">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ranger_station600</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ranger_station01010</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ranger_station">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ranger_station0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ranger_station</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="legend_priv_ownership">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_priv_ownership.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_crown_lease_appl">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_lease_appl.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_ranger_station">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+		</Style>
+		<Style id="legend_national_s">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_national_parks.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin800">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7d0000ff</color>
+			</PolyStyle>
+		</Style>
+		<Style id="legend_protected_areas">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_protected_areas.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_crown_lease_tenures">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_lease_tenures.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_indian_reserves">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_indian_reserves.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_prov_parks">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_prov_parks.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_rec_areas">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_rec_areas.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_eco_reserves">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_eco_reserves.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_ranger_station0">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+		</Style>
+		<Style id="sh_ranger_station0">
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+		</Style>
+		<Style id="instructionsStyle">
+			<IconStyle>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<center><b><font color="#000033" size="+3">Instructions</font></b></center>
+			<br/><hr/><br/>
+			<font face="Arial">$[description]</font>
+			]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="noDirections">
+			<BalloonStyle>
+				<text><![CDATA[$[description]]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="legend_crown_ownership">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_ownership.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_crown_fed_ownership">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_fed_ownership.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_crown_muni_ownership">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_muni_ownership.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="legend_unknown_ownership">
+			<ListStyle>
+				<ItemIcon>
+					<href>http://openmaps.gov.bc.ca/kml/Icons/legend_unknown_ownership.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="fcbcBalloonStyle">
+			<IconStyle>
+				<color>00ffffff</color>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>00ffffff</color>
+				<scale>0.8</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<b><font color="#000033" size="+3">$[name]</font></b>
+			<br/><hr/><br/><br/>
+			<font face="Arial">$[description]</font>
+			<br/><br/><hr/><br/>
+			<center><font color="#cccccc" size="-1"></font><center>]]></text>
+			</BalloonStyle>
+		</Style>
+		<ScreenOverlay>
+			<name>Instructions</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="4"><![CDATA[To print these instructions, click the Instructions layer name in blue above then use File.Print<br/><font color="#000033" size="-1">-- Last Updated 2014/05/22 --</font>]]></Snippet>
+			<description><![CDATA[To use the FrontCounter BC Discovery Tool, you need to be familiar with Google Earth and its 
+ 
+
+ <A HREF="http://www.google.com/earth/learn/">tutorials</a>, particularly the 
+ 
+
+ <A HREF="http://www.google.com/earth/learn/beginner.html#tab=navigation">navigation tutorial</a>.
+    
+    <p>The FrontCounter BC Discovery Tool is designed to help you view an area of land within the Province of British Columbia to determine basic information on how the land is currently being used. The information can be used to assist you in choosing an appropriate application area for your needs.</p>
+    
+<p>For example, privately held lands, Provincial Parks, National Parks or First Nations Reserves are some of the highly constrained lands in their potential for Crown authorizations and will require you to contact 
+ 
+
+ <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> to determine whether your proposed activity is permissible. Avoiding highly constrained lands when seeking potential candidate areas for your proposed application may improve your likelihood of success.</p>
+
+<p>You can use this tool in a variety of ways:</p>
+1. To discover general land use: a colour legend will appear when you click on each layer name;<br/>
+2. To create your Area of Interest (as a placemark, path or polygon) in the correct location you are interested in;<br/>
+3. To look at your Area of Interest in relation to other land interests to see if it is available and compatible, and;<br/>
+4. To create an electronic file of your Area of Interest that can be submitted with your electronic application.<br/>
+
+<p>The basic steps to create a geomark from an Area of Interest are:</p>
+<b>Step 1:</b> Use Google Earth's navigation controls to zoom to the area you are interested in.<br/><br/>
+<b>Step 2:</b> Use Google Earth's <i>Add Placemark, Add Polygon or Add Path</i> tool to draw your Area of Interest on the map.<br/><br/>
+<b>Step 3:</b> Click on the Create Geomark layer and follow the instructions to create a Geomark from your Area of Interest. Your new geomark will be displayed as a hyperlink (URL).<br/><br/>
+<b>Step 4:</b> Save your geomark URL as a bookmark in your web browser.<br/><br/>
+
+You can use your geomark in a couple of different ways:<br/><br/>
+1.	You can email it to 
+ 
+
+ <A HREF="mailto:FrontCounterBC@gov.bc.ca">FrontCounterBC@gov.bc.ca</a> with an explanation of your land use requirements prior to submission of your application to ensure that other interests do not exist that may conflict with your application.<br/><br/>
+
+2.	You can submit it with an electronic application through 
+ 
+
+ <A HREF="http://www.frontcounterbc.gov.bc.ca/virtual/">virtual FrontCounter BC</a>
+
+
+<p>See the 
+ 
+
+ <A HREF="http://www.frontcounterbc.gov.bc.ca/mapping/tutorial/tutorial_01.html">tutorial</a> for more detailed instructions.</p>
+
+<p><b>DISCLAIMER:  This tool does not show all interests, you should contact 
+ 
+
+ <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> to see if other interests exist that may conflict with your application before submitting it.  Your saved geomark can be emailed to 
+ 
+
+ <A HREF="mailto:FrontCounterBC@gov.bc.ca">FrontCounterBC@gov.bc.ca</a> prior to submission for this purpose.</b></p>
+
+]]></description>
+			<styleUrl>#instructionsStyle</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<drawOrder>99</drawOrder>
+			<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+			<screenXY x="5" y="5" xunits="pixels" yunits="insetPixels"/>
+			<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+		</ScreenOverlay>
+		<Folder>
+			<name>Legend</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="4">Each layer has its own legend which will be displayed when you click on the blue, underlined layer name. To print a legend once it is displayed, use File.Print</Snippet>
+			<description>Each layer has its own legend which will be displayed when you click on the blue underlined layer name. To print a legend once it is displayed, use File.Print
+      </description>
+		</Folder>
+		<Placemark>
+			<name>Help</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="1">-</Snippet>
+			<description><![CDATA[<table cellpadding="0" cellspacing="0" border="0" width="400"><tr><td>
+		<p>If you have questions about the FrontCounter BC Discovery Tool, you can find the answers or get help using one of the following:</p>
+		
+		<ol>
+		<li>Call Toll Free 1-877-855-3222 to speak to a FrontCounter BC representative.  You can also send your question in an email to frontcounterbc@gov.bc.ca.</li>
+		<li>Review the 
+ 
+
+ <A HREF="http://www.frontcounterbc.gov.bc.ca/mapping/faq.html">Frequently Asked Questions</a>.</li>
+		<li>Review the 
+ 
+
+ <A HREF="http://www.frontcounterbc.gov.bc.ca/mapping/tutorial/tutorial_01.html">tutorial</a> for information about how to use the tool.</li>
+		</td></tr></table>]]></description>
+			<styleUrl>#fcbcHelpBalloonStyle</styleUrl>
+			<Point>
+				<coordinates>-115.7,50.3,0</coordinates>
+			</Point>
+		</Placemark>
+		<NetworkLink>
+			<name>Area Of Interest Tools</name>
+			<Snippet><![CDATA[
+ 
+
+ <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/geomark_web_srv/index.page">What is a geomark?</a>]]></Snippet>
+			<description><![CDATA[<p>Create a geomark to represent your point (placemark), path, or polygon of interest.</br></br>
+                 
+ 
+
+ <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/geomark_web_srv/index.page">What is a geomark?</a></p>
+              ]]></description>
+			<open>1</open>
+			<visibility>1</visibility>
+			<Link>
+				<href>http://apps.gov.bc.ca/pub/geomark/geomarks/index.kml</href>
+			</Link>
+		</NetworkLink>
+		<Folder>
+			<name>Land interests</name>
+			<open>1</open>
+			<GroundOverlay>
+				<name>Indian Reserves</name>
+				<snippet/>
+				<Snippet maxLines="0"/>
+				<description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CLAB_INDIAN_RESERVES_C&format=image/png"><br><br>
+                            <P>For more information click 
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/8efe9193-80d2-4fdf-a18c-d531a94196ad">here</A></BR>]]></description>
+				<LookAt>
+					<longitude>-122.3407446429645</longitude>
+					<latitude>51.78026000156275</latitude>
+					<altitude>0</altitude>
+					<heading>-5.028838681109901</heading>
+					<tilt>0</tilt>
+					<range>175203.7784054478</range>
+				</LookAt>
+				<styleUrl>#legend_indian_reserves</styleUrl>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=CLAB_INDIAN_RESERVES_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>2</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>62.24803399817494</north>
+					<south>44.74846842243939</south>
+					<east>-101.3348746903971</east>
+					<west>-150.3835582055927</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Indian Reserves - ColourGeoserver</name>
+				<snippet/>
+				<description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_ADMIN_BOUNDARIES.CLAB_INDIAN_RESERVES&style=Indian_Reserves_Colour_Filled&format=image%2Fpng&width=20&height=20'><br>
+    <P>For more infomation
+    <A HREF='http://catalogue.data.gov.bc.ca/dataset/8efe9193-80d2-4fdf-a18c-d531a94196ad'>click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-123.2946611504853</longitude>
+					<latitude>49.48018166079681</latitude>
+					<altitude>0</altitude>
+					<heading>1.189475705228133</heading>
+					<tilt>0</tilt>
+					<range>227572.4759845923</range>
+				</LookAt>
+				<color>b0ffffff</color>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_ADMIN_BOUNDARIES.CLAB_INDIAN_RESERVES&amp;STYLES=Indian_Reserves_Colour_Filled&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>60.23190697563938</north>
+					<south>46.64549956999812</south>
+					<east>-103.6731450696872</east>
+					<west>-144.5798910123641</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>National Parks</name>
+				<Snippet maxLines="0"/>
+				<description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CLAB_NATIONAL_PARKS_C&format=image/png"><br><br>
+		For more information click 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/88e61a14-19a0-46ab-bdae-f68401d3d0fb">here</A></P>]]></description>
+				<LookAt>
+					<longitude>-124.9089567690733</longitude>
+					<latitude>54.53501315545629</latitude>
+					<altitude>0</altitude>
+					<heading>-7.011245191654538</heading>
+					<tilt>0</tilt>
+					<range>1190040.072978311</range>
+				</LookAt>
+				<styleUrl>#legend_national_parks</styleUrl>
+				<drawOrder>2</drawOrder>/india
+			<Icon>
+					<href>http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=CLAB_NATIONAL_PARKS_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>2</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>62.24803399817494</north>
+					<south>44.74846842243939</south>
+					<east>-101.3348746903971</east>
+					<west>-150.3835582055927</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>National Parks - Colour Geoserver</name>
+				<visibility>0</visibility>
+				<snippet/>
+				<description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_ADMIN_BOUNDARIES.CLAB_NATIONAL_PARKS&style=NationalParks&format=image/png'><br>
+    <P>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/88e61a14-19a0-46ab-bdae-f68401d3d0fb'>click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-123.2946611504853</longitude>
+					<latitude>49.48018166079681</latitude>
+					<altitude>0</altitude>
+					<heading>1.189475705228133</heading>
+					<tilt>0</tilt>
+					<range>227572.4759845923</range>
+				</LookAt>
+				<color>b0ffffff</color>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_ADMIN_BOUNDARIES.CLAB_NATIONAL_PARKS&amp;STYLES=NationalParks&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>60</north>
+					<south>48</south>
+					<east>-135</east>
+					<west>-110</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Provincial Parks</name>
+				<snippet/>
+				<Snippet maxLines="0"/>
+				<description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_PARK_ECORES_PA_C&format=image/png"><br><br>
+For more information  <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-115.743353164902</longitude>
+					<latitude>49.50998821115897</latitude>
+					<altitude>0</altitude>
+					<heading>0.01927763846471821</heading>
+					<tilt>0</tilt>
+					<range>840.9868857461036</range>
+				</LookAt>
+				<styleUrl>#legend_prov_parks</styleUrl>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_PARK_ECORES_PA_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>3</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>62.24803399817494</north>
+					<south>44.74846842243939</south>
+					<east>-101.3348746903971</east>
+					<west>-150.3835582055927</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Provincial Parks - Tantalis -Geoserver</name>
+				<visibility>0</visibility>
+				<snippet/>
+				<description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=Provincial_Parks_Tantalis_Colour_Filled&format=image/png'><br>
+    <P>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/bc-parks-ecological-reserves-and-protected-areas'>click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-123.2946611504853</longitude>
+					<latitude>49.48018166079681</latitude>
+					<altitude>0</altitude>
+					<heading>1.189475705228133</heading>
+					<tilt>0</tilt>
+					<range>227572.4759845923</range>
+				</LookAt>
+				<color>b0ffffff</color>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&amp;STYLES=Provincial_Parks_Tantalis_Colour_Filled&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>60</north>
+					<south>48</south>
+					<east>-135</east>
+					<west>-110</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Ecological Reserves</name>
+				<snippet/>
+				<Snippet maxLines="0"/>
+				<description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_PARK_ECORES_PA_ECO_C&format=image/png"><br><br>
+For more information 
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A>]]></description>
+				<LookAt>
+					<longitude>-123.2801551138936</longitude>
+					<latitude>48.45870318920701</latitude>
+					<altitude>0</altitude>
+					<heading>1.111636832364537</heading>
+					<tilt>0</tilt>
+					<range>18302.8857930372</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#legend_eco_reserves</styleUrl>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_PARK_ECORES_PA_ECO_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>3</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>62.24803399817494</north>
+					<south>44.74846842243939</south>
+					<east>-101.3348746903971</east>
+					<west>-150.3835582055927</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Ecological Reserves - Tantalis - Geoserver</name>
+				<visibility>0</visibility>
+				<snippet/>
+				<description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=Ecological_Reserves_Tantalis_Colour_Filled&format=image/png'><br>
+    <P>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/bc-parks-ecological-reserves-and-protected-areas'>click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-123.2946611504853</longitude>
+					<latitude>49.48018166079681</latitude>
+					<altitude>0</altitude>
+					<heading>1.189475705228133</heading>
+					<tilt>0</tilt>
+					<range>227572.4759845923</range>
+				</LookAt>
+				<color>b0ffffff</color>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&amp;STYLES=Ecological_Reserves_Tantalis_Colour_Filled&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>60</north>
+					<south>48</south>
+					<east>-135</east>
+					<west>-110</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Protected Areas</name>
+				<snippet/>
+				<Snippet maxLines="0"/>
+				<description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_PARK_ECORES_PA_PROTECTED_C&format=image/png"><br><br>
+For more information 
+ 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-115.743353164902</longitude>
+					<latitude>49.50998821115897</latitude>
+					<altitude>0</altitude>
+					<heading>0.01927763846471821</heading>
+					<tilt>0</tilt>
+					<range>840.9868857461036</range>
+				</LookAt>
+				<styleUrl>#legend_protected_areas</styleUrl>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_PARK_ECORES_PA_PROTECTED_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>3</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>62.24803399817494</north>
+					<south>44.74846842243939</south>
+					<east>-101.3348746903971</east>
+					<west>-150.3835582055927</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Protected Areas - Tantalis - Colour Geoserver</name>
+				<visibility>0</visibility>
+				<snippet/>
+				<description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=Protected_Areas_Tantalis_Colour_Filled&format=image/png'><br>
+    <P>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7'>click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-123.2946611504853</longitude>
+					<latitude>49.48018166079681</latitude>
+					<altitude>0</altitude>
+					<heading>1.189475705228133</heading>
+					<tilt>0</tilt>
+					<range>227572.4759845923</range>
+				</LookAt>
+				<color>b0ffffff</color>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&amp;STYLES=Protected_Areas_Tantalis_Colour_Filled&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>60</north>
+					<south>48</south>
+					<east>-135</east>
+					<west>-110</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Conservancy Areas</name>
+				<snippet/>
+				<Snippet maxLines="0"/>
+				<description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_CONSERVANCY_AREAS_C&format=image/png"><br><br>
+For more information 
+
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/550b3133-2004-468f-ba1f-b95d0e281e78">click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-115.743353164902</longitude>
+					<latitude>49.50998821115897</latitude>
+					<altitude>0</altitude>
+					<heading>0.01927763846471821</heading>
+					<tilt>0</tilt>
+					<range>840.9868857461036</range>
+				</LookAt>
+				<styleUrl>#legend_cons_areas</styleUrl>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_CONSERVANCY_AREAS_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>2</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>62.24803399817494</north>
+					<south>44.74846842243939</south>
+					<east>-101.3348746903971</east>
+					<west>-150.3835582055927</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Conservancy Areas - Tantalis - Geoserver</name>
+				<visibility>0</visibility>
+				<snippet/>
+				<description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_TANTALIS.TA_CONSERVANCY_AREAS_SVW&style=Conservancy_Areas_Tantalis_Colour_Filled&format=image/png'><br>
+    <P>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/tantalis-conservancy-areas'>click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-123.2946611504853</longitude>
+					<latitude>49.48018166079681</latitude>
+					<altitude>0</altitude>
+					<heading>1.189475705228133</heading>
+					<tilt>0</tilt>
+					<range>227572.4759845923</range>
+				</LookAt>
+				<color>b0ffffff</color>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_TANTALIS.TA_CONSERVANCY_AREAS_SVW&amp;STYLES=Conservancy_Areas_Tantalis_Colour_Filled&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>60</north>
+					<south>48</south>
+					<east>-135</east>
+					<west>-110</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Recreation Areas</name>
+				<snippet/>
+				<Snippet maxLines="0"/>
+				<description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_PARK_ECORES_PA_RECREATION_C&format=image/png"><br><br>
+For more information
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-120.7541207199092</longitude>
+					<latitude>49.36663633212387</latitude>
+					<altitude>0</altitude>
+					<heading>8.884351497901607</heading>
+					<tilt>0.6844812415854688</tilt>
+					<range>53164.3652662764</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#legend_rec_areas</styleUrl>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/mapserver/parks-and-recreation?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_PARK_ECORES_PA_RECREATION_C&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>5</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>62.24803399817494</north>
+					<south>44.74846842243939</south>
+					<east>-101.3348746903971</east>
+					<west>-150.3835582055927</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Recreation Areas - Tantalis - Geoserver</name>
+				<visibility>0</visibility>
+				<snippet/>
+				<description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=Recreation_Areas_Tantalis_Colour_Filled&format=image/png'><br>
+    <P>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/bc-parks-ecological-reserves-and-protected-areas'>click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-123.2946611504853</longitude>
+					<latitude>49.48018166079681</latitude>
+					<altitude>0</altitude>
+					<heading>1.189475705228133</heading>
+					<tilt>0</tilt>
+					<range>227572.4759845923</range>
+				</LookAt>
+				<color>b0ffffff</color>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&amp;STYLES=Recreation_Areas_Tantalis_Colour_Filled&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>60</north>
+					<south>48</south>
+					<east>-135</east>
+					<west>-110</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Conservation Lands</name>
+				<snippet/>
+				<Snippet maxLines="0"/>
+				<description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CNSRVTN_LNDS&format=image/png"><br>
+For more information 
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c0d5-4fcb-b84e-f8d98a7f8612">click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-122.7200650286509</longitude>
+					<latitude>49.20060352851539</latitude>
+					<altitude>0</altitude>
+					<heading>0.1216022086330478</heading>
+					<tilt>0</tilt>
+					<range>150765.8519796508</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#legend_wild_areas</styleUrl>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=CNSRVTN_LNDS&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>5</viewRefreshTime>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>62.24803399817494</north>
+					<south>44.74846842243939</south>
+					<east>-101.3348746903971</east>
+					<west>-150.3835582055927</west>
+				</LatLonBox>
+			</GroundOverlay>
+			<GroundOverlay>
+				<name>Conservation Lands - Geoserver</name>
+				<visibility>0</visibility>
+				<snippet/>
+				<description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_LEGAL_ADMIN_BOUNDARIES.WCL_CONSERVATION_LANDS_SP&style=Conservation_Lands&format=image/png'><br>
+    <P>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/68327529-c0d5-4fcb-b84e-f8d98a7f8612'>click here</A></P>]]></description>
+				<LookAt>
+					<longitude>-123.2946611504853</longitude>
+					<latitude>49.48018166079681</latitude>
+					<altitude>0</altitude>
+					<heading>1.189475705228133</heading>
+					<tilt>0</tilt>
+					<range>227572.4759845923</range>
+				</LookAt>
+				<color>b0ffffff</color>
+				<drawOrder>2</drawOrder>
+				<Icon>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_LEGAL_ADMIN_BOUNDARIES.WCL_CONSERVATION_LANDS_SP&amp;STYLES=Conservation_Lands_Type&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Icon>
+				<LatLonBox>
+					<north>60</north>
+					<south>48</south>
+					<east>-135</east>
+					<west>-110</west>
+				</LatLonBox>
+			</GroundOverlay>
+		</Folder>
+	</Document>
+</kml>
