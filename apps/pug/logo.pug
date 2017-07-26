@@ -1,0 +1,32 @@
+doctype xml
+
+folder
+  name Logos
+  lookat
+    longitude -123.8406450033638
+    latitude 49.87558865658178
+    altitude 0
+    heading -0.07422587275376333
+    tilt 9.525120388181561e-008
+    range 4459.255931116925
+  style <ListStyle> <listItemType>radioFolder</listItemType> <bgColor>00ffffff</bgColor> <maxSnippetLines>2</maxSnippetLines> </ListStyle>
+  screenoverlay
+    name FrontCounter BC Logo
+    draworder 98
+    icon
+      href http://openmaps.gov.bc.ca/kml/icons/fcbc_logo_transparent.png
+    overlayxy(x='0', y='0', xunits='fraction', yunits='fraction')
+      screenxy(x='5', y='25', xunits='pixels', yunits='pixels')
+        rotationxy(x='0.5', y='0.5', xunits='fraction', yunits='fraction')
+          size(x='0.2', y='0.1', xunits='fraction', yunits='fraction')
+  screenoverlay
+    name DataBC Logo
+    visibility 0
+    snippet(maxlines='0')
+      draworder 97
+      icon
+        href http://openmaps.gov.bc.ca/kml/icons/DataBC_logo.png
+      overlayxy(x='0.0800000', y='0.300000001', xunits='fraction', yunits='fraction')
+        screenxy(x='0', y='0.04000000000000001', xunits='fraction', yunits='fraction')
+          rotationxy(x='0.5', y='0.5', xunits='fraction', yunits='fraction')
+            size(x='-1', y='-1', xunits='pixels', yunits='pixels')
