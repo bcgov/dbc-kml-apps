@@ -4,7 +4,7 @@
   "description": "KML Migration Project",
   "main": "lib/ls/start.ls",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pug -P -E kml -o apps apps/pug/FrontCounter_BC_Descovery_Tool.pug"
   },
   "repository": {
     "type": "git",
