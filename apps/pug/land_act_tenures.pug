@@ -1,0 +1,107 @@
+doctype xml
+
+folder
+  name Land Act Tenures
+  open 1
+  visibility 1
+  style <ListStyle> <bgColor>00ffffff</bgColor> <maxSnippetLines>2</maxSnippetLines> </ListStyle>
+  groundoverlay
+    name Tenures
+    visibility 1
+    snippet(maxlines='2') Visible below an eye altitude of 200km within BC
+    description
+      :cdata
+        <img src='http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TEN_TANT_CF&format=image/png&STYLE=default'><br><p>For more infomation 
+         
+        
+         <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>
+    styleurl #noDirections
+    draworder 6
+    icon
+      href http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TEN_TANT_CF&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;
+      viewrefreshmode onStop
+      viewformat BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]
+    latlonbox
+      north 49.29199460368507
+      south 49.23097590916554
+      east -123.0356241844435
+      west -123.1748443529544
+  networklink
+    name Tenure Details
+    snippet(maxlines='4')
+      :cdata
+        Visible below an eye altitude of 15km within BC<br>If your area of interest falls within a Lease or Map Reserve, call 
+        
+         <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> for guidance
+    visibility 0
+    styleurl #noDirections
+    description
+      :cdata
+        <img src='http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TEN_TANT_CF&format=image/png&STYLE=default'><br><p>For more infomation 
+         
+        
+         <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>
+    lookat
+      longitude -122.4752757149426
+      latitude 49.14591650750629
+      altitude 0
+      heading -5.123249381465726
+      tilt 2.884301276088741
+      range 28958.99118572512
+      gx:altitudemode relativeToSeaFloor
+    style <ListStyle> <listItemType>check</listItemType> <bgColor>00ffffff</bgColor> <maxSnippetLines>2</maxSnippetLines> </ListStyle>
+    link
+      href http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=TEN_TANT_FI&amp;STYLES=default&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=TEN_TANT_FI&amp;INFO_FORMAT=kayml&amp;FEATURE_COUNT=500&amp;RADIUS=bbox&amp;
+    viewrefreshmode onStop
+    viewrefreshtime 2
+    viewformat bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]
+  groundoverlay
+    name Tenure Applications
+    visibility 1
+    snippet(maxlines='2') Visible below an eye altitude of 200km within BC
+    description
+      :cdata
+        <img src='http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TEN_APP_TANT_CF&format=image/png&STYLE=default'><br><p>For more infomation 
+         
+        
+         <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>
+    styleurl #noDirections
+    draworder 6
+    icon
+      href http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TEN_APP_TANT_CF&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;
+      viewrefreshmode onStop
+      viewformat BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]
+    latlonbox
+      north 49.29199460368507
+      south 49.23097590916554
+      east -123.0356241844435
+      west -123.1748443529544
+  networklink
+    name Tenure Application Details
+    snippet(maxlines='4')
+      :cdata
+        Visible below an eye altitude of 15km within BC<br>If your area of interest falls within a Lease or Map Reserve, call 
+         <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> for guidance
+              
+    visibility 0
+    description
+      :cdata
+        <img src='http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TEN_APP_TANT_CF&format=image/png&STYLE=default'><br><p>For more infomation 
+         
+        
+         <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>
+    styleurl #noDirections
+    lookat
+      longitude -122.4752757149426
+      latitude 49.14591650750629
+      altitude 0
+      heading -5.123249381465726
+      tilt 2.884301276088741
+      range 28958.99118572512
+      gx:altitudemode relativeToSeaFloor
+    style <ListStyle> <listItemType>check</listItemType> <bgColor>00ffffff</bgColor> <maxSnippetLines>2</maxSnippetLines> </ListStyle>
+    link
+      href http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=TEN_APP_TANT_FI&amp;STYLES=default&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=TEN_APP_TANT_FI&amp;INFO_FORMAT=kayml&amp;FEATURE_COUNT=500&amp;RADIUS=bbox&amp;
+    viewrefreshmode onStop
+    viewrefreshtime 2
+    viewformat bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]
