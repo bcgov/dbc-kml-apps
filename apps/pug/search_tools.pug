@@ -1,0 +1,189 @@
+doctype xml
+
+folder
+  name Search Tools
+  open 1
+  visibility 0
+  lookat
+    longitude -125.1500003870194
+    latitude 54.59
+    altitude 0
+    heading -3.170276909843649e-007
+    tilt 0
+    range 1795000
+    altitudemode relativetoground
+    gx:altitudemode relativetoseafloor
+  folder
+    name Find a Geographical Name in BC
+    visibility 0
+    description
+      :cdata
+        <html>
+            <head>
+              <meta http-equiv="content-type" content="text/xml">
+            </head>
+              
+            <body>
+             <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="soundlike search" method="get" id="soundlike search">
+      
+              <table border="0" cellspacing="0" cellpadding="0" name="table 2" width ="300">
+                 <input type="hidden" name="startindex" value="0" id="startindex"></input>
+                 <input type="hidden" name="itemsperpage" value="20" id="itemsperpage"></input>
+                 <input type="hidden" name="maxresults" value="1000" id="maxresults"></input>
+                 <input type="hidden" name="minscore" value="0.5" id="minscore"></input>
+                 <input type="hidden" name="outputstyle" value="summary" id="outputformat"></input>
+                 <input type="hidden" name="outputsrs" value="4326" id="outputsrs"></input>
+                 <input type="hidden" name="asattachment" value="0" id="asattachment"></input>
+                 <input type="hidden" name="embed" value="0" id="embed"></input>
+                 <input type="hidden" name="featureclass" value="*" id="featureclass"></input>
+                 <input type="hidden" name="featurecategory" value="*" id="featurecategory"></input>
+                 <input type="hidden" name="outputformat" value="kml" id="outputformat"></input>
+                 
+                 <tr>
+                   <td>
+                    <input name="name" type="text" id="name" size="37" wrap="virtual"></textarea> 
+                   </td>
+                   <td>
+                    <input type="submit" value="search"></input>
+                   </td>
+                 </tr>      
+  
+              </table>
+  
+             </form>   
+            </body>
+            
+       </html>
+  folder
+    name Find an Address
+    visibility 0
+    snippet(maxlines='1') uses the bc physical address geocoder
+    description
+      :cdata
+        <html>
+          <head></head>
+        
+          <body>
+                
+               <form action="http://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+          
+                   <table width="63%" border="0" cellpadding="4" cellspacing="0">
+                      <tr>
+                        <td align="left" colspan="3">
+                          address:
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <input type="text" name="addressstring" id="addressstring" size="45"></input>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          <b>examples:</b><br>
+             <i>525 superior street, victoria, bc</i><br>
+                             <i>301-780 blanshard st, victoria, bc</i><br>
+                             <i>johnson st and government st, victoria, bc</i><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>                	
+                          <b>preferences:</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          setback (in metres): <input type="text" name="setback" id="setback" value="0"></input>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          min score (0-100): <input type="text" name="minscore" id="minscore" value="0"></input>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          max results: <input type="text" name="maxresults" id="maxresults" value="1"></input>
+                        </td>
+                      </tr>
+  
+        <tr>
+                        <td colspan="3">
+            point type: <select name="locationdescriptor">
+              <option value="any" selected>any</option>
+              <option value="accesspoint">access</option>
+              <option value="frontdoor">front door</option>
+              <option value="parcelpoint">parcel</option>
+              <option value="rooftoppoint">rooftop</option>
+              <option value="routingpoint">routing</option>
+            </select>
+          </td>
+        </tr>
+  
+                      <tr>
+                        <td colspan="3">
+                          interpolation: <input type="radio" name="interpolation" value="adaptive" checked="checked">adaptive </input>
+                                               <input type="radio" name="interpolation" value="linear">linear </input>
+                                               <input type="radio" name="interpolation" value="none">none </input>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          echo unmatched address details: <input type="radio" name="echo" value="true" checked="checked">yes </input>
+                          <input type="radio" name="echo" value="false">no</input>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <input type="hidden" name="outputsrs" id="outputsrs" value="4326"></input>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <input type="submit" value="geocode"></input>
+                        </td>
+                      </tr>
+                 </table>
+  
+              </form>
+  
+         </body>
+        
+        </html>
+              
+  folder
+    name Address Point Legend
+    open 0
+    visibility 0
+    description
+      :cdata
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accesspoint_high.png" height=36 width=36> access point - high accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accesspoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accesspoint_low.png" height="36" width="36"> access point - low accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/frontdoorpoint_high.png" height="36" width="36"> front door point - high accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionpoint_high.png" height="36" width="36"> intersection point - high accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/localitypoint_coarse.png" height="36" width="36"> locality point - coarse accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelpoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelpoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/provincepoint_coarse.png" height="36" width="36"> province point - coarse accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/rooftoppoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingpoint_high.png" height="36" width="36"> routing point - high accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingpoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingpoint_low.png" height="36" width="36"> routing point - low accuracy<br>
+            <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/streetpoint_coarse.png" height="36" width="36"> street point - coarse accuracy<br>
+                    
+        <br> <i><b>positional accuracy terms </i></b><br>
+        <i><b>high - </i></b>observed or measured using gps or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
+        <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
+        <i><b>low - </i></b>interpolated along a block face address range<br>
+        <i><b>coarse - </i></b>point represents an entire street, locality, or the province<br>
+        <br> credit for frontdoor, intersection and routing icons:<br> <b> maps icons collection </b> http://mapicons.nicolasmollet.com
+    lookat
+      longitude -124.7059782963682
+      latitude 54.26540375568923
+      altitude 0
+      heading -2.958270830482301
+      tilt 0
+      range 1855986.973080759
+      altitudemode relativetoground
+      gx:altitudemode relativetoseafloor
