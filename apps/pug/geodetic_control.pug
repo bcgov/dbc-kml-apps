@@ -1,0 +1,109 @@
+folder
+  name BC Geodetic Control Monument Viewer
+  open 1
+  description View geodetic control monuments of the Province of British Columbia. A geodetic survey monument is a geospatial reference used for positioning within the Province. The term geodetic meaning: concerned with the precise location (latitude, longitude, height) of points and figures on the earth's surface.
+  lookat
+    longitude -124.7059782963682
+    latitude 54.26540375568923
+    altitude 0
+    heading -2.958270830482301
+    tilt 0
+    range 1855986.973080759
+    altitudemode relativeToGround
+    gx:altitudemode relativeToSeaFloor
+  networklink
+    name Geodetic Control Monument Details
+    snippet Visible below 12km (eye altitude)
+    visibility 1
+    description
+      :cdata
+        <img src='http://openmaps.gov.bc.ca/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=MASCOT_GEODETIC_CONTROL&format=image/png&STYLE=default'>
+    lookat
+      longitude -122.5485633189002
+      latitude 49.1296115824026
+      altitude 0
+      heading -5.123249354740865
+      tilt 2.885587407425562
+      range 7344.684023909977
+      altitudemode relativeToGround
+      gx:altitudemode relativeToSeaFloor
+    style
+      ListStyle
+        listItemType check
+        bgColor 00ffffff
+        maxSnippetLines 2
+    link
+      href http://delivery.openmaps.gov.bc.ca/geo/pub/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;outputFormat=kayml-geodetic-control&amp;srsname=EPSG:4326
+    viewrefreshmode onStop
+    viewrefreshtime 2
+    viewformat bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]
+  groundoverlay
+    name Geodetic Control Monuments
+    snippet Visible below 100km (eye altitude)
+    visibility 1
+    description
+      :cdata
+        <img src="http://openmaps.gov.bc.ca/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=MASCOT_GEODETIC_CONTROL&format=image/png"><br>
+        For more information 
+         <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=3943&recordSet=ISO19115">click here</A></P>
+    lookat
+      longitude -115.743353164902
+      latitude 49.50998821115897
+      altitude 0
+      heading 0.01927763846471821
+      tilt 0
+      range 840.9868857461036
+    draworder 2
+    icon
+      href http://openmaps.gov.bc.ca/mapserver/geodetic-survey?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=MASCOT_GEODETIC_CONTROL&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;
+      viewrefreshmode onStop
+      viewformat BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]
+    latlonbox
+      north 60.14091494461048
+      south 43.61507785757633
+      east -108.2296351400494
+      west -140.5258703785332
+  groundoverlay
+    name Integrated Survey Areas
+    visibility 1
+    snippet
+    description
+      :cdata
+        <img src='http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_INTEGRATED_SURVEY_O&format=image/png&STYLE=default'>For more information click 
+         <A HREF="http://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>
+    lookat
+      longitude -115.743353164902
+      latitude 49.50998821115897
+      altitude 0
+      heading 0.01927763846471821
+      tilt 0
+      range 840.9868857461036
+    draworder 2
+    icon
+      href http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_INTEGRATED_SURVEY_O&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;
+      viewrefreshmode onStop
+      viewformat BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]
+    latlonbox
+      north 50.21125227774
+      south 50.1697223809518
+      east -119.3313352684996
+      west -119.4166970171554
+  groundoverlay
+    name Municipalities
+    visibility 0
+    snippet
+    description
+      :cdata
+        <img src='http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_MUNICIPALITIES_CF&format=image/png&STYLE=default'><br><p>For more infomation 
+         <A HREF='http://catalogue.data.gov.bc.ca/dataset/5d17b2a7-17d8-498d-a49a-b92b17e86858'>click here</A></P>
+    draworder 6
+    icon
+      href http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_MUNICIPALITIES_CF&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;
+      viewrefreshmode onStop
+      viewformat BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]
+    latlonbox
+      north 50.21125227774
+      south 50.1697223809518
+      east -119.3313352684996
+      west -119.4166970171554
+
