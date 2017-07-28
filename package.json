@@ -4,7 +4,7 @@
   "description": "KML Migration Project",
   "main": "lib/ls/start.ls",
   "scripts": {
-    "build": "pug -P -E kml -o apps apps/pug/FrontCounter_BC_Descovery_Tool.pug"
+    "build": "pug -P -E kml -o apps apps/pug/FrontCounter_BC_Descovery_Tool.pug apps/pug/BCGov_Geodetic_Survey_Viewer.pug"
   },
   "repository": {
     "type": "git",
