@@ -12,7 +12,7 @@
       <range>1826047.023906531</range>
       <altitudemode>relativeToGround</altitudemode>
       <gx:altitudemode>relativeToSeaFloor</gx:altitudemode>
-    </lookat><?xml version="1.0" encoding="utf-8" ?>
+    </lookat>
     <styleurl>#default</styleurl>
     <style id="legend_wild_areas"><ListStyle> <ItemIcon> <href>http://openmaps.gov.bc.ca/kml/Icons/legend_wild_areas.png</href> </ItemIcon> </ListStyle></style>
     <style id="legend_cons_areas"><ListStyle> <ItemIcon> <href>http://openmaps.gov.bc.ca/kml/Icons/legend_cons_areas.png</href> </ItemIcon> </ListStyle></style>
@@ -59,7 +59,7 @@
     <style id="legend_crown_fed_ownership"><ListStyle> <ItemIcon> <href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_fed_ownership.png</href> </ItemIcon> </ListStyle></style>
     <style id="legend_crown_muni_ownership"><ListStyle> <ItemIcon> <href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_muni_ownership.png</href> </ItemIcon> </ListStyle></style>
     <style id="legend_unknown_ownership"><ListStyle> <ItemIcon> <href>http://openmaps.gov.bc.ca/kml/Icons/legend_unknown_ownership.png</href> </ItemIcon> </ListStyle></style>
-    <style id="fcbcBalloonStyle"><IconStyle> <color>00ffffff</color> <scale>0.8</scale> <Icon> <href>http://maps.google.com/mapfiles/kml/shapes/info.png</href> </Icon> </IconStyle> <LabelStyle> <color>00ffffff</color> <scale>0.8</scale> </LabelStyle> <BalloonStyle> <text><![CDATA[<b><font color="#000033" size="+3">$[name]</font></b> <br/><hr/><br/><br/> <font face="Arial">$[description]</font> <br/><br/><hr/><br/> <center><font color="#cccccc" size="-1"></font><center>--></text> </BalloonStyle>]]></style><?xml version="1.0" encoding="utf-8" ?>
+    <style id="fcbcBalloonStyle"><IconStyle> <color>00ffffff</color> <scale>0.8</scale> <Icon> <href>http://maps.google.com/mapfiles/kml/shapes/info.png</href> </Icon> </IconStyle> <LabelStyle> <color>00ffffff</color> <scale>0.8</scale> </LabelStyle> <BalloonStyle> <text><![CDATA[<b><font color="#000033" size="+3">$[name]</font></b> <br/><hr/><br/><br/> <font face="Arial">$[description]</font> <br/><br/><hr/><br/> <center><font color="#cccccc" size="-1"></font><center>--></text> </BalloonStyle>]]></style>
     <screenoverlay>
       <name>Instructions</name>
       <visibility>0</visibility>
@@ -128,7 +128,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
           </rotationxy>
         </screenxy>
       </overlayxy>
-    </screenoverlay><?xml version="1.0" encoding="utf-8" ?>
+    </screenoverlay>
     <folder>
       <name>Legend</name>
       <visibility>0</visibility>
@@ -172,7 +172,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
       <link>
         <href>http://apps.gov.bc.ca/pub/geomark/geomarks/index.kml</href>
       </link>
-    </networklink><?xml version="1.0" encoding="utf-8" ?>
+    </networklink>
     <folder>
       <name>Land interests</name>
       <open>1</open>
@@ -634,7 +634,7 @@ For more information
           <west>-110</west>
         </latlonbox>
       </groundoverlay>
-    </folder><?xml version="1.0" encoding="utf-8" ?>
+    </folder>
     <folder>
       <name>Land Act Tenures</name>
       <open>1</open>
@@ -746,7 +746,7 @@ For more information
         <viewrefreshtime>2</viewrefreshtime>
         <viewformat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewformat>
       </networklink>
-    </folder><?xml version="1.0" encoding="utf-8" ?>
+    </folder>
     <folder>
       <name>Land Ownership - Integrated Cadastral Fabric</name>
       <open>1</open>
@@ -937,7 +937,7 @@ For more information
           <west>-158.3395525569848</west>
         </latlonbox>
       </groundoverlay>
-    </folder><?xml version="1.0" encoding="utf-8" ?>
+    </folder>
     <folder>
       <name>Mines</name>
       <visibility>0</visibility>
@@ -1389,7 +1389,7 @@ For more information
       </link>
       <viewrefreshmode>onstop</viewrefreshmode>
       <viewrefreshtime>2</viewrefreshtime>
-      <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]&lookatlon=[lookatlon]&lookatlat=[lookatlat]&lookatrange=[lookatrange]&lookattilt=[lookattilt]&lookatheading=[lookatheading]</viewformat>
+      <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]&amp;lookatlon=[lookatlon]&amp;lookatlat=[lookatlat]&amp;lookatrange=[lookatrange]&amp;lookattilt=[lookattilt]&amp;lookatheading=[lookatheading]</viewformat>
     </networklink>
     <networklink xsi:schemalocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
       <name>Airphotos</name>
@@ -1408,7 +1408,7 @@ For more information
       <link>
         <href>http://openmaps.gov.bc.ca/kml/bcgov_airphoto_viewer_wms.kml</href>
       </link>
-    </networklink><?xml version="1.0" encoding="utf-8" ?>
+    </networklink>
     <folder>
       <name>Quick Base</name>
       <visibility>0</visibility>
@@ -1482,10 +1482,10 @@ use one of these layers when you are looking for a particular feature or just ro
           </lookat>
           <draworder>7</draworder>
           <icon>
-            <href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&request=getmap&srs=epsg:4326&layers=nts_250k_grid,twtr_lines,trim_transportation_lines_railroad,trim_transportation_lines_air,trim_transportation_lines_water,trim_transportation_lines_road_unpaved,dra_digital_road_atlas,trim_transportation_lines_pedestrian,twtr_points,ttrn_pnt_rail,ttrn_pnt_helipad,ttrn_pnt_toll_gate,ttrn_pnt_barrier,tctr_points,ttxt_anno,bcgs_20k_grid&styles=&transparent=true&format=image/png&</href>
+            <href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=nts_250k_grid,twtr_lines,trim_transportation_lines_railroad,trim_transportation_lines_air,trim_transportation_lines_water,trim_transportation_lines_road_unpaved,dra_digital_road_atlas,trim_transportation_lines_pedestrian,twtr_points,ttrn_pnt_rail,ttrn_pnt_helipad,ttrn_pnt_toll_gate,ttrn_pnt_barrier,tctr_points,ttxt_anno,bcgs_20k_grid&amp;styles=&amp;transparent=true&amp;format=image/png&amp;</href>
             <viewrefreshmode>onstop</viewrefreshmode>
             <viewrefreshtime>2</viewrefreshtime>
-            <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+            <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
           </icon>
           <latlonbox>
             <north>49.38868423328135</north>
@@ -1533,10 +1533,10 @@ use one of these layers when you are looking for a particular feature or just ro
           </lookat>
           <draworder>7</draworder>
           <icon>
-            <href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&request=getmap&srs=epsg:4326&layers=tctr_lines,twtr_lines,trim_transportation_lines_railroad,trim_transportation_lines_air,trim_transportation_lines_water,trim_transportation_lines_road_unpaved,dra_digital_road_atlas,trim_transportation_lines_pedestrian,twtr_points,ttrn_pnt_rail,ttrn_pnt_helipad,ttrn_pnt_toll_gate,ttrn_pnt_barrier,tctr_points,ttxt_anno,bcgs_20k_grid&styles=&transparent=true&format=image/png&</href>
+            <href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=tctr_lines,twtr_lines,trim_transportation_lines_railroad,trim_transportation_lines_air,trim_transportation_lines_water,trim_transportation_lines_road_unpaved,dra_digital_road_atlas,trim_transportation_lines_pedestrian,twtr_points,ttrn_pnt_rail,ttrn_pnt_helipad,ttrn_pnt_toll_gate,ttrn_pnt_barrier,tctr_points,ttxt_anno,bcgs_20k_grid&amp;styles=&amp;transparent=true&amp;format=image/png&amp;</href>
             <viewrefreshmode>onstop</viewrefreshmode>
             <viewrefreshtime>2</viewrefreshtime>
-            <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+            <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
           </icon>
           <latlonbox>
             <north>49.22992789025414</north>
@@ -1601,10 +1601,10 @@ use this layer after you've found the particular feature or area you want to til
           </lookat>
           <draworder>7</draworder>
           <icon>
-            <href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&request=getmap&srs=epsg:4326&layers=nts_250k_grid,bcgs_20k_grid,twtr_lines,trim_transportation_lines_railroad,trim_transportation_lines_air,trim_transportation_lines_water,trim_transportation_lines_road_unpaved,dra_digital_road_atlas,trim_transportation_lines_pedestrian,twtr_points,ttrn_pnt_rail,ttrn_pnt_helipad,ttrn_pnt_toll_gate,ttrn_pnt_barrier,tctr_points,ttxt_anno&styles=&transparent=true&format=image/png&</href>
+            <href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=nts_250k_grid,bcgs_20k_grid,twtr_lines,trim_transportation_lines_railroad,trim_transportation_lines_air,trim_transportation_lines_water,trim_transportation_lines_road_unpaved,dra_digital_road_atlas,trim_transportation_lines_pedestrian,twtr_points,ttrn_pnt_rail,ttrn_pnt_helipad,ttrn_pnt_toll_gate,ttrn_pnt_barrier,tctr_points,ttxt_anno&amp;styles=&amp;transparent=true&amp;format=image/png&amp;</href>
             <viewrefreshmode>onstop</viewrefreshmode>
             <viewrefreshtime>7204</viewrefreshtime>
-            <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+            <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
           </icon>
           <latlonbox>
             <north>50.85118247703325</north>
@@ -1652,10 +1652,10 @@ use this layer after you've found the particular feature or area you want to til
           </lookat>
           <draworder>7</draworder>
           <icon>
-            <href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&request=getmap&srs=epsg:4326&layers=nts_250k_grid,tctr_lines,twtr_lines,trim_transportation_lines_railroad,trim_transportation_lines_air,trim_transportation_lines_water,trim_transportation_lines_road_unpaved,dra_digital_road_atlas,trim_transportation_lines_pedestrian,twtr_points,ttrn_pnt_rail,ttrn_pnt_helipad,ttrn_pnt_toll_gate,ttrn_pnt_barrier,tctr_points,ttxt_anno,bcgs_20k_grid&styles=&transparent=true&format=image/png&</href>
+            <href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=nts_250k_grid,tctr_lines,twtr_lines,trim_transportation_lines_railroad,trim_transportation_lines_air,trim_transportation_lines_water,trim_transportation_lines_road_unpaved,dra_digital_road_atlas,trim_transportation_lines_pedestrian,twtr_points,ttrn_pnt_rail,ttrn_pnt_helipad,ttrn_pnt_toll_gate,ttrn_pnt_barrier,tctr_points,ttxt_anno,bcgs_20k_grid&amp;styles=&amp;transparent=true&amp;format=image/png&amp;</href>
             <viewrefreshmode>onstop</viewrefreshmode>
             <viewrefreshtime>7204</viewrefreshtime>
-            <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+            <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
           </icon>
           <latlonbox>
             <north>49.38718101150109</north>
@@ -1665,7 +1665,7 @@ use this layer after you've found the particular feature or area you want to til
           </latlonbox>
         </groundoverlay>
       </folder>
-    </folder><?xml version="1.0" encoding="utf-8" ?>
+    </folder>
     <folder>
       <name>Search Tools</name>
       <open>1</open>
@@ -1855,7 +1855,7 @@ use this layer after you've found the particular feature or area you want to til
           <gx:altitudemode>relativetoseafloor</gx:altitudemode>
         </lookat>
       </folder>
-    </folder><?xml version="1.0" encoding="utf-8" ?>
+    </folder>
     <networklink>
       <name>Geographical Names</name>
       <visibility>0</visibility>
@@ -1876,7 +1876,7 @@ use this layer after you've found the particular feature or area you want to til
       <viewrefreshtime>1</viewrefreshtime>
       <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]</viewformat>
       <httpquery>&amp;outputformat=kml&amp;outputstyle=summary</httpquery>
-    </networklink><?xml version="1.0" encoding="utf-8" ?>
+    </networklink>
     <folder>
       <name>Site Addresses</name>
       <open>0</open>
@@ -2008,7 +2008,7 @@ display
         <viewrefreshtime>1</viewrefreshtime>
         <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
       </networklink>
-    </folder><?xml version="1.0" encoding="utf-8" ?>
+    </folder>
     <folder>
       <name>Intersection Addresses</name>
       <open>0</open>
@@ -2043,7 +2043,7 @@ display
         </link>
         <viewrefreshmode>onstop</viewrefreshmode>
         <viewrefreshtime>2</viewrefreshtime>
-        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
       </networklink>
       <networklink>
         <name>Dead-Ends</name>
@@ -2067,7 +2067,7 @@ display
         </link>
         <viewrefreshmode>onstop</viewrefreshmode>
         <viewrefreshtime>2</viewrefreshtime>
-        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
       </networklink>
       <networklink>
         <name>Two-Way</name>
@@ -2090,7 +2090,7 @@ display
         </link>
         <viewrefreshmode>onstop</viewrefreshmode>
         <viewrefreshtime>2</viewrefreshtime>
-        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
       </networklink>
       <networklink>
         <name>Three-Way</name>
@@ -2114,7 +2114,7 @@ display
         </link>
         <viewrefreshmode>onstop</viewrefreshmode>
         <viewrefreshtime>2</viewrefreshtime>
-        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
       </networklink>
       <networklink>
         <name>Four-Way</name>
@@ -2138,7 +2138,7 @@ display
         </link>
         <viewrefreshmode>onstop</viewrefreshmode>
         <viewrefreshtime>2</viewrefreshtime>
-        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
       </networklink>
       <networklink>
         <name>Five-Way and Higher</name>
@@ -2162,7 +2162,7 @@ display
         </link>
         <viewrefreshmode>onstop</viewrefreshmode>
         <viewrefreshtime>2</viewrefreshtime>
-        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&width=[horizpixels]&height=[vertpixels]</viewformat>
+        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
       </networklink>
     </folder>
     <folder>
@@ -2179,7 +2179,6 @@ display
       <style><ListStyle> <listItemType>check</listItemType> <bgColor>00ffffff</bgColor> <maxSnippetLines>2</maxSnippetLines> </ListStyle></style>
       <placemark>
         <name>FrontCounter 100 Mile House</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[300 S Hwy 97<BR/>
 100 Mile House, BC V0K 2E0<BR/>
 Phone: (250) 395-7800<BR/>
@@ -2207,7 +2206,6 @@ Fax: (250) 395-7810
       </placemark>
       <placemark>
         <name>FrontCounter Burns Lake</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[185 W Highway 16<BR/>
 Burns Lake, BC V0J 1E0<BR/>
 Phone: (250) 692-2200<BR/>
@@ -2235,7 +2233,6 @@ Fax: (250) 692-7461
       </placemark>
       <placemark>
         <name>FrontCounter Campbell River</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[370 S Dogwood Street<BR/>
 Campbell River, BC V9W 6Y7<BR/>
 Phone: (250) 286-9300<BR/>
@@ -2263,7 +2260,6 @@ Fax: (250) 286-9490
       </placemark>
       <placemark>
         <name>FrontCounter Castlegar</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[845 Columbia Avenue<BR/>
 Castlegar, BC V1N 1H3<BR/>
 Phone: (250) 365-8600<BR/>
@@ -2291,7 +2287,6 @@ Fax: (250) 365-8568
       </placemark>
       <placemark>
         <name>FrontCounter Chilliwack</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[46360 Airport Road<BR/>
 Chilliwack, BC V2P 1A5<BR/>
 Phone: (604) 702-5700<BR/>
@@ -2319,7 +2314,6 @@ Fax: (604) 702-5711
       </placemark>
       <placemark>
         <name>FrontCounter Clearwater</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[687 Yellowhead South Highway<BR/>
 Clearwater, BC V0E 1N0<BR/>
 Phone: (250) 587-6700<BR/>
@@ -2348,7 +2342,6 @@ Fax: (250) 587-6790
       </placemark>
       <placemark>
         <name>FrontCounter Cranbrook</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[1902 Theatre Road<BR/>
 Cranbrook, BC V1C 7G1<BR/>
 Phone: (250) 426-1766<BR/>
@@ -2376,7 +2369,6 @@ Fax: (250) 426-1767
       </placemark>
       <placemark>
         <name>FrontCounter Dawson Creek</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[9000 17th Street<BR/>
 Dawson Creek, BC V1G 1A5<BR/>
 Phone: (250) 784-1200<BR/>
@@ -2404,7 +2396,6 @@ Toll free: 1-877-855-3222
       </placemark>
       <placemark>
         <name>FrontCounter Fort Nelson</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[6100 Alaska highway<BR/>
 Fort Nelson, BC V0C 1R0<BR/>
 Phone: (250) 774-5511<BR/>
@@ -2432,7 +2423,6 @@ Fax: (250) 774-3704
       </placemark>
       <placemark>
         <name>FrontCounter Fort St. James</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[2537 Stones Bay Road<BR/>
 Fort St. James, BC V0J 1P0<BR/>
 Phone: (250) 996-5200<BR/>
@@ -2460,7 +2450,6 @@ Fax: (250) 996-5290
       </placemark>
       <placemark>
         <name>FrontCounter Fort St. John</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[100-10003 110 Avenue<BR/>
 Fort St John, BC V1J 6M7<BR/>
 Phone: (250) 787-3415<BR/>
@@ -2488,7 +2477,6 @@ Fax: (250) 261-2084
       </placemark>
       <placemark>
         <name>FrontCounter Haida Gwaii</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[1229 Oceanview Drive<BR/>
 Haida Gwaii, BC V0T 1S0<BR/>
 Phone: (250) 559-6200<BR/>
@@ -2516,7 +2504,6 @@ Fax: (250) 559-8342
       </placemark>
       <placemark>
         <name>FrontCounter Kamloops</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[441 Columbia St<BR/>
 Kamloops, BC V2C 2T3<BR/>
 Phone: (250) 828-4131<BR/>
@@ -2544,7 +2531,6 @@ Fax: (250) 828-4442
       </placemark>
       <placemark>
         <name>FrontCounter Mackenzie</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[1 Cicada Road<BR/>
 Mackenzie, BC V0J 2C0<BR/>
 Phone: (250) 997-2200<BR/>
@@ -2572,7 +2558,6 @@ Fax: (250) 997-2236
       </placemark>
       <placemark>
         <name>FrontCounter Merritt</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[3840 Airport Rd<BR/>
 Merritt, BC V1K 1B8<BR/>
 Phone: (250) 378-8400<BR/>
@@ -2600,7 +2585,6 @@ Fax: (250) 378-8481
       </placemark>
       <placemark>
         <name>FrontCounter Nanaimo</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[Suite 142, 2080 Labieux Road<BR/>
 Nanaimo, BC V9T 6J9<BR/>
 Phone: (250) 751-7220<BR/>
@@ -2628,7 +2612,6 @@ Fax: (250) 751-7224
       </placemark>
       <placemark>
         <name>FrontCounter Port Alberni</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[4885 Cherry Creek Road<BR/>
 Port Alberni, BC V9Y 8E9<BR/>
 Phone: (250) 731-3000<BR/>
@@ -2656,7 +2639,6 @@ Fax: (250) 731-3010
       </placemark>
       <placemark>
         <name>FrontCounter Port McNeill</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[2217 Mine Road Place<BR/>
 Port McNeill, BC V0N 2R0<BR/>
 Phone: (250) 956-5000<BR/>
@@ -2684,7 +2666,6 @@ Fax: (250) 956-5079
       </placemark>
       <placemark>
         <name>FrontCounter Powell River</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[7077 Duncan Street<BR/>
 Powell River, BC V8A 1W1<BR/>
 Phone: (604) 485-0700<BR/>
@@ -2712,7 +2693,6 @@ Fax: (604) 485-0799
       </placemark>
       <placemark>
         <name>FrontCounter Prince George</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[200-1488 4th Avenue<BR/>
 Prince George, BC V2L 4Y2<BR/>
 Phone: (250) 565-6779<BR/>
@@ -2747,7 +2727,6 @@ Fax: (250) 565-6941
       </placemark>
       <placemark>
         <name>FrontCounter Quesnel</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[322 Johnston Avenue<BR/>
 Quesnel, BC V2J 3M5<BR/>
 Phone: (250) 992-4400<BR/>
@@ -2783,7 +2762,6 @@ Fax: (250) 992-4403
       </placemark>
       <placemark>
         <name>FrontCounter Revelstoke</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[1761 Big Eddy Road<BR/>
 Revelstoke, BC V0E 3K0<BR/>
 Phone: (250) 837-7611<BR/>
@@ -2819,7 +2797,6 @@ Fax: (250) 837-7626
       </placemark>
       <placemark>
         <name>FrontCounter Smithers</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[1st Floor, 3726 Alfred Avenue<BR/>
 Smithers, BC V0J 2N0<BR/>
 Phone: (250) 847-7356<BR/>
@@ -2855,7 +2832,6 @@ Fax: (250) 847-7556
       </placemark>
       <placemark>
         <name>FrontCounter Squamish</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[Suite 101-42000 Loggers Lane<BR/>
 Squamish, BC V8B 0H3<BR/>
 Phone: (604) 898-2100<BR/>
@@ -2891,7 +2867,6 @@ Fax: (604) 898-2191
       </placemark>
       <placemark>
         <name>FrontCounter Surrey</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[Suite 200, 10428 153rd Street<BR/>
 Surrey, BC V3R 1E1<BR/>
 Phone: (604) 586-4400<BR/>
@@ -2927,7 +2902,6 @@ Fax: (604) 586-4434
       </placemark>
       <placemark>
         <name>FrontCounter Terrace</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[Suite 200-5220 Keith Avenue<BR/>
 Terrace, BC V8G 1L1<BR/>
 Phone: (250) 638-5100<BR/>
@@ -2963,7 +2937,6 @@ Fax: (250) 638-5176
       </placemark>
       <placemark>
         <name>FrontCounter Vanderhoof</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[1560 Highway 16 East<BR/>
 Vanderhoof, BC V0J 3A0<BR/>
 Phone: (250) 567-6363<BR/>
@@ -2991,7 +2964,6 @@ Fax: (250) 567-6370
       </placemark>
       <placemark>
         <name>FrontCounter Vernon</name>
-        <snippet maxlines="0"></snippet>
         <description><![CDATA[2501-14 Avenue<BR/>
 Vernon, BC V1T 8Z1<BR/>
 Phone: (250) 558-1700<BR/>
@@ -3027,8 +2999,7 @@ Fax: (250) 549-5485
       </placemark>
       <placemark>
         <name>FrontCounter BC Williams Lake</name>
-        <snippet maxlines="0">
-          <description><![CDATA[#201 - 172 North 2nd Avenue<BR/>
+        <description><![CDATA[#201 - 172 North 2nd Avenue<BR/>
 Williams Lake, BC V2G 1Z6<BR/>
 Phone: (250) 398-4574<BR/>
 Fax: (250) 398-4836
@@ -3038,31 +3009,30 @@ Fax: (250) 398-4836
  
 
  <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/williams-lake/>here</A></P>]]>
-          </description>
-          <lookat>
-            <gx:timestamp><when> 2012-09-07 </when></gx:timestamp>
-            <gx:vieweroptions>
-              <gx:option name="historicalimagery">
-                <gx:option enabled="" name="sunlight">
-                  <gx:option enabled="" name="streetview"></gx:option>
-                </gx:option>
+        </description>
+        <lookat>
+          <gx:timestamp><when> 2012-09-07 </when></gx:timestamp>
+          <gx:vieweroptions>
+            <gx:option name="historicalimagery">
+              <gx:option enabled="" name="sunlight">
+                <gx:option enabled="" name="streetview"></gx:option>
               </gx:option>
-            </gx:vieweroptions>
-            <longitude>-122.1371424090784</longitude>
-            <latitude>52.13040860791286</latitude>
-            <altitude>0</altitude>
-            <heading>-30.7384055691314</heading>
-            <tilt>0</tilt>
-            <range>88.79419044408348</range>
-            <gx:altitudemode>relativeToSeaFloor</gx:altitudemode>
-          </lookat>
-          <styleurl>#msn_ranger_station</styleurl>
-          <point>
-            <coordinates>-122.1372072859157,52.13049835537323,0</coordinates>
-          </point>
-        </snippet>
+            </gx:option>
+          </gx:vieweroptions>
+          <longitude>-122.1371424090784</longitude>
+          <latitude>52.13040860791286</latitude>
+          <altitude>0</altitude>
+          <heading>-30.7384055691314</heading>
+          <tilt>0</tilt>
+          <range>88.79419044408348</range>
+          <gx:altitudemode>relativeToSeaFloor</gx:altitudemode>
+        </lookat>
+        <styleurl>#msn_ranger_station</styleurl>
+        <point>
+          <coordinates>-122.1372072859157,52.13049835537323,0</coordinates>
+        </point>
       </placemark>
-    </folder><?xml version="1.0" encoding="utf-8" ?>
+    </folder>
     <folder>
       <name>Logos</name>
       <lookat>
@@ -3091,34 +3061,30 @@ Fax: (250) 398-4836
       <screenoverlay>
         <name>DataBC Logo</name>
         <visibility>0</visibility>
-        <snippet maxlines="0">
-          <draworder>97</draworder>
-          <icon>
-            <href>http://openmaps.gov.bc.ca/kml/icons/DataBC_logo.png</href>
-          </icon>
-          <overlayxy x="0.0800000" y="0.300000001" xunits="fraction" yunits="fraction">
-            <screenxy x="0" y="0.04000000000000001" xunits="fraction" yunits="fraction">
-              <rotationxy x="0.5" y="0.5" xunits="fraction" yunits="fraction">
-                <size x="-1" y="-1" xunits="pixels" yunits="pixels"></size>
-              </rotationxy>
-            </screenxy>
-          </overlayxy>
-        </snippet>
+        <draworder>97</draworder>
+        <icon>
+          <href>http://openmaps.gov.bc.ca/kml/icons/DataBC_logo.png</href>
+        </icon>
+        <overlayxy x="0.0800000" y="0.300000001" xunits="fraction" yunits="fraction">
+          <screenxy x="0" y="0.04000000000000001" xunits="fraction" yunits="fraction">
+            <rotationxy x="0.5" y="0.5" xunits="fraction" yunits="fraction">
+              <size x="-1" y="-1" xunits="pixels" yunits="pixels"></size>
+            </rotationxy>
+          </screenxy>
+        </overlayxy>
       </screenoverlay>
-    </folder><?xml version="1.0" encoding="utf-8" ?>
+    </folder>
     <placemark>
       <name>Disclaimer</name>
       <visibility>0</visibility>
-      <snippet maxlines="0">
-        <description><![CDATA[<table cellpadding="0" cellspacing="0" border="0" width="400"><tr><td>
+      <description><![CDATA[<table cellpadding="0" cellspacing="0" border="0" width="400"><tr><td>
     <p>This service is provided for information purposes and is intended to assist the general public in gathering information prior to submitting a Crown Land use application. The accuracy of the information displayed, including specific references to data sources and other government web sources, has not been verified and is presented without warranty or liability. Without limitation this map may not disclose all Crown land in a particular area and this map does not constitute a representation that Crown land is suitable for any particular use or available for disposition.  Prior to making a land use decision based on the information provided by the FrontCounter BC Discovery Tool, consult a FrontCounter BC office to interpret and verify the land information.</p>
     </td></tr></table>]]>
-        </description>
-        <styleurl>#fcbcBalloonStyle</styleurl>
-        <point>
-          <coordinates>-115.7,50.3,0</coordinates>
-        </point>
-      </snippet>
+      </description>
+      <styleurl>#fcbcBalloonStyle</styleurl>
+      <point>
+        <coordinates>-115.7,50.3,0</coordinates>
+      </point>
     </placemark>
   </document>
 </kml>
