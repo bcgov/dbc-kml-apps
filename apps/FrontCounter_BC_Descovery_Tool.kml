@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
-  <document>
+  <Document>
     <name>FrontCounter BC Discovery Tool</name>
     <open>1</open>
-    <styleurl>#default</styleurl>
-    <lookat>
+    <StyleUrl>#default</StyleUrl>
+    <LookAt>
       <longitude>-125.790485103603</longitude>
       <latitude>54.53529082074053</latitude>
       <altitude>0</altitude>
       <heading>-0.5347266315948855</heading>
       <tilt>0</tilt>
       <range>1826047.023906531</range>
-      <altitudemode>relativeToGround</altitudemode>
-      <gx:altitudemode>relativeToSeaFloor</gx:altitudemode>
-    </lookat>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    </LookAt>
     <!-- include instructions-->
     <!-- include legend-->
     <!-- include land_interests-->
     <!-- include land_act_tenures-->
-    <style id="legend_land_own_group">
+    <Style id="legend_land_own_group">
       <ListStyle>
         <ItemIcon>
           <href>http://openmaps.gov.bc.ca/kml/Icons/legend_land_own_group.png</href>
         </ItemIcon>
       </ListStyle>
-    </style>
-    <style id="legend_priv_ownership">
+    </Style>
+    <Style id="legend_priv_ownership">
       <ListStyle>
         <ItemIcon>
           <href>http://openmaps.gov.bc.ca/kml/Icons/legend_priv_ownership.png</href>
         </ItemIcon>
       </ListStyle>
-    </style>
-    <style id="noDirections">
+    </Style>
+    <Style id="noDirections">
       <BalloonStyle>
         <text><![CDATA[$[description]
 ]]>
         </text>
       </BalloonStyle>
-    </style>
+    </Style>
     <Folder>
       <name>Land Ownership - Integrated Cadastral Fabric</name>
       <open>1</open>
@@ -61,152 +61,152 @@
 
 <a href="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</a></p>]]>
       </description>
-      <styleurl>#legend_land_own_group</styleurl>
-      <groundoverlay>
+      <StyleUrl>#legend_land_own_group</StyleUrl>
+      <GroundOverlay>
         <name>Private Ownership</name>
-        <snippet maxlines="1">visible below an eye altitude of 15km within bc</snippet>
+        <Snippet maxlines="1">visible below an eye altitude of 15km within bc</Snippet>
         <description><![CDATA[<p><img src="http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=wms&request=getlegendgraphic&layer=cbm_cadastral_fabric_pub_private&format=image/png"></p> <p>for more information 
  
 
  <a href="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</a></p>]]>
         </description>
-        <lookat>
+        <LookAt>
           <longitude>-115.743353164902</longitude>
           <latitude>49.50998821115897</latitude>
           <altitude>0</altitude>
           <heading>0.01927763846471821</heading>
           <tilt>0</tilt>
           <range>840.9868857461036</range>
-        </lookat>
-        <styleurl>#legend_priv_ownership</styleurl>
-        <draworder>2</draworder>
-        <icon>
-          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_private&amp;styles=&amp;transparent=true&amp;format=image/png&amp;</href>
-          <viewrefreshmode>onstop</viewrefreshmode>
-          <viewrefreshtime>2</viewrefreshtime>
-          <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
-        </icon>
-        <latlonbox>
+        </LookAt>
+        <StyleUrl>#legend_priv_ownership</StyleUrl>
+        <drawOrder>2</drawOrder>
+        <Icon>
+          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_private&amp;Styles=&amp;transparent=true&amp;format=image/png&amp;</href>
+          <viewRefreshMode>onstop</viewRefreshMode>
+          <viewRefreshTime>2</viewRefreshTime>
+          <viewFormat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewFormat>
+        </Icon>
+        <LatLonBox>
           <north>62.24803399817494</north>
           <south>44.74846842243939</south>
           <east>-101.3348746903971</east>
           <west>-150.3835582055927</west>
-        </latlonbox>
-      </groundoverlay>
-      <groundoverlay>
+        </LatLonBox>
+      </GroundOverlay>
+      <GroundOverlay>
         <name>Integrated Cadastral Fabric - Private Ownership-Geoserver</name>
         <visibility>0</visibility>
-        <description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=getlegendgraphic&layer=whse_cadastre.cbm_cadastral_fabric_pub_svw&style=integrated_cadastral_fabric_private_ownership&format=image/png'><br>
+        <description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=getlegendgraphic&layer=whse_cadastre.cbm_cadastral_fabric_pub_svw&Style=integrated_cadastral_fabric_private_ownership&format=image/png'><br>
 <p>for more infomation <a href='http://catalogue.data.gov.bc.ca/dataset/cbm-integrated-cadastral-fabric-public-view'>click here</a></p>]]>
         </description>
-        <lookat>
+        <LookAt>
           <longitude>-123.2946611504853</longitude>
           <latitude>49.48018166079681</latitude>
           <altitude>0</altitude>
           <heading>1.189475705228133</heading>
           <tilt>0</tilt>
           <range>227572.4759845923</range>
-        </lookat>
+        </LookAt>
         <color>b0ffffff</color>
-        <draworder>2</draworder>
-        <icon>
-          <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=whse_cadastre.cbm_cadastral_fabric_pub_svw&amp;styles=integrated_cadastral_fabric_private_ownership&amp;transparent=true&amp;format=image/png&amp;</href>
-          <viewrefreshmode>onstop</viewrefreshmode>
-          <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
-        </icon>
-        <latlonbox>
+        <drawOrder>2</drawOrder>
+        <Icon>
+          <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=whse_cadastre.cbm_cadastral_fabric_pub_svw&amp;Styles=integrated_cadastral_fabric_private_ownership&amp;transparent=true&amp;format=image/png&amp;</href>
+          <viewRefreshMode>onstop</viewRefreshMode>
+          <viewFormat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewFormat>
+        </Icon>
+        <LatLonBox>
           <north>60</north>
           <south>48</south>
           <east>-135</east>
           <west>-110</west>
-        </latlonbox>
-      </groundoverlay>
-      <networklink>
+        </LatLonBox>
+      </GroundOverlay>
+      <NetworkLink>
         <name>Private Ownership Details</name>
-        <snippet maxlines="2">visible below an eye altitude of 2km within bc</snippet>
+        <Snippet maxlines="2">visible below an eye altitude of 2km within bc</Snippet>
         <visibility>0</visibility>
-        <description><![CDATA[<p><img src='http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=wms&request=getlegendgraphic&layer=cbm_cadastral_fabric_pub_private_fi&format=image/png&style=default'></p><p>for more information 
+        <description><![CDATA[<p><img src='http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=wms&request=getlegendgraphic&layer=cbm_cadastral_fabric_pub_private_fi&format=image/png&Style=default'></p><p>for more information 
  
 
  <a href="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</a></p>]]>
         </description>
-        <styleurl>#nodirections</styleurl>
-        <lookat>
+        <StyleUrl>#nodirections</StyleUrl>
+        <LookAt>
           <longitude>-122.4752757149426</longitude>
           <latitude>49.14591650750629</latitude>
           <altitude>0</altitude>
           <heading>-5.123249381465726</heading>
           <tilt>2.884301276088741</tilt>
           <range>28958.99118572512</range>
-          <altitudemode>relativetoground</altitudemode>
-          <gx:altitudemode>relativetoseafloor</gx:altitudemode>
-        </lookat>
-        <style><liststyle> <listitemtype>check</listitemtype> <bgcolor>00ffffff</bgcolor> <maxsnippetlines>2</maxsnippetlines> </liststyle></style>
-        <link>
-          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getfeatureinfo&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_private_fi&amp;styles=default&amp;format=png&amp;transparent=true&amp;query_layers=cbm_cadastral_fabric_pub_private_fi&amp;info_format=kayml&amp;feature_count=500&amp;radius=bbox&amp;</href>
-        </link>
-        <viewrefreshmode>onstop</viewrefreshmode>
-        <viewrefreshtime>2</viewrefreshtime>
-        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
-      </networklink>
-      <groundoverlay>
+          <altitudeMode>relativetoground</altitudeMode>
+          <gx:altitudeMode>relativetoseafloor</gx:altitudeMode>
+        </LookAt>
+        <Style><ListStyle> <listItemType>check</listItemType> <bgColor>00ffffff</bgColor> <maxSnippetLines>2</maxSnippetLines> </listStyle></Style>
+        <Link>
+          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getfeatureinfo&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_private_fi&amp;Styles=default&amp;format=png&amp;transparent=true&amp;query_layers=cbm_cadastral_fabric_pub_private_fi&amp;info_format=kayml&amp;feature_count=500&amp;radius=bbox&amp;</href>
+        </Link>
+        <viewRefreshMode>onstop</viewRefreshMode>
+        <viewRefreshTime>2</viewRefreshTime>
+        <viewFormat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewFormat>
+      </NetworkLink>
+      <GroundOverlay>
         <name>Crown Ownership</name>
         <visibility>1</visibility>
-        <snippet maxlines="4">visible below an eye altitude of 15km within bc this layer indicates land already in use by the municipal, provincial or federal government</snippet>
+        <Snippet maxlines="4">visible below an eye altitude of 15km within bc this layer indicates land already in use by the municipal, provincial or federal government</Snippet>
         <description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=wms&request=getlegendgraphic&layer=cbm_cadastral_fabric_pub_crown&format=image/png"><br><br><p>for more information 
  
 
  <a href="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</a></p>]]>
         </description>
-        <styleurl>#nodirections</styleurl>
-        <lookat>
+        <StyleUrl>#nodirections</StyleUrl>
+        <LookAt>
           <longitude>-115.743353164902</longitude>
           <latitude>49.50998821115897</latitude>
           <altitude>0</altitude>
           <heading>0.01927763846471821</heading>
           <tilt>0</tilt>
           <range>840.9868857461036</range>
-        </lookat>
-        <draworder>2</draworder>
-        <icon>
-          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_crown&amp;styles=&amp;transparent=true&amp;format=image/png&amp;</href>
-          <viewrefreshmode>onstop</viewrefreshmode>
-          <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
-        </icon>
-        <latlonbox>
+        </LookAt>
+        <drawOrder>2</drawOrder>
+        <Icon>
+          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_crown&amp;Styles=&amp;transparent=true&amp;format=image/png&amp;</href>
+          <viewRefreshMode>onstop</viewRefreshMode>
+          <viewFormat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewFormat>
+        </Icon>
+        <LatLonBox>
           <north>48.42376171239884</north>
           <south>48.42121668734681</south>
           <east>-123.3794868783632</east>
           <west>-123.3841629931961</west>
-        </latlonbox>
-      </groundoverlay>
-      <networklink>
+        </LatLonBox>
+      </GroundOverlay>
+      <NetworkLink>
         <name>Crown Ownership Details</name>
         <visibility>0</visibility>
-        <snippet maxlines="2">Visible below an eye altitude of 2km within bc</snippet>
-        <description><![CDATA[<img src='http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=wms&request=getlegendgraphic&layer=cbm_cadastral_fabric_pub_crown_fi&format=image/png&style=default'><p>for more information 
+        <Snippet maxlines="2">Visible below an eye altitude of 2km within bc</Snippet>
+        <description><![CDATA[<img src='http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=wms&request=getlegendgraphic&layer=cbm_cadastral_fabric_pub_crown_fi&format=image/png&Style=default'><p>for more information 
 
 <a href="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</a></p>]]>
         </description>
-        <styleurl>#nodirections</styleurl>
-        <lookat>
+        <StyleUrl>#nodirections</StyleUrl>
+        <LookAt>
           <longitude>-122.4752757149426</longitude>
           <latitude>49.14591650750629</latitude>
           <altitude>0</altitude>
           <heading>-5.123249381465726</heading>
           <tilt>2.884301276088741</tilt>
           <range>28958.99118572512</range>
-          <gx:altitudemode>relativetoseafloor</gx:altitudemode>
-        </lookat>
-        <style><liststyle> <listitemtype>check</listitemtype> <bgcolor>00ffffff</bgcolor> <maxsnippetlines>2</maxsnippetlines> </liststyle></style>
-        <link>
-          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getfeatureinfo&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_crown_fi&amp;styles=default&amp;format=png&amp;transparent=true&amp;query_layers=cbm_cadastral_fabric_pub_crown_fi&amp;info_format=kayml&amp;feature_count=500&amp;radius=bbox&amp;</href>
-        </link>
-        <viewrefreshmode>onstop</viewrefreshmode>
-        <viewrefreshtime>2</viewrefreshtime>
-        <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
-      </networklink>
-      <groundoverlay>
+          <gx:altitudeMode>relativetoseafloor</gx:altitudeMode>
+        </LookAt>
+        <Style><ListStyle> <listItemType>check</listItemType> <bgColor>00ffffff</bgColor> <maxSnippetLines>2</maxSnippetLines> </listStyle></Style>
+        <Link>
+          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getfeatureinfo&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_crown_fi&amp;Styles=default&amp;format=png&amp;transparent=true&amp;query_layers=cbm_cadastral_fabric_pub_crown_fi&amp;info_format=kayml&amp;feature_count=500&amp;radius=bbox&amp;</href>
+        </Link>
+        <viewRefreshMode>onstop</viewRefreshMode>
+        <viewRefreshTime>2</viewRefreshTime>
+        <viewFormat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewFormat>
+      </NetworkLink>
+      <GroundOverlay>
         <name>Integrated Cadastral Fabric - outlined</name>
         <visibility>0</visibility>
         <description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=wms&request=getlegendgraphic&layer=cbm_cadastral_fabric_pub_o&format=image/png"><br>
@@ -215,20 +215,20 @@
 
 <a href="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</a></p><br/>]]>
         </description>
-        <draworder>2</draworder>
-        <icon>
-          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_o&amp;styles=&amp;transparent=true&amp;format=image/png&amp;</href>
-          <viewrefreshmode>onstop</viewrefreshmode>
-          <viewrefreshtime>1</viewrefreshtime>
-          <viewformat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewformat>
-        </icon>
-        <latlonbox>
+        <drawOrder>2</drawOrder>
+        <Icon>
+          <href>http://openmaps.gov.bc.ca/mapserver/land-ownership-and-status?service=wms&amp;version=1.1.1&amp;request=getmap&amp;srs=epsg:4326&amp;layers=cbm_cadastral_fabric_pub_o&amp;Styles=&amp;transparent=true&amp;format=image/png&amp;</href>
+          <viewRefreshMode>onstop</viewRefreshMode>
+          <viewRefreshTime>1</viewRefreshTime>
+          <viewFormat>bbox=[bboxwest],[bboxsouth],[bboxeast],[bboxnorth]&amp;width=[horizpixels]&amp;height=[vertpixels]</viewFormat>
+        </Icon>
+        <LatLonBox>
           <north>65.10309480458069</north>
           <south>40.51673581404715</south>
           <east>-84.45041760383955</east>
           <west>-158.3395525569848</west>
-        </latlonbox>
-      </groundoverlay>
+        </LatLonBox>
+      </GroundOverlay>
     </Folder>
     <!-- include mines-->
     <!-- include quick_base-->
@@ -239,5 +239,5 @@
     <!-- include frontcounter_locations-->
     <!-- include logo-->
     <!-- include disclaimer-->
-  </document>
+  </Document>
 </kml>

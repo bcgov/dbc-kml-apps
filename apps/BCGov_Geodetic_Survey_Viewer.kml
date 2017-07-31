@@ -12,127 +12,127 @@
       <range>1826047.023906531</range>
       <altitudeMode>relativeToGround</altitudeMode>
       <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-      <folder>
+      <Folder>
         <name>BC Geodetic Control Monument Viewer</name>
         <open>1</open>
         <description>View geodetic control monuments of the Province of British Columbia. A geodetic survey monument is a geospatial reference used for positioning within the Province. The term geodetic meaning: concerned with the precise location (latitude, longitude, height) of points and figures on the earth's surface.</description>
-        <lookat>
+        <LookAt>
           <longitude>-124.7059782963682</longitude>
           <latitude>54.26540375568923</latitude>
           <altitude>0</altitude>
           <heading>-2.958270830482301</heading>
           <tilt>0</tilt>
           <range>1855986.973080759</range>
-          <altitudemode>relativeToGround</altitudemode>
-          <gx:altitudemode>relativeToSeaFloor</gx:altitudemode>
-        </lookat>
-        <networklink>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+        </LookAt>
+        <NetworkLink>
           <name>Geodetic Control Monument Details</name>
-          <snippet>Visible below 12km (eye altitude)</snippet>
+          <Snippet>Visible below 12km (eye altitude)</Snippet>
           <visibility>1</visibility>
           <description><![CDATA[<img src='http://openmaps.gov.bc.ca/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=MASCOT_GEODETIC_CONTROL&format=image/png&STYLE=default'>]]></description>
-          <lookat>
+          <LookAt>
             <longitude>-122.5485633189002</longitude>
             <latitude>49.1296115824026</latitude>
             <altitude>0</altitude>
             <heading>-5.123249354740865</heading>
             <tilt>2.885587407425562</tilt>
             <range>7344.684023909977</range>
-            <altitudemode>relativeToGround</altitudemode>
-            <gx:altitudemode>relativeToSeaFloor</gx:altitudemode>
-          </lookat>
-          <style>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <Style>
             <ListStyle>
               <listItemType>check</listItemType>
               <bgColor>00ffffff</bgColor>
               <maxSnippetLines>2</maxSnippetLines>
             </ListStyle>
-          </style>
-          <link>
+          </Style>
+          <Link>
             <href>http://delivery.openmaps.gov.bc.ca/geo/pub/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;outputFormat=kayml-geodetic-control&amp;srsname=EPSG:4326</href>
-          </link>
-          <viewrefreshmode>onStop</viewrefreshmode>
-          <viewrefreshtime>2</viewrefreshtime>
-          <viewformat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewformat>
-        </networklink>
-        <groundoverlay>
+          </Link>
+          <viewRefreshMode>onStop</viewRefreshMode>
+          <viewRefreshTime>2</viewRefreshTime>
+          <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+        </NetworkLink>
+        <GroundOverlay>
           <name>Geodetic Control Monuments</name>
-          <snippet>Visible below 100km (eye altitude)</snippet>
+          <Snippet>Visible below 100km (eye altitude)</Snippet>
           <visibility>1</visibility>
           <description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=MASCOT_GEODETIC_CONTROL&format=image/png"><br>
 For more information 
  <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=3943&recordSet=ISO19115">click here</A></P>]]>
           </description>
-          <lookat>
+          <LookAt>
             <longitude>-115.743353164902</longitude>
             <latitude>49.50998821115897</latitude>
             <altitude>0</altitude>
             <heading>0.01927763846471821</heading>
             <tilt>0</tilt>
             <range>840.9868857461036</range>
-          </lookat>
-          <draworder>2</draworder>
-          <icon>
+          </LookAt>
+          <drawOrder>2</drawOrder>
+          <Icon>
             <href>http://openmaps.gov.bc.ca/mapserver/geodetic-survey?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=MASCOT_GEODETIC_CONTROL&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
-            <viewrefreshmode>onStop</viewrefreshmode>
-            <viewformat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewformat>
-          </icon>
-          <latlonbox>
+            <viewRefreshMode>onStop</viewRefreshMode>
+            <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+          </Icon>
+          <LatLonBox>
             <north>60.14091494461048</north>
             <south>43.61507785757633</south>
             <east>-108.2296351400494</east>
             <west>-140.5258703785332</west>
-          </latlonbox>
-        </groundoverlay>
-        <groundoverlay>
+          </LatLonBox>
+        </GroundOverlay>
+        <GroundOverlay>
           <name>Integrated Survey Areas</name>
           <visibility>1</visibility>
-          <snippet></snippet>
+          <Snippet></Snippet>
           <description><![CDATA[<img src='http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_INTEGRATED_SURVEY_O&format=image/png&STYLE=default'>For more information click 
  <A HREF="http://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>]]>
           </description>
-          <lookat>
+          <LookAt>
             <longitude>-115.743353164902</longitude>
             <latitude>49.50998821115897</latitude>
             <altitude>0</altitude>
             <heading>0.01927763846471821</heading>
             <tilt>0</tilt>
             <range>840.9868857461036</range>
-          </lookat>
-          <draworder>2</draworder>
-          <icon>
+          </LookAt>
+          <drawOrder>2</drawOrder>
+          <Icon>
             <href>http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_INTEGRATED_SURVEY_O&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
-            <viewrefreshmode>onStop</viewrefreshmode>
-            <viewformat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewformat>
-          </icon>
-          <latlonbox>
+            <viewRefreshMode>onStop</viewRefreshMode>
+            <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+          </Icon>
+          <LatLonBox>
             <north>50.21125227774</north>
             <south>50.1697223809518</south>
             <east>-119.3313352684996</east>
             <west>-119.4166970171554</west>
-          </latlonbox>
-        </groundoverlay>
-        <groundoverlay>
+          </LatLonBox>
+        </GroundOverlay>
+        <GroundOverlay>
           <name>Municipalities</name>
           <visibility>0</visibility>
-          <snippet></snippet>
+          <Snippet></Snippet>
           <description><![CDATA[<img src='http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_MUNICIPALITIES_CF&format=image/png&STYLE=default'><br><p>For more infomation 
  <A HREF='http://catalogue.data.gov.bc.ca/dataset/5d17b2a7-17d8-498d-a49a-b92b17e86858'>click here</A></P>]]>
           </description>
-          <draworder>6</draworder>
-          <icon>
+          <drawOrder>6</drawOrder>
+          <Icon>
             <href>http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_MUNICIPALITIES_CF&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
-            <viewrefreshmode>onStop</viewrefreshmode>
-            <viewformat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewformat>
-          </icon>
-          <latlonbox>
+            <viewRefreshMode>onStop</viewRefreshMode>
+            <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+          </Icon>
+          <LatLonBox>
             <north>50.21125227774</north>
             <south>50.1697223809518</south>
             <east>-119.3313352684996</east>
             <west>-119.4166970171554</west>
-          </latlonbox>
-        </groundoverlay>
-      </folder>
+          </LatLonBox>
+        </GroundOverlay>
+      </Folder>
     </LookAt>
   </Document>
   <!-- include search_tools-->
