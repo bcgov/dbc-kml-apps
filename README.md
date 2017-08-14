@@ -73,7 +73,5 @@ You can also specify it by data store:layer format like this
 ## KML Templating
 
 ```
-npm i -g pug-cli
-npm i -g html2pug
-npm i -g jstransformer-cdata
+npm i -g pug-cli html2pug jstransformer-cdata livescript
 ```
