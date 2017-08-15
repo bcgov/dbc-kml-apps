@@ -114,6 +114,34 @@ For more information
         </LatLonBox>
       </GroundOverlay>
       <GroundOverlay>
+        <name>Integrated Survey Areas - Geoserver</name>
+        <visibility>1</visibility>
+        <Snippet></Snippet>
+        <description><![CDATA[<img src='http://openmaps.gov.bc.ca/mapserver/admin-boundaries?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_INTEGRATED_SURVEY_O&format=image/png&STYLE=default'>For more information click 
+ <A HREF="http://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>]]>
+        </description>
+        <LookAt>
+          <longitude>-115.743353164902</longitude>
+          <latitude>49.50998821115897</latitude>
+          <altitude>0</altitude>
+          <heading>0.01927763846471821</heading>
+          <tilt>0</tilt>
+          <range>840.9868857461036</range>
+        </LookAt>
+        <drawOrder>2</drawOrder>
+        <Icon>
+          <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+          <viewRefreshMode>onStop</viewRefreshMode>
+          <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+        </Icon>
+        <LatLonBox>
+          <north>50.21125227774</north>
+          <south>50.1697223809518</south>
+          <east>-119.3313352684996</east>
+          <west>-119.4166970171554</west>
+        </LatLonBox>
+      </GroundOverlay>
+      <GroundOverlay>
         <name>Municipalities</name>
         <visibility>0</visibility>
         <Snippet></Snippet>
