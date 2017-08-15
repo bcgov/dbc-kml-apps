@@ -46,10 +46,15 @@ To create a custom output type in GeoServer using XSLT, you need to define two f
 
 ## Process
 - Connect to Government network (VPN)
-- Get mapserver layer name from the template file in /mapserver/templates/template-**kml-name**.kml. It should be in the tail end of the file within this line [resultset layer=**layer-name**]
+- Get mapserver layer name from the KML file in /mapserver/**kml-name**.kml. It should be in the href tag within the url to mapserver.
 - Use this layer name in a subversion query to find an associated map file.
   > http://apps.bcgov/svn/webmaps/sites/trunk/mapfiles/#repossearch=**layer-name**&repossearch-meta-start=0&repossearch-content-start=0 
 - This will hopefully return a **mapfile.map** file. Open this and look for the **DATA** parameter within a **LAYER** entry. This is the features class name geoserver uses. There will most likely be multiple layers entries in which we must coincide with individual kml templates.
+- An alternative is to checkout all the map files like this:
+  >  svn checkout http://apps.bcgov/svn/webmaps/sites/trunk/mapfiles
+  Then use a search tool like *grep*
+  >  grep 'TA_MUNICIP' *.map
+  This is handy if you don't want to operate in VPN all the time.
 - Use the feature class name to look up the layer name and style with a wms *getFeatureInfo* request. Use the style closely resembling the layer entry in the mapserver mapfile.
   > http://openmaps.gov.bc.ca/geo/pub/**feature-class-name**/wms?request=getcapabilities
 - Use the feature class name to look up exposed attributes and their associated names.
@@ -75,3 +80,7 @@ You can also specify it by data store:layer format like this
 ```
 npm i -g pug-cli html2pug jstransformer-cdata livescript
 ```
+
+## Development
+- Open KML file in Google Earth as a network link. Set to refresh every 4 seconds.
+- 
