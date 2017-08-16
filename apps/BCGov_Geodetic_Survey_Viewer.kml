@@ -86,6 +86,35 @@ For more information
         </LatLonBox>
       </GroundOverlay>
       <GroundOverlay>
+        <name>Geodetic Control Monuments - Geoserver</name>
+        <Snippet>Visible below 100km (eye altitude)</Snippet>
+        <visibility>1</visibility>
+        <description><![CDATA[<img src="http://openmaps.gov.bc.ca/mapserver/geodetic-survey?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=MASCOT_GEODETIC_CONTROL&format=image/png"><br>
+For more information 
+ <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=3943&recordSet=ISO19115">click here</A></P>]]>
+        </description>
+        <LookAt>
+          <longitude>-115.743353164902</longitude>
+          <latitude>49.50998821115897</latitude>
+          <altitude>0</altitude>
+          <heading>0.01927763846471821</heading>
+          <tilt>0</tilt>
+          <range>840.9868857461036</range>
+        </LookAt>
+        <drawOrder>2</drawOrder>
+        <Icon>
+          <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;STYLES=Survey_Monuments_Rural_Published_GCM_Terrestrial_Only&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+          <viewRefreshMode>onStop</viewRefreshMode>
+          <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+        </Icon>
+        <LatLonBox>
+          <north>60.14091494461048</north>
+          <south>43.61507785757633</south>
+          <east>-108.2296351400494</east>
+          <west>-140.5258703785332</west>
+        </LatLonBox>
+      </GroundOverlay>
+      <GroundOverlay>
         <name>Integrated Survey Areas</name>
         <visibility>1</visibility>
         <Snippet></Snippet>
