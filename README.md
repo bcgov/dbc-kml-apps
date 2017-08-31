@@ -77,9 +77,24 @@ You can also specify it by data store:layer format like this
 
 ## KML Templating
 
+Node must be installed on the system.
+Make sure the following modules are installed globally.
 ```
 npm i -g pug-cli html2pug jstransformer-cdata livescript
 ```
+
+Convert the existing kml files into pug files like this
+```
+html2pug kmlfile.kml
+```
+
+There is an npm step for building pug files back into kml:
+
+```
+npm run build
+```
+
+
 
 ## Development
 - Open KML file in Google Earth as a network link. Set to refresh every 4 seconds.
