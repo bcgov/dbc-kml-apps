@@ -93,9 +93,3 @@ There is an npm step for building pug files back into kml:
 ```
 npm run build
 ```
-
-
-
-## Development
-- Open KML file in Google Earth as a network link. Set to refresh every 4 seconds.
-- 
