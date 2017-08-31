@@ -53,10 +53,10 @@ To create a custom output type in GeoServer using XSLT, you need to define two f
 - An alternative is to checkout all the map files like this:
   >  svn checkout http://apps.bcgov/svn/webmaps/sites/trunk/mapfiles
 
-Then use a search tool like *grep*
+  Then use a search tool like *grep*
   >  grep 'TA_MUNICIP' *.map
 
-This is handy if you don't want to operate in VPN all the time.
+  This is handy if you don't want to operate in VPN all the time.
 - Use the feature class name to look up the layer name and style with a wms *getFeatureInfo* request. Use the style closely resembling the layer entry in the mapserver mapfile.
   > http://openmaps.gov.bc.ca/geo/pub/**feature-class-name**/wms?request=getcapabilities
 - Use the feature class name to look up exposed attributes and their associated names.
