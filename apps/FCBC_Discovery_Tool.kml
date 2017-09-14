@@ -709,7 +709,7 @@ For more information
 					   </ListStyle>
 				</Style>
 				<Link>
-					 <href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;styles=2215&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
+					 <href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;styles=2215&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
 					 <viewRefreshMode>onStop</viewRefreshMode>
 					 <viewRefreshTime>2</viewRefreshTime>
 					 <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -797,7 +797,7 @@ For more information
 		   </ListStyle>
 	  </Style>
       <Link>
-		<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;styles=2212&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
+		<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;styles=2212&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
 		<viewRefreshMode>onStop</viewRefreshMode>
 		<viewRefreshTime>2</viewRefreshTime>
 		<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -883,7 +883,7 @@ For more information
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=2219&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
+				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=2219&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>2</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -949,7 +949,7 @@ For more information
 			 </ListStyle>
 		  </Style>
 		  <Link>
-			 <href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=2220&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
+			 <href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=2220&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
 			 <viewRefreshMode>onStop</viewRefreshMode>
 			 <viewRefreshTime>2</viewRefreshTime>
 			 <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
