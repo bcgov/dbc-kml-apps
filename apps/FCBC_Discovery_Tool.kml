@@ -15,8 +15,18 @@
 	</LookAt>
 	<styleUrl>#default</styleUrl>
 	<Style id="legend_wild_areas">
+		<ListStyle>
+			<ItemIcon>
+				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_LEGAL_ADMIN_BOUNDARIES.WCL_CONSERVATION_LANDS_SP&amp;style=6215&amp;format=image/png&amp;legend_options=forceLabels:off;columnheight:10;columns:1</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="legend_cons_areas">
+		<ListStyle>
+			<ItemIcon>
+				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_LEGAL_ADMIN_BOUNDARIES.WCL_CONSERVATION_LANDS_SP&amp;style=436&amp;format=image/png&amp;legend_options=forceLabels:off;columnheight:10;columns:1</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sh_ranger_station">
 		<IconStyle>
@@ -136,6 +146,11 @@
 		</PolyStyle>
 	</Style>
 	<Style id="legend_protected_areas">
+		<ListStyle>
+			<ItemIcon>
+				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&amp;style=434&amp;format=image/png&amp;legend_options=forceLabels:off;columnheight:10;columns:1</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="legend_crown_lease_tenures">
 		<ListStyle>
@@ -152,10 +167,25 @@
 		</ListStyle>
 	</Style>
 	<Style id="legend_prov_parks">
+		<ListStyle>
+			<ItemIcon>
+				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&amp;style=432&amp;format=image/png&amp;legend_options=forceLabels:off;columnheight:10;columns:1</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="legend_rec_areas">
+		<ListStyle>
+			<ItemIcon>
+				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&amp;style=435&amp;format=image/png&amp;legend_options=forceLabels:off;columnheight:10;columns:1</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="legend_eco_reserves">
+		<ListStyle>
+			<ItemIcon>
+				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&amp;style=433&amp;format=image/png&amp;legend_options=forceLabels:off;columnheight:10;columns:1</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sn_ranger_station0">
 		<IconStyle>
@@ -375,7 +405,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			<name>Indian Reserves</name>
 			<snippet></snippet>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_ADMIN_BOUNDARIES.CLAB_INDIAN_RESERVES&style=375&format=image/png"><br><br>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_ADMIN_BOUNDARIES.CLAB_INDIAN_RESERVES&style=375&format=image/png&legend_options=forceLabels:on"><br><br>
                             <P>For more information click 
  
 
@@ -410,7 +440,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		<GroundOverlay>
 			<name>National Parks</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_ADMIN_BOUNDARIES.CLAB_NATIONAL_PARKS&style=413&format=image/png"><br><br>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_ADMIN_BOUNDARIES.CLAB_NATIONAL_PARKS&style=413&format=image/png&legend_options=forceLabels:on"><br><br>
 		For more information click 
  
 
@@ -444,7 +474,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			<name>Provincial Parks</name>
 			<snippet></snippet>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=432&format=image/png"><br><br>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=432&format=image/png&legend_options=forceLabels:on"><br><br>
 For more information 
  
 
@@ -478,7 +508,7 @@ For more information
 			<name>Ecological Reserves</name>
 			<snippet></snippet>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=433&format=image/png"><br><br>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=433&format=image/png&legend_options=forceLabels:on"><br><br>
 For more information 
  
 
@@ -513,7 +543,7 @@ For more information
 			<name>Protected Areas</name>
 			<snippet></snippet>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=434&format=image/png"><br><br>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=434&format=image/png&legend_options=forceLabels:on"><br><br>
 For more information 
  
 
@@ -547,7 +577,7 @@ For more information
 			<name>Conservancy Areas</name>
 			<snippet></snippet>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CONSERVANCY_AREAS_SVW&style=436&format=image/png"><br><br>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CONSERVANCY_AREAS_SVW&style=436&format=image/png&legend_options=forceLabels:on"><br><br>
 For more information 
  
 
@@ -579,11 +609,8 @@ For more information
 			<name>Recreation Areas</name>
 			<snippet></snippet>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=435&format=image/png"><br><br>
-For more information 
- 
-
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW&style=435&format=image/png&legend_options=forceLabels:on"><br><br>
+For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.7541207199092</longitude>
 				<latitude>49.36663633212387</latitude>
@@ -614,11 +641,8 @@ For more information
 			<name>Conservation Lands</name>
 			<snippet></snippet>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_LEGAL_ADMIN_BOUNDARIES.WCL_CONSERVATION_LANDS_SP&style=6215&format=image/png"><br>
-For more information 
- 
-
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c0d5-4fcb-b84e-f8d98a7f8612">click here</A></P>]]></description>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_LEGAL_ADMIN_BOUNDARIES.WCL_CONSERVATION_LANDS_SP&style=6215&format=image/png&legend_options=forceLabels:on;columnheight:10;columns:1"><br><br/>
+For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c0d5-4fcb-b84e-f8d98a7f8612">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-122.7200650286509</longitude>
 				<latitude>49.20060352851539</latitude>
@@ -649,34 +673,34 @@ For more information
     <name>Land Act Tenures</name>
     <open>1</open>
     <visibility>1</visibility>
-		<Style>
-			<ListStyle>
-				<bgColor>00ffffff</bgColor>
-				<maxSnippetLines>2</maxSnippetLines>
-			</ListStyle>
-		</Style>
-    <GroundOverlay>
-			<name>Tenures</name>
-			<visibility>1</visibility>
-	    <Snippet maxLines="2">Visible below an eye altitude of 200km within BC</Snippet>
-			<description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CROWN_DVLOPMNT_AGRMNTS_SVW&style=2168&format=image/png'><br><p>For more infomation 
- 
+	<Style>
+		<ListStyle>
+			<bgColor>00ffffff</bgColor>
+			<maxSnippetLines>2</maxSnippetLines>
+		</ListStyle>
+	</Style>
 
- <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]></description>
-      <styleUrl>#noDirections</styleUrl>
-			<drawOrder>6</drawOrder>
-			<Icon>
-				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_CROWN_DVLOPMNT_AGRMNTS_SVW&amp;STYLES=2168&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
-				<viewRefreshMode>onStop</viewRefreshMode>
-				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
-			</Icon>
-			<LatLonBox>
-				<north>49.29199460368507</north>
-				<south>49.23097590916554</south>
-				<east>-123.0356241844435</east>
-				<west>-123.1748443529544</west>
-			</LatLonBox>
-		</GroundOverlay>
+	<GroundOverlay>
+		<name>Tenures</name>
+		<Snippet maxLines="4"><![CDATA[Visible below an eye altitude of 200km within BC<br>If your area of interest falls within a Lease or Map Reserve, call <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> for guidance]]></Snippet>
+		<visibility>0</visibility>
+		<description>
+		<![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&style=2215&format=image/png&legend_options=forceLabels:on'><br><p>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
+		</description>
+		<styleUrl>#noDirections</styleUrl>
+		<drawOrder>6</drawOrder>
+		<Icon>
+			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;STYLES=2215&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+			<viewRefreshMode>onStop</viewRefreshMode>
+			<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+		</Icon>
+		<LatLonBox>
+			<north>49.29199460368507</north>
+			<south>49.23097590916554</south>
+			<east>-123.0356241844435</east>
+			<west>-123.1748443529544</west>
+		</LatLonBox>
+	</GroundOverlay>
 
 	<Folder>
 	<name>Tenure Details</name>
@@ -690,7 +714,7 @@ For more information
 			<visibility>0</visibility>
 			<styleUrl>#noDirections</styleUrl>
 				<description>
-				<![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&style=2215&format=image/png'><br><p>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
+				<![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&style=2215&format=image/png&legend_options=forceLabels:on'><br><p>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
 				</description>
 				<LookAt>
 				   <longitude>-122.4752757149426</longitude>
@@ -716,29 +740,6 @@ For more information
 				</Link>
 		   </NetworkLink>
 
-		   <!-- Tenure Details: ground overlay only -->
-			<GroundOverlay>
-				<name>Tenure Details</name>
-				<Snippet maxLines="4"><![CDATA[Visible below an eye altitude of 200km within BC<br>If your area of interest falls within a Lease or Map Reserve, call <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> for guidance]]></Snippet>
-				<visibility>0</visibility>
-				<description>
-				<![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&style=2215&format=image/png'><br><p>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
-				</description>
-				<styleUrl>#noDirections</styleUrl>
-				<drawOrder>6</drawOrder>
-				<Icon>
-					<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;STYLES=2215&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
-					<viewRefreshMode>onStop</viewRefreshMode>
-					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
-				</Icon>
-				<LatLonBox>
-					<north>49.29199460368507</north>
-					<south>49.23097590916554</south>
-					<east>-123.0356241844435</east>
-					<west>-123.1748443529544</west>
-				</LatLonBox>
-			</GroundOverlay>
-
 		</Folder>
 
     
@@ -747,7 +748,7 @@ For more information
 			<visibility>1</visibility>
 	    <Snippet maxLines="2">Visible below an eye altitude of 200km within BC</Snippet>
 			<description>
-          <![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&style=2213&format=image/png'><br><p>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
+          <![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&style=2213&format=image/png&legend_options=forceLabels:on'><br><p>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
 			</description>
 			<styleUrl>#noDirections</styleUrl>
 			<drawOrder>6</drawOrder>
@@ -774,10 +775,7 @@ For more information
       </Snippet>
 	   	<visibility>0</visibility>
       <description>
-          <![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&style=2212&format=image/png'><br><p>For more infomation 
- 
-
- <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
+          <![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&style=2212&format=image/png&legend_options=forceLabels:on'><br><p>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
       </description>
       <styleUrl>#noDirections</styleUrl>
 		  <LookAt>
@@ -814,11 +812,11 @@ For more information
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[
 
-				<P><img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2219&format=image/png"> Private Ownership</P>
+				<P><img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2219&format=image/png&legend_options=forceLabels:on"></P>
 
-				<P><img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2220&format=image/png"> Crown Ownership</P>
+				<P><img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2220&format=image/png&legend_options=forceLabels:on"></P>
         
-				<P><img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2218&format=image/png"> Integrated Cadastral Fabric - Outlined</P>
+				<P><img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2218&format=image/png&legend_options=forceLabels:on"></P>
         
 
 
@@ -833,7 +831,7 @@ For more information
 			<GroundOverlay>
 				<name>Private Ownership</name>
 				<Snippet maxLines="1">Visible below an eye altitude of 4km within BC</Snippet>
-				<description><![CDATA[<P><img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2219&format=image/png"></P> <P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]></description>
+				<description><![CDATA[<P><img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2219&format=image/png&legend_options=forceLabels:on"></P> <P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]></description>
 				<LookAt>
 					<longitude>-115.743353164902</longitude>
 					<latitude>49.50998821115897</latitude>
@@ -862,7 +860,7 @@ For more information
 		  <name>Private Ownership Details</name>
 		  <Snippet maxLines="2">Visible below an eye altitude of 4km within BC</Snippet>
 		  <visibility>0</visibility>
-		  <description><![CDATA[<P><img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2219&format=image/png'></P><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+		  <description><![CDATA[<P><img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2219&format=image/png&legend_options=forceLabels:on'></P><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
 	      </description>
 		  <styleUrl>#noDirections</styleUrl>
 			<LookAt>
@@ -894,10 +892,7 @@ For more information
 			<name>Crown Ownership</name>
 			<visibility>1</visibility>
       <Snippet maxLines="4"><![CDATA[Visible below an eye altitude of 4km within BC<br>This layer indicates land already in use by the municipal, provincial or federal government]]></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2220&format=image/png"><br><br><P>For more information 
- 
-
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2220&format=image/png&legend_options=forceLabels:on"><br><br><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
       </description>
       <styleUrl>#noDirections</styleUrl>
 			<LookAt>
@@ -926,10 +921,7 @@ For more information
 		  <name>Crown Ownership Details</name>
 		  <visibility>0</visibility>
       <Snippet maxLines="2"><![CDATA[Visible below an eye altitude of 4km within BC]]></Snippet>
-		  <description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2220&format=image/png'><P>For more information 
- 
-
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+		  <description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2220&format=image/png&legend_options=forceLabels:on'><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
       </description>
       <styleUrl>#noDirections</styleUrl>
 		  <LookAt>
@@ -959,8 +951,8 @@ For more information
 	  <GroundOverlay>
 		  <name>Integrated Cadastral Fabric - Outlined</name>
 		  <visibility>0</visibility>
-		  <Snippet maxLines="1">Visible below an eye altitude of 3km within BC</Snippet>
-		  <description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2218&format=image/png"><br>
+		  <Snippet maxLines="1">Visible below an eye altitude of 4km within BC</Snippet>
+		  <description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2218&format=image/png&legend_options=forceLabels:on"><br>
 		  <P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P><BR/>]]></description>
 		  <drawOrder>2</drawOrder>
 		  <Icon>
@@ -988,7 +980,7 @@ For more information
 		<visibility>0</visibility>
 		<open>1</open>
 		<snippet></snippet>
-		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.ARIS_MINERAL_REPORTS&style=2985&format=image/png"><br>
+		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.ARIS_MINERAL_REPORTS&style=2985&format=image/png&legend_options=forceLabels:on"><br>
 		<P>For more infomation <A HREF="http://catalogue.data.gov.bc.ca/dataset/af68d1d1-b85e-4ea9-b5f3-e09fc83f3f4f">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
@@ -1016,7 +1008,7 @@ For more information
 		<visibility>0</visibility>
 		<open>1</open>
 		<snippet></snippet>
-		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MMS_NOTICE_OF_WORK&style=3010&format=image/png"><br>
+		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MMS_NOTICE_OF_WORK&style=3010&format=image/png&legend_options=forceLabels:on"><br>
 		<P>For more infomation <A HREF="http://catalogue.data.gov.bc.ca/dataset/636822f1-8eaa-4a88-be69-9b9c12f80a20">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
@@ -1044,7 +1036,7 @@ For more information
 		<visibility>0</visibility>
 		<open>1</open>
 		<snippet></snippet>
-		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3646&format=image/png"><br>
+		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3646&format=image/png&legend_options=forceLabels:on"><br>
 		<P>For more infomation <A HREF="http://catalogue.data.gov.bc.ca/dataset/923c5330-c798-4276-82c1-705000c5caac">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-120.7179993627585</longitude>
@@ -1076,7 +1068,7 @@ For more information
 		<name>Placer Claim</name>
 		<visibility>0</visibility>
 		<snippet></snippet>
-		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3641&format=image/png"><br>
+		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3641&format=image/png&legend_options=forceLabels:on"><br>
 		<P>For more infomation <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-122.0921071096601</longitude>
@@ -1105,7 +1097,7 @@ For more information
 		<name>Placer Lease</name>
 		<visibility>0</visibility>
 		<snippet></snippet>
-		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3642&format=image/png"><br>
+		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3642&format=image/png&legend_options=forceLabels:on"><br>
 		<P>For more infomation <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-122.0921071096601</longitude>
@@ -1141,7 +1133,7 @@ For more information
 			<name>Mineral Claim</name>
 			<visibility>0</visibility>
 			<snippet></snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3643&format=image/png"><br>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3643&format=image/png&legend_options=forceLabels:on"><br>
 			<P>For more infomation <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.5996447355055</longitude>
@@ -1170,7 +1162,7 @@ For more information
 			<name>Mining Lease</name>
 			<visibility>0</visibility>
 			<snippet></snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3644&format=image/png"><br>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MTA_ACQUIRED_TENURE_SVW&style=3644&format=image/png&legend_options=forceLabels:on"><br>
 			<P>For more infomation <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.5996447355055</longitude>
@@ -1201,7 +1193,7 @@ For more information
 		<visibility>0</visibility>
 		<open>1</open>
 		<snippet></snippet>
-		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE&style=3001&format=image/png"><br>
+		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE&style=3001&format=image/png&legend_options=forceLabels:on"><br>
 		<P>For more infomation <A HREF="http://catalogue.data.gov.bc.ca/dataset/92206d94-bc64-4111-a295-cd14eb5a501c">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
@@ -1229,7 +1221,7 @@ For more information
 	   <name>Mineral Reserves and Coal Land Reserves (new - added 2016/05/05)</name>
      <visibility>0</visibility>
 	   <snippet></snippet>
-	   <description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_MINERAL_TENURE.MTA_SITE_SP&style=Mineral_Reserves_and_Coal_Land_Reserves_All_Outlined&format=image/png'><br>
+	   <description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_MINERAL_TENURE.MTA_SITE_SP&style=3935&format=image/png&legend_options=forceLabels:on'><br>
        <P>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/mta-mineral-reserve-sites-business-view'>click here</A></P>]]></description>
 	   <LookAt>
 		    <longitude>-123.2946611504853</longitude>
@@ -1241,7 +1233,7 @@ For more information
 	   </LookAt>
 	   <drawOrder>2</drawOrder>
 	   <Icon>
-	   	<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_MINERAL_TENURE.MTA_SITE_SP&amp;STYLES=Mineral_Reserves_and_Coal_Land_Reserves_All_Outlined&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+	   	<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_MINERAL_TENURE.MTA_SITE_SP&amp;STYLES=3935&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 		    <viewRefreshMode>onStop</viewRefreshMode>
 		    <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 	   </Icon>
