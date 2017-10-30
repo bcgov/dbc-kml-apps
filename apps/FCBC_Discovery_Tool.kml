@@ -1842,7 +1842,7 @@ For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<Link>
-				<href>http://openmaps.gov.bc.ca/kml/BCGov_Airphoto_Viewer_WMS.kml</href>
+				<href>https://raw.githubusercontent.com/bcgov/dbc-kml-apps/master/mapserver/kml/BCGov_AirPhoto_Viewer.kml</href>
 			</Link>
 	</NetworkLink>
 
