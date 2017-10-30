@@ -969,7 +969,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			<name>Indian Reserves</name>
 			<snippet></snippet>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_ADMIN_BOUNDARIES.CLAB_INDIAN_RESERVES&style=375&format=image/png&legend_options=forceLabels:on"><br><br>
+			<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_ADMIN_BOUNDARIES.CLAB_INDIAN_RESERVES&style=374_375&format=image/png&legend_options=forceLabels:on"><br><br>
                             <P>For more information click 
  
 
@@ -986,7 +986,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			<styleUrl>#legend_indian_reserves</styleUrl>
 			<drawOrder>2</drawOrder>
 			<Icon>
-				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_ADMIN_BOUNDARIES.CLAB_INDIAN_RESERVES&amp;STYLES=375&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_ADMIN_BOUNDARIES.CLAB_INDIAN_RESERVES&amp;STYLES=374_375&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>2</viewRefreshTime>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1020,7 +1020,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			<styleUrl>#legend_national_parks</styleUrl>
 			<drawOrder>2</drawOrder>
 			<Icon>
-				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_ADMIN_BOUNDARIES.CLAB_NATIONAL_PARKS&amp;STYLES=413&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_ADMIN_BOUNDARIES.CLAB_NATIONAL_PARKS&amp;STYLES=412_413&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>2</viewRefreshTime>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
