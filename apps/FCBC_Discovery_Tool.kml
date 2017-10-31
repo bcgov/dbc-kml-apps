@@ -764,7 +764,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		<li>Press the 'Create Geomark' button.</li>
 		<li>Once the geomark is created, a web address will display. Save this address to your personal computer directory as this web address will allow you to access the geomark in the future or pass on to other parties for access to your area of interest. If the web address is lost before it is saved, you will need to Construct a newnother geomark as there is no 'search' capability for retrieval.</li>
 		</ul>
-		<form id="createGeomark" role="form" data-toggle="validator" class="form-horizontal" action="https://apps.gov.bc.ca/pub/geomark/geomarks/new.kml"  method="POST">
+		<form id="createGeomark" role="form" data-toggle="validator" class="form-horizontal" action="http://apps.gov.bc.ca/pub/geomark/geomarks/new.kml"  method="POST">
 		  <input type="hidden" name="redirectUrl" value="http://apps.gov.bc.ca/pub/geomark/geomarks/created.kml" />
 		  <input type="hidden" name="failureRedirectUrl" value="http://apps.gov.bc.ca/pub/geomark/geomarks/createKmlFailure" />
 		  <input type="hidden" name="formName" value="kml" />
@@ -883,15 +883,15 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			  <div>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferCap" value="ROUND" checked="checked" />
-					<img src="https://apps.gov.bc.ca/pub/geomark/images/end-cap-round.png" /> Round
+					<img src="http://apps.gov.bc.ca/pub/geomark/images/end-cap-round.png" /> Round
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferCap" value="SQUARE"  />
-				   <img src="https://apps.gov.bc.ca/pub/geomark/images/end-cap-square.png" /> Square
+				   <img src="http://apps.gov.bc.ca/pub/geomark/images/end-cap-square.png" /> Square
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferCap" value="FLAT"  />
-				  <img src="https://apps.gov.bc.ca/pub/geomark/images/end-cap-flat.png" /> Flat
+				  <img src="http://apps.gov.bc.ca/pub/geomark/images/end-cap-flat.png" /> Flat
 				</label>
 			  </div>
 			  <p class="help-block">The style of buffer to use at the ends of a buffered line.</p>
@@ -903,15 +903,15 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			  <div>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferJoin" value="ROUND" checked="checked" />
-				  <img src="https://apps.gov.bc.ca/pub/geomark/images/join-round.png" /> Round
+				  <img src="http://apps.gov.bc.ca/pub/geomark/images/join-round.png" /> Round
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferJoin" value="MITRE"  />
-				  <img src="https://apps.gov.bc.ca/pub/geomark/images/join-mitre.png" /> Mitre
+				  <img src="http://apps.gov.bc.ca/pub/geomark/images/join-mitre.png" /> Mitre
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferJoin" value="BEVEL"  />
-					<img src="https://apps.gov.bc.ca/pub/geomark/images/join-bevel.png" /> Bevel
+					<img src="http://apps.gov.bc.ca/pub/geomark/images/join-bevel.png" /> Bevel
 				</label>
 				<p class="help-block">The style of buffer to use for joins between the line segments for lines and polygons.</p>
 			  </div>
