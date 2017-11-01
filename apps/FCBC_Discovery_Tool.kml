@@ -662,11 +662,11 @@ You can use your geomark in a couple of different ways:<br/><br/>
 	<Folder>
 	  <name>Area of Interest Tools</name>
 	  <Snippet><![CDATA[
-		<A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/geomark_web_srv/index.page">What is a geomark?</a>]]></Snippet>
+		<A HREF="https://www2.gov.bc.ca/gov/content?id=D02F281D38704248A625A36B0BFF87DE">What is a geomark?</a>]]></Snippet>
 	  <description>
 		<![CDATA[
         <p>Create a geomark to represent your point (placemark), path, or polygon of interest.</br></br>
-        <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/geomark_web_srv/index.page">What is a geomark?</a></p>
+        <A HREF="https://www2.gov.bc.ca/gov/content?id=D02F281D38704248A625A36B0BFF87DE">What is a geomark?</a></p>
         ]]>
 	  </description>
 	  <open>1</open>
@@ -953,7 +953,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		</Folder>
 		<Folder>
 		<name>
-		<![CDATA[<a href="http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/databc/geographic-data-and-services/geomark-webservice">Documentation</a>]]>
+		<![CDATA[<a href="https://www2.gov.bc.ca/gov/content?id=F6BAF45131954020BCFD2EBCC456F084">Documentation</a>]]>
 		</name>
 		<description>View move information about the geomark service
 		in your web browser.</description>
