@@ -1,88 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
-	<Folder>
-		<name>BC Geodetic Control Monument Viewer</name>
-		<open>1</open>
-		<description>View geodetic control monuments of the Province of British Columbia. A geodetic survey monument is a geospatial reference used for positioning within the Province. The term geodetic meaning: concerned with the precise location (latitude, longitude, height) of points and figures on the earth&apos;s surface.</description>
-		<LookAt>
-			<longitude>-124.7059782963682</longitude>
-			<latitude>54.26540375568923</latitude>
-			<altitude>0</altitude>
-			<heading>-2.958270830482301</heading>
-			<tilt>0</tilt>
-			<range>1855986.973080759</range>
-		<altitudeMode>relativeToGround</altitudeMode>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-
-<NetworkLink >
-	<name>Geodetic Control Monuments</name>
-	<visibility>0</visibility>
-	
-	<LookAt>
-		<longitude>-124.2007623466872</longitude>
-		<latitude>54.24685760366558</latitude>
-		<altitude>0</altitude>
-		<heading>0.7179969377242983</heading>
-		<tilt>0</tilt>
-		<range>1651407.948731373</range>
-		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-	</LookAt>
-	<gx:balloonVisibility>1</gx:balloonVisibility>
-	<refreshVisibility>1</refreshVisibility>
-	<flyToView>1</flyToView>
-	<Link>
-		<href>http://openmaps.gov.bc.ca/kml/geo/layers/WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL.kml</href>
-	</Link>
-</NetworkLink>
-
-		<GroundOverlay>
-			<name>Integrated Survey Areas</name>
-			<Snippet maxLines="0"></Snippet>
-<visibility>1</visibility>
-			<description><![CDATA[<img src=http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&format=image/png&STYLE='>For more information click 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>]]></description>
-			<LookAt>
-				<longitude>-115.743353164902</longitude>
-				<latitude>49.50998821115897</latitude>
-				<altitude>0</altitude>
-				<heading>0.01927763846471821</heading>
-				<tilt>0</tilt>
-				<range>840.9868857461036</range>
-			</LookAt>
-			<drawOrder>2</drawOrder>
-			<Icon>
-				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
-				<viewRefreshMode>onStop</viewRefreshMode>
-				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
-			</Icon>
-			<LatLonBox>
-			<north>50.21125227774</north>
-			<south>50.1697223809518</south>
-			<east>-119.3313352684996</east>
-			<west>-119.4166970171554</west>
-			</LatLonBox>
-		</GroundOverlay>
-		<GroundOverlay>
-			<name>Municipalities</name>
-			<Snippet maxLines="0"></Snippet>
-<visibility>0</visibility>
-			<description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&format=image/png'><br><p>For more infomation 
- <A HREF='http://catalogue.data.gov.bc.ca/dataset/5d17b2a7-17d8-498d-a49a-b92b17e86858'>click here</A></P>]]></description>
-			<drawOrder>7</drawOrder>
-			<Icon>
-				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
-				<viewRefreshMode>onStop</viewRefreshMode>
-				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
-			</Icon>
-			<LatLonBox>
-			<north>50.21125227774</north>
-			<south>50.1697223809518</south>
-			<east>-119.3313352684996</east>
-			<west>-119.4166970171554</west>
-			</LatLonBox>
-		</GroundOverlay>
-
 
 <Folder>
 	<name>Search Tools</name>
@@ -140,7 +57,6 @@
           
      </html>]]></description>
 	</Folder>
-
 
     <Folder>
       <name>Find an Address</name>
@@ -249,6 +165,29 @@
       
     </Folder>
 
+
+	<NetworkLink>
+		<name>Geographical Names from BCGNIS</name>
+		<visibility>0</visibility>
+		<description>Official geographical names from the BC Geographical Names Information System</description>
+		<LookAt>
+			<longitude>-124.478119020778</longitude>
+			<latitude>52.82030658064183</latitude>
+			<altitude>0</altitude>
+			<heading>0.925602876244341</heading>
+			<tilt>0</tilt>
+			<range>1485899.677234376</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Link>
+			<href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+			<viewRefreshMode>onStop</viewRefreshMode>
+			<viewRefreshTime>1</viewRefreshTime>
+			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
+			<httpQuery>&amp;outputFormat=kml&amp;outputStyle=summary</httpQuery>
+		</Link>
+	</NetworkLink>
+
 	<Folder>
 	 <name>Address Point Legend</name>
 	   <open>0</open>
@@ -285,7 +224,7 @@
 	</LookAt>
 	</Folder>
 
-</Folder>
+
 
     <NetworkLink>
         <name>Site Addresses</name>
@@ -326,86 +265,7 @@
     </NetworkLink>
 
 
-<NetworkLink>
-	<name>Geographical Names from BCGNIS</name>
-	<visibility>0</visibility>
-	<description>Official geographical names from the BC Geographical Names Information System</description>
-	<LookAt>
-		<longitude>-124.478119020778</longitude>
-		<latitude>52.82030658064183</latitude>
-		<altitude>0</altitude>
-		<heading>0.925602876244341</heading>
-		<tilt>0</tilt>
-		<range>1485899.677234376</range>
-		<altitudeMode>relativeToGround</altitudeMode>
-	</LookAt>
-	<Link>
-		<href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
-		<viewRefreshMode>onStop</viewRefreshMode>
-		<viewRefreshTime>1</viewRefreshTime>
-		<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
-		<httpQuery>&amp;outputFormat=kml&amp;outputStyle=summary</httpQuery>
-	</Link>
-</NetworkLink>
-
-      <NetworkLink xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
-		<name>Airphotos</name>
-		<description>displayable, printable, low-resolution airphotos, their photo centres, and their associated flight lines</description>
-		<visibility>0</visibility>
-		<open>1</open>
-		<LookAt>
-			<longitude>-125.790485103603</longitude>
-			<latitude>54.53529082074053</latitude>
-			<altitude>0</altitude>
-			<heading>-0.5347266315948855</heading>
-			<tilt>0</tilt>
-			<range>1826047.023906531</range>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<Link>
-			<href>http://openmaps.gov.bc.ca/kml/BCGov_Airphoto_Viewer_Loader.kml</href>
-		</Link>
-	</NetworkLink>
-
-	<NetworkLink xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
-		<name>BCGov Orthophoto Viewer</name>
-		<open>1</open>
-		<visibility>0</visibility>
-		<LookAt>
-			<longitude>-125.790485103603</longitude>
-			<latitude>54.53529082074053</latitude>
-			<altitude>0</altitude>
-			<heading>-0.5347266315948855</heading>
-			<tilt>0</tilt>
-			<range>1826047.023906531</range>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<refreshVisibility>1</refreshVisibility>
-		<Link>
-			<href>http://openmaps.gov.bc.ca/kml/BCGov_Ortho_Viewer.kml</href>
-		</Link>
-</NetworkLink>
-
-		<NetworkLink>
-	<name>BCGov QuickBase</name>
-	<open>0</open>
-	<LookAt>
-		<longitude>-125.790485103603</longitude>
-		<latitude>54.53529082074053</latitude>
-		<altitude>0</altitude>
-		<heading>-0.5347266315948855</heading>
-		<tilt>0</tilt>
-		<range>1826047.023906531</range>
-		<altitudeMode>relativeToGround</altitudeMode>
-		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-	</LookAt>
-	<refreshVisibility>1</refreshVisibility>
-	<Link>
-		<href>http://openmaps.gov.bc.ca/kml/BCGov_Quickbase.kml</href>
-	</Link>
-</NetworkLink>
 
 </Folder>
+
 </kml>
