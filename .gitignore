@@ -12,3 +12,6 @@
 hs_err_pid*
 .project
 .DS_Store
+
+#ignore files prefixed with underscore
+_*

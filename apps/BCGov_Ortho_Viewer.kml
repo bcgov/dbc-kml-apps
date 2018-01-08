@@ -79,7 +79,7 @@
         </LookAt>
         <color>75ffffff</color>
         <Icon>
-          <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_TILES_POINT&amp;STYLES=Airborne_Imagery_Orthophoto_Tile_Points&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
+          <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_TILES_POINT&amp;STYLES=6210&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -97,10 +97,11 @@
         <snippet></snippet>
         <drawOrder>1</drawOrder>
         <Icon>
-          <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_COVERAGE_SP&amp;STYLES=Airborne_Imagery_Orthophoto_Coverage&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
+          <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_COVERAGE_SP&amp;STYLES=6212&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
         </Icon>
+		<color>55ffffff</color>
         <LatLonBox>
           <north>61.62155672108347</north>
           <south>44.5115929317418</south>
