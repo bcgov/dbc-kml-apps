@@ -1811,7 +1811,7 @@ For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c
 		<visibility>0</visibility>
 		<open>1</open>
 		<Snippet maxLines="3"><![CDATA[<p><a name="link_id" id="link_id" href="your_text_" onclick="window.open('http://maps.gov.bc.ca/ess/hm/cadb');window.close();">Open the Consultative Areas Map</a></p> and run the <b>"SOE Report"</b> to select your area of interest.]]></Snippet>
-		<description><![CDATA[<p><a name="link_id" id="link_id" href="your_text_" onclick="window.open('http://test.maps.gov.bc.ca/ess/hm/cadb');window.close();">Open the Consultative Areas Map</a></p> and run the <b>"SOE Report"</b> to select your area of interest.]]></description>
+		<description><![CDATA[<p><a name="link_id" id="link_id" href="your_text_" onclick="window.open('http://maps.gov.bc.ca/ess/hm/cadb');window.close();">Open the Consultative Areas Map</a></p> and run the <b>"SOE Report"</b> to select your area of interest.]]></description>
 		<LookAt>
 			<longitude>-123.4911809050059</longitude>
 			<latitude>51.88020833333334</latitude>
