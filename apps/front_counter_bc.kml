@@ -1781,10 +1781,8 @@ For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c
 	<!--
 	<NetworkLink>
 		<name>First Nations Consultation Areas</name>
-		<Snippet maxLines="3">Below an eye altitude of 300km and within BC, every time the map stops, a First Nations Consultation Areas Report will be displayed for the area of the map you are looking at.</Snippet>
-		<description><![CDATA[<p>Below an eye altitude of 300km, every time the map stops within British Columbia, a First Nations Consultation Areas Report will be displayed for the current map extent.</p>
-				 ]]>
-		</description>
+		<Snippet maxLines="3">Open the Consultative Areas Map and run the "SOE Report" to select your area of interest.</Snippet>
+		<<description><![CDATA[<p><a name="link_id" id="link_id" href="your_text_" onclick="window.open('http://maps.gov.bc.ca/ess/hm/cadb');window.close();">Open the Consultative Areas Map</a></p> and run the <b>"SOE Report"</b> to select your area of interest.]]></description>
 		<open>0</open>
 		<visibility>0</visibility>
 		<LookAt>
