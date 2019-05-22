@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
 <Document>
 	<name>FrontCounter BC Discovery Tool</name>
@@ -1289,7 +1289,7 @@ For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c
 				   </ListStyle>
 			</Style>
 			<Link>
-				 <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;styles=Tenure_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
+				 <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;styles=Tenure_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
 				 <viewRefreshMode>onStop</viewRefreshMode>
 				 <viewRefreshTime>2</viewRefreshTime>
 				 <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1340,7 +1340,7 @@ For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
       <Link>
-		<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;styles=Tenure_application_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
+		<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;styles=Tenure_application_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
 		<viewRefreshMode>onStop</viewRefreshMode>
 		<viewRefreshTime>2</viewRefreshTime>
 		<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1420,7 +1420,7 @@ For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<Link>
-				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=Private_ownership_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
+				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=Private_ownership_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>2</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1473,7 +1473,7 @@ For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c
 			 <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		  </LookAt>
 		  <Link>
-			 <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=Crown_ownership_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
+			 <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=Crown_ownership_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
 			 <viewRefreshMode>onStop</viewRefreshMode>
 			 <viewRefreshTime>2</viewRefreshTime>
 			 <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1809,8 +1809,7 @@ For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c
 	<NetworkLink>
 		<name>First Nations Consultation Areas</name>
 		<visibility>0</visibility>
-		<open>1</open>
-		<Snippet maxLines="3"><![CDATA[<p><a name="link_id" id="link_id" href="your_text_" onclick="window.open('http://maps.gov.bc.ca/ess/hm/cadb');window.close();">Open the Consultative Areas Map</a></p> and run the <b>"SOE Report"</b> to select your area of interest.]]></Snippet>
+		<Snippet maxLines="3">Open the Consultative Areas Map and run the "SOE Report" to select your area of interest.</Snippet>
 		<description><![CDATA[<p><a name="link_id" id="link_id" href="your_text_" onclick="window.open('http://maps.gov.bc.ca/ess/hm/cadb');window.close();">Open the Consultative Areas Map</a></p> and run the <b>"SOE Report"</b> to select your area of interest.]]></description>
 		<LookAt>
 			<longitude>-123.4911809050059</longitude>
