@@ -17,7 +17,7 @@
 	<Style id="tenures">
 		<ListStyle>
 			<ItemIcon>
-				<href>	http://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;style=2215&amp;format=image/png</href>
+				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;style=2215&amp;format=image/png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -31,7 +31,7 @@
 	<Style id="tenure_applications">
 		<ListStyle>
 			<ItemIcon>
-				<href>	http://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;style=2213&amp;format=image/png</href>
+				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&amp;version=1.1.1&amp;request=GetLegendGraphic&amp;layer=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&amp;style=2213&amp;format=image/png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
