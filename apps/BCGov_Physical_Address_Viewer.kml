@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 	<Folder>
 		<name>BC Physical Address Viewer</name>
@@ -67,7 +67,7 @@
       
         <body>
               
-             <form action="http://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="https://geocoder.api.gov.bc.ca/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <input type="hidden" name="outputSRS" id="outputSRS" value="4326"></input>
@@ -166,7 +166,7 @@
       
         <body>
               
-             <form action="http://apps.gov.bc.ca/pub/geocoder/occupants/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="https://geocoder.api.gov.bc.ca/occupants/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <input type="hidden" name="outputSRS" id="outputSRS" value="4326"></input>
@@ -415,7 +415,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?</href>
+					<href>https://geocoder.api.gov.bc.ca/sites/within.kml?</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]&amp;excludeUnits=true</viewFormat>
@@ -468,7 +468,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?</href>
+					<href>https://geocoder.api.gov.bc.ca/sites/within.kml?</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -504,7 +504,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=accessPoint&amp;excludeUnits=true&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/sites/within.kml?locationDescriptor=accessPoint&amp;excludeUnits=true&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -540,7 +540,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -577,7 +577,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]&amp;excludeUnits=true</viewFormat>
@@ -614,7 +614,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -670,7 +670,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2</href>
+					<href>https://geocoder.api.gov.bc.ca/intersections/within.kml?minDegree=2</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -702,7 +702,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
+					<href>https://geocoder.api.gov.bc.ca/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -734,7 +734,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
+					<href>https://geocoder.api.gov.bc.ca/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -766,7 +766,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
+					<href>https://geocoder.api.gov.bc.ca/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -798,7 +798,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
+					<href>https://geocoder.api.gov.bc.ca/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -830,7 +830,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=5</href>
+					<href>https://geocoder.api.gov.bc.ca/intersections/within.kml?minDegree=5</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -863,7 +863,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/occupants/within.kml?tags=hospitals&amp;maxResults=10&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=Hospitals&amp;maxResults=10&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -890,7 +890,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/occupants/within.kml?tags=schools&amp;maxResults=100&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=schools&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -917,7 +917,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/occupants/within.kml?tags=Educational+Services&amp;maxResults=100&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=Educational+Services&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -944,7 +944,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/occupants/within.kml?tags=employment&amp;maxResults=100&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=employment&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -971,7 +971,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/occupants/within.kml?tags=courts&amp;maxResults=100&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=courts&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1000,7 +1000,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/occupants/within.kml?tags=Protective%20Services&amp;maxResults=100&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=Protective%20Services&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1028,7 +1028,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/occupants/within.kml?tags=Water%20Transportation&amp;maxResults=100&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=Water%20Transportation&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1056,7 +1056,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/occupants/within.kml?tags=Air%20Transportation&amp;maxResults=100&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=Air%20Transportation&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1085,12 +1085,12 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>http://apps.gov.bc.ca/pub/geocoder/occupants/within.kml?tags=Aboriginal%20Business%20Listings&amp;maxResults=100&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=Indigenous%20Business%20Listings&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 				</Link>
-			</NetworkLink>           
+			</NetworkLink>
  
  		</Folder>
 
@@ -1129,11 +1129,10 @@
 					</ListStyle>
 				 </Style>
 		     <Link>
-				    <href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=100&amp;sortBy=name&amp;featureClass=1&amp;</href>
+				<href>https://apps.gov.bc.ca/pub/bcgnws/names/inside?official=1&amp;startIndex=1&amp;itemsPerPage=100&amp;outputFormat=kml&amp;outputStyle=summary&amp;outputSRS=4326&amp;featureClass=1&amp;sortBy=name</href>
 				    <viewRefreshMode>onStop</viewRefreshMode>
 				    <viewRefreshTime>1</viewRefreshTime>
 				    <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;mapWidthPixels=[horizPixels]&amp;mapHeightPixels=[vertPixels]</viewFormat>
-				    <httpQuery>&amp;outputFormat=kml&amp;outputStyle=summary</httpQuery>
 			   </Link>
 		  </NetworkLink>
       
@@ -1158,11 +1157,10 @@
 					</ListStyle>
 				 </Style>
 		     <Link>
-				    <href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=100&amp;sortBy=name&amp;</href>
+				    <href>https://apps.gov.bc.ca/pub/bcgnws/names/inside?official=1&amp;startIndex=1&amp;itemsPerPage=100&amp;outputFormat=kml&amp;outputStyle=summary&amp;outputSRS=4326&amp;sortBy=name</href>
 				    <viewRefreshMode>onStop</viewRefreshMode>
 				    <viewRefreshTime>1</viewRefreshTime>
 				    <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;mapWidthPixels=[horizPixels]&amp;mapHeightPixels=[vertPixels]</viewFormat>
-				    <httpQuery>&amp;outputFormat=kml&amp;outputStyle=summary</httpQuery>
 			   </Link>
 		  </NetworkLink>
       
@@ -1177,11 +1175,11 @@
 		  <name>Integrated Cadastral Fabric - Outlined</name>
 		  <visibility>0</visibility>
 		  <Snippet maxLines="1">Visible below an eye altitude of 4km within BC</Snippet>
-		  <description><![CDATA[<img src="http://test.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2218&format=image/png&legend_options=forceLabels:on"><br>
+		  <description><![CDATA[<img src="http://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2218&format=image/png&legend_options=forceLabels:on"><br>
 		  <P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P><BR/>]]></description>
 		  <drawOrder>2</drawOrder>
 		  <Icon>
-			<href>http://test.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;STYLES=2218&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+			<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;STYLES=2218&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>1</viewRefreshTime>
 			<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1197,7 +1195,7 @@
 		  <name>Private Ownership Details</name>
 		  <Snippet maxLines="2">Visible below an eye altitude of 2km within BC</Snippet>
 		  <visibility>0</visibility>
-		  <description><![CDATA[<P><img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=Private_ownership_centroids&format=image/png&legend_options=forceLabels:on'></P><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+		  <description><![CDATA[<P><img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=Private_ownership_centroids&format=image/png&legend_options=forceLabels:on'></P><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
 	      </description>
 		  <styleUrl>#private_ownership_details</styleUrl>
 			<LookAt>
@@ -1211,7 +1209,7 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<Link>
-				<href>http://test.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=Private_ownership_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
+				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=Private_ownership_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>2</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1221,7 +1219,7 @@
 		  <name>Crown Ownership Details</name>
 		  <visibility>0</visibility>
       <Snippet maxLines="2"><![CDATA[Visible below an eye altitude of 2km within BC]]></Snippet>
-		  <description><![CDATA[<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=Crown_ownership_centroids&format=image/png&legend_options=forceLabels:on'><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+		  <description><![CDATA[<img src='http://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=Crown_ownership_centroids&format=image/png&legend_options=forceLabels:on'><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
       </description>
       <styleUrl>#crown_ownership_details</styleUrl>
 		  <LookAt>
@@ -1234,7 +1232,7 @@
 			 <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		  </LookAt>
 		  <Link>
-			 <href>http://test.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=Crown_ownership_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false;kmcentroid_clip:true&amp;maxFeatures=500</href>
+			 <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;styles=Crown_ownership_centroids&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
 			 <viewRefreshMode>onStop</viewRefreshMode>
 			 <viewRefreshTime>2</viewRefreshTime>
 			 <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1247,12 +1245,12 @@
     <snippet></snippet>
 			<description>
          <![CDATA[
-      	  				<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
+      	  				<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
                  ]]>
       </description>
 			<drawOrder>6</drawOrder>
 			<Icon>
-					<href>http://test.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 			</Icon>
@@ -1316,20 +1314,20 @@ Use one of these layers when you are looking for a particular feature or just ro
 				<snippet></snippet>
 				<description><![CDATA[
 					<font size="5"><B> Elevation Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
 
 					<font size="5"><B> Transportation Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
 
 					<font size="5"><B>Water Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
 
 					<font size="5"><B> Grids</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>
 				]]></description>
 				<LookAt>
 					<longitude>-125.9074743412715</longitude>
@@ -1343,7 +1341,7 @@ Use one of these layers when you are looking for a particular feature or just ro
 				</LookAt>
 				<drawOrder>7</drawOrder>
 				<Icon>
-					<href>http://test.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1361,20 +1359,20 @@ Use one of these layers when you are looking for a particular feature or just ro
 				<snippet></snippet>
 				<description><![CDATA[
 					<font size="5"><B> Elevation Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
 
 					<font size="5"><B> Transportation Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
 
 					<font size="5"><B>Water Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
 
 					<font size="5"><B> Grids</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>
 				]]></description>
 				<LookAt>
 					<longitude>-125.9074743412715</longitude>
@@ -1388,7 +1386,7 @@ Use one of these layers when you are looking for a particular feature or just ro
 				</LookAt>
 				<drawOrder>7</drawOrder>
 				<Icon>
-					<href>http://test.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1429,20 +1427,20 @@ Use this layer after you've found the particular feature or area you want to til
 				<snippet></snippet>
 				<description><![CDATA[
 					<font size="5"><B> Elevation Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
 
 					<font size="5"><B> Transportation Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
 
 					<font size="5"><B>Water Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
 
 					<font size="5"><B> Grids</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>
 				]]></description>
 				<LookAt>
 					<longitude>-125.9074743412715</longitude>
@@ -1456,7 +1454,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</LookAt>
 				<drawOrder>7</drawOrder>
 				<Icon>
-					<href>http://test.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>7204</viewRefreshTime>
 					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1474,20 +1472,20 @@ Use this layer after you've found the particular feature or area you want to til
 				<snippet></snippet>
 				<description><![CDATA[
 					<font size="5"><B> Elevation Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
 
 					<font size="5"><B> Transportation Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style=WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
 
 					<font size="5"><B>Water Features</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
 
 					<font size="5"><B> Grids</B></font><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
-					<img src='http://test.openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
+					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>
 				]]></description>
 				<LookAt>
 					<longitude>-125.9074743412715</longitude>
@@ -1501,7 +1499,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</LookAt>
 				<drawOrder>7</drawOrder>
 				<Icon>
-					<href>http://test.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>7204</viewRefreshTime>
 					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
