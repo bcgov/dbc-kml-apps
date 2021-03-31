@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
 <Document>
 	<name>FrontCounter BC Discovery Tool</name>
@@ -652,7 +652,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
     <open>1</open>
   	<visibility>1</visibility>
 		<Link>
-		   <href>http://apps.gov.bc.ca/pub/geomark/geomarks/index.kml</href>
+		   <href>https://apps.gov.bc.ca/pub/geomark/geomarks/index.kml</href>
 		</Link>
 	</NetworkLink>
 	-->
@@ -696,9 +696,9 @@ You can use your geomark in a couple of different ways:<br/><br/>
 
 		  <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" rel="stylesheet" type="text/css" />
 
-		  <link href="http://apps.gov.bc.ca/pub/geomark/css/rs.css" rel="stylesheet" type="text/css" />
+		  <link href="https://apps.gov.bc.ca/pub/geomark/css/rs.css" rel="stylesheet" type="text/css" />
 
-		  <link href="http://apps.gov.bc.ca/pub/geomark/css/bcgov.css" rel="stylesheet" type="text/css" />
+		  <link href="https://apps.gov.bc.ca/pub/geomark/css/bcgov.css" rel="stylesheet" type="text/css" />
 
 
 		  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js">
@@ -764,9 +764,9 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		<li>Press the 'Create Geomark' button.</li>
 		<li>Once the geomark is created, a web address will display. Save this address to your personal computer directory as this web address will allow you to access the geomark in the future or pass on to other parties for access to your area of interest. If the web address is lost before it is saved, you will need to Construct a newnother geomark as there is no 'search' capability for retrieval.</li>
 		</ul>
-		<form id="createGeomark" role="form" data-toggle="validator" class="form-horizontal" action="http://apps.gov.bc.ca/pub/geomark/geomarks/new.kml"  method="POST">
-		  <input type="hidden" name="redirectUrl" value="http://apps.gov.bc.ca/pub/geomark/geomarks/created.kml" />
-		  <input type="hidden" name="failureRedirectUrl" value="http://apps.gov.bc.ca/pub/geomark/geomarks/createKmlFailure" />
+		<form id="createGeomark" role="form" data-toggle="validator" class="form-horizontal" action="https://apps.gov.bc.ca/pub/geomark/geomarks/new.kml"  method="POST">
+		  <input type="hidden" name="redirectUrl" value="https://apps.gov.bc.ca/pub/geomark/geomarks/created.kml" />
+		  <input type="hidden" name="failureRedirectUrl" value="https://apps.gov.bc.ca/pub/geomark/geomarks/createKmlFailure" />
 		  <input type="hidden" name="formName" value="kml" />
 		  <input type="hidden" name="format" value="kml" />
 		  <div class="form-group">
@@ -883,15 +883,15 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			  <div>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferCap" value="ROUND" checked="checked" />
-					<img src="http://apps.gov.bc.ca/pub/geomark/images/end-cap-round.png" /> Round
+					<img src="https://apps.gov.bc.ca/pub/geomark/images/end-cap-round.png" /> Round
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferCap" value="SQUARE"  />
-				   <img src="http://apps.gov.bc.ca/pub/geomark/images/end-cap-square.png" /> Square
+				   <img src="https://apps.gov.bc.ca/pub/geomark/images/end-cap-square.png" /> Square
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferCap" value="FLAT"  />
-				  <img src="http://apps.gov.bc.ca/pub/geomark/images/end-cap-flat.png" /> Flat
+				  <img src="https://apps.gov.bc.ca/pub/geomark/images/end-cap-flat.png" /> Flat
 				</label>
 			  </div>
 			  <p class="help-block">The style of buffer to use at the ends of a buffered line.</p>
@@ -903,15 +903,15 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			  <div>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferJoin" value="ROUND" checked="checked" />
-				  <img src="http://apps.gov.bc.ca/pub/geomark/images/join-round.png" /> Round
+				  <img src="https://apps.gov.bc.ca/pub/geomark/images/join-round.png" /> Round
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferJoin" value="MITRE"  />
-				  <img src="http://apps.gov.bc.ca/pub/geomark/images/join-mitre.png" /> Mitre
+				  <img src="https://apps.gov.bc.ca/pub/geomark/images/join-mitre.png" /> Mitre
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferJoin" value="BEVEL"  />
-					<img src="http://apps.gov.bc.ca/pub/geomark/images/join-bevel.png" /> Bevel
+					<img src="https://apps.gov.bc.ca/pub/geomark/images/join-bevel.png" /> Bevel
 				</label>
 				<p class="help-block">The style of buffer to use for joins between the line segments for lines and polygons.</p>
 			  </div>
@@ -946,7 +946,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		</Folder>
 		<Folder>
 		<name>
-		<![CDATA[<a href="http://apps.gov.bc.ca/pub/geomark/geomarks/createFromFile">Create geomark from file</a>]]>
+		<![CDATA[<a href="https://apps.gov.bc.ca/pub/geomark/geomarks/createFromFile">Create geomark from file</a>]]>
 		</name>
 		<description>Construct a new geomark by uploading a file in your web
 		browser.</description>
