@@ -649,7 +649,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
     <open>1</open>
   	<visibility>1</visibility>
 		<Link>
-		   <href>http://apps.gov.bc.ca/pub/geomark/geomarks/index.kml</href>
+		   <href>https://apps.gov.bc.ca/pub/geomark/geomarks/index.kml</href>
 		</Link>
 	</NetworkLink>
 	-->
@@ -692,9 +692,9 @@ You can use your geomark in a couple of different ways:<br/><br/>
 
 		  <link href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" rel="stylesheet" type="text/css" />
 
-		  <link href="http://apps.gov.bc.ca/pub/geomark/css/rs.css" rel="stylesheet" type="text/css" />
+		  <link href="https://apps.gov.bc.ca/pub/geomark/css/rs.css" rel="stylesheet" type="text/css" />
 
-		  <link href="http://apps.gov.bc.ca/pub/geomark/css/bcgov.css" rel="stylesheet" type="text/css" />
+		  <link href="https://apps.gov.bc.ca/pub/geomark/css/bcgov.css" rel="stylesheet" type="text/css" />
 
 
 		  <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.1.min.js">
@@ -733,16 +733,16 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js">
 		  </script>
 
-		  <script type="text/javascript" src="http://apps.gov.bc.ca/pub/geomark/js/jquery/jquery.selectboxes.min.js">
+		  <script type="text/javascript" src="https://apps.gov.bc.ca/pub/geomark/js/jquery/jquery.selectboxes.min.js">
 		  </script>
 
-		  <script type="text/javascript" src="http://apps.gov.bc.ca/pub/geomark/js/rs.js">
+		  <script type="text/javascript" src="https://apps.gov.bc.ca/pub/geomark/js/rs.js">
 		  </script>
 
-		  <script type="text/javascript" src="http://apps.gov.bc.ca/pub/geomark/js/geomark/geomarkApp.js">
+		  <script type="text/javascript" src="https://apps.gov.bc.ca/pub/geomark/js/geomark/geomarkApp.js">
 		  </script>
 
-		  <script type="text/javascript" src="http://apps.gov.bc.ca/pub/geomark/geomarks/coordinateSystems.js">
+		  <script type="text/javascript" src="https://apps.gov.bc.ca/pub/geomark/geomarks/coordinateSystems.js">
 		  </script>
 
 		  </head>
@@ -760,19 +760,19 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		<li>Press the 'Create Geomark' button.</li>
 		<li>Once the geomark is created, a web address will display. Save this address to your personal computer directory as this web address will allow you to access the geomark in the future or pass on to other parties for access to your area of interest. If the web address is lost before it is saved, you will need to Construct a newnother geomark as there is no 'search' capability for retrieval.</li>
 		</ul>
-		<form id="createGeomark" role="form" data-toggle="validator" class="form-horizontal" action="http://apps.gov.bc.ca/pub/geomark/geomarks/new.kml"  method="POST">
-		  <input type="hidden" name="redirectUrl" value="http://apps.gov.bc.ca/pub/geomark/geomarks/created.kml" />
-		  <input type="hidden" name="failureRedirectUrl" value="http://apps.gov.bc.ca/pub/geomark/geomarks/createKmlFailure" />
+		<form id="createGeomark" role="form" data-toggle="validator" class="form-horizontal" action="https://apps.gov.bc.ca/pub/geomark/geomarks/new.kml"  method="POST">
+		  <input type="hidden" name="redirectUrl" value="https://apps.gov.bc.ca/pub/geomark/geomarks/created.kml" />
+		  <input type="hidden" name="failureRedirectUrl" value="https://apps.gov.bc.ca/pub/geomark/geomarks/createKmlFailure" />
 		  <input type="hidden" name="formName" value="kml" />
 		  <input type="hidden" name="format" value="kml" />
 		  <div class="form-group">
-			<label for="body" class="col-sm-2 control-label" required="true"><a href="http://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#body">Placemark KML</a></label>
+			<label for="body" class="col-sm-2 control-label" required="true"><a href="https://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#body">Placemark KML</a></label>
 			<div class="col-sm-10">
 			  <textarea name="body" rows="5" required="true" class="form-control input-sm" ></textarea>
 			</div>
 		  </div>
 		<div class="form-group">
-		  <label for="geometryType" class="col-sm-2 control-label"><a href="http://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#geometryType">Geometry Type</a></label>
+		  <label for="geometryType" class="col-sm-2 control-label"><a href="https://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#geometryType">Geometry Type</a></label>
 		  <div class="col-sm-10">
 			<div>
 			  <label class="radio-inline">
@@ -808,7 +808,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		</div>
 
 		<div class="form-group">
-		  <label for="multiple" class="col-sm-2 control-label"><a href="http://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#geometryCount">Geometry Count</a></label>
+		  <label for="multiple" class="col-sm-2 control-label"><a href="https://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#geometryCount">Geometry Count</a></label>
 		  <div class="col-sm-10">
 			<div>
 			  <label class="radio-inline">
@@ -830,7 +830,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		</div>
 
 		<div class="form-group">
-		  <label for="allowOverlap" class="col-sm-2 control-label"><a href="http://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#allowOverlap">Allow Overlap</a></label>
+		  <label for="allowOverlap" class="col-sm-2 control-label"><a href="https://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#allowOverlap">Allow Overlap</a></label>
 		  <div class="col-sm-10">
 			<div>
 			  <input name="allowOverlap" type="checkbox" class="input-sm" value="true" /></label>
@@ -842,7 +842,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 
 
 		<div class="form-group has-feedback">
-		  <label for="bufferMetres" class="col-sm-2 control-label"><a href="http://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#bufferMetres">Buffer Width (Metres)</a></label>
+		  <label for="bufferMetres" class="col-sm-2 control-label"><a href="https://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#bufferMetres">Buffer Width (Metres)</a></label>
 		  <div class="col-sm-10">
 			<input type="number" class="form-control input-sm" min="1" name="bufferMetres" />
 			<div class="help-block with-errors"></div>
@@ -853,7 +853,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		</div>
 		<div id="_advancedBuffer" class="collapse">
 		  <div class="form-group has-feedback">
-			<label for="bufferSegments" class="col-sm-2 control-label"><a href="http://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#bufferSegments">Buffer segments</a></label>
+			<label for="bufferSegments" class="col-sm-2 control-label"><a href="https://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#bufferSegments">Buffer segments</a></label>
 			<div class="col-sm-10">
 			  <input type="number" name="bufferSegments" min="1" max="20" required="true" value="8" class="form-control input-sm" />
 			  <div class="help-block with-errors"></div>
@@ -862,7 +862,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			</div>
 		  </div>
 		  <div class="form-group has-feedback">
-			<label for="bufferMitreLimit" class="col-sm-2 control-label"><a href="http://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#bufferMitreLimit">Mitre Limit (Ratio)</a></label>
+			<label for="bufferMitreLimit" class="col-sm-2 control-label"><a href="https://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#bufferMitreLimit">Mitre Limit (Ratio)</a></label>
 			<div class="col-sm-10">
 			  <input type="number" name="bufferMitreLimit" min="1" max="20" required="true" value="5" class="form-control input-sm" />
 			  <div class="help-block with-errors"></div>
@@ -874,20 +874,20 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			</div>
 		  </div>
 		  <div class="form-group has-feedback">
-			<label for="bufferCap" class="col-sm-2 control-label"><a href="http://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#bufferCap">End-cap Style</a></label>
+			<label for="bufferCap" class="col-sm-2 control-label"><a href="https://github.com/bcgov/api-specs/blob/master/geomark/glossary.md#bufferCap">End-cap Style</a></label>
 			<div class="col-sm-10">
 			  <div>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferCap" value="ROUND" checked="checked" />
-					<img src="http://apps.gov.bc.ca/pub/geomark/images/end-cap-round.png" /> Round
+					<img src="https://apps.gov.bc.ca/pub/geomark/images/end-cap-round.png" /> Round
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferCap" value="SQUARE"  />
-				   <img src="http://apps.gov.bc.ca/pub/geomark/images/end-cap-square.png" /> Square
+				   <img src="https://apps.gov.bc.ca/pub/geomark/images/end-cap-square.png" /> Square
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferCap" value="FLAT"  />
-				  <img src="http://apps.gov.bc.ca/pub/geomark/images/end-cap-flat.png" /> Flat
+				  <img src="https://apps.gov.bc.ca/pub/geomark/images/end-cap-flat.png" /> Flat
 				</label>
 			  </div>
 			  <p class="help-block">The style of buffer to use at the ends of a buffered line.</p>
@@ -899,15 +899,15 @@ You can use your geomark in a couple of different ways:<br/><br/>
 			  <div>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferJoin" value="ROUND" checked="checked" />
-				  <img src="http://apps.gov.bc.ca/pub/geomark/images/join-round.png" /> Round
+				  <img src="https://apps.gov.bc.ca/pub/geomark/images/join-round.png" /> Round
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferJoin" value="MITRE"  />
-				  <img src="http://apps.gov.bc.ca/pub/geomark/images/join-mitre.png" /> Mitre
+				  <img src="https://apps.gov.bc.ca/pub/geomark/images/join-mitre.png" /> Mitre
 				</label>
 				<label class="radio-inline">
 				  <input type="radio" name="bufferJoin" value="BEVEL"  />
-					<img src="http://apps.gov.bc.ca/pub/geomark/images/join-bevel.png" /> Bevel
+					<img src="https://apps.gov.bc.ca/pub/geomark/images/join-bevel.png" /> Bevel
 				</label>
 				<p class="help-block">The style of buffer to use for joins between the line segments for lines and polygons.</p>
 			  </div>
@@ -942,7 +942,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		</Folder>
 		<Folder>
 		<name>
-		<![CDATA[<a href="http://apps.gov.bc.ca/pub/geomark/geomarks/createFromFile">Create geomark from file</a>]]>
+		<![CDATA[<a href="https://apps.gov.bc.ca/pub/geomark/geomarks/createFromFile">Create geomark from file</a>]]>
 		</name>
 		<description>Construct a new geomark by uploading a file in your web
 		browser.</description>
