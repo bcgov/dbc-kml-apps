@@ -2,7 +2,7 @@
     <Folder>
       <name>Order Air Photo Using Roll/Frame</name>
       <Snippet maxLines="3"><![CDATA[The Base Map Online Store
-      <a href="https://apps.gov.bc.ca/ext/mtec/products/airPhoto">Air Photo Search</a>
+      <a href="https://a100.gov.bc.ca/ext/mtec/products/airPhoto">Air Photo Search</a>
       can be used to search and order air photos using a roll/frame expression (e.g. BCC95083/1-3,10,24).
       ]]></Snippet>
     </Folder>
