@@ -863,7 +863,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=Hospitals&amp;maxResults=10&amp;</href>
+					<href>https://geocoder.api.gov.bc.ca/occupants/within.kml?tags=Hospital&amp;maxResults=10&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>

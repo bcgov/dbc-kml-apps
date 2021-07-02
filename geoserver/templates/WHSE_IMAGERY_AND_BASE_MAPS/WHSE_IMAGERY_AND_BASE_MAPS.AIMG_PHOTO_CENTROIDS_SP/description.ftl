@@ -11,7 +11,7 @@
       <div class="alert alert-warning" style="width:120px;font-weight:700;font-size:1.1em;text-align:center">No preview available for this photo</div>
 </#if>
       <div style="padding-top: 0.8em">
-        <form method="get" action="https://apps.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
+        <form method="get" action="https://a100.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
         <input name="itemIndex" type="hidden" value="1" />
         <input name="productId1" type="hidden" value="${FILM_ROLL.value}/${FRAME_NUMBER.value}" />
         <input name="productDefinitionId1" type="hidden" value="1" />
@@ -19,7 +19,7 @@
         <input name="productDescription1" type="hidden" value=""/>
         <button type="submit" class="btn btn-primary"style="width: 100%"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </form>
-      <a class="btn btn-primary" style="width: 100%" href="https://apps.gov.bc.ca/ext/mtec/cart/contents.do" target="_blank"><span class="glyphicon glyphicon-shopping-cart"></span> View Cart</a>
+      <a class="btn btn-primary" style="width: 100%" href="https://a100.gov.bc.ca/ext/mtec/cart/contents.do" target="_blank"><span class="glyphicon glyphicon-shopping-cart"></span> View Cart</a>
       </div>
     </div>
     <div style="margin-left: 125px">    
@@ -65,6 +65,6 @@
 
     <p>To purchase a full-resolution version of this air photo, click the 'Add to Cart' button above.</p>
 
-    <p>The Base Map Online Store can be used to find and purchase <a href="https://apps.gov.bc.ca/ext/mtec/products/airPhoto">full-resolution air photos</a> and <a href="https://apps.gov.bc.ca/ext/mtec/products/mapsheet">orthophoto/map products</a>.</p>
+    <p>The Base Map Online Store can be used to find and purchase <a href="https://a100.gov.bc.ca/ext/mtec/products/airPhoto">full-resolution air photos</a> and <a href="https://a100.gov.bc.ca/ext/mtec/products/mapsheet">orthophoto/map products</a>.</p>
   </body>
 </html>

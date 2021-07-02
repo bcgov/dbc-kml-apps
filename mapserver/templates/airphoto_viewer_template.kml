@@ -36,14 +36,14 @@
                         <P>Click on the thumbnail to view or print a low-resolution version of this air photo.</P> 
                 <P>To purchase a full-resolution version of this air photo, click the 'Add to Cart' button below.</P>
                 
-                    <form method="get" action="https://apps.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
+                    <form method="get" action="https://a100.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
                         <input name="itemIndex" type="hidden" value="C1_0" />
                         <input name="productIdC1_0" type="hidden" value="$[roll]/$[frame]" />
                         <input name="productDefinitionIdC1_0" type="hidden" value="1" />
                         <input name="productNameC1_0" type="hidden" value="Digital Air Photo" />
                         <input name="productDescriptionC1_0" type="hidden" value=""/>
                         <input type="submit" value="Add to Cart"/>
-                        <input type="button" value="View Cart" onclick="window.open('https://apps.gov.bc.ca/ext/mtec/cart/contents.do','_blank');"/>
+                        <input type="button" value="View Cart" onclick="window.open('https://a100.gov.bc.ca/ext/mtec/cart/contents.do','_blank');"/>
                     </form>
 
                 <P>Full-resolution air photos and other imagery products may also be purchased from the <A HREF='##application.url##/imfows13/imf.jsp?site=idt&request=airphoto'>Base Map Online Store</A>.</P>
@@ -83,7 +83,7 @@
                 <div id="available"><P>To purchase a full-resolution version of this orthophoto, click the 'Add to Cart' button below.</P></div>
                 <div id="notAvailable" style="display: none;">The full-resolution version of this orthophoto is not available for purchase.</div>
 
-                    <form method="get" style="display:"";" name="orthoForm" id="orthoForm" action="https://apps.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
+                    <form method="get" style="display:"";" name="orthoForm" id="orthoForm" action="https://a100.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
                         <input name="itemIndex" type="hidden" value="C1_0" />
                         <input name="productIdC1_0" type="hidden" value="$[idt_id]" />
                         <input name="productDefinitionIdC1_0" type="hidden" value="8" />
@@ -92,7 +92,7 @@
                         <input name="filePathC1_0" type="hidden" value="\airborne\ortho_tiles\" />
                         <input id="fileNameC1_0" name="fileNameC1_0" type="hidden" value="bla" />
                         <input type="submit" value="Add to Cart"/>
-                        <input type="button" value="View Cart" onclick="window.open('https://apps.gov.bc.ca/ext/mtec/cart/contents.do','_blank');"/>
+                        <input type="button" value="View Cart" onclick="window.open('https://a100.gov.bc.ca/ext/mtec/cart/contents.do','_blank');"/>
                     </form>
 
                 <P>Full-resolution orthophotos and other imagery products may also be purchased from the <A HREF='##application.url##/imfows13/imf.jsp?site=idt&request=ortho'>Base Map Online Store</A>.</P>
@@ -148,7 +148,7 @@
                 <div id="available"><P>To purchase a full-resolution version of this orthophoto, click the 'Add to Cart' button below.</P></div>
                 <div id="notAvailable" style="display: none;">The full-resolution version of this orthophoto is not available for purchase.</div>
 
-                    <form method="get" style="display:"";" name="orthoForm" id="orthoForm" action="https://apps.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
+                    <form method="get" style="display:"";" name="orthoForm" id="orthoForm" action="https://a100.gov.bc.ca/ext/mtec/cart/addProducts.do" target="_blank">
                         <input name="itemIndex" type="hidden" value="C1_0" />
                         <input name="productIdC1_0" type="hidden" value="$[idt_id]" />
                         <input name="productDefinitionIdC1_0" type="hidden" value="8" />
@@ -157,7 +157,7 @@
                         <input name="filePathC1_0" type="hidden" value="\airborne\ortho_tiles\" />
                         <input id="fileNameC1_0" name="fileNameC1_0" type="hidden" value="bla" />
                         <input type="submit" value="Add to Cart"/>
-                        <input type="button" value="View Cart" onclick="window.open('https://apps.gov.bc.ca/ext/mtec/cart/contents.do','_blank');"/>
+                        <input type="button" value="View Cart" onclick="window.open('https://a100.gov.bc.ca/ext/mtec/cart/contents.do','_blank');"/>
                     </form>
 
                 <P>Full-resolution orthophotos and other imagery products may also be purchased from the <A HREF='##application.url##/imfows13/imf.jsp?site=idt&request=ortho'>Base Map Online Store</A>.</P>
