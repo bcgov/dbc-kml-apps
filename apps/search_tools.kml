@@ -194,20 +194,20 @@
 	   <visibility>0</visibility>
 	   <Snippet maxLines="0"></Snippet>
 	   <description><![CDATA[
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height="36" width="36"> intersection point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/localityPoint_coarse.png" height="36" width="36"> locality point - coarse accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/provincePoint_coarse.png" height="36" width="36"> province point - coarse accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/streetPoint_coarse.png" height="36" width="36"> street point - coarse accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height="36" width="36"> intersection point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/localityPoint_coarse.png" height="36" width="36"> locality point - coarse accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/provincePoint_coarse.png" height="36" width="36"> province point - coarse accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/streetPoint_coarse.png" height="36" width="36"> street point - coarse accuracy<br>
             <br> credit for frontDoor, intersection and routing icons:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
 
 				]]>
