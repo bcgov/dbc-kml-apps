@@ -273,7 +273,7 @@
           </head>
             
           <body>
-           <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+           <form action="https://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
 	  
             <table border="0" cellspacing="0" cellpadding="0" name="Table 2" width ="300">
                <input type="hidden" name="startIndex" value="0" id="startIndex"></input>
