@@ -5309,7 +5309,7 @@
       <name>GeoBC Logo</name>
       <drawOrder>99</drawOrder>
       <Icon>
-        <href>http://openmaps.gov.bc.ca/kml/Icons/GeoBC_logo.png</href>
+        <href>https://openmaps.gov.bc.ca/kml/Icons/GeoBC_logo.png</href>
       </Icon>
       <overlayXY
         x="0"
