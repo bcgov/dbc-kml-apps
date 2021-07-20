@@ -53,7 +53,7 @@
 For more information 
  
 
- <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=3943&recordSet=ISO19115">click here</A></P>]]></description>
+ <A HREF="https://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=3943&recordSet=ISO19115">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
 			<latitude>49.50998821115897</latitude>
@@ -201,7 +201,7 @@ For more information
       
         <body>
               
-             <form action="http://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="https://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <tr>
