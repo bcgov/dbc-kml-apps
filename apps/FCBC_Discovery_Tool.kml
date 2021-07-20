@@ -88,7 +88,7 @@
 	<Style id="legend_land_own_group">
 		<ListStyle>
 			<ItemIcon>
-				<href>http://openmaps.gov.bc.ca/kml/Icons/legend_land_own_group.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/Icons/legend_land_own_group.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -131,7 +131,7 @@
 	<Style id="legend_priv_ownership">
 		<ListStyle>
 			<ItemIcon>
-				<href>http://openmaps.gov.bc.ca/kml/Icons/legend_priv_ownership.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/Icons/legend_priv_ownership.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -165,7 +165,7 @@
 	<Style id="legend_crown_lease_appl">
 		<ListStyle>
 			<ItemIcon>
-				<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_lease_appl.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/Icons/legend_crown_lease_appl.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -210,7 +210,7 @@
 	<Style id="legend_crown_lease_tenures">
 		<ListStyle>
 			<ItemIcon>
-				<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_lease_tenures.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/Icons/legend_crown_lease_tenures.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -262,7 +262,7 @@
 	<Style id="instructionsStyle">
 		<IconStyle>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/Icons/legend.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/Icons/legend.png</href>
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>
@@ -280,28 +280,28 @@
 	<Style id="legend_crown_ownership">
 		<ListStyle>
 			<ItemIcon>
-				<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_ownership.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/Icons/legend_crown_ownership.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
 	<Style id="legend_crown_fed_ownership">
 		<ListStyle>
 			<ItemIcon>
-				<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_fed_ownership.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/Icons/legend_crown_fed_ownership.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
 	<Style id="legend_crown_muni_ownership">
 		<ListStyle>
 			<ItemIcon>
-				<href>http://openmaps.gov.bc.ca/kml/Icons/legend_crown_muni_ownership.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/Icons/legend_crown_muni_ownership.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
 	<Style id="legend_unknown_ownership">
 		<ListStyle>
 			<ItemIcon>
-				<href>http://openmaps.gov.bc.ca/kml/Icons/legend_unknown_ownership.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/Icons/legend_unknown_ownership.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -594,20 +594,20 @@ You can use your geomark in a couple of different ways:<br/><br/>
 	   <visibility>0</visibility>
 	   <Snippet maxLines="0"></Snippet>
 	   <description><![CDATA[
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height="36" width="36"> intersection point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/localityPoint_coarse.png" height="36" width="36"> locality point - coarse accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/provincePoint_coarse.png" height="36" width="36"> province point - coarse accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/streetPoint_coarse.png" height="36" width="36"> street point - coarse accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height="36" width="36"> intersection point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/localityPoint_coarse.png" height="36" width="36"> locality point - coarse accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/provincePoint_coarse.png" height="36" width="36"> province point - coarse accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/streetPoint_coarse.png" height="36" width="36"> street point - coarse accuracy<br>
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
@@ -737,16 +737,16 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js">
 		  </script>
 
-		  <script type="text/javascript" src="http://apps.gov.bc.ca/pub/geomark/js/jquery/jquery.selectboxes.min.js">
+		  <script type="text/javascript" src="https://apps.gov.bc.ca/pub/geomark/js/jquery/jquery.selectboxes.min.js">
 		  </script>
 
-		  <script type="text/javascript" src="http://apps.gov.bc.ca/pub/geomark/js/rs.js">
+		  <script type="text/javascript" src="https://apps.gov.bc.ca/pub/geomark/js/rs.js">
 		  </script>
 
-		  <script type="text/javascript" src="http://apps.gov.bc.ca/pub/geomark/js/geomark/geomarkApp.js">
+		  <script type="text/javascript" src="https://apps.gov.bc.ca/pub/geomark/js/geomark/geomarkApp.js">
 		  </script>
 
-		  <script type="text/javascript" src="http://apps.gov.bc.ca/pub/geomark/geomarks/coordinateSystems.js">
+		  <script type="text/javascript" src="https://apps.gov.bc.ca/pub/geomark/geomarks/coordinateSystems.js">
 		  </script>
 
 		  </head>
@@ -1802,7 +1802,7 @@ For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
 		<Link>
-			<href>http://openmaps.gov.bc.ca/mapserver/consultative-areas?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=CBD_POLY&amp;STYLES=%2C&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=CBD_POLY&amp;INFO_FORMAT=kayml&amp;RADIUS=bbox&amp;</href>
+			<href>https://openmaps.gov.bc.ca/mapserver/consultative-areas?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo&amp;SRS=EPSG:4326&amp;LAYERS=CBD_POLY&amp;STYLES=%2C&amp;FORMAT=png&amp;TRANSPARENT=TRUE&amp;QUERY_LAYERS=CBD_POLY&amp;INFO_FORMAT=kayml&amp;RADIUS=bbox&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>2</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]&amp;lookatLon=[lookatLon]&amp;lookatLat=[lookatLat]&amp;lookatRange=[lookatRange]&amp;lookatTilt=[lookatTilt]&amp;lookatHeading=[lookatHeading]</viewFormat>
@@ -2117,7 +2117,7 @@ Use this layer after you've found the particular feature or area you want to til
 			<altitudeMode>relativeToGround</altitudeMode>
 		</LookAt>
 		<Link>
-			<href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+			<href>https://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>1</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
@@ -2156,16 +2156,16 @@ Use this layer after you've found the particular feature or area you want to til
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#frontDoorPoint"> front door point</a>
         <br><br>
-     		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
-		    <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
-		    <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
-    		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
-		    <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
-    		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
-    		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
-		    <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
-    		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
-		    <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
+     		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
+		    <img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
+		    <img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
+    		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
+		    <img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
+    		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
+    		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
+		    <img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
+    		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
+		    <img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
@@ -2209,13 +2209,13 @@ Use this layer after you've found the particular feature or area you want to til
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#accessPoint">access points</a>
             
 <br><br>
-    <img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
+    <img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
@@ -2233,7 +2233,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?</href>
+				<href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>1</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2250,9 +2250,9 @@ Use this layer after you've found the particular feature or area you want to til
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#accessPoint">access points</a> of site addresses
             
-<br><br><img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
+<br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
@@ -2269,7 +2269,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
+				<href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>1</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2286,9 +2286,9 @@ Use this layer after you've found the particular feature or area you want to til
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#Routingpoint">routing points</a> of site addresses
             
-<br><br><img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height=36 width=36> routing point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
+<br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height=36 width=36> routing point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
@@ -2306,7 +2306,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
+				<href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>1</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2324,7 +2324,7 @@ Use this layer after you've found the particular feature or area you want to til
  
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> in BC (e.g., Douglas St and Yates St, Victoria, BC)
-        <br><br><img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
+        <br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
         <br> <i><b>Positional Accuracy Terms </i></b><br>
         <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
         <br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
@@ -2347,7 +2347,7 @@ Use this layer after you've found the particular feature or area you want to til
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to more than one road segment
             
-<br><br><img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
+<br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
@@ -2364,7 +2364,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2380,7 +2380,7 @@ Use this layer after you've found the particular feature or area you want to til
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to one road segment
             
-<br><br><img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
+<br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
@@ -2397,7 +2397,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2413,7 +2413,7 @@ Use this layer after you've found the particular feature or area you want to til
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to two road segments
             
-<br><br><img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
+<br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
@@ -2430,7 +2430,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2446,7 +2446,7 @@ Use this layer after you've found the particular feature or area you want to til
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to three road segments
             
-<br><br><img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
+<br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
@@ -2463,7 +2463,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2479,7 +2479,7 @@ Use this layer after you've found the particular feature or area you want to til
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to four road segments
             
-<br><br><img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
+<br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
@@ -2496,7 +2496,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2512,7 +2512,7 @@ Use this layer after you've found the particular feature or area you want to til
 
  <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to five or more road segments
             
-<br><br><img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
+<br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
@@ -2529,7 +2529,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=5</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=5</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3435,7 +3435,7 @@ Fax: (250) 398-4836
 			<name>FrontCounter BC Logo</name>
 			<drawOrder>98</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fcbc_logo_transparent.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fcbc_logo_transparent.png</href>
 			</Icon>
 			<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 			<screenXY x="5" y="25" xunits="pixels" yunits="pixels"/>
@@ -3448,7 +3448,7 @@ Fax: (250) 398-4836
 			<Snippet maxLines="0"></Snippet>
 			<drawOrder>97</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/DataBC_logo.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/DataBC_logo.png</href>
 			</Icon>
 			<overlayXY x="0.0800000" y="0.300000001" xunits="fraction" yunits="fraction"/>
 			<screenXY x="0" y="0.04000000000000001" xunits="fraction" yunits="fraction"/>
