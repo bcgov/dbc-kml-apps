@@ -1813,7 +1813,7 @@ Use this layer after you've found the particular feature or area you want to til
       
         <body>
               
-             <form action="http://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="https://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <tr>
@@ -1964,7 +1964,7 @@ Use this layer after you've found the particular feature or area you want to til
 			<altitudeMode>relativeToGround</altitudeMode>
 		</LookAt>
 		<Link>
-			<href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+			<href>https://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>1</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
@@ -2080,7 +2080,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?</href>
+				<href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>1</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2116,7 +2116,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
+				<href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>1</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2153,7 +2153,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
+				<href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>1</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2211,7 +2211,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2244,7 +2244,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2277,7 +2277,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2310,7 +2310,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2343,7 +2343,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2376,7 +2376,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=5</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=5</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3281,7 +3281,7 @@ Fax: (250) 398-4836
 			<name>FrontCounter BC Logo</name>
 			<drawOrder>98</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fcbc_logo_transparent.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fcbc_logo_transparent.png</href>
 			</Icon>
 			<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 			<screenXY x="5" y="25" xunits="pixels" yunits="pixels"/>
@@ -3294,7 +3294,7 @@ Fax: (250) 398-4836
 			<Snippet maxLines="0"></Snippet>
 			<drawOrder>97</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/DataBC_logo.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/DataBC_logo.png</href>
 			</Icon>
 			<overlayXY x="0.0800000" y="0.300000001" xunits="fraction" yunits="fraction"/>
 			<screenXY x="0" y="0.04000000000000001" xunits="fraction" yunits="fraction"/>
