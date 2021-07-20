@@ -50,20 +50,20 @@ Use one of these layers when you are looking for a particular feature or just ro
 			<visibility>0</visibility>
 			<snippet></snippet>
 			<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
 
 					<font size="5"><B> Transportation Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style='><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style='><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
 
 					<font size="5"><B>Water Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
 
 					<font size="5"><B> Grids</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>]]></description>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>]]></description>
 			<LookAt>
 				<longitude>-125.9074743412715</longitude>
 				<latitude>49.20865720098801</latitude>
@@ -76,7 +76,7 @@ Use one of these layers when you are looking for a particular feature or just ro
 			</LookAt>
 			<drawOrder>7</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 			</Icon>
@@ -92,20 +92,20 @@ Use one of these layers when you are looking for a particular feature or just ro
 			<visibility>0</visibility>
 			<snippet></snippet>
 			<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
 
 					<font size="5"><B> Transportation Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style='><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style='><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
 
 					<font size="5"><B>Water Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
 
 					<font size="5"><B> Grids</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>]]></description>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>]]></description>
 			<LookAt>
 				<longitude>-125.9074743412715</longitude>
 				<latitude>49.20865720098801</latitude>
@@ -118,7 +118,7 @@ Use one of these layers when you are looking for a particular feature or just ro
 			</LookAt>
 			<drawOrder>7</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 			</Icon>
@@ -157,20 +157,20 @@ Use this layer after you've found the particular feature or area you want to til
 			<visibility>0</visibility>
 			<snippet></snippet>
 			<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
 
 					<font size="5"><B> Transportation Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style='><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style='><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
 
 					<font size="5"><B>Water Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
 
 					<font size="5"><B> Grids</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>]]></description>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>]]></description>
 			<LookAt>
 				<longitude>-125.9074743412715</longitude>
 				<latitude>49.20865720098801</latitude>
@@ -183,7 +183,7 @@ Use this layer after you've found the particular feature or area you want to til
 			</LookAt>
 			<drawOrder>7</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>7204</viewRefreshTime>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -200,20 +200,20 @@ Use this layer after you've found the particular feature or area you want to til
 			<visibility>0</visibility>
 			<snippet></snippet>
 			<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS&style=3332'><br><P>
 
 					<font size="5"><B> Transportation Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style='><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP&style='><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES&style=3334'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS&style=3333'><br>
 
 					<font size="5"><B>Water Features</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS&style=3344'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.TRIM_WATER_LINES&style=3345'><br><P>
 
 					<font size="5"><B> Grids</B></font><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
-					<img src='http://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>]]></description>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&style=667'><br>
+					<img src='https://openmaps.gov.bc.ca/geo/pub/wms?request=GetLegendGraphic&format=image/png&width=20&height=20&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&style=668'><br><P>]]></description>
 			<LookAt>
 				<longitude>-125.9074743412715</longitude>
 				<latitude>49.20865720098801</latitude>
@@ -226,7 +226,7 @@ Use this layer after you've found the particular feature or area you want to til
 			</LookAt>
 			<drawOrder>7</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>7204</viewRefreshTime>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>

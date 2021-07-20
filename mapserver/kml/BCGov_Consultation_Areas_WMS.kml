@@ -99,7 +99,7 @@ Please see page five for contact information:
           </head>
             
           <body>
-           <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+           <form action="https://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
 	  
             <table border="0" cellspacing="0" cellpadding="0" name="Table 2" width ="300">
                <input type="hidden" name="startIndex" value="0" id="startIndex"></input>
@@ -141,7 +141,7 @@ Please see page five for contact information:
       
         <body>
               
-             <form action="http://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="https://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <tr>
@@ -290,7 +290,7 @@ Please see page five for contact information:
 			<altitudeMode>relativeToGround</altitudeMode>
 		</LookAt>
 		<Link>
-			<href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+			<href>https://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>1</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
@@ -310,7 +310,7 @@ Please see page five for contact information:
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?/</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?/</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>

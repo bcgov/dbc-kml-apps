@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   </head>
   <body style="width: 450px">
-    <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+    <form action="https://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
       <input type="hidden" name="startIndex" value="0" id="startIndex" />
       <input type="hidden" name="itemsPerPage" value="20" id="itemsPerPage" />
       <input type="hidden" name="maxResults" value="1000" id="maxResults" />
@@ -57,7 +57,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   </head>
   <body style="width: 450px">
-    <form action="http://apps.gov.bc.ca/pub/geocoder/geocoder.kml" target="geocode" method="get" id="geocode">
+    <form action="https://apps.gov.bc.ca/pub/geocoder/geocoder.kml" target="geocode" method="get" id="geocode">
       <div class="input-group">
         <input name="addressString" type="text" class="form-control" placeholder="Address search...">
         <span class="input-group-btn">
@@ -124,7 +124,7 @@
       <altitudeMode>relativeToGround</altitudeMode>
     </LookAt>
     <Link>
-      <href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+      <href>https://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
       <viewRefreshMode>onStop</viewRefreshMode>
       <viewRefreshTime>1</viewRefreshTime>
       <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>

@@ -15,7 +15,7 @@
 	</LookAt>
 	<refreshVisibility>1</refreshVisibility>
 	<Link>
-		<href>http://openmaps.gov.bc.ca/kml/BCGov_Quickbase.kml</href>
+		<href>https://openmaps.gov.bc.ca/kml/BCGov_Quickbase.kml</href>
 	</Link>
 </NetworkLink>
 </kml>

@@ -7,7 +7,7 @@
         <IconStyle>
             <scale>1.2</scale>
             <Icon>
-                <href>http://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
+                <href>https://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
             </Icon>
             <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
         </IconStyle>
@@ -56,7 +56,7 @@
         <IconStyle>
             <scale>1.2</scale>
             <Icon>
-                <href>http://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
+                <href>https://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
             </Icon>
             <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
         </IconStyle>
@@ -121,7 +121,7 @@
         <IconStyle>
             <scale>1.2</scale>
             <Icon>
-                <href>http://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
+                <href>https://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
             </Icon>
             <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
         </IconStyle>
@@ -186,7 +186,7 @@
         <IconStyle>
             <scale>1.2</scale>
             <Icon>
-                <href>http://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
+                <href>https://openmaps.gov.bc.ca/thumbs/photo_icon/photo.png</href>
             </Icon>
             <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
         </IconStyle>

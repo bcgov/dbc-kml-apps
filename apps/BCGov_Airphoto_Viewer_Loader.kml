@@ -16,7 +16,7 @@
 	<refreshVisibility>1</refreshVisibility>
 	<flyToView>1</flyToView>
 	<Link>
-		<href>http://openmaps.gov.bc.ca/kml/BCGov_Airphoto_Viewer_wms.kml</href>
+		<href>https://openmaps.gov.bc.ca/kml/BCGov_Airphoto_Viewer_wms.kml</href>
 	</Link>
 </NetworkLink>
 </kml>
