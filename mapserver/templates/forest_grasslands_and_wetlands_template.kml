@@ -135,7 +135,7 @@
 																<tr> <td align="left"><i>Fire of Note Page:</i></td>   <td><a href="[FIRE_OF_NOTE_URL]"><strong>[FIRE_OF_NOTE_NAME]</strong></a></td> </tr>
 																
 							</table><br>
-							<a href="http://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
+							<a href="https://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
 							<BR>
 							
 							
@@ -182,7 +182,7 @@
 																<tr> <td align="left"><i>Fire Status:</i></td>   <td>[FIRE_STATUS]</td> </tr>
 																<tr> <td align="left"><i>Fire of Note Page:</i></td>   <td><a href="[FIRE_OF_NOTE_URL]"><strong>[FIRE_OF_NOTE_NAME]</strong></a></td> </tr>
 							</table><br>
-							<a href="http://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
+							<a href="https://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
 							<BR>
 							
 							</tbody>

@@ -1,4 +1,4 @@
-﻿<!--MapServer Template-->
+<!--MapServer Template-->
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
@@ -17,7 +17,7 @@
 			<color>ff0055ff</color>
 			<scale>1.0</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -30,7 +30,7 @@
         		<color>ff0000cc</color>
 			<scale>1.0</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -53,7 +53,7 @@
 			<color>ff00aa00</color>
 			<scale>1.0</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
 			</Icon>
 		</IconStyle> 
 		<LabelStyle>
@@ -66,7 +66,7 @@
 			<color>ff00aa00</color>
 			<scale>1.0</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
 			</Icon>
 		</IconStyle> 
 		<LabelStyle>
