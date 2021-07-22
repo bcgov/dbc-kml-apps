@@ -8,6 +8,7 @@
   xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd"
 >
 
+
   <Folder>
     <name>BC Air Photo Viewer</name>
     <visibility>1</visibility>
