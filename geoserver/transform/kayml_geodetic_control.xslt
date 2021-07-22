@@ -10,7 +10,7 @@
 			<color>ff00aaff</color>
 			<scale>1.6</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -39,7 +39,7 @@
 		<IconStyle>
 			<scale>1.0</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -70,7 +70,7 @@
 			<color>ff0000ff</color>
 			<scale>1.0</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -101,7 +101,7 @@
 			<color>ff0000ff</color>
 			<scale>1.0</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -132,7 +132,7 @@
 			<color>ffff0000</color>
 			<scale>1.0</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -163,7 +163,7 @@
 			<scale>1.0</scale> 
 			<color>ffff0000</color>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
