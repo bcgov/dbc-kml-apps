@@ -121,10 +121,10 @@
       <snippet></snippet>
       <description><![CDATA[
 <img src="https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&format=image/png&STYLE=Mapsheet_Grid_250K"><br />
-<p>For more infomation <a href="http://catalogue.data.gov.bc.ca/dataset/c50803db-7645-4da8-bce5-1bc5b501a7b3">click here</a></p>
+<p>For more infomation <a href="https://catalogue.data.gov.bc.ca/dataset/c50803db-7645-4da8-bce5-1bc5b501a7b3">click here</a></p>
 
 <img src="https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&format=image/png&STYLE=Mapsheet_Grid_20K"><br />
-<p>For more infomation <a href="http://catalogue.data.gov.bc.ca/dataset/a61976ac-d8e8-4862-851e-d105227b6525">click here</a></p>
+<p>For more infomation <a href="https://catalogue.data.gov.bc.ca/dataset/a61976ac-d8e8-4862-851e-d105227b6525">click here</a></p>
       ]]></description>
       <drawOrder>6</drawOrder>
       <Icon>

@@ -85,7 +85,7 @@ For more information
 		<description><![CDATA[<img src='##application.url##/mapserver/admin-boundaries?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_INTEGRATED_SURVEY_O&format=image/png&STYLE=default'>For more information click 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
 			<latitude>49.50998821115897</latitude>
@@ -116,7 +116,7 @@ For more information
 		<description><![CDATA[<img src='##application.url##/mapserver/admin-boundaries?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TA_MUNICIPALITIES_CF&format=image/png&STYLE=default'><br><p>For more infomation 
  
 
- <A HREF='http://catalogue.data.gov.bc.ca/dataset/5d17b2a7-17d8-498d-a49a-b92b17e86858'>click here</A></P>]]></description>
+ <A HREF='https://catalogue.data.gov.bc.ca/dataset/5d17b2a7-17d8-498d-a49a-b92b17e86858'>click here</A></P>]]></description>
 		<drawOrder>6</drawOrder>
 		<Icon>
 			<href>##application.url##/mapserver/admin-boundaries?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TA_MUNICIPALITIES_CF&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
