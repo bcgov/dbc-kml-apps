@@ -19,7 +19,7 @@
 		<name>Geodetic Control Monument Details</name>
 		<snippet>Visible below 12km (eye altitude)</snippet>
 		<visibility>1</visibility>
-		<description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png'>]]></description>
+		<description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png'>]]></description>
 		<LookAt>
 			<longitude>-122.5485633189002</longitude>
 			<latitude>49.1296115824026</latitude>
@@ -38,7 +38,7 @@
 			</ListStyle>
 		</Style>
 		<Link>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=5907&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=5907&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>2</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -49,7 +49,7 @@
 		<name>Geodetic Control Monument Details</name>
 		<snippet>Visible below 12km (eye altitude)</snippet>
 		<visibility>1</visibility>
-		<description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png'>]]></description>
+		<description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png'>]]></description>
 		<LookAt>
 			<longitude>-122.5485633189002</longitude>
 			<latitude>49.1296115824026</latitude>
@@ -68,8 +68,8 @@
 			</ListStyle>
 		</Style>
 		<Link>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=4159,4160&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
-			<!--href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=1894,1891,1892,1893,4159,4160,4161,4162&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href-->
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=4159,4160&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
+			<!--href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=1894,1891,1892,1893,4159,4160,4161,4162&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href-->
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>2</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -80,7 +80,7 @@
 		<name>Geodetic Control Monuments</name>
 		<snippet>Visible below 100km (eye altitude)</snippet>
 		<visibility>1</visibility>
-		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png"><br>
+		<description><![CDATA[<img src="https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png"><br>
 For more information <A HREF="https://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=3943&recordSet=ISO19115">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
@@ -92,7 +92,7 @@ For more information <A HREF="https://apps.gov.bc.ca/pub/geometadata/metadataDet
 		</LookAt>
 		<drawOrder>2</drawOrder>
 		<Icon>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;STYLES=5907&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;STYLES=5907&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 		</Icon>
@@ -110,7 +110,7 @@ For more information <A HREF="https://apps.gov.bc.ca/pub/geometadata/metadataDet
 		<name>Integrated Survey Areas</name>
 		<visibility>1</visibility>
 		<snippet></snippet>
-		<description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&style=383&format=image/png'>For more information click <A HREF="http://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>]]></description>
+		<description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&style=383&format=image/png'>For more information click <A HREF="https://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
 			<latitude>49.50998821115897</latitude>
@@ -121,7 +121,7 @@ For more information <A HREF="https://apps.gov.bc.ca/pub/geometadata/metadataDet
 		</LookAt>
 		<drawOrder>2</drawOrder>
 		<Icon>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&amp;STYLES=383&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&amp;STYLES=383&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 		</Icon>
@@ -138,10 +138,10 @@ For more information <A HREF="https://apps.gov.bc.ca/pub/geometadata/metadataDet
 		<name>Municipalities</name>
 		<visibility>0</visibility>
 		<snippet></snippet>
-		<description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&style=411&format=image/png'><br><p>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/5d17b2a7-17d8-498d-a49a-b92b17e86858'>click here</A></P>]]></description>
+		<description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&style=411&format=image/png'><br><p>For more infomation <A HREF='https://catalogue.data.gov.bc.ca/dataset/5d17b2a7-17d8-498d-a49a-b92b17e86858'>click here</A></P>]]></description>
 		<drawOrder>6</drawOrder>
 		<Icon>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&amp;STYLES=411&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&amp;STYLES=411&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 		</Icon>

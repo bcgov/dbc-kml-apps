@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
 
   <Folder>
@@ -116,10 +116,10 @@
       <snippet></snippet>
       <description><![CDATA[
 <img src="https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&format=image/png&STYLE=Mapsheet_Grid_250K"><br />
-<p>For more infomation <a href="http://catalogue.data.gov.bc.ca/dataset/c50803db-7645-4da8-bce5-1bc5b501a7b3">click here</a></p>
+<p>For more infomation <a href="https://catalogue.data.gov.bc.ca/dataset/c50803db-7645-4da8-bce5-1bc5b501a7b3">click here</a></p>
 
 <img src="https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&format=image/png&STYLE=Mapsheet_Grid_20K"><br />
-<p>For more infomation <a href="http://catalogue.data.gov.bc.ca/dataset/a61976ac-d8e8-4862-851e-d105227b6525">click here</a></p>
+<p>For more infomation <a href="https://catalogue.data.gov.bc.ca/dataset/a61976ac-d8e8-4862-851e-d105227b6525">click here</a></p>
       ]]></description>
       <drawOrder>6</drawOrder>
       <Icon>

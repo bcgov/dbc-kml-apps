@@ -41,7 +41,7 @@
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
 <i><b>coarse - </i></b>point represents an entire street, locality, or the province<br>
-            <br> credit for frontDoor, intersection and routing icons:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+            <br> credit for frontDoor, intersection and routing icons:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
 
                 ]]>
        </description>
@@ -314,27 +314,27 @@
         Civic and non-civic addresses of 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#site">sites</a> in BC
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#site">sites</a> in BC
         <br><br>Every site has an 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access point</a>, 
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access point</a>, 
         and a 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#routingPoint">routing point</a> and may also have a         
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#routingPoint">routing point</a> and may also have a         
               
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#parcelPoint">parcel point</a>,
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#parcelPoint">parcel point</a>,
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#rooftopPoint"> roof top point</a>, or
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#rooftopPoint"> roof top point</a>, or
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#frontDoorPoint"> front door point</a>
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#frontDoorPoint"> front door point</a>
       <br><br>
 		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
 		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
@@ -356,7 +356,7 @@
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
 <i><b>coarse - </i></b>point represents an entire street, locality, or the province<br>
-<br> credit for frontDoor,8 intersection and routing icons:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for frontDoor,8 intersection and routing icons:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
        
         ]]>
     </description>
@@ -375,19 +375,19 @@
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#parcelPoint">parcel points</a>,
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#parcelPoint">parcel points</a>,
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#RooftopPoint"> roof top points</a>, or
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#RooftopPoint"> roof top points</a>, or
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a>
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a>
             
 <br><br>
   	<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
@@ -403,7 +403,7 @@
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
-<br> credit for frontDoor icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for frontDoor icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -429,19 +429,19 @@
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#parcelPoint">parcel points</a>,
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#parcelPoint">parcel points</a>,
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#RooftopPoint"> roof top points</a>, or
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#RooftopPoint"> roof top points</a>, or
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
       
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a>
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a>
             
 <br><br>
   	<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
@@ -456,7 +456,7 @@
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
-<br> credit for frontDoor icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for frontDoor icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -482,7 +482,7 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a> of site addresses
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a> of site addresses
             
 <br><br>
   	<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
@@ -518,7 +518,7 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a> of site addresses
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a> of site addresses
             
 <br><br>
   	<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
@@ -554,7 +554,7 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#routingPoint">routing points</a> of site addresses
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#routingPoint">routing points</a> of site addresses
             
 <br><br>
 		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
@@ -565,7 +565,7 @@
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
-<br> credit for routing icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for routing icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -591,7 +591,7 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#routingPoint">routing points</a> of site addresses
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#routingPoint">routing points</a> of site addresses
             
 <br><br>
 		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
@@ -602,7 +602,7 @@
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
-<br> credit for routing icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for routing icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -630,11 +630,11 @@
         Addresses of 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> in BC (e.g., Douglas St and Yates St, Victoria, BC)
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> in BC (e.g., Douglas St and Yates St, Victoria, BC)
         <br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
         <br> <i><b>Positional Accuracy Terms </i></b><br>
         <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-        <br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+        <br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
         ]]>
     </description>
 			<Style>
@@ -651,14 +651,14 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to more than one road segment
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to more than one road segment
             
 <br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -683,14 +683,14 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to one road segment
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to one road segment
             
 <br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -715,14 +715,14 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to two road segments
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to two road segments
             
 <br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -747,14 +747,14 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to three road segments
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to three road segments
             
 <br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -779,14 +779,14 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to four road segments
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to four road segments
             
 <br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -811,14 +811,14 @@
       Display 
  
 
- <A HREF="http://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to five or more road segments
+ <A HREF="https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to five or more road segments
             
 <br><br><img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -1176,7 +1176,7 @@
 		  <visibility>0</visibility>
 		  <Snippet maxLines="1">Visible below an eye altitude of 4km within BC</Snippet>
 		  <description><![CDATA[<img src="https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=2218&format=image/png&legend_options=forceLabels:on"><br>
-		  <P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P><BR/>]]></description>
+		  <P>For more information <A HREF="https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P><BR/>]]></description>
 		  <drawOrder>2</drawOrder>
 		  <Icon>
 			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&amp;STYLES=2218&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
@@ -1195,7 +1195,7 @@
 		  <name>Private Ownership Details</name>
 		  <Snippet maxLines="2">Visible below an eye altitude of 2km within BC</Snippet>
 		  <visibility>0</visibility>
-		  <description><![CDATA[<P><img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=Private_ownership_centroids&format=image/png&legend_options=forceLabels:on'></P><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+		  <description><![CDATA[<P><img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=Private_ownership_centroids&format=image/png&legend_options=forceLabels:on'></P><P>For more information <A HREF="https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
 	      </description>
 		  <styleUrl>#private_ownership_details</styleUrl>
 			<LookAt>
@@ -1219,7 +1219,7 @@
 		  <name>Crown Ownership Details</name>
 		  <visibility>0</visibility>
       <Snippet maxLines="2"><![CDATA[Visible below an eye altitude of 2km within BC]]></Snippet>
-		  <description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=Crown_ownership_centroids&format=image/png&legend_options=forceLabels:on'><P>For more information <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+		  <description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW&style=Crown_ownership_centroids&format=image/png&legend_options=forceLabels:on'><P>For more information <A HREF="https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
       </description>
       <styleUrl>#crown_ownership_details</styleUrl>
 		  <LookAt>

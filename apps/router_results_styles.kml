@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
 	<Document>
 		<open>1</open>
@@ -51,13 +51,13 @@
 			<IconStyle>
 				<scale>1.1</scale>
 				<Icon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+					<href>https://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
 				</Icon>
 				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 			</IconStyle>
 			<ListStyle>
 				<ItemIcon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+					<href>https://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
 				</ItemIcon>
 			</ListStyle>
 			<LabelStyle>
@@ -74,13 +74,13 @@
 			<IconStyle>
 				<scale>1.1</scale>
 				<Icon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+					<href>https://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
 				</Icon>
 				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 			</IconStyle>
 			<ListStyle>
 				<ItemIcon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+					<href>https://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
 				</ItemIcon>
 			</ListStyle>
 			<LabelStyle>
@@ -97,13 +97,13 @@
 			<IconStyle>
 				<scale>1.1</scale>
 				<Icon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+					<href>https://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
 				</Icon>
 				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 			</IconStyle>
 			<ListStyle>
 				<ItemIcon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+					<href>https://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
 				</ItemIcon>
 			</ListStyle>
 			<LabelStyle>
