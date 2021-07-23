@@ -58,3 +58,4 @@ Each year the air photo viewer must be updated to add that year to the list of y
 6. On a unix based system on in cygwin run ./mapserver/src/build.sh
 7. Commit the changes to git and create a pull request for the branch to master.
 
+     
