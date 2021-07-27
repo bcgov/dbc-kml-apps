@@ -19,7 +19,7 @@
 		<name>Geodetic Control Monument Details</name>
 		<snippet>Visible below 12km (eye altitude)</snippet>
 		<visibility>1</visibility>
-		<description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png'>]]></description>
+		<description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png'>]]></description>
 		<LookAt>
 			<longitude>-122.5485633189002</longitude>
 			<latitude>49.1296115824026</latitude>
@@ -38,7 +38,7 @@
 			</ListStyle>
 		</Style>
 		<Link>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=5907&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=5907&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>2</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -49,7 +49,7 @@
 		<name>Geodetic Control Monument Details</name>
 		<snippet>Visible below 12km (eye altitude)</snippet>
 		<visibility>1</visibility>
-		<description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png'>]]></description>
+		<description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png'>]]></description>
 		<LookAt>
 			<longitude>-122.5485633189002</longitude>
 			<latitude>49.1296115824026</latitude>
@@ -68,8 +68,8 @@
 			</ListStyle>
 		</Style>
 		<Link>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=4159,4160&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
-			<!--href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=1894,1891,1892,1893,4159,4160,4161,4162&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href-->
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=4159,4160&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href>
+			<!--href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL,pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;styles=1894,1891,1892,1893,4159,4160,4161,4162&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:0;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=500</href-->
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>2</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -80,8 +80,8 @@
 		<name>Geodetic Control Monuments</name>
 		<snippet>Visible below 100km (eye altitude)</snippet>
 		<visibility>1</visibility>
-		<description><![CDATA[<img src="http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png"><br>
-For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=3943&recordSet=ISO19115">click here</A></P>]]></description>
+		<description><![CDATA[<img src="https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&style=5907&format=image/png"><br>
+For more information <A HREF="https://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=3943&recordSet=ISO19115">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
 			<latitude>49.50998821115897</latitude>
@@ -92,7 +92,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
 		</LookAt>
 		<drawOrder>2</drawOrder>
 		<Icon>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;STYLES=5907&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&amp;STYLES=5907&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 		</Icon>
@@ -110,7 +110,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
 		<name>Integrated Survey Areas</name>
 		<visibility>1</visibility>
 		<snippet></snippet>
-		<description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&style=383&format=image/png'>For more information click <A HREF="http://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>]]></description>
+		<description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&style=383&format=image/png'>For more information click <A HREF="https://catalogue.data.gov.bc.ca/dataset/d5bb621c-fa6c-4be1-a797-ae3c77748ca8">here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
 			<latitude>49.50998821115897</latitude>
@@ -121,7 +121,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
 		</LookAt>
 		<drawOrder>2</drawOrder>
 		<Icon>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&amp;STYLES=383&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_INTEGRATED_SURVEY_AREAS_SVW&amp;STYLES=383&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 		</Icon>
@@ -138,10 +138,10 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
 		<name>Municipalities</name>
 		<visibility>0</visibility>
 		<snippet></snippet>
-		<description><![CDATA[<img src='http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&style=411&format=image/png'><br><p>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/5d17b2a7-17d8-498d-a49a-b92b17e86858'>click here</A></P>]]></description>
+		<description><![CDATA[<img src='https://openmaps.gov.bc.ca/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&style=411&format=image/png'><br><p>For more infomation <A HREF='https://catalogue.data.gov.bc.ca/dataset/5d17b2a7-17d8-498d-a49a-b92b17e86858'>click here</A></P>]]></description>
 		<drawOrder>6</drawOrder>
 		<Icon>
-			<href>http://delivery.openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&amp;STYLES=411&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+			<href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_TANTALIS.TA_MUNICIPALITIES_SVW&amp;STYLES=411&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 		</Icon>
@@ -180,7 +180,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
           </head>
             
           <body>
-           <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+           <form action="https://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
 	  
             <table border="0" cellspacing="0" cellpadding="0" name="Table 2" width ="300">
                <input type="hidden" name="startIndex" value="0" id="startIndex"></input>
@@ -223,7 +223,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
       
         <body>
               
-             <form action="http://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="https://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <tr>
@@ -370,7 +370,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?/</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?/</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>1</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -389,7 +389,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?/</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?/</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -411,7 +411,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
 			<altitudeMode>relativeToGround</altitudeMode>
 		</LookAt>
 		<Link>
-			<href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+			<href>https://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>1</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
@@ -435,7 +435,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
 		<Link>
-			<href>http://openmaps.gov.bc.ca/kml/airphotos_by_year.kml</href>
+			<href>https://openmaps.gov.bc.ca/kml/airphotos_by_year.kml</href>
 		</Link>
 	</NetworkLink>
 
@@ -455,7 +455,7 @@ For more information <A HREF="http://apps.gov.bc.ca/pub/geometadata/metadataDeta
 		</LookAt>
 		<refreshVisibility>1</refreshVisibility>
 		<Link>
-			<href>http://openmaps.gov.bc.ca/kml/BCGov_Ortho_Viewer.kml</href>
+			<href>https://openmaps.gov.bc.ca/kml/BCGov_Ortho_Viewer.kml</href>
 		</Link>
 </NetworkLink>
 
@@ -514,27 +514,27 @@ Use one of these layers when you are looking for a particular feature or just ro
 			<visibility>0</visibility>
 			<snippet></snippet>
 			<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B> Transportation Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B>Water Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B> Grids</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
 			<LookAt>
 				<longitude>-125.9074743412715</longitude>
 				<latitude>49.20865720098801</latitude>
@@ -547,7 +547,7 @@ Use one of these layers when you are looking for a particular feature or just ro
 			</LookAt>
 			<drawOrder>7</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=NTS_250K_GRID,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO,BCGS_20K_GRID&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=png&amp;</href>
+				<href>https://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=NTS_250K_GRID,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO,BCGS_20K_GRID&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 			</Icon>
@@ -563,28 +563,28 @@ Use one of these layers when you are looking for a particular feature or just ro
 			<visibility>0</visibility>
 			<snippet></snippet>
 			<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_LINES&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_LINES&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B>Transportation Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B> Water Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B> Grids</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
 			<LookAt>
 				<longitude>-125.9074743412715</longitude>
 				<latitude>49.20865720098801</latitude>
@@ -597,7 +597,7 @@ Use one of these layers when you are looking for a particular feature or just ro
 			</LookAt>
 			<drawOrder>7</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TCTR_LINES,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO,BCGS_20K_GRID&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=png&amp;</href>
+				<href>https://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=TCTR_LINES,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO,BCGS_20K_GRID&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
 			</Icon>
@@ -636,27 +636,27 @@ Use this layer after you've found the particular feature or area you want to til
 			<visibility>0</visibility>
 			<snippet></snippet>
 			<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B>Transportation Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B>Water Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B> Grids</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
 			<LookAt>
 				<longitude>-125.9074743412715</longitude>
 				<latitude>49.20865720098801</latitude>
@@ -669,7 +669,7 @@ Use this layer after you've found the particular feature or area you want to til
 			</LookAt>
 			<drawOrder>7</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=NTS_250K_GRID,BCGS_20K_GRID,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<href>https://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=NTS_250K_GRID,BCGS_20K_GRID,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>7204</viewRefreshTime>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -686,28 +686,28 @@ Use this layer after you've found the particular feature or area you want to til
 			<visibility>0</visibility>
 			<snippet></snippet>
 			<description><![CDATA[<font size="5"><B> Elevation Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_LINES&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TCTR_LINES&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B> Transportation Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=DRA_DIGITAL_ROAD_ATLAS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_PEDESTRIAN&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_RAILROAD&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_AIR&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TRIM_TRANSPORTATION_LINES_WATER&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_RAIL&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_HELIPAD&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_TOLL_GATE&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TTRN_PNT_BARRIER&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B> Water Features</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_POINTS&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TWTR_LINES&format=image/png&STYLE=default'><br><P>
 
 <font size="5"><B> Grids</B></font><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
-<img src='http://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=BCGS_20K_GRID&format=image/png&STYLE=default'><br>
+<img src='https://openmaps.gov.bc.ca/mapserver/base3?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=NTS_250K_GRID&format=image/png&STYLE=default'><br><P>]]></description>
 			<LookAt>
 				<longitude>-125.9074743412715</longitude>
 				<latitude>49.20865720098801</latitude>
@@ -720,7 +720,7 @@ Use this layer after you've found the particular feature or area you want to til
 			</LookAt>
 			<drawOrder>7</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=NTS_250K_GRID,TCTR_LINES,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO,BCGS_20K_GRID&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+				<href>https://openmaps.gov.bc.ca/mapserver/base3?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=NTS_250K_GRID,TCTR_LINES,TWTR_LINES,TRIM_TRANSPORTATION_LINES_RAILROAD,TRIM_TRANSPORTATION_LINES_AIR,TRIM_TRANSPORTATION_LINES_WATER,TRIM_TRANSPORTATION_LINES_ROAD_UNPAVED,DRA_DIGITAL_ROAD_ATLAS,TRIM_TRANSPORTATION_LINES_PEDESTRIAN,TWTR_POINTS,TTRN_PNT_RAIL,TTRN_PNT_HELIPAD,TTRN_PNT_TOLL_GATE,TTRN_PNT_BARRIER,TCTR_POINTS,TTXT_ANNO,BCGS_20K_GRID&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>7204</viewRefreshTime>
 				<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>

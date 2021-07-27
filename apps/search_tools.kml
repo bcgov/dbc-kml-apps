@@ -26,7 +26,7 @@
           </head>
             
           <body>
-           <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+           <form action="https://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
 	  
             <table border="0" cellspacing="0" cellpadding="0" name="Table 2" width ="300">
                <input type="hidden" name="startIndex" value="0" id="startIndex"></input>
@@ -68,7 +68,7 @@
       
         <body>
               
-             <form action="http://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="https://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <tr>
@@ -180,7 +180,7 @@
 			<altitudeMode>relativeToGround</altitudeMode>
 		</LookAt>
 		<Link>
-			<href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+			<href>https://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>1</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
@@ -194,20 +194,20 @@
 	   <visibility>0</visibility>
 	   <Snippet maxLines="0"></Snippet>
 	   <description><![CDATA[
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height="36" width="36"> intersection point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/localityPoint_coarse.png" height="36" width="36"> locality point - coarse accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/provincePoint_coarse.png" height="36" width="36"> province point - coarse accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
-		<img src="http://openmaps.gov.bc.ca/kml/icons/geocoder/streetPoint_coarse.png" height="36" width="36"> street point - coarse accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/accessPoint_low.png" height="36" width="36"> access point - low accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/frontDoorPoint_high.png" height="36" width="36"> front door point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/intersectionPoint_high.png" height="36" width="36"> intersection point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/localityPoint_coarse.png" height="36" width="36"> locality point - coarse accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_high.png" height="36" width="36"> parcel point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/parcelPoint_medium.png" height="36" width="36"> parcel point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/provincePoint_coarse.png" height="36" width="36"> province point - coarse accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/rooftopPoint_high.png" height="36" width="36"> rooftop point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/routingPoint_low.png" height="36" width="36"> routing point - low accuracy<br>
+		<img src="https://openmaps.gov.bc.ca/kml/icons/geocoder/streetPoint_coarse.png" height="36" width="36"> street point - coarse accuracy<br>
             <br> credit for frontDoor, intersection and routing icons:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
 
 				]]>
@@ -238,7 +238,7 @@
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?/</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?/</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>1</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -257,7 +257,7 @@
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?/</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?/</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>

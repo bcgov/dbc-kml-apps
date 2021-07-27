@@ -7,7 +7,7 @@
 		<IconStyle>
 			<scale>1</scale>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fire/fire_of_note.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fire/fire_of_note.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -23,7 +23,7 @@
 		<IconStyle>
 			<scale>1</scale>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -39,7 +39,7 @@
 		<IconStyle>
 			<scale>1</scale>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fire/active.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fire/active.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -55,7 +55,7 @@
 		<IconStyle>
 			<scale>1</scale>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -71,7 +71,7 @@
 		<IconStyle>
 			<scale>1</scale>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -87,7 +87,7 @@
 		<IconStyle>
 			<scale>1</scale>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fire/new.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -103,7 +103,7 @@
 		<IconStyle>
 			<scale>1</scale>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fire/not_active.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fire/not_active.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -135,7 +135,7 @@
 																<tr> <td align="left"><i>Fire of Note Page:</i></td>   <td><a href="[FIRE_OF_NOTE_URL]"><strong>[FIRE_OF_NOTE_NAME]</strong></a></td> </tr>
 																
 							</table><br>
-							<a href="http://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
+							<a href="https://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
 							<BR>
 							
 							
@@ -182,7 +182,7 @@
 																<tr> <td align="left"><i>Fire Status:</i></td>   <td>[FIRE_STATUS]</td> </tr>
 																<tr> <td align="left"><i>Fire of Note Page:</i></td>   <td><a href="[FIRE_OF_NOTE_URL]"><strong>[FIRE_OF_NOTE_NAME]</strong></a></td> </tr>
 							</table><br>
-							<a href="http://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
+							<a href="https://bcfireinfo.for.gov.bc.ca/hprScripts/WildfireNews/OneFire.asp?ID="><strong>Wildfires of Note</strong></a><br>
 							<BR>
 							
 							</tbody>

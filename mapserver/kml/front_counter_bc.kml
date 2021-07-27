@@ -32,7 +32,7 @@
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -42,7 +42,7 @@
 			<color>00ffffff</color>
 			<scale>0.8</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/info.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -68,7 +68,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -117,7 +117,7 @@
 	<Style id="sn_ranger_station">
 		<IconStyle>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -133,7 +133,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -190,7 +190,7 @@
 	<Style id="sn_ranger_station0">
 		<IconStyle>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -199,7 +199,7 @@
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -255,7 +255,7 @@
 			<color>00ffffff</color>
 			<scale>0.8</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+				<href>https://maps.google.com/mapfiles/kml/shapes/info.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -290,7 +290,7 @@
 <p>For example, privately held lands, Provincial Parks, National Parks or First Nations Reserves are some of the highly constrained lands in their potential for Crown authorizations and will require you to contact 
  
 
- <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> to determine whether your proposed activity is permissible. Avoiding highly constrained lands when seeking potential candidate areas for your proposed application may improve your likelihood of success.</p>
+ <A HREF="https://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> to determine whether your proposed activity is permissible. Avoiding highly constrained lands when seeking potential candidate areas for your proposed application may improve your likelihood of success.</p>
 
 <p>You can use this tool in a variety of ways:</p>
 1. To discover general land use: a colour legend will appear when you click on each layer name;<br/>
@@ -313,18 +313,18 @@ You can use your geomark in a couple of different ways:<br/><br/>
 2.	You can submit it with an electronic application through 
  
 
- <A HREF="http://www.frontcounterbc.gov.bc.ca/virtual/">virtual FrontCounter BC</a>
+ <A HREF="https://www.frontcounterbc.gov.bc.ca/virtual/">virtual FrontCounter BC</a>
 
 
 <p>See the 
  
 
- <A HREF="http://www.frontcounterbc.gov.bc.ca/mapping/tutorial/tutorial_01.html">tutorial</a> for more detailed instructions.</p>
+ <A HREF="https://www.frontcounterbc.gov.bc.ca/mapping/tutorial/tutorial_01.html">tutorial</a> for more detailed instructions.</p>
 
 <p><b>DISCLAIMER:  This tool does not show all interests, you should contact 
  
 
- <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> to see if other interests exist that may conflict with your application before submitting it.  Your saved geomark can be emailed to 
+ <A HREF="https://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> to see if other interests exist that may conflict with your application before submitting it.  Your saved geomark can be emailed to 
  
 
  <A HREF="mailto:FrontCounterBC@gov.bc.ca">FrontCounterBC@gov.bc.ca</a> prior to submission for this purpose.</b></p>
@@ -360,11 +360,11 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		<li>Review the 
  
 
- <A HREF="http://www.frontcounterbc.gov.bc.ca/mapping/faq.html">Frequently Asked Questions</a>.</li>
+ <A HREF="https://www.frontcounterbc.gov.bc.ca/mapping/faq.html">Frequently Asked Questions</a>.</li>
 		<li>Review the 
  
 
- <A HREF="http://www.frontcounterbc.gov.bc.ca/mapping/tutorial/tutorial_01.html">tutorial</a> for information about how to use the tool.</li>
+ <A HREF="https://www.frontcounterbc.gov.bc.ca/mapping/tutorial/tutorial_01.html">tutorial</a> for information about how to use the tool.</li>
 		</td></tr></table>]]></description>
 		<styleUrl>#fcbcHelpBalloonStyle</styleUrl>
 		<Point>
@@ -381,19 +381,19 @@ You can use your geomark in a couple of different ways:<br/><br/>
     <Snippet><![CDATA[
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/geomark_web_srv/index.page">What is a geomark?</a>]]></Snippet>
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/geomark_web_srv/index.page">What is a geomark?</a>]]></Snippet>
     <description>
         <![CDATA[<p>Create a geomark to represent your point (placemark), path, or polygon of interest.</br></br>
                  
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/geomark_web_srv/index.page">What is a geomark?</a></p>
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/geomark_web_srv/index.page">What is a geomark?</a></p>
               ]]>
     </description>
     <open>1</open>
   	<visibility>1</visibility>
 		<Link>
-		   <href>http://apps.gov.bc.ca/pub/geomark/geomarks/index.kml</href>
+		   <href>https://apps.gov.bc.ca/pub/geomark/geomarks/index.kml</href>
 		</Link>
 	</NetworkLink>
 
@@ -409,7 +409,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
                             <P>For more information click 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/8efe9193-80d2-4fdf-a18c-d531a94196ad">here</A></BR>]]>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/8efe9193-80d2-4fdf-a18c-d531a94196ad">here</A></BR>]]>
       </description>
 			<LookAt>
 				<longitude>-122.3407446429645</longitude>
@@ -444,7 +444,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 		For more information click 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/88e61a14-19a0-46ab-bdae-f68401d3d0fb">here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/88e61a14-19a0-46ab-bdae-f68401d3d0fb">here</A></P>]]></description>
 			<LookAt>
 				<longitude>-124.9089567690733</longitude>
 				<latitude>54.53501315545629</latitude>
@@ -478,7 +478,7 @@ You can use your geomark in a couple of different ways:<br/><br/>
 For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-115.743353164902</longitude>
 				<latitude>49.50998821115897</latitude>
@@ -512,7 +512,7 @@ For more information
 For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A>]]></description>
 			<LookAt>
 				<longitude>-123.2801551138936</longitude>
 				<latitude>48.45870318920701</latitude>
@@ -547,7 +547,7 @@ For more information
 For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-115.743353164902</longitude>
 				<latitude>49.50998821115897</latitude>
@@ -581,7 +581,7 @@ For more information
 For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/550b3133-2004-468f-ba1f-b95d0e281e78">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/550b3133-2004-468f-ba1f-b95d0e281e78">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-115.743353164902</longitude>
 				<latitude>49.50998821115897</latitude>
@@ -613,7 +613,7 @@ For more information
 For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.7541207199092</longitude>
 				<latitude>49.36663633212387</latitude>
@@ -648,7 +648,7 @@ For more information
 For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/68327529-c0d5-4fcb-b84e-f8d98a7f8612">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/68327529-c0d5-4fcb-b84e-f8d98a7f8612">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-122.7200650286509</longitude>
 				<latitude>49.20060352851539</latitude>
@@ -692,7 +692,7 @@ For more information
 			<description><![CDATA[<img src='##application.url##/mapserver/land-ownership-and-status?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TEN_TANT_CF&format=image/png&STYLE=default'><br><p>For more infomation 
  
 
- <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]></description>
+ <A HREF='https://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]></description>
       <styleUrl>#noDirections</styleUrl>
 			<drawOrder>6</drawOrder>
 			<Icon>
@@ -713,14 +713,14 @@ For more information
         <Snippet maxLines="4"><![CDATA[Visible below an eye altitude of 15km within BC<br>If your area of interest falls within a Lease or Map Reserve, call 
  
 
- <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> for guidance]]></Snippet>
+ <A HREF="https://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> for guidance]]></Snippet>
         <visibility>0</visibility>
         <styleUrl>#noDirections</styleUrl>
 		    <description>
             <![CDATA[<img src='##application.url##/mapserver/land-ownership-and-status?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TEN_TANT_CF&format=image/png&STYLE=default'><br><p>For more infomation 
  
 
- <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
+ <A HREF='https://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
         </description>
 		    <LookAt>
 			   <longitude>-122.4752757149426</longitude>
@@ -755,7 +755,7 @@ For more information
           <![CDATA[<img src='##application.url##/mapserver/land-ownership-and-status?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TEN_APP_TANT_CF&format=image/png&STYLE=default'><br><p>For more infomation 
  
 
- <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
+ <A HREF='https://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
       </description>
       <styleUrl>#noDirections</styleUrl>
 			<drawOrder>6</drawOrder>
@@ -777,7 +777,7 @@ For more information
       <Snippet maxLines="4"><![CDATA[Visible below an eye altitude of 15km within BC<br>If your area of interest falls within a Lease or Map Reserve, call 
  
 
- <A HREF="http://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> for guidance
+ <A HREF="https://www.frontcounterbc.gov.bc.ca/contact">FrontCounter BC</a> for guidance
       ]]>
       </Snippet>
 	   	<visibility>0</visibility>
@@ -785,7 +785,7 @@ For more information
           <![CDATA[<img src='##application.url##/mapserver/land-ownership-and-status?service=WMS&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=TEN_APP_TANT_CF&format=image/png&STYLE=default'><br><p>For more infomation 
  
 
- <A HREF='http://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
+ <A HREF='https://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d'>click here</A></P>]]>
       </description>
       <styleUrl>#noDirections</styleUrl>
 		  <LookAt>
@@ -839,7 +839,7 @@ For more information
 <P>For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]></description>
 			<styleUrl>#legend_land_own_group</styleUrl>
 			<GroundOverlay>
 				<name>Private Ownership</name>
@@ -847,7 +847,7 @@ For more information
 				<description><![CDATA[<P><img src="##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_PRIVATE&format=image/png"></P> <P>For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]></description>
 				<LookAt>
 					<longitude>-115.743353164902</longitude>
 					<latitude>49.50998821115897</latitude>
@@ -879,7 +879,7 @@ For more information
 		  <description><![CDATA[<P><img src='##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_PRIVATE_FI&format=image/png&STYLE=default'></P><P>For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
       </description>
 		  <styleUrl>#noDirections</styleUrl>
 			<LookAt>
@@ -914,7 +914,7 @@ For more information
 			<description><![CDATA[<img src="##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_CROWN&format=image/png"><br><br><P>For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
       </description>
       <styleUrl>#noDirections</styleUrl>
 			<LookAt>
@@ -946,7 +946,7 @@ For more information
 		  <description><![CDATA[<img src='##application.url##/mapserver/land-ownership-and-status?service=wms&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=CBM_CADASTRAL_FABRIC_PUB_CROWN_FI&format=image/png&STYLE=default'><P>For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P>]]>
       </description>
       <styleUrl>#noDirections</styleUrl>
 		  <LookAt>
@@ -981,7 +981,7 @@ For more information
   <P>For more information 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P><BR/>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21">click here</A></P><BR/>]]></description>
           <drawOrder>2</drawOrder>
           <Icon>
             <href>##application.url##/mapserver/land-ownership-and-status?service=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=CBM_CADASTRAL_FABRIC_PUB_O&amp;STYLES=&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
@@ -1012,7 +1012,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/af68d1d1-b85e-4ea9-b5f3-e09fc83f3f4f">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/af68d1d1-b85e-4ea9-b5f3-e09fc83f3f4f">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
 			<latitude>49.50998821115897</latitude>
@@ -1044,7 +1044,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/636822f1-8eaa-4a88-be69-9b9c12f80a20">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/636822f1-8eaa-4a88-be69-9b9c12f80a20">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
 			<latitude>49.50998821115897</latitude>
@@ -1077,7 +1077,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/923c5330-c798-4276-82c1-705000c5caac">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/923c5330-c798-4276-82c1-705000c5caac">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-120.7179993627585</longitude>
 			<latitude>49.56726157853299</latitude>
@@ -1112,7 +1112,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-122.0921071096601</longitude>
 			<latitude>53.0197031076295</latitude>
@@ -1143,7 +1143,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-122.0921071096601</longitude>
 			<latitude>53.0197031076295</latitude>
@@ -1174,7 +1174,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-122.0921071096601</longitude>
 			<latitude>53.0197031076295</latitude>
@@ -1205,7 +1205,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-122.0921071096601</longitude>
 			<latitude>53.0197031076295</latitude>
@@ -1244,7 +1244,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.5996447355055</longitude>
 				<latitude>49.44635500225515</latitude>
@@ -1276,7 +1276,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.5996447355055</longitude>
 				<latitude>49.44635500225515</latitude>
@@ -1308,7 +1308,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.5996447355055</longitude>
 				<latitude>49.44635500225515</latitude>
@@ -1340,7 +1340,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/886835e8-3447-4bda-a2aa-7bcefde83e68">click here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.5996447355055</longitude>
 				<latitude>49.44635500225515</latitude>
@@ -1374,7 +1374,7 @@ For more information
 <P>For more infomation 
  
 
- <A HREF="http://catalogue.data.gov.bc.ca/dataset/92206d94-bc64-4111-a295-cd14eb5a501c">click here</A></P>]]></description>
+ <A HREF="https://catalogue.data.gov.bc.ca/dataset/92206d94-bc64-4111-a295-cd14eb5a501c">click here</A></P>]]></description>
 		<LookAt>
 			<longitude>-115.743353164902</longitude>
 			<latitude>49.50998821115897</latitude>
@@ -1402,7 +1402,7 @@ For more information
      <visibility>0</visibility>
 	   <snippet></snippet>
 	   <description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=WHSE_MINERAL_TENURE.MTA_SITE_SP&style=Mineral_Reserves_and_Coal_Land_Reserves_All_Outlined&format=image/png'><br>
-       <P>For more infomation <A HREF='http://catalogue.data.gov.bc.ca/dataset/mta-mineral-reserve-sites-business-view'>click here</A></P>]]></description>
+       <P>For more infomation <A HREF='https://catalogue.data.gov.bc.ca/dataset/mta-mineral-reserve-sites-business-view'>click here</A></P>]]></description>
 	   <LookAt>
 		    <longitude>-123.2946611504853</longitude>
 		    <latitude>49.48018166079681</latitude>
@@ -1771,7 +1771,7 @@ Use this layer after you've found the particular feature or area you want to til
           </head>
             
           <body>
-           <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+           <form action="https://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
 	  
             <table border="0" cellspacing="0" cellpadding="0" name="Table 2" width ="300">
                <input type="hidden" name="startIndex" value="0" id="startIndex"></input>
@@ -1813,7 +1813,7 @@ Use this layer after you've found the particular feature or area you want to til
       
         <body>
               
-             <form action="http://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="https://apps.gov.bc.ca/pub/geocoder/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <tr>
@@ -1931,7 +1931,7 @@ Use this layer after you've found the particular feature or area you want to til
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
 <i><b>coarse - </i></b>point represents an entire street, locality, or the province<br>
-<br> credit for frontDoor, intersection and routing icons:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for frontDoor, intersection and routing icons:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
 
 				]]>
 	   </description>
@@ -1964,7 +1964,7 @@ Use this layer after you've found the particular feature or area you want to til
 			<altitudeMode>relativeToGround</altitudeMode>
 		</LookAt>
 		<Link>
-			<href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+			<href>https://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
 			<viewRefreshMode>onStop</viewRefreshMode>
 			<viewRefreshTime>1</viewRefreshTime>
 			<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
@@ -1981,27 +1981,27 @@ Use this layer after you've found the particular feature or area you want to til
         Civic and non-civic addresses of 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#site">sites</a> in BC
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#site">sites</a> in BC
         <br><br>Every site has an 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#accessPoint">access point</a>, 
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#accessPoint">access point</a>, 
         and a 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#Routingpoint">routing point</a> and may also have a         
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#Routingpoint">routing point</a> and may also have a         
               
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#parcelPoint">parcel point</a>,
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#parcelPoint">parcel point</a>,
         
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#RooftopPoint"> roof top point</a>, or
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#RooftopPoint"> roof top point</a>, or
         
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#frontDoorPoint"> front door point</a>
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#frontDoorPoint"> front door point</a>
         <br><br>
      		<img src="##application.url##/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
 		    <img src="##application.url##/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
@@ -2019,7 +2019,7 @@ Use this layer after you've found the particular feature or area you want to til
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
 <i><b>coarse - </i></b>point represents an entire street, locality, or the province<br>
-<br> credit for frontDoor, intersection and routing icons:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for frontDoor, intersection and routing icons:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
 
 
 
@@ -2041,19 +2041,19 @@ Use this layer after you've found the particular feature or area you want to til
       
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#parcelPoint">parcel points</a>,
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#parcelPoint">parcel points</a>,
       
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#RooftopPoint"> roof top points</a>, or
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#RooftopPoint"> roof top points</a>, or
       
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
       
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#accessPoint">access points</a>
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#accessPoint">access points</a>
             
 <br><br>
     <img src="##application.url##/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
@@ -2068,7 +2068,7 @@ Use this layer after you've found the particular feature or area you want to til
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
-<br> credit for frontDoor icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for frontDoor icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -2080,7 +2080,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?</href>
+				<href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>1</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2095,7 +2095,7 @@ Use this layer after you've found the particular feature or area you want to til
       Display 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#accessPoint">access points</a> of site addresses
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#accessPoint">access points</a> of site addresses
             
 <br><br><img src="##application.url##/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
 		<img src="##application.url##/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
@@ -2116,7 +2116,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
+				<href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>1</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2131,7 +2131,7 @@ Use this layer after you've found the particular feature or area you want to til
       Display 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#Routingpoint">routing points</a> of site addresses
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#Routingpoint">routing points</a> of site addresses
             
 <br><br><img src="##application.url##/kml/icons/geocoder/routingPoint_high.png" height=36 width=36> routing point - high accuracy<br>
 		<img src="##application.url##/kml/icons/geocoder/routingPoint_medium.png" height="36" width="36"> routing point - medium accuracy<br>
@@ -2141,7 +2141,7 @@ Use this layer after you've found the particular feature or area you want to til
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
 <i><b>medium - </i></b>derived from parcel boundaries or from a point known to be inside a parcel<br>
 <i><b>low - </i></b>interpolated along a block face address range<br>
-<br> credit for routing icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for routing icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -2153,7 +2153,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Link>
-				<href>http://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
+				<href>https://apps.gov.bc.ca/pub/geocoder/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>1</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2170,11 +2170,11 @@ Use this layer after you've found the particular feature or area you want to til
         Addresses of 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> in BC (e.g., Douglas St and Yates St, Victoria, BC)
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> in BC (e.g., Douglas St and Yates St, Victoria, BC)
         <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
         <br> <i><b>Positional Accuracy Terms </i></b><br>
         <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-        <br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+        <br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
         ]]>
     </description>
 		<Style>
@@ -2192,14 +2192,14 @@ Use this layer after you've found the particular feature or area you want to til
       Display 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to more than one road segment
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to more than one road segment
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -2211,7 +2211,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2225,14 +2225,14 @@ Use this layer after you've found the particular feature or area you want to til
       Display 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to one road segment
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to one road segment
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -2244,7 +2244,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2258,14 +2258,14 @@ Use this layer after you've found the particular feature or area you want to til
       Display 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to two road segments
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to two road segments
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -2277,7 +2277,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2291,14 +2291,14 @@ Use this layer after you've found the particular feature or area you want to til
       Display 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to three road segments
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to three road segments
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -2310,7 +2310,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2324,14 +2324,14 @@ Use this layer after you've found the particular feature or area you want to til
       Display 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to four road segments
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to four road segments
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -2343,7 +2343,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2357,14 +2357,14 @@ Use this layer after you've found the particular feature or area you want to til
       Display 
  
 
- <A HREF="http://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to five or more road segments
+ <A HREF="https://www.data.gov.bc.ca/dbc/geographic/locate/physical_address_geo/glossary_of_terms.page?WT.svl=LeftNav#intersection">intersections</a> connected to five or more road segments
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
             
 <br> <i><b>Positional Accuracy Terms </i></b><br>
 <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
-<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> http://mapicons.nicolasmollet.com
+<br> credit for intersection icon:<br> <b> Maps Icons Collection </b> https://mapicons.nicolasmollet.com
      
       ]]>
       </description>
@@ -2376,7 +2376,7 @@ Use this layer after you've found the particular feature or area you want to til
           </ListStyle>
         </Style>
         <Link>
-          <href>http://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=5</href>
+          <href>https://apps.gov.bc.ca/pub/geocoder/intersections/within.kml?minDegree=5</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2414,7 +2414,7 @@ Fax: (250) 395-7810
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/100-mile-house/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/100-mile-house/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-121.2973811939086</longitude>
 				<latitude>51.64436514120808</latitude>
@@ -2441,7 +2441,7 @@ Fax: (250) 692-7461
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/burns-lake/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/burns-lake/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-125.7560944955359</longitude>
 				<latitude>54.22496190249185</latitude>
@@ -2468,7 +2468,7 @@ Fax: (250) 286-9490
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/campbell-river/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/campbell-river/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-125.2481515639248</longitude>
 				<latitude>50.00083288828589</latitude>
@@ -2495,7 +2495,7 @@ Fax: (250) 365-8568
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/castlegar/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/castlegar/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-117.6643019697324</longitude>
 				<latitude>49.31792925222632</latitude>
@@ -2522,7 +2522,7 @@ Fax: (604) 702-5711
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/chilliwack/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/chilliwack/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-121.9412550619408</longitude>
 				<latitude>49.15575739956105</latitude>
@@ -2550,7 +2550,7 @@ Fax: (250) 587-6790
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/clearwater/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/clearwater/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.0310411099587</longitude>
 				<latitude>51.65087868840264</latitude>
@@ -2579,7 +2579,7 @@ Fax: (250) 426-1767
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/cranbrook/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/cranbrook/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-115.7536349217247</longitude>
 				<latitude>49.53185446575786</latitude>
@@ -2605,7 +2605,7 @@ Toll free: 1-877-855-3222
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/dawson-creek/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/dawson-creek/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.2496979454604</longitude>
 				<latitude>55.77296122346597</latitude>
@@ -2632,7 +2632,7 @@ Fax: (250) 774-3704
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/fort-nelson/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/fort-nelson/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-122.7321074336911</longitude>
 				<latitude>58.80476521701589</latitude>
@@ -2658,7 +2658,7 @@ Fax: (250) 996-5290
 <P>For more information click
 
  
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/fort-st-james/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/fort-st-james/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-124.2866504894114</longitude>
 				<latitude>54.45755946603362</latitude>
@@ -2687,7 +2687,7 @@ Fax: (250) 261-2084
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/fort-st-john/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/fort-st-john/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.8478990218154</longitude>
 				<latitude>56.2549203149185</latitude>
@@ -2713,7 +2713,7 @@ Fax: (250) 559-8342
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/haida-gwaii/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/haida-gwaii/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-132.0605899651308</longitude>
 				<latitude>53.25242343998377</latitude>
@@ -2742,7 +2742,7 @@ Fax: (250) 828-4442
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/kamloops/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/kamloops/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.331542811713</longitude>
 				<latitude>50.66886379129697</latitude>
@@ -2768,7 +2768,7 @@ Fax: (250) 997-2236
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/mackenzie/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/mackenzie/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-123.0929092665263</longitude>
 				<latitude>55.32279549040859</latitude>
@@ -2795,7 +2795,7 @@ Fax: (250) 378-8481
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/merritt/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/merritt/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-120.7482563718154</longitude>
 				<latitude>50.12551067412542</latitude>
@@ -2824,7 +2824,7 @@ Fax: (250) 751-7224
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/nanaimo/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/nanaimo/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-123.9935331040175</longitude>
 				<latitude>49.20067196119476</latitude>
@@ -2850,7 +2850,7 @@ Fax: (250) 731-3010
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/port-alberni/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/port-alberni/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-124.7878091426638</longitude>
 				<latitude>49.26323440988062</latitude>
@@ -2877,7 +2877,7 @@ Fax: (250) 956-5079
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/port-mcneill/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/port-mcneill/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-127.0798641557736</longitude>
 				<latitude>50.58007306132527</latitude>
@@ -2904,7 +2904,7 @@ Fax: (604) 485-0799
 
 
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/powell-river/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/powell-river/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-124.5173072058587</longitude>
 				<latitude>49.83629973668576</latitude>
@@ -2932,7 +2932,7 @@ Fax: (250) 565-6941
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/prince-george/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/prince-george/>here</A></P>]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2012-09-07</when>
 </gx:TimeStamp>
@@ -2965,7 +2965,7 @@ Fax: (250) 992-4403
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/quesnel/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/quesnel/>here</A></P>]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2012-09-07</when>
 </gx:TimeStamp>
@@ -2999,7 +2999,7 @@ Fax: (250) 837-7626
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/revelstoke/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/revelstoke/>here</A></P>]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2012-09-07</when>
 </gx:TimeStamp>
@@ -3035,7 +3035,7 @@ Fax: (250) 847-7556
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/smithers/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/smithers/>here</A></P>]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2012-09-07</when>
 </gx:TimeStamp>
@@ -3068,7 +3068,7 @@ Fax: (604) 898-2191
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/squamish/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/squamish/>here</A></P>]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2012-09-07</when>
 </gx:TimeStamp>
@@ -3104,7 +3104,7 @@ Fax: (604) 586-4434
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/surrey/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/surrey/>here</A></P>]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2012-09-07</when>
 </gx:TimeStamp>
@@ -3137,7 +3137,7 @@ Fax: (250) 638-5176
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/terrace/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/terrace/>here</A></P>]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2012-09-07</when>
 </gx:TimeStamp>
@@ -3171,7 +3171,7 @@ Fax: (250) 567-6370
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/vanderhoof/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/vanderhoof/>here</A></P>]]></description>
 			<LookAt>
 				<longitude>-123.9942879401224</longitude>
 				<latitude>54.00784757179422</latitude>
@@ -3198,7 +3198,7 @@ Fax: (250) 549-5485
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/vernon/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/vernon/>here</A></P>]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2012-09-07</when>
 </gx:TimeStamp>
@@ -3234,7 +3234,7 @@ Fax: (250) 398-4836
 
  
 
- <A HREF=http://www.frontcounterbc.gov.bc.ca/locations/williams-lake/>here</A></P>]]></description>
+ <A HREF=https://www.frontcounterbc.gov.bc.ca/locations/williams-lake/>here</A></P>]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2012-09-07</when>
 </gx:TimeStamp>
@@ -3281,7 +3281,7 @@ Fax: (250) 398-4836
 			<name>FrontCounter BC Logo</name>
 			<drawOrder>98</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/fcbc_logo_transparent.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/fcbc_logo_transparent.png</href>
 			</Icon>
 			<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 			<screenXY x="5" y="25" xunits="pixels" yunits="pixels"/>
@@ -3294,7 +3294,7 @@ Fax: (250) 398-4836
 			<Snippet maxLines="0"></Snippet>
 			<drawOrder>97</drawOrder>
 			<Icon>
-				<href>http://openmaps.gov.bc.ca/kml/icons/DataBC_logo.png</href>
+				<href>https://openmaps.gov.bc.ca/kml/icons/DataBC_logo.png</href>
 			</Icon>
 			<overlayXY x="0.0800000" y="0.300000001" xunits="fraction" yunits="fraction"/>
 			<screenXY x="0" y="0.04000000000000001" xunits="fraction" yunits="fraction"/>

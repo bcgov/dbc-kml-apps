@@ -27,7 +27,7 @@
       <name>Help</name>
       <open>1</open>
       <Link>
-        <href>http://openmaps.gov.bc.ca/thumbs/kmlviewer_help/airphoto_help.kml</href>
+        <href>https://openmaps.gov.bc.ca/thumbs/kmlviewer_help/airphoto_help.kml</href>
       </Link>
     </NetworkLink>
 
@@ -103,7 +103,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2016&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2016&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -126,7 +126,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2016&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2016&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -155,7 +155,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2016&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2016&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -195,7 +195,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2015&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2015&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -218,7 +218,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2015&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2015&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -247,7 +247,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2015&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2015&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -287,7 +287,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2014&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2014&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -310,7 +310,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2014&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2014&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -339,7 +339,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2014&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2014&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -379,7 +379,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2013&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2013&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -402,7 +402,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2013&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2013&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -431,7 +431,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2013&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2013&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -471,7 +471,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2012&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2012&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -494,7 +494,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2012&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2012&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -523,7 +523,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2012&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2012&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -563,7 +563,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2011&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2011&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -586,7 +586,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2011&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2011&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -615,7 +615,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2011&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2011&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -655,7 +655,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2010&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2010&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -678,7 +678,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2010&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2010&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -707,7 +707,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2010&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2010&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -770,7 +770,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2009&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2009&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -793,7 +793,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2009&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2009&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -822,7 +822,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2009&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2009&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -862,7 +862,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2008&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2008&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -885,7 +885,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2008&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2008&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -914,7 +914,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2008&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2008&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -954,7 +954,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2007&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2007&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -977,7 +977,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2007&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2007&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1006,7 +1006,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2007&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2007&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1046,7 +1046,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2006&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2006&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1069,7 +1069,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2006&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2006&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1098,7 +1098,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2006&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2006&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1138,7 +1138,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2005&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2005&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1161,7 +1161,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2005&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2005&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1190,7 +1190,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2005&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2005&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1230,7 +1230,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2004&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2004&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1253,7 +1253,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2004&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2004&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1282,7 +1282,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2004&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2004&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1322,7 +1322,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2003&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2003&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1345,7 +1345,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2003&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2003&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1374,7 +1374,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2003&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2003&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1414,7 +1414,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2002&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2002&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1437,7 +1437,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2002&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2002&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1466,7 +1466,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2002&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2002&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1506,7 +1506,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2001&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2001&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1529,7 +1529,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2001&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2001&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1558,7 +1558,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2001&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2001&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1598,7 +1598,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2000&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_2000&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1621,7 +1621,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2000&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_2000&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1650,7 +1650,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2000&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_2000&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1713,7 +1713,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1999&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1999&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1736,7 +1736,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1999&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1999&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1765,7 +1765,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1999&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1999&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1805,7 +1805,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1998&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1998&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1828,7 +1828,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1998&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1998&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1857,7 +1857,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1998&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1998&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1897,7 +1897,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1997&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1997&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1920,7 +1920,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1997&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1997&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1949,7 +1949,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1997&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1997&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1989,7 +1989,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1996&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1996&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2012,7 +2012,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1996&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1996&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2041,7 +2041,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1996&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1996&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2081,7 +2081,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1995&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1995&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2104,7 +2104,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1995&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1995&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2133,7 +2133,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1995&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1995&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2173,7 +2173,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1994&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1994&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2196,7 +2196,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1994&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1994&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2225,7 +2225,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1994&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1994&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2265,7 +2265,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1993&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1993&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2288,7 +2288,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1993&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1993&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2317,7 +2317,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1993&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1993&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2357,7 +2357,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1992&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1992&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2380,7 +2380,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1992&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1992&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2409,7 +2409,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1992&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1992&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2449,7 +2449,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1991&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1991&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2472,7 +2472,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1991&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1991&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2501,7 +2501,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1991&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1991&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2541,7 +2541,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1990&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1990&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2564,7 +2564,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1990&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1990&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2593,7 +2593,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1990&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1990&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2656,7 +2656,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1989&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1989&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2679,7 +2679,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1989&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1989&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2708,7 +2708,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1989&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1989&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2748,7 +2748,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1988&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1988&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2771,7 +2771,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1988&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1988&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2800,7 +2800,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1988&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1988&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2840,7 +2840,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1987&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1987&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2863,7 +2863,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1987&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1987&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2892,7 +2892,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1987&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1987&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2932,7 +2932,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1986&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1986&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2955,7 +2955,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1986&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1986&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -2984,7 +2984,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1986&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1986&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3024,7 +3024,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1985&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1985&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3047,7 +3047,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1985&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1985&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3076,7 +3076,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1985&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1985&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3116,7 +3116,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1984&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1984&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3139,7 +3139,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1984&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1984&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3168,7 +3168,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1984&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1984&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3208,7 +3208,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1983&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1983&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3231,7 +3231,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1983&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1983&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3260,7 +3260,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1983&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1983&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3300,7 +3300,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1982&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1982&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3323,7 +3323,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1982&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1982&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3352,7 +3352,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1982&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1982&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3392,7 +3392,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1981&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1981&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3415,7 +3415,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1981&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1981&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3444,7 +3444,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1981&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1981&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3484,7 +3484,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1980&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1980&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3507,7 +3507,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1980&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1980&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3536,7 +3536,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1980&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1980&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3599,7 +3599,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1979&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1979&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3622,7 +3622,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1979&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1979&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3651,7 +3651,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1979&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1979&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3691,7 +3691,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1978&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1978&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3714,7 +3714,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1978&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1978&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3743,7 +3743,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1978&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1978&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3783,7 +3783,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1977&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1977&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3806,7 +3806,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1977&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1977&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3835,7 +3835,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1977&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1977&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3875,7 +3875,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1976&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1976&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3898,7 +3898,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1976&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1976&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3927,7 +3927,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1976&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1976&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3967,7 +3967,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1975&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1975&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -3990,7 +3990,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1975&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1975&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4019,7 +4019,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1975&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1975&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4059,7 +4059,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1974&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1974&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4082,7 +4082,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1974&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1974&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4111,7 +4111,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1974&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1974&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4151,7 +4151,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1973&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1973&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4174,7 +4174,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1973&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1973&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4203,7 +4203,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1973&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1973&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4243,7 +4243,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1972&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1972&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4266,7 +4266,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1972&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1972&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4295,7 +4295,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1972&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1972&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4335,7 +4335,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1971&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1971&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4358,7 +4358,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1971&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1971&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4387,7 +4387,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1971&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1971&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4427,7 +4427,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1970&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1970&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4450,7 +4450,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1970&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1970&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4479,7 +4479,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1970&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1970&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4542,7 +4542,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1969&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1969&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4565,7 +4565,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1969&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1969&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4594,7 +4594,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1969&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1969&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4634,7 +4634,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1968&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1968&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4657,7 +4657,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1968&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1968&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4686,7 +4686,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1968&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1968&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4726,7 +4726,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1967&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1967&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4749,7 +4749,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1967&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1967&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4778,7 +4778,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1967&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1967&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4818,7 +4818,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1966&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1966&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4841,7 +4841,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1966&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1966&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4870,7 +4870,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1966&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1966&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4910,7 +4910,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1965&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1965&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4933,7 +4933,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1965&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1965&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -4962,7 +4962,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1965&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1965&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -5002,7 +5002,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1964&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1964&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -5025,7 +5025,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1964&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1964&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -5054,7 +5054,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1964&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1964&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -5094,7 +5094,7 @@
               </ListStyle>
             </Style>
             <Link>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1963&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;styles=Airborne_Imagery_Air_Photo_Centres_1963&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:refresh;SUPEROVERLAY:false&amp;maxFeatures=200</href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -5117,7 +5117,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1963&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_CENTROIDS_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Centres_1963&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -5146,7 +5146,7 @@
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
             <Icon>
-              <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1963&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
+              <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_PHOTO_FLIGHTLINES_SP&amp;STYLES=Airborne_Imagery_Air_Photo_Flightlines_1963&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp; </href>
               <viewRefreshMode>onStop</viewRefreshMode>
               <viewRefreshTime>2</viewRefreshTime>
               <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -5197,7 +5197,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   </head>
   <body style="width: 450px">
-    <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+    <form action="https://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
       <input type="hidden" name="startIndex" value="0" id="startIndex" />
       <input type="hidden" name="itemsPerPage" value="20" id="itemsPerPage" />
       <input type="hidden" name="maxResults" value="1000" id="maxResults" />
@@ -5231,7 +5231,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   </head>
   <body style="width: 450px">
-    <form action="http://apps.gov.bc.ca/pub/geocoder/geocoder.kml" target="geocode" method="get" id="geocode">
+    <form action="https://apps.gov.bc.ca/pub/geocoder/geocoder.kml" target="geocode" method="get" id="geocode">
       <div class="input-group">
         <input name="addressString" type="text" class="form-control" placeholder="Address search...">
         <span class="input-group-btn">
@@ -5298,7 +5298,7 @@
       <altitudeMode>relativeToGround</altitudeMode>
     </LookAt>
     <Link>
-      <href>http://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
+      <href>https://apps.gov.bc.ca/pub/bcgnws/names/official/inside?itemsPerPage=50&amp;sortBy=name&amp;</href>
       <viewRefreshMode>onStop</viewRefreshMode>
       <viewRefreshTime>1</viewRefreshTime>
       <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
@@ -5309,7 +5309,7 @@
       <name>GeoBC Logo</name>
       <drawOrder>99</drawOrder>
       <Icon>
-        <href>http://openmaps.gov.bc.ca/kml/Icons/GeoBC_logo.png</href>
+        <href>https://openmaps.gov.bc.ca/kml/Icons/GeoBC_logo.png</href>
       </Icon>
       <overlayXY
         x="0"

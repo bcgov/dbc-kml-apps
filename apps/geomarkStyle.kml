@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <kml
   xmlns="http://www.opengis.net/kml/2.2"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -37,7 +37,7 @@
 			<color>ffffaaff</color>
 			<scale>1.4</scale>
         <Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+				<href>https://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
         </Icon>
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
       </IconStyle>

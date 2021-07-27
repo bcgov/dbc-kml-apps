@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
 
   <Folder>
@@ -20,7 +20,7 @@
       <name>Help</name>
       <open>1</open>
       <Link>
-        <href>http://openmaps.gov.bc.ca/thumbs/kmlviewer_help/orthophoto_help.kml</href>
+        <href>https://openmaps.gov.bc.ca/thumbs/kmlviewer_help/orthophoto_help.kml</href>
       </Link>
     </NetworkLink>
   
@@ -58,7 +58,7 @@
           </ListStyle>
         </Style>
         <Link>
-          <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_TILES_POINT&amp;styles=Airborne_Imagery_Orthophoto_Tile_Points&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:50;MODE:refresh;SUPEROVERLAY:false&amp;</href>
+          <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_TILES_POINT&amp;styles=Airborne_Imagery_Orthophoto_Tile_Points&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:50;MODE:refresh;SUPEROVERLAY:false&amp;</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -79,7 +79,7 @@
         </LookAt>
         <color>75ffffff</color>
         <Icon>
-          <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_TILES_POINT&amp;STYLES=6210&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
+          <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_TILES_POINT&amp;STYLES=6210&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewRefreshTime>2</viewRefreshTime>
           <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -97,7 +97,7 @@
         <snippet></snippet>
         <drawOrder>1</drawOrder>
         <Icon>
-          <href>http://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_COVERAGE_SP&amp;STYLES=6212&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
+          <href>https://openmaps.gov.bc.ca/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_COVERAGE_SP&amp;STYLES=6212&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
           <viewRefreshMode>onStop</viewRefreshMode>
           <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
         </Icon>
@@ -115,15 +115,15 @@
       <name>Mapsheet Grids</name>
       <snippet></snippet>
       <description><![CDATA[
-<img src="http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&format=image/png&STYLE=Mapsheet_Grid_250K"><br />
-<p>For more infomation <a href="http://catalogue.data.gov.bc.ca/dataset/c50803db-7645-4da8-bce5-1bc5b501a7b3">click here</a></p>
+<img src="https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&format=image/png&STYLE=Mapsheet_Grid_250K"><br />
+<p>For more infomation <a href="https://catalogue.data.gov.bc.ca/dataset/c50803db-7645-4da8-bce5-1bc5b501a7b3">click here</a></p>
 
-<img src="http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&format=image/png&STYLE=Mapsheet_Grid_20K"><br />
-<p>For more infomation <a href="http://catalogue.data.gov.bc.ca/dataset/a61976ac-d8e8-4862-851e-d105227b6525">click here</a></p>
+<img src="https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&format=image/png&STYLE=Mapsheet_Grid_20K"><br />
+<p>For more infomation <a href="https://catalogue.data.gov.bc.ca/dataset/a61976ac-d8e8-4862-851e-d105227b6525">click here</a></p>
       ]]></description>
       <drawOrder>6</drawOrder>
       <Icon>
-        <href>http://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;STYLES=Mapsheet_Grid_250K,Mapsheet_Grid_20K&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+        <href>https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;STYLES=Mapsheet_Grid_250K,Mapsheet_Grid_20K&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
         <viewRefreshMode>onStop</viewRefreshMode>
         <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
       </Icon>
@@ -161,7 +161,7 @@
             </head>
               
             <body>
-             <form action="http://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+             <form action="https://apps.gov.bc.ca/pub/bcgnws/names/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
       
               <table border="0" cellspacing="0" cellpadding="0" name="Table 2" width ="300">
                  <input type="hidden" name="startIndex" value="0" id="startIndex"></input>
@@ -199,7 +199,7 @@
       <name>GeoBC Logo</name>
       <drawOrder>99</drawOrder>
       <Icon>
-        <href>http://openmaps.gov.bc.ca/kml/Icons/GeoBC_logo.png</href>
+        <href>https://openmaps.gov.bc.ca/kml/Icons/GeoBC_logo.png</href>
       </Icon>
       <overlayXY x="0.0800000" y="0.300000001" xunits="fraction" yunits="fraction"/>
       <screenXY x="0" y="0.04000000000000001" xunits="fraction" yunits="fraction"/>
