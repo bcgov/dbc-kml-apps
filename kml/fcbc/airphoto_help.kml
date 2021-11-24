@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
+
+<Document>
+
+	<ScreenOverlay>
+		<name>Quick Start Instructions</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[
+
+			<p>** Note: To view <b>thumbnail images</b> or use <b>Add to Cart</b> functionality requires that Google Earth be configured to open web pages in an "external browser". Select <b>Tools</b> &gt; <b>Options</b> &gt; <b>General</b> &gt; check <b>Show web results in external browser, as shown below</b></p>
+		
+			<p ALIGN = "center"> </p>
+			<img src="http://openmaps.gov.bc.ca/thumbs/kmlviewer_help/ext_browser_inst.jpg" height = "150">
+
+
+
+			<p>Use this tool to view and order aerial photograps ("air photos") of British Columbia.</p>
+			
+			<ol>
+			<li>Select the <i>year</i> of air photos to view in Google Earth's <i>Places</i> pane.  The coverage areas of air photos from the selected year will be shown on the map in red.</li>
+			<li>Use the Google Earth controls to zoom in on an air photo coverage area.  As you zoom in, flight lines will be shown in red, and then air photo centres will appear as yellow circles (airphoto centres are only visible at <i>eye altitude</i> less than about 20 miles or 32 km).</li>
+			<li>Click the blue <i>disk icon</i> on top of an air photo centre to view information about that air photo. If a low-resolution version of the air photo is available it will be shown as a thumbnail image. Click on the thumbnail to view the low-resolution version of the image.  If the air photo is available for purchase, an <b> Add to Cart </b> button will be displayed below the air photo details.</li>
+			<li>Click the <b>Add to Cart</b> button to add an air photo to the shopping cart for purchase. To quickly add multiple air photos to the shopping cart, select <b>Order by Roll and Frame</b> to connect to the Base Map Online Store. </li>
+			</ol>
+
+			
+			
+		]]></description>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<styleUrl>#instructionsStyle</styleUrl>
+		<drawOrder>99</drawOrder>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="5" y="5" xunits="pixels" yunits="insetPixels"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="0.3" y="-1" xunits="fraction" yunits="fraction"/>
+	</ScreenOverlay>
+
+	<ScreenOverlay>
+		<name>Frequently Asked Questions</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[
+		
+			<p><b>Q.	I can see the flightlines, why can't I see any air photo centres?</b></p>
+
+			<p>A.	Air photo centres are only visible when you are zoomed in below an eye altitude of 32 kilometres, or about 20 miles. (The eye alt value is displayed in the lower right corner of the Google Earth map frame.)</p>
+
+			<p><b>Q.	Why do the low-resolution versions of some air photos seem to be upside down while others are right side up?</b></p>
+
+			<p>A.	Because that's the way the photo appears on the film roll when they are scanned. Typically, flightlines are flown East-to-West and then West-to-East 	(or vice versa) in what is called a serpentine pattern. This results in half the photos appearing to have North at the top, and half with North at 		the bottom. Sometimes the aircraft fly in different patterns and the terrain features in the photos will appear to be rotated with respect to matching 	features in the Google Earth imagery. If you wish to compare features in the low-resolution images with those in Google Earth, simply rotate the Google 	Earth map to match the orientation of the photo.</p>
+
+			<p><b>Q.	Why are there no low-resolution thumbnails for some air photos?</b></p>
+
+			<p>A.	GeoBC has over 2.5 million air photos of British Columbia, dating back to 1936. To date only about 500,000 air photos have been scanned to digital format. Air photos that have not yet been scanned will not have a thumbnail image available.</p>
+
+			<p><b>Q.	Why is there a big red 'X' covering the map?</b></p>
+
+			<p>A.	This viewer uses the Google Earth image overlay feature to display flightline and photo centres from data located on internet servers. The red 'X' means that Google Earth can't find the image overaly location.  It is most likely caused by a temporary internet connectivity problem. </p>
+
+			<p><b>Q.	Can I download and view or print the low-resolution image without purchasing the full-resolution version?</b></p>
+
+			<p>A.	Yes. The low-resolution air photo images are free for personal use, although they reamin the copyrighted property of the Province of British Columbia. For commercial use, or for inclusion in published material you will need to get permission.</p>
+
+<A HREF='http://www2.gov.bc.ca/gov/admin/copyright.page?WT.svl=Footer'>http://www2.gov.bc.ca/gov/admin/copyright.page?WT.svl=Footer</A>
+
+			<p><b>Q.	Are there other other air photos available for British Columbia?</b></p>
+
+			<p>A.	Yes. This viewer only shows fairly recent air photos. To order air photos from the 1960's, 70's, 80's and early 90's, visit the Base Map Online Store. Instructions for ordering historical air photos from before 1960 can be found here: <A HREF='http://openmaps.gov.bc.ca/flight_indices/pdf/ordering_historical_airphotos.pdf'>http://openmaps.gov.bc.ca/flight_indices/pdf/ordering_historical_airphotos.pdf</A></p>
+	
+		]]></description>
+		<styleUrl>#instructionsStyle</styleUrl>
+		<drawOrder>99</drawOrder>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="5" y="5" xunits="pixels" yunits="insetPixels"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="0.3" y="-1" xunits="fraction" yunits="fraction"/>
+	</ScreenOverlay>
+
+</Document>
+
+</kml>
