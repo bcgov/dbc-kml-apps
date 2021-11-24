@@ -27,7 +27,7 @@
       <name>Help</name>
       <open>1</open>
       <Link>
-        <href>##application.url##/thumbs/kmlviewer_help/airphoto_help.kml</href>
+        <href>##application.url##/kml/fcbc/airphoto_help.kml</href>
       </Link>
     </NetworkLink>
 
