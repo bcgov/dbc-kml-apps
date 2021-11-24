@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
+
+  <Folder>
+    <name>BC Ortho Viewer</name>
+    <open>1</open>
+    <LookAt>
+      <longitude>-124.7059785967992</longitude>
+      <latitude>54.26540361030128</latitude>
+      <altitude>0</altitude>
+      <heading>-2.958271074351463</heading>
+      <tilt>0</tilt>
+      <range>1856596.6926227</range>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    </LookAt>
+  
+  
+        <NetworkLink xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
+      <name>Help</name>
+      <open>1</open>
+      <Link>
+        <href>##application.url##/thumbs/kmlviewer_help/orthophoto_help.kml</href>
+      </Link>
+    </NetworkLink>
+  
+  
+	<Folder> <!-- Catalog Orthophotos -->
+      <name>1:20,000 Orthophoto Catalogue Images</name>
+      <description>Orthophotos available for sale to the public</description>
+      <LookAt>
+        <longitude>-124.7059785967992</longitude>
+        <latitude>54.26540361030128</latitude>
+        <altitude>0</altitude>
+        <heading>-2.958271074351463</heading>
+        <tilt>0</tilt>
+        <range>1856596.6926227</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+      </LookAt>
+      <NetworkLink>
+        <name>Orthophotos - Low Resolution</name>
+        <LookAt>
+          <longitude>-119.7541198470193</longitude>
+          <latitude>50.29770636887575</latitude>
+          <altitude>0</altitude>
+          <heading>0.9288439482244004</heading>
+          <tilt>0</tilt>
+          <range>14686.90176301334</range>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+        </LookAt>
+        <Style>
+          <ListStyle>
+            <listItemType>check</listItemType>
+            <bgColor>00ffffff</bgColor>
+            <maxSnippetLines>2</maxSnippetLines>
+          </ListStyle>
+        </Style>
+        <Link>
+          <href>##application.url##/geo/pub/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_TILES_POINT&amp;styles=Airborne_Imagery_Orthophoto_Tile_Points&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:50;MODE:refresh;SUPEROVERLAY:false&amp;</href>
+          <viewRefreshMode>onStop</viewRefreshMode>
+          <viewRefreshTime>2</viewRefreshTime>
+          <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+        </Link>
+      </NetworkLink>
+
+      <GroundOverlay>
+        <name>Orthophoto Centres</name>
+        <LookAt>
+          <longitude>-119.7541198470193</longitude>
+          <latitude>50.29770636887575</latitude>
+          <altitude>0</altitude>
+          <heading>0.9288439482244004</heading>
+          <tilt>0</tilt>
+          <range>14686.90176301334</range>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+        </LookAt>
+        <color>75ffffff</color>
+        <Icon>
+          <href>##application.url##/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_TILES_POINT&amp;STYLES=Airborne_Imagery_Orthophoto_Tile_Points&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
+          <viewRefreshMode>onStop</viewRefreshMode>
+          <viewRefreshTime>2</viewRefreshTime>
+          <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+        </Icon>
+        <LatLonBox>
+          <north>61.62155672108347</north>
+          <south>44.5115929317418</south>
+          <east>-100.8257674216733</east>
+          <west>-149.2489103138831</west>
+        </LatLonBox>
+      </GroundOverlay>
+
+      <GroundOverlay>
+        <name>Orthophoto Coverage</name>
+        <snippet></snippet>
+        <drawOrder>1</drawOrder>
+        <Icon>
+          <href>##application.url##/geo/pub/wms?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=pub:WHSE_IMAGERY_AND_BASE_MAPS.AIMG_ORTHOPHOTO_COVERAGE_SP&amp;STYLES=Airborne_Imagery_Orthophoto_Coverage&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SRS=EPSG:4326&amp;</href>
+          <viewRefreshMode>onStop</viewRefreshMode>
+          <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+        </Icon>
+        <LatLonBox>
+          <north>61.62155672108347</north>
+          <south>44.5115929317418</south>
+          <east>-100.8257674216733</east>
+          <west>-149.2489103138831</west>
+        </LatLonBox>
+      </GroundOverlay>
+    </Folder>
+  
+    <GroundOverlay>
+      <name>Mapsheet Grids</name>
+      <snippet></snippet>
+      <description><![CDATA[
+<img src="##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.NTS_250K_GRID&format=image/png&STYLE=Mapsheet_Grid_250K"><br />
+<p>For more infomation <a href="##catalogue.url##/dataset/c50803db-7645-4da8-bce5-1bc5b501a7b3">click here</a></p>
+
+<img src="##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_BASEMAPPING.BCGS_20K_GRID&format=image/png&STYLE=Mapsheet_Grid_20K"><br />
+<p>For more infomation <a href="##catalogue.url##/dataset/a61976ac-d8e8-4862-851e-d105227b6525">click here</a></p>
+      ]]></description>
+      <drawOrder>6</drawOrder>
+      <Icon>
+        <href>##application.url##/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;STYLES=Mapsheet_Grid_250K,Mapsheet_Grid_20K&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+        <viewRefreshMode>onStop</viewRefreshMode>
+        <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+      </Icon>
+      <LatLonBox>
+        <north>61.62155672108347</north>
+        <south>44.5115929317418</south>
+        <east>-100.8257674216733</east>
+        <west>-149.2489103138831</west>
+      </LatLonBox>
+    </GroundOverlay>
+  
+    <Folder>
+      <name>Search Tools</name>
+      <visibility>0</visibility>
+      <open>1</open>
+      <LookAt>
+        <longitude>-125.1500003870194</longitude>
+        <latitude>54.59</latitude>
+        <altitude>0</altitude>
+        <heading>-3.170276909843649e-007</heading>
+        <tilt>0</tilt>
+        <range>1795000</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+      </LookAt>
+
+		<Folder> <!-- Find a Geographical Name in BC -->
+        <name>Find a Geographical Name in BC</name>
+        <visibility>0</visibility>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[<html>
+          
+            <head>
+              <meta http-equiv="Content-Type" content="text/xml">
+            </head>
+              
+            <body>
+             <form action="##bcgnws.url##/official/soundlike?" target="Soundlike Search" method="get" id="Soundlike Search">
+      
+              <table border="0" cellspacing="0" cellpadding="0" name="Table 2" width ="300">
+                 <input type="hidden" name="startIndex" value="0" id="startIndex"></input>
+                 <input type="hidden" name="itemsPerPage" value="20" id="itemsPerPage"></input>
+                 <input type="hidden" name="maxResults" value="1000" id="maxResults"></input>
+                 <input type="hidden" name="minScore" value="0.5" id="minScore"></input>
+                 <input type="hidden" name="outputStyle" value="summary" id="outputFormat"></input>
+                 <input type="hidden" name="outputSRS" value="4326" id="outputSRS"></input>
+                 <input type="hidden" name="asAttachment" value="0" id="asAttachment"></input>
+                 <input type="hidden" name="embed" value="0" id="embed"></input>
+                 <input type="hidden" name="featureClass" value="*" id="featureClass"></input>
+                 <input type="hidden" name="featureCategory" value="*" id="featureCategory"></input>
+                 <input type="hidden" name="outputFormat" value="kml" id="outputFormat"></input>
+                 
+                 <tr>
+                   <td>
+                    <input name="name" type="text" id="name" size="37" wrap="virtual"></textarea> 
+                   </td>
+                   <td>
+                    <input type="submit" value="Search"></input>
+                   </td>
+                 </tr>      
+  
+              </table>
+  
+             </form>   
+            </body>
+            
+       </html>]]></description>
+		</Folder> <!-- Find a Geographical Name in BC -->
+		
+	</Folder> <!-- Search tools -->
+    
+    <ScreenOverlay>
+      <name>GeoBC Logo</name>
+      <drawOrder>99</drawOrder>
+      <Icon>
+        <href>##application.url##/kml/Icons/GeoBC_logo.png</href>
+      </Icon>
+      <overlayXY x="0.0800000" y="0.300000001" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0" y="0.04000000000000001" xunits="fraction" yunits="fraction"/>
+      <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+      <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+    </ScreenOverlay>
+  </Folder>
+</kml>

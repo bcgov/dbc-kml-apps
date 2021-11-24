@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 ogckml22.xsd">
+
+<Document>
+
+
+<ScreenOverlay>
+		<name>Quick Start Instructions</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[		
+		<p>** Note: To view <b>thumbnail images</b> or use <b>Add to Cart</b> functionality requires that Google Earth be configured to open web pages in an "external browser". Select <b>Tools</b> &gt; <b>Options</b> &gt; <b>General</b> &gt; and check <b>Show web results in external browser,</b> as shown below</p>
+		
+			<p ALIGN = "center"> </p>
+			<img src="http://openmaps.gov.bc.ca/thumbs/kmlviewer_help/ext_browser_inst.jpg" height = "150">
+
+			<p>Use this tool to view and order orthorectified aerial photographs ("Orthophotos") of British Columbia.</p>
+			
+			<ol>		
+			<li>Use the Google Earth controls to zoom in on an airphoto coverage area (shown in pink).  As you zoom in orthophoto centres are shown as yellow circles (orthophoto centres are only visible at "eye altitude" less than about 130 km or 80 miles).</li>
+			<li>If you are only interested in orthophotos available for purchase, make sure the <b>Non-catalogue Orthophotos</b> layer in the <i>Places</i> pane is unchecked.</li>	
+			<li>Click the blue <i>disk icon</i> on top of an orthophoto centre to view information about that orthophoto. Click on the image thumbnail in the information window to display a 1/16th scale version of the full-resolution orthophoto, which you may freely print or download from your browser window. If the full-resolution orthophoto is available for purchase, an Add to Cart button will be displayed below the orthophoto details.</li>
+			<li>Click the <b>Add to Cart</b> button to add an orthophoto to the shopping cart for purchase, or follow the link to the Base Map Online Store.</li>
+			</ol>
+
+		]]></description>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<drawOrder>99</drawOrder>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="5" y="5" xunits="pixels" yunits="insetPixels"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="0.3" y="-1" xunits="fraction" yunits="fraction"/>
+	</ScreenOverlay>
+
+	<ScreenOverlay>
+		<name>Frequently Asked Questions</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[		
+
+			<p><b>Q.	Why can't I see any orthophoto centres?</b></p>
+
+			<p>A.	Orthophoto centres are only visible when you are zoomed in below an eye altitude (the eye alt value is displayed in the lower right corner of the Google Earth map frame) of 130 kilometres, or about 80 miles.</p>
+
+			<p><b>Q.	Why are there no low-resolution thumbnails for some orthophotos?</b></p>
+
+			<p>A.	Some images in GeoBC's orthophoto collection are not owned by the Province of BC. GeoBC is not permitted to provide low-resolution thumbnails of these 	images.</p>
+
+			<p><b>Q. 	Why aren't there any orthophotos from before 1995?</b></p>
+
+			<p>A.	1995 was the first year that digital orthophotos were produced. Orthophotos from earlier years existed only as hardcopy photos or mylar overlays. These are no longer available.</p>
+
+			<p><b>Q.	Why are there no orthophotos for some areas of British Columbia?</b></p>
+
+			<p>A.	In recent years, orthophotos have normally been produced from all Provincial air photo acquisition. Before 2006, orthophotos were typically only produced for between 50 and 60% of the annual air photo acquisition. For some areas of British Columbia, notably the north west corner of the province, parts of Vancouver Island and some parts of the South Coast, no new aerial photography has been acquired since the mid 90's, when digital orthophotos first began to be produced.</p>
+
+			<p><b>Q.	Why is there a big red 'X' covering the map?</b></p>
+
+			<p>A.	This viewer uses the Google Earth image overlay feature to display orthophoto coverage and orthophoto centres from data located on internet servers. 		The red 'X' means that Google Earth can't find the image overaly location.  It is most likely caused by a temporary internet connectivity problem. </p>
+
+			<p><b>Q.	Can I download and view or print the low-resolution image without purchasing the full-resolution version?</b></p>
+	
+			<p>A.	Yes. The low-resolution orthophoto images are free for personal use, although they remain the copyrighted property of the Province of British Columbia. 		For commercial use, or for inclusion in published material you will need to get permission.</p>
+<A HREF='http://www2.gov.bc.ca/gov/admin/copyright.page?WT.svl=Footer'>http://www2.gov.bc.ca/gov/admin/copyright.page?WT.svl=Footer</A>
+
+		]]></description>
+		<gx:balloonVisibility>0</gx:balloonVisibility>
+		<drawOrder>99</drawOrder>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="5" y="5" xunits="pixels" yunits="insetPixels"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="0.3" y="-1" xunits="fraction" yunits="fraction"/>
+	</ScreenOverlay>
+
+</Document>
+
+</kml>

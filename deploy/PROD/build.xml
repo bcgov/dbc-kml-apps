@@ -1,0 +1,38 @@
+<project name="fcbckml_build" default="fcbckml_build">
+	<description>This is the token replacement for FCBC KML application</description>
+	<!-- =========================================================== -->
+	<!-- Defaults                                                    -->
+	<!-- =========================================================== -->
+	<!-- command-line properties                                     -->
+	<!-- None                                                        -->
+	<!-- =========================================================== -->
+	<!-- Initialization of all property settings                     -->
+	<!-- =========================================================== -->
+	<target name="init">
+		<echo message="Building FCBC KML files"/>
+		<echo message="Setting up the build properties"/>
+	</target>
+	<!-- ================================================================== -->
+	<!-- Update all site.xml                                                -->
+	<!-- ================================================================== -->
+	<target name="fcbckml_build" depends="init" description="Updates the appropriate kml files with correct parameters">
+		<echo message="Updating FCBC KML files"/>
+		<replace dir="..\..\kml">
+			<replacefilter token="##application.url##"     value="https://openmaps.gov.bc.ca"/>
+			<replacefilter token="##bcgnws.url##"          value="https://apps.gov.bc.ca/pub/bcgnws/names"/>
+			<replacefilter token="##cadb.url##"            value="https://maps.gov.bc.ca/ess/hm/cadb"/>
+			<replacefilter token="##catalogue.url##"       value="https://catalogue.data.gov.bc.ca"/>
+			<replacefilter token="##css.url##"             value="https://maxcdn.bootstrapcdn.com"/>
+			<replacefilter token="##fcbc.url##"            value="https://portal.nrs.gov.bc.ca/web/client"/>
+			<replacefilter token="##geocoder.api.url##"    value="https://geocoder.api.gov.bc.ca"/>
+			<replacefilter token="##geocoder.kml.url##"    value="https://apps.gov.bc.ca/pub/geocoder"/>
+			<replacefilter token="##geomark.url##"         value="https://apps.gov.bc.ca/pub/geomark"/>
+			<replacefilter token="##github.url##"          value="https://github.com/bcgov"/>
+			<replacefilter token="##glossaryofterms.url##" value="https://github.com/bcgov/ols-geocoder/blob/gh-pages/glossary.md"/>
+			<replacefilter token="##googlemaps.url##"      value="https://maps.google.com"/>
+			<replacefilter token="##mapicons.url##"        value="https://mapicons.nicolasmollet.com"/>
+			<replacefilter token="##mtec.url##"            value="https://a100.gov.bc.ca/ext/mtec"/>
+			<replacefilter token="##apps.url##"            value="https://apps.gov.bc.ca"/>
+		</replace>
+	</target>
+</project>

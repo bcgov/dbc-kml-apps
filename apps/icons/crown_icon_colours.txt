@@ -1,5 +1,0 @@
-               aabbggrr   rrggbb  rgb
-
-icf_crown      ffffaaff   ffaaff  255,170,255  
-icf_crown_muni cc35d33d   3dd335   61,211,53
-icf_crown_fed  ff00aaff   ffaa00  255,170,0
