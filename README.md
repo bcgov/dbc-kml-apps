@@ -1,3 +1,5 @@
+[![Lifecycle](https://img.shields.io/badge/Lifecycle-Stable-97ca00)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
+
 This folder contains the KML files that are deployed to:  https://openmaps.gov.bc.ca/kml/...
 
 Deployment uses a Jenkins Job: https://cis-delivery.apps.gov.bc.ca/int/job/waops/job/fcbc_kml/. 
