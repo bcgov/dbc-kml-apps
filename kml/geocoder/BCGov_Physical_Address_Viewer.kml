@@ -67,7 +67,7 @@
       
         <body>
               
-             <form action="##geocoder.kml.url##/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="##geocoder.api.url##/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <input type="hidden" name="outputSRS" id="outputSRS" value="4326"></input>
@@ -166,7 +166,7 @@
       
         <body>
               
-             <form action="##geocoder.kml.url##/occupants/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
+             <form action="##geocoder.api.url##/occupants/addresses.kml" target="geocode" method="get" id="geocode" autocomplete="on">
         
                  <table width="63%" border="0" cellpadding="4" cellspacing="0">
                     <input type="hidden" name="outputSRS" id="outputSRS" value="4326"></input>
@@ -415,7 +415,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/sites/within.kml?</href>
+					<href>##geocoder.api.url##/sites/within.kml?</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]&amp;excludeUnits=true</viewFormat>
@@ -468,7 +468,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/sites/within.kml?</href>
+					<href>##geocoder.api.url##/sites/within.kml?</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -504,7 +504,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/sites/within.kml?locationDescriptor=accessPoint&amp;excludeUnits=true&amp;</href>
+					<href>##geocoder.api.url##/sites/within.kml?locationDescriptor=accessPoint&amp;excludeUnits=true&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -540,7 +540,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
+					<href>##geocoder.api.url##/sites/within.kml?locationDescriptor=accessPoint&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -577,7 +577,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
+					<href>##geocoder.api.url##/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]&amp;excludeUnits=true</viewFormat>
@@ -614,7 +614,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
+					<href>##geocoder.api.url##/sites/within.kml?locationDescriptor=routingPoint&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -670,7 +670,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/intersections/within.kml?minDegree=2</href>
+					<href>##geocoder.api.url##/intersections/within.kml?minDegree=2</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -702,7 +702,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
+					<href>##geocoder.api.url##/intersections/within.kml?minDegree=1&amp;maxDegree=1</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -734,7 +734,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
+					<href>##geocoder.api.url##/intersections/within.kml?minDegree=2&amp;maxDegree=2</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -766,7 +766,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
+					<href>##geocoder.api.url##/intersections/within.kml?minDegree=3&amp;maxDegree=3</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -798,7 +798,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
+					<href>##geocoder.api.url##/intersections/within.kml?minDegree=4&amp;maxDegree=4</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -830,7 +830,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/intersections/within.kml?minDegree=5</href>
+					<href>##geocoder.api.url##/intersections/within.kml?minDegree=5</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -863,7 +863,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/occupants/within.kml?tags=hospitals&amp;maxResults=10&amp;</href>
+					<href>##geocoder.api.url##/occupants/within.kml?tags=hospitals&amp;maxResults=10&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -890,7 +890,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/occupants/within.kml?tags=schools&amp;maxResults=100&amp;</href>
+					<href>##geocoder.api.url##/occupants/within.kml?tags=schools&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -917,7 +917,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/occupants/within.kml?tags=Educational+Services&amp;maxResults=100&amp;</href>
+					<href>##geocoder.api.url##/occupants/within.kml?tags=Educational+Services&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -944,7 +944,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/occupants/within.kml?tags=employment&amp;maxResults=100&amp;</href>
+					<href>##geocoder.api.url##/occupants/within.kml?tags=employment&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -971,7 +971,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/occupants/within.kml?tags=courts&amp;maxResults=100&amp;</href>
+					<href>##geocoder.api.url##/occupants/within.kml?tags=courts&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1000,7 +1000,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/occupants/within.kml?tags=Protective%20Services&amp;maxResults=100&amp;</href>
+					<href>##geocoder.api.url##/occupants/within.kml?tags=Protective%20Services&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1028,7 +1028,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/occupants/within.kml?tags=Water%20Transportation&amp;maxResults=100&amp;</href>
+					<href>##geocoder.api.url##/occupants/within.kml?tags=Water%20Transportation&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1056,7 +1056,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/occupants/within.kml?tags=Air%20Transportation&amp;maxResults=100&amp;</href>
+					<href>##geocoder.api.url##/occupants/within.kml?tags=Air%20Transportation&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1085,7 +1085,7 @@
 					</ListStyle>
 				</Style>
 				<Link>
-					<href>##geocoder.kml.url##/occupants/within.kml?tags=Aboriginal%20Business%20Listings&amp;maxResults=100&amp;</href>
+					<href>##geocoder.api.url##/occupants/within.kml?tags=Aboriginal%20Business%20Listings&amp;maxResults=100&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>1</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
