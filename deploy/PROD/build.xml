@@ -25,7 +25,7 @@
 			<replacefilter token="##css.url##"             value="https://maxcdn.bootstrapcdn.com"/>
 			<replacefilter token="##fcbc.url##"            value="https://portal.nrs.gov.bc.ca/web/client"/>
 			<replacefilter token="##geocoder.api.url##"    value="https://geocoder.api.gov.bc.ca"/>
-			<replacefilter token="##geocoder.kml.url##"    value="https://apps.gov.bc.ca/pub/geocoder"/>
+			<!--replacefilter token="##geocoder.kml.url##"    value="https://apps.gov.bc.ca/pub/geocoder"/-->
 			<replacefilter token="##geomark.url##"         value="https://apps.gov.bc.ca/pub/geomark"/>
 			<replacefilter token="##github.url##"          value="https://github.com/bcgov"/>
 			<replacefilter token="##glossaryofterms.url##" value="https://github.com/bcgov/ols-geocoder/blob/gh-pages/glossary.md"/>
