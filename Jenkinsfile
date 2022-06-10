@@ -79,7 +79,7 @@ node (targetNode) {
       stage ('SCM prepare'){
         echo 'Building Stage 1 - Check out source code'
         deleteDir()
-        checkout([$class: 'GitSCM', branches: [[name: '${KML_gitTag}']], doGenerateSubmoduleConfigurations: false, extensions: [], gitTool: 'Default', submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/bruce-tonkin/hello-world.git']]])
+        checkout([$class: 'GitSCM', branches: [[name: '${KML_gitTag}']], doGenerateSubmoduleConfigurations: false, extensions: [], gitTool: 'Default', submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/bcgov/dbc-kml-apps.git']]])
       }
       
       stage ('Build using Ant and copy configs to server'){
