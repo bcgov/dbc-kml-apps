@@ -994,9 +994,7 @@ For more information <A HREF="##catalogue.url##/dataset/68327529-c0d5-4fcb-b84e-
 			</LookAt>
 			<visibility>1</visibility>
 			<snippet>Shows the outline of surveyed parcels.</snippet>
-			<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&style=5898&format=image/png'><br>
-		
-		]]></description>
+			<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&style=5898&format=image/png'>PMBC Parcel Cadastre - Outlined]]></description>
 
 			   <styleUrl>#noDirections</styleUrl>
 			<Style>
@@ -1066,9 +1064,7 @@ For more information <A HREF="##catalogue.url##/dataset/68327529-c0d5-4fcb-b84e-
 		</LookAt>
 			<visibility>0</visibility>
 			<snippet></snippet>
-			<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&style=7834&format=image/png'><br>
-		
-		]]></description>
+			<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&style=7834&format=image/png'>PMBC Parcel Cadastre - Labels - PID]]></description>
 
 			   <styleUrl>#noDirections</styleUrl>
 			<Style>
