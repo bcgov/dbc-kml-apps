@@ -1234,7 +1234,7 @@
 				 <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<visibility>0</visibility>
-			<snippet>Shows the outline of surveyed parcels.</snippet>
+			<snippet></snippet>
 			<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&style=5898&format=image/png'>PMBC Parcel Cadastre - Outlined]]></description>
 
 			   <styleUrl>#noDirections</styleUrl>
@@ -1267,7 +1267,7 @@
 		 <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
 			<visibility>0</visibility>
-			<snippet>Shows if land is owned privately or by municipal, provincial, federal or First Nations. Click on the layer name to see the colour legend.</snippet>
+			<snippet></snippet>
 			<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&style=6616&format=image/png'><br>
 		
 		]]></description>
