@@ -2007,7 +2007,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</ListStyle>
 			</Style>
 			<Placemark>
-				<name>FrontCounter 100 Mile House</name>
+				<name>100 Mile House</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[300 S Hwy 97<BR/>
 100 Mile House, BC V0K 2E0<BR/>
@@ -2034,7 +2034,7 @@ Fax: (250) 395-7810
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Burns Lake</name>
+				<name>Burns Lake</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[185 W Highway 16<BR/>
 Burns Lake, BC V0J 1E0<BR/>
@@ -2061,7 +2061,7 @@ Fax: (250) 692-7461
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Campbell River</name>
+				<name>Campbell River</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[370 S Dogwood Street<BR/>
 Campbell River, BC V9W 6Y7<BR/>
@@ -2088,7 +2088,7 @@ Fax: (250) 286-9490
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Castlegar</name>
+				<name>Castlegar</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[845 Columbia Avenue<BR/>
 Castlegar, BC V1N 1H3<BR/>
@@ -2115,7 +2115,7 @@ Fax: (250) 365-8568
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Chilliwack</name>
+				<name>Chilliwack</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[46360 Airport Road<BR/>
 Chilliwack, BC V2P 1A5<BR/>
@@ -2142,7 +2142,7 @@ Fax: (604) 702-5711
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Clearwater</name>
+				<name>Clearwater</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[687 Yellowhead South Highway<BR/>
 Clearwater, BC V0E 1N0<BR/>
@@ -2170,7 +2170,7 @@ Fax: (250) 587-6790
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Cranbrook</name>
+				<name>Cranbrook</name>
 				<snippet/>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[1902 Theatre Road<BR/>
@@ -2198,7 +2198,7 @@ Fax: (250) 426-1767
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Dawson Creek</name>
+				<name>Dawson Creek</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[9000 17th Street<BR/>
 Dawson Creek, BC V1G 1A5<BR/>
@@ -2225,7 +2225,7 @@ Toll free: 1-877-855-3222
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Fort Nelson</name>
+				<name>Fort Nelson</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[6100 Alaska highway<BR/>
 Fort Nelson, BC V0C 1R0<BR/>
@@ -2252,7 +2252,7 @@ Fax: (250) 774-3704
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Fort St. James</name>
+				<name>Fort St. James</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[2537 Stones Bay Road<BR/>
 Fort St. James, BC V0J 1P0<BR/>
@@ -2279,7 +2279,7 @@ Fax: (250) 996-5290
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Fort St. John</name>
+				<name>Fort St. John</name>
 				<snippet/>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[100-10003 110 Avenue<BR/>
@@ -2307,7 +2307,7 @@ Fax: (250) 261-2084
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Haida Gwaii</name>
+				<name>Haida Gwaii</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[1229 Oceanview Drive<BR/>
 Haida Gwaii, BC V0T 1S0<BR/>
@@ -2334,7 +2334,7 @@ Fax: (250) 559-8342
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Kamloops</name>
+				<name>Kamloops</name>
 				<snippet/>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[441 Columbia St<BR/>
@@ -2362,7 +2362,7 @@ Fax: (250) 828-4442
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Mackenzie</name>
+				<name>Mackenzie</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[1 Cicada Road<BR/>
 Mackenzie, BC V0J 2C0<BR/>
@@ -2389,7 +2389,7 @@ Fax: (250) 997-2236
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Merritt</name>
+				<name>Merritt</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[3840 Airport Rd<BR/>
 Merritt, BC V1K 1B8<BR/>
@@ -2416,7 +2416,7 @@ Fax: (250) 378-8481
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Nanaimo</name>
+				<name>Nanaimo</name>
 				<snippet/>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[Suite 142, 2080 Labieux Road<BR/>
@@ -2444,7 +2444,7 @@ Fax: (250) 751-7224
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Port Alberni</name>
+				<name>Port Alberni</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[4885 Cherry Creek Road<BR/>
 Port Alberni, BC V9Y 8E9<BR/>
@@ -2471,7 +2471,7 @@ Fax: (250) 731-3010
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Port McNeill</name>
+				<name>Port McNeill</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[2217 Mine Road Place<BR/>
 Port McNeill, BC V0N 2R0<BR/>
@@ -2498,7 +2498,7 @@ Fax: (250) 956-5079
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Powell River</name>
+				<name>Powell River</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[7077 Duncan Street<BR/>
 Powell River, BC V8A 1W1<BR/>
@@ -2525,7 +2525,7 @@ Fax: (604) 485-0799
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Prince George</name>
+				<name>Prince George</name>
 				<snippet/>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[200-1488 4th Avenue<BR/>
@@ -2560,7 +2560,7 @@ Fax: (250) 565-6941
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Quesnel</name>
+				<name>Quesnel</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[322 Johnston Avenue<BR/>
 Quesnel, BC V2J 3M5<BR/>
@@ -2595,7 +2595,7 @@ Fax: (250) 992-4403
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Revelstoke</name>
+				<name>Revelstoke</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[1761 Big Eddy Road<BR/>
 Revelstoke, BC V0E 3K0<BR/>
@@ -2630,7 +2630,7 @@ Fax: (250) 837-7626
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Smithers</name>
+				<name>Smithers</name>
 				<snippet/>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[1st Floor, 3726 Alfred Avenue<BR/>
@@ -2666,7 +2666,7 @@ Fax: (250) 847-7556
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Squamish</name>
+				<name>Squamish</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[Suite 101-42000 Loggers Lane<BR/>
 Squamish, BC V8B 0H3<BR/>
@@ -2701,7 +2701,7 @@ Fax: (604) 898-2191
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Surrey</name>
+				<name>Surrey</name>
 				<snippet/>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[Suite 200, 10428 153rd Street<BR/>
@@ -2737,7 +2737,7 @@ Fax: (604) 586-4434
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Terrace</name>
+				<name>Terrace</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[Suite 200-5220 Keith Avenue<BR/>
 Terrace, BC V8G 1L1<BR/>
@@ -2772,7 +2772,7 @@ Fax: (250) 638-5176
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Vanderhoof</name>
+				<name>Vanderhoof</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[1560 Highway 16 East<BR/>
 Vanderhoof, BC V0J 3A0<BR/>
@@ -2799,7 +2799,7 @@ Fax: (250) 567-6370
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter Vernon</name>
+				<name>Vernon</name>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[2501-14 Avenue<BR/>
 Vernon, BC V1T 8Z1<BR/>
@@ -2834,7 +2834,7 @@ Fax: (250) 549-5485
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>FrontCounter BC Williams Lake</name>
+				<name>Williams Lake</name>
 				<snippet/>
 				<Snippet maxLines="0"/>
 				<description><![CDATA[#201 - 172 North 2nd Avenue<BR/>
