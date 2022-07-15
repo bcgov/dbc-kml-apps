@@ -2904,7 +2904,7 @@ Fax: (250) 398-4836
 				<Snippet maxLines="0"/>
 				<drawOrder>97</drawOrder>
 				<Icon>
-					<href>##application.url##/kml/fcbc/icons/DataBC_logo.png</href>
+					<href>##application.url##/kml/icons/DataBC_logo.png</href>
 				</Icon>
 				<overlayXY x="0.0800000" y="0.300000001" xunits="fraction" yunits="fraction"/>
 				<screenXY x="0" y="0.04000000000000001" xunits="fraction" yunits="fraction"/>
