@@ -1188,6 +1188,40 @@
 		<maxSnippetLines>2</maxSnippetLines>
 	   </ListStyle>
 	  </Style>
+
+		<NetworkLink>
+
+			<name>PMBC_Parcel_Cadastre_Labels_PID</name>
+				<LookAt>
+		 <longitude>-124.2007623466872</longitude>
+		 <latitude>54.24685760366558</latitude>
+		 <altitude>0</altitude>
+		 <heading>0.7179969377242983</heading>
+		 <tilt>0</tilt>
+		 <range>1651407.948731373</range>
+		 <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+			<visibility>0</visibility>
+			<snippet></snippet>
+			<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&style=7834&format=image/png'>PMBC Parcel Cadastre - Labels - PID]]></description>
+
+			   <styleUrl>#noDirections</styleUrl>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			
+			<Link>
+				<href>##application.url##/geo/pub/wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&amp;STYLES=7834&amp;FORMAT=application/vnd.google-earth.kml+xml&amp;TRANSPARENT=TRUE&amp;maxFeatures=200&amp;format_options=KMATTR:true;KMSCORE:25;MODE:refresh;SUPEROVERLAY:false&amp;</href>
+				<viewRefreshMode>onStop</viewRefreshMode>
+				<viewRefreshTime>2</viewRefreshTime>
+				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+			</Link>
+		</NetworkLink>
+
 		<NetworkLink>
 			<name>PMBC_Parcel_Cadastre_Outlined</name>
 			<LookAt>
@@ -1249,39 +1283,6 @@
 			
 			<Link>
 				<href>##application.url##/geo/pub/wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&amp;STYLES=6616&amp;FORMAT=application/vnd.google-earth.kml+xml&amp;TRANSPARENT=TRUE&amp;maxFeatures=200&amp;format_options=KMATTR:true;KMSCORE:25;MODE:refresh;SUPEROVERLAY:false&amp;</href>
-				<viewRefreshMode>onStop</viewRefreshMode>
-				<viewRefreshTime>2</viewRefreshTime>
-				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
-			</Link>
-		</NetworkLink>
-		
-		<NetworkLink>
-
-			<name>PMBC_Parcel_Cadastre_Labels_PID</name>
-				<LookAt>
-		 <longitude>-124.2007623466872</longitude>
-		 <latitude>54.24685760366558</latitude>
-		 <altitude>0</altitude>
-		 <heading>0.7179969377242983</heading>
-		 <tilt>0</tilt>
-		 <range>1651407.948731373</range>
-		 <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-			<visibility>0</visibility>
-			<snippet></snippet>
-			<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&style=7834&format=image/png'>PMBC Parcel Cadastre - Labels - PID]]></description>
-
-			   <styleUrl>#noDirections</styleUrl>
-			<Style>
-				<ListStyle>
-					<listItemType>check</listItemType>
-					<bgColor>00ffffff</bgColor>
-					<maxSnippetLines>2</maxSnippetLines>
-				</ListStyle>
-			</Style>
-			
-			<Link>
-				<href>##application.url##/geo/pub/wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&amp;STYLES=7834&amp;FORMAT=application/vnd.google-earth.kml+xml&amp;TRANSPARENT=TRUE&amp;maxFeatures=200&amp;format_options=KMATTR:true;KMSCORE:25;MODE:refresh;SUPEROVERLAY:false&amp;</href>
 				<viewRefreshMode>onStop</viewRefreshMode>
 				<viewRefreshTime>2</viewRefreshTime>
 				<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
