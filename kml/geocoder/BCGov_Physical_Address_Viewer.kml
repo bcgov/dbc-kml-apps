@@ -178,15 +178,15 @@
                     </tr>
                     <tr>
                       <td>
-                        <input type="text" name="addressString" id="addressString" size="45" autofocus required pattern=".*--.*" title="name -- optionalAddress"> </input>
+                        <input type="text" name="addressString" id="addressString" size="45" autofocus required pattern=".*%2A%2A.*" title="name ** optionalAddress"> </input>
                       </td>
                     </tr>
                     <tr>
                       <td colspan="3">
                         <b>Examples:</b><br>
-                           <i>Salmo Secondary --</i><br>
-                           <i>Salmo Secondary -- Salmo</i><br>
-                           <i>Salmo Secondary -- 715 Davies Ave, Salmo</i><br>
+                           <i>Sir James Douglas Elementary **</i><br>
+                           <i>Sir James Douglas Elementary ** Victoria</i><br>
+                           <i>Sir James Douglas Elementary ** 401 Moss St, Victoria, BC</i><br>
                       </td>
                     </tr>
 <!--
