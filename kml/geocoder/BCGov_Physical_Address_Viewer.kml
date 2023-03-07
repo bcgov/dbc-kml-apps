@@ -1129,7 +1129,7 @@
 					</ListStyle>
 				 </Style>
 		     <Link>
-				    <href>##bcgnws.url##/official/inside?itemsPerPage=100&amp;sortBy=name&amp;featureClass=1&amp;</href>
+				    <href>##bcgnws.url##/inside?itemsPerPage=100&amp;sortBy=name&amp;featureClass=1&amp;</href>
 				    <viewRefreshMode>onStop</viewRefreshMode>
 				    <viewRefreshTime>1</viewRefreshTime>
 				    <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;mapWidthPixels=[horizPixels]&amp;mapHeightPixels=[vertPixels]</viewFormat>
@@ -1158,7 +1158,7 @@
 					</ListStyle>
 				 </Style>
 		     <Link>
-				    <href>##bcgnws.url##/official/inside?itemsPerPage=100&amp;sortBy=name&amp;</href>
+				    <href>##bcgnws.url##/inside?itemsPerPage=100&amp;sortBy=name&amp;</href>
 				    <viewRefreshMode>onStop</viewRefreshMode>
 				    <viewRefreshTime>1</viewRefreshTime>
 				    <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;mapWidthPixels=[horizPixels]&amp;mapHeightPixels=[vertPixels]</viewFormat>
