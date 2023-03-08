@@ -178,15 +178,15 @@
                     </tr>
                     <tr>
                       <td>
-                        <input type="text" name="addressString" id="addressString" size="45" autofocus required pattern=".*--.*" title="name -- optionalAddress"> </input>
+                        <input type="text" name="addressString" id="addressString" size="45" autofocus required pattern=".*%2A%2A.*" title="name ** optionalAddress"> </input>
                       </td>
                     </tr>
                     <tr>
                       <td colspan="3">
                         <b>Examples:</b><br>
-                           <i>Salmo Secondary --</i><br>
-                           <i>Salmo Secondary -- Salmo</i><br>
-                           <i>Salmo Secondary -- 715 Davies Ave, Salmo</i><br>
+                           <i>Sir James Douglas Elementary **</i><br>
+                           <i>Sir James Douglas Elementary ** Victoria</i><br>
+                           <i>Sir James Douglas Elementary ** 401 Moss St, Victoria, BC</i><br>
                       </td>
                     </tr>
 <!--
@@ -314,27 +314,27 @@
         Civic and non-civic addresses of 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#site">sites</a> in BC
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#site">sites</a> in BC
         <br><br>Every site has an 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#accessPoint">access point</a>, 
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#accessPoint">access point</a>, 
         and a 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#routingPoint">routing point</a> and may also have a         
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#routingPoint">routing point</a> and may also have a         
               
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#parcelPoint">parcel point</a>,
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#parcelPoint">parcel point</a>,
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#rooftopPoint"> roof top point</a>, or
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#rooftopPoint"> roof top point</a>, or
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#frontDoorPoint"> front door point</a>
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#frontDoorPoint"> front door point</a>
       <br><br>
 		<img src="##application.url##/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
 		<img src="##application.url##/kml/icons/geocoder/accessPoint_medium.png" height="36" width="36"> access point - medium accuracy<br>
@@ -375,19 +375,19 @@
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#parcelPoint">parcel points</a>,
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#parcelPoint">parcel points</a>,
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#RooftopPoint"> roof top points</a>, or
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#RooftopPoint"> roof top points</a>, or
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a>
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#accessPoint">access points</a>
             
 <br><br>
 		<img src="##application.url##/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
@@ -429,19 +429,19 @@
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#parcelPoint">parcel points</a>,
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#parcelPoint">parcel points</a>,
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#RooftopPoint"> roof top points</a>, or
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#RooftopPoint"> roof top points</a>, or
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#frontDoorPoint"> front door points</a> of site addresses if known, otherwise display 
       
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a>
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#accessPoint">access points</a>
             
 <br><br>
   		<img src="##application.url##/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
@@ -482,7 +482,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a> of site addresses
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#accessPoint">access points</a> of site addresses
             
 <br><br>
 		<img src="##application.url##/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
@@ -518,7 +518,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#accessPoint">access points</a> of site addresses
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#accessPoint">access points</a> of site addresses
             
 <br><br>
 		<img src="##application.url##/kml/icons/geocoder/accessPoint_high.png" height=36 width=36> access point - high accuracy<br>
@@ -554,7 +554,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#routingPoint">routing points</a> of site addresses
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#routingPoint">routing points</a> of site addresses
             
 <br><br>
 		<img src="##application.url##/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
@@ -591,7 +591,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#routingPoint">routing points</a> of site addresses
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#routingPoint">routing points</a> of site addresses
             
 <br><br>
 		<img src="##application.url##/kml/icons/geocoder/routingPoint_high.png" height="36" width="36"> routing point - high accuracy<br>
@@ -630,7 +630,7 @@
         Addresses of 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> in BC (e.g., Douglas St and Yates St, Victoria, BC)
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#intersection">intersections</a> in BC (e.g., Douglas St and Yates St, Victoria, BC)
         <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
         <br> <i><b>Positional Accuracy Terms </i></b><br>
         <i><b>high - </i></b>observed or measured using GPS or survey instruments, or digitized off imagery with a resolution of 1m or better<br>
@@ -651,7 +651,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to more than one road segment
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#intersection">intersections</a> connected to more than one road segment
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
@@ -683,7 +683,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to one road segment
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#intersection">intersections</a> connected to one road segment
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
@@ -715,7 +715,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to two road segments
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#intersection">intersections</a> connected to two road segments
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
@@ -747,7 +747,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to three road segments
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#intersection">intersections</a> connected to three road segments
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
@@ -779,7 +779,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to four road segments
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#intersection">intersections</a> connected to four road segments
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
@@ -811,7 +811,7 @@
       Display 
  
 
- <A HREF="##github.url##/api-specs/blob/master/geocoder/glossary.md#intersection">intersections</a> connected to five or more road segments
+ <A HREF="##github.url##/ols-geocoder/blob/gh-pages/glossary.md#intersection">intersections</a> connected to five or more road segments
             
 <br><br><img src="##application.url##/kml/icons/geocoder/intersectionPoint_high.png" height=36 width=36> intersection point - high accuracy<br>
 
@@ -1129,7 +1129,7 @@
 					</ListStyle>
 				 </Style>
 		     <Link>
-				    <href>##bcgnws.url##/official/inside?itemsPerPage=100&amp;sortBy=name&amp;featureClass=1&amp;</href>
+				    <href>##bcgnws.url##/inside?itemsPerPage=100&amp;sortBy=name&amp;featureClass=1&amp;</href>
 				    <viewRefreshMode>onStop</viewRefreshMode>
 				    <viewRefreshTime>1</viewRefreshTime>
 				    <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;mapWidthPixels=[horizPixels]&amp;mapHeightPixels=[vertPixels]</viewFormat>
@@ -1158,7 +1158,7 @@
 					</ListStyle>
 				 </Style>
 		     <Link>
-				    <href>##bcgnws.url##/official/inside?itemsPerPage=100&amp;sortBy=name&amp;</href>
+				    <href>##bcgnws.url##/inside?itemsPerPage=100&amp;sortBy=name&amp;</href>
 				    <viewRefreshMode>onStop</viewRefreshMode>
 				    <viewRefreshTime>1</viewRefreshTime>
 				    <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;mapWidthPixels=[horizPixels]&amp;mapHeightPixels=[vertPixels]</viewFormat>
@@ -1504,7 +1504,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</LookAt>
 				<drawOrder>7</drawOrder>
 				<Icon>
-					<href>##application.url##/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<href>##application.url##/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>7204</viewRefreshTime>
 					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
@@ -1549,7 +1549,7 @@ Use this layer after you've found the particular feature or area you want to til
 				</LookAt>
 				<drawOrder>7</drawOrder>
 				<Icon>
-					<href>##application.url##/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,WHSE_BASEMAPPINGDRA_DGTL_ROAD_ATLAS_MPAR_SP,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<href>##application.url##/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;layers=pub:WHSE_BASEMAPPING.TRIM_CONTOUR_LINES,pub:WHSE_BASEMAPPING.NTS_250K_GRID,pub:WHSE_BASEMAPPING.TRIM_WATER_LINES,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_LINES,pub:WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_MPAR_SP,pub:WHSE_BASEMAPPING.TRIM_WATER_POINTS,pub:WHSE_BASEMAPPING.TRIM_TRANSPORTATION_POINTS,pub:WHSE_BASEMAPPING.TRIM_CONTOUR_POINTS,pub:WHSE_BASEMAPPING.BCGS_20K_GRID&amp;styles=3330,668,3345,3334,,3344,3333,3332,667&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>7204</viewRefreshTime>
 					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
