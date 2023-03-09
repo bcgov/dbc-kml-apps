@@ -1133,7 +1133,7 @@
 				    <viewRefreshMode>onStop</viewRefreshMode>
 				    <viewRefreshTime>1</viewRefreshTime>
 				    <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;mapWidthPixels=[horizPixels]&amp;mapHeightPixels=[vertPixels]</viewFormat>
-				    <httpQuery>&amp;outputFormat=kml&amp;outputStyle=summary</httpQuery>
+				    <httpQuery>&amp;outputFormat=kml&amp;outputStyle=summary&amp;outputSRS=4326</httpQuery>
 			   </Link>
 		  </NetworkLink>
       
@@ -1162,7 +1162,7 @@
 				    <viewRefreshMode>onStop</viewRefreshMode>
 				    <viewRefreshTime>1</viewRefreshTime>
 				    <viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;mapWidthPixels=[horizPixels]&amp;mapHeightPixels=[vertPixels]</viewFormat>
-				    <httpQuery>&amp;outputFormat=kml&amp;outputStyle=summary</httpQuery>
+				    <httpQuery>&amp;outputFormat=kml&amp;outputStyle=summary&amp;outputSRS=4326</httpQuery>
 			   </Link>
 		  </NetworkLink>
       
