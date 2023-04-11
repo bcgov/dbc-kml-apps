@@ -1152,7 +1152,7 @@ For more information <A HREF="##catalogue.url##/dataset/68327529-c0d5-4fcb-b84e-
 				</Style>
 				
 				<Link>
-					<href>"##application.url##/geo/pub/wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&amp;STYLES=7738&amp;FORMAT=application/vnd.google-earth.kml+xml&amp;TRANSPARENT=TRUE&amp;maxFeatures=200&amp;format_options=KMATTR:true;KMSCORE:25;MODE:refresh;SUPEROVERLAY:false&amp;</href>
+					<href>##application.url##/geo/pub/wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&amp;STYLES=7738&amp;FORMAT=application/vnd.google-earth.kml+xml&amp;TRANSPARENT=TRUE&amp;maxFeatures=200&amp;format_options=KMATTR:true;KMSCORE:25;MODE:refresh;SUPEROVERLAY:false&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
 					<viewRefreshTime>2</viewRefreshTime>
 					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
