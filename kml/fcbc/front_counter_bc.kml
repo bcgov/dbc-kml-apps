@@ -1125,6 +1125,40 @@ For more information <A HREF="##catalogue.url##/dataset/68327529-c0d5-4fcb-b84e-
 			<name>Mines</name>
 			<visibility>0</visibility>
 			<open>0</open>
+			<NetworkLink>
+				<name>Major_Mines_Permitted_Mine_Areas_Outlined</name>
+				<LookAt>
+				<longitude>-124.2007623466872</longitude>
+				<latitude>54.24685760366558</latitude>
+				<altitude>0</altitude>
+				<heading>0.7179969377242983</heading>
+				<tilt>0</tilt>
+				<range>1651407.948731373</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+					<visibility>0</visibility>
+					<snippet></snippet>
+					<description><![CDATA[<img src='"##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&style=7738&format=image/png'><br>
+				
+				]]></description>
+
+				<styleUrl>#noDirections</styleUrl>
+				<Style>
+					<ListStyle>
+						<listItemType>check</listItemType>
+						<bgColor>00ffffff</bgColor>
+						<maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+				</Style>
+				
+				<Link>
+					<href>"##application.url##/geo/pub/wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&amp;STYLES=7738&amp;FORMAT=application/vnd.google-earth.kml+xml&amp;TRANSPARENT=TRUE&amp;maxFeatures=200&amp;format_options=KMATTR:true;KMSCORE:25;MODE:refresh;SUPEROVERLAY:false&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>2</viewRefreshTime>
+					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Link>
+			</NetworkLink>
+			
 			<GroundOverlay>
 				<name>Assessment Reports (ARIS) - Report By Years</name>
 				<visibility>0</visibility>
@@ -1153,34 +1187,75 @@ For more information <A HREF="##catalogue.url##/dataset/68327529-c0d5-4fcb-b84e-
 					<west>-115.8398592722157</west>
 				</LatLonBox>
 			</GroundOverlay>
-			<GroundOverlay>
-				<name>Notice of Work</name>
-				<visibility>0</visibility>
-				<open>1</open>
-				<snippet/>
-				<description><![CDATA[<img src="##application.url##/geo/pub/wms?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.MMS_NOTICE_OF_WORK&style=3010&format=image/png&legend_options=forceLabels:on"><br>
-		<P>For more infomation <A HREF="##catalogue.url##/dataset/636822f1-8eaa-4a88-be69-9b9c12f80a20">click here</A></P>]]></description>
+			
+			<NetworkLink>
+				<name>Notice_of_Work_Points_All</name>
 				<LookAt>
-					<longitude>-115.743353164902</longitude>
-					<latitude>49.50998821115897</latitude>
-					<altitude>0</altitude>
-					<heading>0.01927763846471821</heading>
-					<tilt>0</tilt>
-					<range>840.9868857461036</range>
+				<longitude>-124.2007623466872</longitude>
+				<latitude>54.24685760366558</latitude>
+				<altitude>0</altitude>
+				<heading>0.7179969377242983</heading>
+				<tilt>0</tilt>
+				<range>1651407.948731373</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<drawOrder>2</drawOrder>
-				<Icon>
-					<href>##application.url##/geo/pub/wms?service=wms&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_MINERAL_TENURE.MMS_NOTICE_OF_WORK&amp;STYLES=3010&amp;TRANSPARENT=TRUE&amp;FORMAT=image/png&amp;</href>
+					<visibility>0</visibility>
+					<snippet></snippet>
+					<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.HSP_NOTICE_OF_WORK_PA_POINT_SV&style=9517&format=image/png'><br>
+				
+				]]></description>
+
+				<styleUrl>#noDirections</styleUrl>
+				<Style>
+					<ListStyle>
+						<listItemType>check</listItemType>
+						<bgColor>00ffffff</bgColor>
+						<maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+				</Style>
+				
+				<Link>
+					<href>##application.url##/geo/pub/wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_MINERAL_TENURE.HSP_NOTICE_OF_WORK_PA_POINT_SV&amp;STYLES=9517&amp;FORMAT=application/vnd.google-earth.kml+xml&amp;TRANSPARENT=TRUE&amp;maxFeatures=200&amp;format_options=KMATTR:true;KMSCORE:25;MODE:refresh;SUPEROVERLAY:false&amp;</href>
 					<viewRefreshMode>onStop</viewRefreshMode>
-					<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
-				</Icon>
-				<LatLonBox>
-					<north>58.86122254842177</north>
-					<south>52.43842893287471</south>
-					<east>-119.1433629816231</east>
-					<west>-128.5389470604042</west>
-				</LatLonBox>
-			</GroundOverlay>
+					<viewRefreshTime>2</viewRefreshTime>
+					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Link>
+			</NetworkLink>
+			
+			<NetworkLink>
+				<name>Notice_of_Work_Points_All_NoW_Application_Status</name>
+				<LookAt>
+				<longitude>-124.2007623466872</longitude>
+				<latitude>54.24685760366558</latitude>
+				<altitude>0</altitude>
+				<heading>0.7179969377242983</heading>
+				<tilt>0</tilt>
+				<range>1651407.948731373</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+					<visibility>0</visibility>
+					<snippet></snippet>
+					<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.HSP_NOTICE_OF_WORK_PA_POINT_SV&style=9518&format=image/png'><br>
+				
+				]]></description>
+
+				<styleUrl>#noDirections</styleUrl>
+				<Style>
+					<ListStyle>
+						<listItemType>check</listItemType>
+						<bgColor>00ffffff</bgColor>
+						<maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+				</Style>
+				
+				<Link>
+					<href>##application.url##/geo/pub/wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;SRS=EPSG:4326&amp;LAYERS=pub:WHSE_MINERAL_TENURE.HSP_NOTICE_OF_WORK_PA_POINT_SV&amp;STYLES=9518&amp;FORMAT=application/vnd.google-earth.kml+xml&amp;TRANSPARENT=TRUE&amp;maxFeatures=200&amp;format_options=KMATTR:true;KMSCORE:25;MODE:refresh;SUPEROVERLAY:false&amp;</href>
+					<viewRefreshMode>onStop</viewRefreshMode>
+					<viewRefreshTime>2</viewRefreshTime>
+					<viewFormat>bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;WIDTH=[horizPixels]&amp;HEIGHT=[vertPixels]</viewFormat>
+				</Link>
+			</NetworkLink>
+			
 			<GroundOverlay>
 				<name>Mineral, Placer and Coal Tenure</name>
 				<visibility>0</visibility>
