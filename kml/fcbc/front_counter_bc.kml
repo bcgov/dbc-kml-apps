@@ -1138,7 +1138,7 @@ For more information <A HREF="##catalogue.url##/dataset/68327529-c0d5-4fcb-b84e-
 				</LookAt>
 					<visibility>0</visibility>
 					<snippet></snippet>
-					<description><![CDATA[<img src='"##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&style=7738&format=image/png'><br>
+					<description><![CDATA[<img src='##application.url##/geo/pub/wms?service=wms&version=1.1.1&request=GetLegendGraphic&layer=pub:WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&style=7738&format=image/png'><br>
 				
 				]]></description>
 
