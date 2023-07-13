@@ -2088,9 +2088,9 @@ Use this layer after you've found the particular feature or area you want to til
 					<href>https://github.com/bcgov/dbc-kml-apps/raw/master/kml/fcbc/icons/fcbc_banner.png</href>
 				</Icon>
 				<overlayXY x="0.5" y="1" xunits="fraction" yunits="fraction"/>
-				<screenXY x="0.5" y="1" xunits="fraction" yunits="fraction"/>
+				<screenXY x="0.5" y="0.98" xunits="fraction" yunits="fraction"/>
 				<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-				<size x="0.978" y="0.1" xunits="fraction" yunits="fraction"/>
+				<size x="0.363" y="0.06" xunits="fraction" yunits="fraction"/>
 			</ScreenOverlay>
 			<Placemark>
 				<name>100 Mile House</name>
