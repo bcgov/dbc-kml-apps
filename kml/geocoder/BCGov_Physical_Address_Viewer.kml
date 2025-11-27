@@ -15,6 +15,49 @@
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
+		<Style id="balloonStyle">
+		  <BalloonStyle>
+			<text><![CDATA[
+			  <div style="width:350px; margin:0; padding:0;">
+				<div style="text-align:center; font-family:Arial; font-size:14px; margin-bottom:6px;">
+				  <b>BC Physical Address Viewer</b>
+				</div>
+
+				<div style="margin:0; padding:0;">
+				  $[description]
+				</div>
+			  </div>
+			]]></text>
+		  </BalloonStyle>
+		</Style>
+
+		<ScreenOverlay>
+		  <name>BC Physical Address Viewer</name>
+		  <styleUrl>#balloonStyle</styleUrl>
+			<description><![CDATA[
+			<div style="margin:0; padding:0;">
+			  The BC Physical Address Viewer KML application has been deprecated and is no longer maintained or supported.
+			  <br><br>
+			  <div>To download a copy of the BC Physical Address Viewer, please visit the page linked below and follow the instructions.
+			  </div>
+			  <br>
+			  <div style="text-align:center;">
+				  <a href="https://github.com/bcgov/ols-devkit/blob/gh-pages/pav/instructions.md" target="_blank"><b>Download page</b></a>
+			  </div>
+			  <br>
+			  <div>You can also explore address data using the 
+				<a href="https://bcgov.github.io/ols-devkit/ols-demo/index.html" target="_blank">Location Services in Action demo app</a>.
+			  </div>
+			</div>
+			]]></description>
+
+		  <gx:balloonVisibility>1</gx:balloonVisibility>
+		  <overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		  <screenXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		  <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		  <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+		</ScreenOverlay>
+
 		<Folder>
 			<name>Address Point Legend</name>
 			<open>0</open>
